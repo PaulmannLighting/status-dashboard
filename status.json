@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-03T11:35:20.230Z",
+  "updated_at": "2026-06-03T11:40:55.390Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-03T11:35:19.904Z",
+      "checked_at": "2026-06-03T11:40:54.738Z",
       "latest_incident": null,
       "recent_incidents": [],
       "components": [
@@ -65,7 +65,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-03T11:35:20.023Z",
+      "checked_at": "2026-06-03T11:40:54.865Z",
       "latest_incident": null,
       "recent_incidents": [],
       "components": []
@@ -75,7 +75,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-03T11:35:20.118Z",
+      "checked_at": "2026-06-03T11:40:55.053Z",
       "latest_incident": null,
       "recent_incidents": [],
       "components": [
@@ -110,7 +110,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-03T11:35:20.222Z",
+      "checked_at": "2026-06-03T11:40:55.383Z",
       "latest_incident": {
         "title": "Lets Encrypt SSL API Errors",
         "body": "We have identified an issue on free cert issuance and renewals for custom CDN domains. We have observed a delay from Lets Encrypt API endpoint causing these delays. Existing certificates on custom domains will continue to function as normal - however new and cert renewals via our free certificate option may experience a delay to the certificate issuance.",
