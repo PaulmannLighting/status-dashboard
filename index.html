@@ -1,1 +1,365 @@
-hello world
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Service Status Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand:        #970437;
+      --brand-dim:    #6b0228;
+      --bg:           #0d0d0f;
+      --surface:      #141416;
+      --surface2:     #1c1c1f;
+      --border:       #2a2a2e;
+      --text:         #e8e8ec;
+      --muted:        #6b6b75;
+      --green:        #22c55e;
+      --yellow:       #eab308;
+      --red:          #ef4444;
+      --blue:         #3b82f6;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    /* noise overlay */
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .wrapper { max-width: 960px; margin: 0 auto; position: relative; z-index: 1; }
+
+    /* HEADER */
+    header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 3rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .logo-area h1 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--brand);
+    }
+
+    .logo-area p {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 0.25rem;
+      font-family: 'DM Mono', monospace;
+    }
+
+    #last-updated {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--muted);
+      text-align: right;
+    }
+
+    /* OVERALL BANNER */
+    #overall-banner {
+      border-radius: 8px;
+      padding: 1rem 1.4rem;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      font-weight: 600;
+      font-size: 0.92rem;
+      transition: background 0.3s;
+    }
+
+    #overall-banner .dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* GRID */
+    #providers-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .provider-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem 1.4rem;
+      transition: border-color 0.2s, transform 0.15s;
+      animation: fadeIn 0.4s ease both;
+    }
+
+    .provider-card:hover {
+      border-color: #3a3a40;
+      transform: translateY(-2px);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.9rem;
+    }
+
+    .provider-name {
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    .status-badge {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      font-weight: 500;
+      padding: 0.25rem 0.6rem;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .badge-operational  { background: rgba(34,197,94,0.12);  color: var(--green); }
+    .badge-degraded     { background: rgba(234,179,8,0.12);   color: var(--yellow); }
+    .badge-outage       { background: rgba(239,68,68,0.12);   color: var(--red); }
+    .badge-maintenance  { background: rgba(59,130,246,0.12);  color: var(--blue); }
+    .badge-unknown      { background: rgba(107,107,117,0.15); color: var(--muted); }
+
+    .card-meta {
+      font-size: 0.76rem;
+      color: var(--muted);
+      font-family: 'DM Mono', monospace;
+    }
+
+    .card-meta a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .card-meta a:hover { color: var(--text); }
+
+    .card-incident {
+      margin-top: 0.8rem;
+      padding-top: 0.8rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .card-incident strong {
+      color: var(--yellow);
+      font-weight: 500;
+    }
+
+    /* STATUS INDICATOR LINE */
+    .status-line {
+      width: 100%;
+      height: 3px;
+      border-radius: 2px;
+      margin-top: 1rem;
+    }
+
+    .line-operational { background: var(--green); opacity: 0.6; }
+    .line-degraded    { background: var(--yellow); opacity: 0.8; }
+    .line-outage      { background: var(--red); }
+    .line-maintenance { background: var(--blue); opacity: 0.8; }
+    .line-unknown     { background: var(--border); }
+
+    /* LOADING / ERROR */
+    #loading, #error-msg {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--muted);
+      font-family: 'DM Mono', monospace;
+      font-size: 0.85rem;
+    }
+
+    #error-msg { color: var(--red); }
+
+    .spinner {
+      width: 28px; height: 28px;
+      border: 2px solid var(--border);
+      border-top-color: var(--brand);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 1rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* FOOTER */
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.72rem;
+      color: var(--muted);
+      font-family: 'DM Mono', monospace;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+
+  <header>
+    <div class="logo-area">
+      <h1>Service Status</h1>
+      <p>Third-Party Provider Monitoring</p>
+    </div>
+    <div id="last-updated">Lade Daten…</div>
+  </header>
+
+  <div id="overall-banner">
+    <div class="dot" id="overall-dot"></div>
+    <span id="overall-text">Prüfe Status…</span>
+  </div>
+
+  <div id="loading">
+    <div class="spinner"></div>
+    Lade status.json…
+  </div>
+
+  <div id="error-msg" style="display:none"></div>
+  <div id="providers-grid" style="display:none"></div>
+
+  <footer>
+    <span>Paulmann Licht GmbH · Internal Dashboard</span>
+    <span>Daten via n8n → status.json</span>
+  </footer>
+
+</div>
+
+<script>
+  const STATUS_JSON_URL = './status.json';
+
+  // --- Status helpers ---
+  const STATUS_META = {
+    operational:  { label: 'Operational',  badgeClass: 'badge-operational',  lineClass: 'line-operational',  color: '#22c55e', bannerBg: 'rgba(34,197,94,0.08)'  },
+    degraded:     { label: 'Degraded',     badgeClass: 'badge-degraded',     lineClass: 'line-degraded',     color: '#eab308', bannerBg: 'rgba(234,179,8,0.10)'  },
+    outage:       { label: 'Outage',       badgeClass: 'badge-outage',       lineClass: 'line-outage',       color: '#ef4444', bannerBg: 'rgba(239,68,68,0.10)'  },
+    maintenance:  { label: 'Maintenance',  badgeClass: 'badge-maintenance',  lineClass: 'line-maintenance',  color: '#3b82f6', bannerBg: 'rgba(59,130,246,0.10)' },
+    unknown:      { label: 'Unknown',      badgeClass: 'badge-unknown',      lineClass: 'line-unknown',      color: '#6b6b75', bannerBg: 'rgba(107,107,117,0.08)' },
+  };
+
+  function getMeta(status) {
+    return STATUS_META[status] || STATUS_META.unknown;
+  }
+
+  function overallStatus(providers) {
+    const prio = ['outage', 'degraded', 'maintenance', 'operational', 'unknown'];
+    for (const s of prio) {
+      if (providers.some(p => p.status === s)) return s;
+    }
+    return 'unknown';
+  }
+
+  function formatDate(iso) {
+    if (!iso) return '–';
+    try {
+      return new Date(iso).toLocaleString('de-DE', { dateStyle: 'short', timeStyle: 'short' });
+    } catch { return iso; }
+  }
+
+  // --- Render ---
+  function renderDashboard(data) {
+    document.getElementById('loading').style.display = 'none';
+    const grid = document.getElementById('providers-grid');
+    grid.style.display = 'grid';
+
+    // Last updated
+    document.getElementById('last-updated').textContent =
+      'Zuletzt aktualisiert: ' + formatDate(data.updated_at);
+
+    // Overall banner
+    const overall = overallStatus(data.providers);
+    const om = getMeta(overall);
+    const banner = document.getElementById('overall-banner');
+    banner.style.background = om.bannerBg;
+    banner.style.border = `1px solid ${om.color}30`;
+    document.getElementById('overall-dot').style.background = om.color;
+    document.getElementById('overall-text').textContent =
+      overall === 'operational'
+        ? 'Alle Systeme funktionieren normal.'
+        : overall === 'outage'   ? 'Mindestens ein Anbieter meldet einen Ausfall!'
+        : overall === 'degraded' ? 'Mindestens ein Anbieter meldet eingeschränkten Betrieb.'
+        : overall === 'maintenance' ? 'Wartungsarbeiten bei einem oder mehreren Anbietern.'
+        : 'Status unbekannt.';
+
+    // Cards
+    grid.innerHTML = '';
+    data.providers.forEach((p, i) => {
+      const m = getMeta(p.status);
+      const card = document.createElement('div');
+      card.className = 'provider-card';
+      card.style.animationDelay = `${i * 60}ms`;
+
+      const incident = p.latest_incident
+        ? `<div class="card-incident"><strong>⚠ ${p.latest_incident.title}</strong><br>${p.latest_incident.body || ''}</div>`
+        : '';
+
+      card.innerHTML = `
+        <div class="card-header">
+          <span class="provider-name">${p.name}</span>
+          <span class="status-badge ${m.badgeClass}">${m.label}</span>
+        </div>
+        <div class="card-meta">
+          <a href="${p.status_url}" target="_blank" rel="noopener">${p.status_url.replace('https://', '')}</a>
+          ${p.checked_at ? `<br>Geprüft: ${formatDate(p.checked_at)}` : ''}
+        </div>
+        ${incident}
+        <div class="status-line ${m.lineClass}"></div>
+      `;
+      grid.appendChild(card);
+    });
+  }
+
+  function showError(msg) {
+    document.getElementById('loading').style.display = 'none';
+    const el = document.getElementById('error-msg');
+    el.style.display = 'block';
+    el.textContent = '⚠ ' + msg;
+  }
+
+  // --- Fetch ---
+  async function load() {
+    try {
+      const res = await fetch(STATUS_JSON_URL + '?t=' + Date.now());
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      renderDashboard(data);
+    } catch (e) {
+      showError('status.json konnte nicht geladen werden: ' + e.message);
+    }
+  }
+
+  load();
+  // Auto-refresh every 5 minutes
+  setInterval(load, 5 * 60 * 1000);
+</script>
+</body>
+</html>
