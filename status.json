@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-03T21:10:55.362Z",
+  "updated_at": "2026-06-03T21:20:55.199Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-03T21:10:55.357Z",
+      "checked_at": "2026-06-03T21:20:55.194Z",
       "latest_incident": {
         "title": "Disruption with some GitHub services",
-        "body": "Customers may see delays of up to two days in Dependabot version updates.<br /><br />Dependabot Security updates are not delayed.<br /><br />The team is investigating mitigations for the backlog.<br /><br />Next update in 1 hour.",
-        "date": "2026-06-03T20:18:52.795Z",
+        "body": "We are preparing a mitigation for the delayed Dependabot scheduled version updates.<br /><br />Next update in 2 hours.",
+        "date": "2026-06-03T21:10:56.415Z",
         "link": "https://stspg.io/snw2bl07nss4",
         "status": "investigating",
         "impact": "minor"
@@ -113,7 +113,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-03T21:10:55.357Z",
+      "checked_at": "2026-06-03T21:20:55.195Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-03T21:10:55.358Z",
+      "checked_at": "2026-06-03T21:20:55.195Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -341,7 +341,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-03T21:10:55.358Z",
+      "checked_at": "2026-06-03T21:20:55.195Z",
       "latest_incident": null,
       "recent_incidents": [
         {
