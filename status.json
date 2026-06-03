@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-03T10:54:19.611Z",
+  "updated_at": "2026-06-03T11:00:55.486Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "rss_url": "https://www.githubstatus.com/history.rss",
       "status": "operational",
-      "checked_at": "2026-06-03T10:54:19.404Z",
+      "checked_at": "2026-06-03T11:00:54.976Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -46,7 +46,7 @@
       "status_url": "https://status.openai.com",
       "rss_url": "https://status.openai.com/history.rss",
       "status": "operational",
-      "checked_at": "2026-06-03T10:54:19.477Z",
+      "checked_at": "2026-06-03T11:00:55.076Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -57,7 +57,7 @@
         },
         {
           "title": "Elevated errors for ChatGPT Pro",
-          "body": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Voice mode (Operational) Conversations (Operational) Compliance API (Operational) Deep Research (Operational) File uploads (Operational) Search (Operational) Image Generation (Operational) GPTs (Operational) Agent (Operational) Connectors/Apps (Operational) ChatGPT Atlas (Operational)",
+          "body": "Status: Resolved All impacted services have now fully recovered. Affected components File uploads (Operational) Voice mode (Operational) Search (Operational) Conversations (Operational) Compliance API (Operational) Image Generation (Operational) Agent (Operational) Deep Research (Operational) Login (Operational) GPTs (Operational) Connectors/Apps (Operational) ChatGPT Atlas (Operational)",
           "date": "Wed, 03 Jun 2026 00:14:31 GMT",
           "link": "https://status.openai.com//incidents/01KT5AMWGKRTMQW2BAHD70PC4X"
         },
@@ -86,7 +86,7 @@
       "status_url": "https://status.claude.com",
       "rss_url": "https://status.claude.com/history.rss",
       "status": "operational",
-      "checked_at": "2026-06-03T10:54:19.533Z",
+      "checked_at": "2026-06-03T11:00:55.135Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -126,7 +126,7 @@
       "status_url": "https://status.bunny.net",
       "rss_url": "https://status.bunny.net/history.rss",
       "status": "operational",
-      "checked_at": "2026-06-03T10:54:19.605Z",
+      "checked_at": "2026-06-03T11:00:55.480Z",
       "latest_incident": null,
       "recent_incidents": [
         {
