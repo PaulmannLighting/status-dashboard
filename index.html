@@ -259,6 +259,45 @@
     return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
+  function incidentText(incident) {
+    return `${incident?.title || ''} ${incident?.body || ''}`.toLowerCase();
+  }
+
+  function isResolvedIncident(incident) {
+    const text = incidentText(incident);
+    return /(status:\s*resolved|incident has been resolved|this incident has been resolved|all impacted services have now fully recovered|the issue is resolved|\bresolved\b)/.test(text);
+  }
+
+  function isActiveIncident(incident) {
+    if (!incident) return false;
+    if (isResolvedIncident(incident)) return false;
+    return /(status:\s*(investigating|identified|monitoring)|\binvestigating\b|\bidentified\b|\bmonitoring\b|\bdegraded\b|\boutage\b|\bdisruption\b|\belevated errors?\b|\bservice degradation\b|\bcurrently\b)/.test(incidentText(incident));
+  }
+
+  function getActiveIncident(provider) {
+    if (isActiveIncident(provider.latest_incident)) return provider.latest_incident;
+    return (provider.recent_incidents || []).find(isActiveIncident) || null;
+  }
+
+  function inferIncidentStatus(incident) {
+    const text = incidentText(incident);
+    if (/\boutage\b|\bmajor outage\b|\bunavailable\b|\bdown\b/.test(text)) return 'outage';
+    if (/\bmaintenance\b/.test(text)) return 'maintenance';
+    return 'degraded';
+  }
+
+  function getProviderStatus(provider, activeIncident) {
+    if (provider.status && provider.status !== 'operational') return provider.status;
+    if (activeIncident) return inferIncidentStatus(activeIncident);
+    return provider.status || 'unknown';
+  }
+
+  function getHistoricalIncidents(provider, activeIncident) {
+    return (provider.recent_incidents || [])
+      .filter(incident => incident !== activeIncident)
+      .slice(0, 5);
+  }
+
   function renderDashboard(data) {
     document.getElementById('loading').style.display = 'none';
     const grid = document.getElementById('providers-grid');
@@ -266,8 +305,18 @@
 
     document.getElementById('last-updated').textContent = 'Zuletzt aktualisiert: ' + fmt(data.updated_at);
 
+    const providers = data.providers.map(provider => {
+      const activeIncident = getActiveIncident(provider);
+      return {
+        ...provider,
+        activeIncident,
+        displayStatus: getProviderStatus(provider, activeIncident),
+        historicalIncidents: getHistoricalIncidents(provider, activeIncident),
+      };
+    });
+
     // Banner
-    const ov = overall(data.providers);
+    const ov = overall(providers.map(provider => ({ status: provider.displayStatus })));
     const om = m(ov);
     const banner = document.getElementById('overall-banner');
     banner.style.background = om.bannerBg;
@@ -281,21 +330,21 @@
                              'Status unbekannt – Daten werden geprüft.';
 
     grid.innerHTML = '';
-    data.providers.forEach((p, i) => {
-      const pm = m(p.status);
+    providers.forEach((p, i) => {
+      const pm = m(p.displayStatus);
       const card = document.createElement('div');
       card.className = 'provider-card';
       card.style.animationDelay = `${i * 50}ms`;
 
       // Active incident alert (shown inline, outside collapsible)
       let alertHtml = '';
-      if (p.latest_incident && p.status !== 'operational') {
-        const isOutage = p.status === 'outage';
+      if (p.activeIncident) {
+        const isOutage = p.displayStatus === 'outage';
         alertHtml = `
           <div class="active-incident-alert${isOutage ? ' is-outage' : ''}">
-            <strong>⚠ ${esc(p.latest_incident.title)}</strong>
-            ${p.latest_incident.body ? `<p>${esc(p.latest_incident.body.substring(0, 320))}${p.latest_incident.body.length > 320 ? '…' : ''}</p>` : ''}
-            ${p.latest_incident.link ? `<a href="${esc(p.latest_incident.link)}" target="_blank" rel="noopener">→ Details auf Statuspage</a>` : ''}
+            <strong>⚠ ${esc(p.activeIncident.title)}</strong>
+            ${p.activeIncident.body ? `<p>${esc(p.activeIncident.body.substring(0, 320))}${p.activeIncident.body.length > 320 ? '…' : ''}</p>` : ''}
+            ${p.activeIncident.link ? `<a href="${esc(p.activeIncident.link)}" target="_blank" rel="noopener">→ Details auf Statuspage</a>` : ''}
           </div>`;
       }
 
@@ -317,12 +366,12 @@
       }
 
       // Recent incidents section
-      const incidents = p.recent_incidents || [];
+      const incidents = p.historicalIncidents;
       let incidentsHtml = '';
       if (incidents.length > 0) {
         incidentsHtml = `
           <div class="details-section">
-            <div class="details-label">Aktuelle Incidents (${incidents.length})</div>
+            <div class="details-label">Historische Incidents (${incidents.length})</div>
             <ul class="incident-list">
               ${incidents.map(inc => `
                 <li class="incident-item">
@@ -339,8 +388,8 @@
       } else {
         incidentsHtml = `
           <div class="details-section">
-            <div class="details-label">Aktuelle Incidents</div>
-            <p class="no-data">Keine aktiven Incidents gemeldet.</p>
+            <div class="details-label">Historische Incidents</div>
+            <p class="no-data">Keine historischen Incidents bereitgestellt.</p>
           </div>`;
       }
 
