@@ -5,21 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Service Status Dashboard</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
   <style>
     :root {
-      --brand:        #970437;
-      --brand-dim:    #6b0228;
-      --bg:           #0d0d0f;
-      --surface:      #141416;
-      --surface2:     #1c1c1f;
-      --border:       #2a2a2e;
-      --text:         #e8e8ec;
-      --muted:        #6b6b75;
-      --green:        #22c55e;
-      --yellow:       #eab308;
-      --red:          #ef4444;
-      --blue:         #3b82f6;
+      color-scheme: light dark;
+
+      /* DARK */
+      --bg:         #0d0d0f;
+      --surface:    #141416;
+      --surface2:   #1c1c1f;
+      --border:     #2a2a2e;
+      --text:       #e8e8ec;
+      --text2:      #a0a0aa;
+      --muted:      #6b6b75;
+      --brand:      #970437;
+
+      --green:  #22c55e; --green-bg:  rgba(34,197,94,0.10);  --green-bd:  rgba(34,197,94,0.20);
+      --yellow: #eab308; --yellow-bg: rgba(234,179,8,0.10);  --yellow-bd: rgba(234,179,8,0.25);
+      --red:    #ef4444; --red-bg:    rgba(239,68,68,0.10);  --red-bd:    rgba(239,68,68,0.25);
+      --blue:   #3b82f6; --blue-bg:   rgba(59,130,246,0.10); --blue-bd:   rgba(59,130,246,0.25);
+      --gray-bg: rgba(107,107,117,0.10); --gray-bd: rgba(107,107,117,0.20);
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg:       #f4f4f6;
+        --surface:  #ffffff;
+        --surface2: #f0f0f3;
+        --border:   #e0e0e6;
+        --text:     #111114;
+        --text2:    #444450;
+        --muted:    #888896;
+
+        --green-bg:  rgba(34,197,94,0.08);  --green-bd:  rgba(34,197,94,0.25);
+        --yellow-bg: rgba(234,179,8,0.08);  --yellow-bd: rgba(234,179,8,0.30);
+        --red-bg:    rgba(239,68,68,0.08);  --red-bd:    rgba(239,68,68,0.30);
+        --blue-bg:   rgba(59,130,246,0.08); --blue-bd:   rgba(59,130,246,0.30);
+        --gray-bg:   rgba(107,107,117,0.08); --gray-bd:  rgba(107,107,117,0.25);
+      }
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -31,31 +54,23 @@
       font-weight: 300;
       min-height: 100vh;
       padding: 2rem;
+      transition: background 0.2s, color 0.2s;
     }
 
-    /* noise overlay */
-    body::before {
-      content: '';
-      position: fixed; inset: 0;
-      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    .wrapper { max-width: 960px; margin: 0 auto; position: relative; z-index: 1; }
+    .wrapper { max-width: 1100px; margin: 0 auto; }
 
     /* HEADER */
     header {
       display: flex;
       align-items: flex-end;
       justify-content: space-between;
-      margin-bottom: 3rem;
-      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1.25rem;
       border-bottom: 1px solid var(--border);
     }
 
     .logo-area h1 {
-      font-size: 1.1rem;
+      font-size: 1.05rem;
       font-weight: 600;
       letter-spacing: 0.08em;
       text-transform: uppercase;
@@ -63,15 +78,15 @@
     }
 
     .logo-area p {
-      font-size: 0.78rem;
+      font-size: 0.75rem;
       color: var(--muted);
-      margin-top: 0.25rem;
+      margin-top: 0.2rem;
       font-family: 'DM Mono', monospace;
     }
 
     #last-updated {
       font-family: 'DM Mono', monospace;
-      font-size: 0.72rem;
+      font-size: 0.7rem;
       color: var(--muted);
       text-align: right;
     }
@@ -79,26 +94,27 @@
     /* OVERALL BANNER */
     #overall-banner {
       border-radius: 8px;
-      padding: 1rem 1.4rem;
-      margin-bottom: 2rem;
+      padding: 0.9rem 1.25rem;
+      margin-bottom: 1.75rem;
       display: flex;
       align-items: center;
-      gap: 0.8rem;
+      gap: 0.75rem;
       font-weight: 600;
-      font-size: 0.92rem;
-      transition: background 0.3s;
+      font-size: 0.88rem;
+      border: 1px solid transparent;
+      transition: background 0.3s, border-color 0.3s;
     }
 
     #overall-banner .dot {
-      width: 10px; height: 10px;
+      width: 9px; height: 9px;
       border-radius: 50%;
       flex-shrink: 0;
     }
 
-    /* GRID */
+    /* PROVIDER CARDS — full width stack */
     #providers-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      display: flex;
+      flex-direction: column;
       gap: 1rem;
     }
 
@@ -106,88 +122,157 @@
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 10px;
-      padding: 1.25rem 1.4rem;
-      transition: border-color 0.2s, transform 0.15s;
-      animation: fadeIn 0.4s ease both;
+      overflow: hidden;
+      animation: fadeIn 0.35s ease both;
+      transition: border-color 0.2s;
     }
 
-    .provider-card:hover {
-      border-color: #3a3a40;
-      transform: translateY(-2px);
-    }
+    .provider-card:hover { border-color: var(--muted); }
 
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(8px); }
+      from { opacity: 0; transform: translateY(6px); }
       to   { opacity: 1; transform: translateY(0); }
     }
 
-    .card-header {
+    /* Card top bar — colored by status */
+    .card-topbar {
+      height: 3px;
+      width: 100%;
+    }
+
+    .bar-operational { background: var(--green); }
+    .bar-degraded    { background: var(--yellow); }
+    .bar-outage      { background: var(--red); }
+    .bar-maintenance { background: var(--blue); }
+    .bar-unknown     { background: var(--border); }
+
+    /* Card main row */
+    .card-main {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 0.9rem;
+      padding: 1.1rem 1.4rem 0.9rem;
+      gap: 1rem;
+      cursor: pointer;
+      user-select: none;
     }
 
+    .card-left { display: flex; align-items: center; gap: 1rem; flex: 1; }
+
     .provider-name {
-      font-size: 0.95rem;
+      font-size: 1rem;
       font-weight: 600;
     }
+
+    .card-meta-inline {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--muted);
+    }
+
+    .card-meta-inline a { color: var(--muted); text-decoration: none; }
+    .card-meta-inline a:hover { color: var(--text); }
+
+    .card-right { display: flex; align-items: center; gap: 1rem; flex-shrink: 0; }
 
     .status-badge {
       font-family: 'DM Mono', monospace;
       font-size: 0.68rem;
       font-weight: 500;
-      padding: 0.25rem 0.6rem;
+      padding: 0.22rem 0.65rem;
       border-radius: 20px;
       text-transform: uppercase;
       letter-spacing: 0.06em;
+      border: 1px solid transparent;
     }
 
-    .badge-operational  { background: rgba(34,197,94,0.12);  color: var(--green); }
-    .badge-degraded     { background: rgba(234,179,8,0.12);   color: var(--yellow); }
-    .badge-outage       { background: rgba(239,68,68,0.12);   color: var(--red); }
-    .badge-maintenance  { background: rgba(59,130,246,0.12);  color: var(--blue); }
-    .badge-unknown      { background: rgba(107,107,117,0.15); color: var(--muted); }
+    .badge-operational { background: var(--green-bg);  color: var(--green);  border-color: var(--green-bd); }
+    .badge-degraded    { background: var(--yellow-bg); color: var(--yellow); border-color: var(--yellow-bd); }
+    .badge-outage      { background: var(--red-bg);    color: var(--red);    border-color: var(--red-bd); }
+    .badge-maintenance { background: var(--blue-bg);   color: var(--blue);   border-color: var(--blue-bd); }
+    .badge-unknown     { background: var(--gray-bg);   color: var(--muted);  border-color: var(--gray-bd); }
 
-    .card-meta {
-      font-size: 0.76rem;
-      color: var(--muted);
+    .checked-time {
       font-family: 'DM Mono', monospace;
-    }
-
-    .card-meta a {
+      font-size: 0.68rem;
       color: var(--muted);
-      text-decoration: none;
+      white-space: nowrap;
     }
-    .card-meta a:hover { color: var(--text); }
 
-    .card-incident {
-      margin-top: 0.8rem;
-      padding-top: 0.8rem;
+    .toggle-icon {
+      color: var(--muted);
+      font-size: 0.7rem;
+      transition: transform 0.2s;
+      width: 16px;
+      text-align: center;
+    }
+
+    .provider-card.open .toggle-icon { transform: rotate(180deg); }
+
+    /* DETAILS PANEL */
+    .card-details {
+      display: none;
       border-top: 1px solid var(--border);
-      font-size: 0.78rem;
+      padding: 1rem 1.4rem 1.25rem;
+      background: var(--surface2);
+    }
+
+    .provider-card.open .card-details { display: block; }
+
+    .details-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
       color: var(--muted);
-      line-height: 1.5;
+      margin-bottom: 0.6rem;
     }
 
-    .card-incident strong {
-      color: var(--yellow);
-      font-weight: 500;
+    .incident-list { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+
+    .incident-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.7rem 0.9rem;
     }
 
-    /* STATUS INDICATOR LINE */
-    .status-line {
-      width: 100%;
-      height: 3px;
-      border-radius: 2px;
-      margin-top: 1rem;
+    .incident-title {
+      font-size: 0.82rem;
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.5rem;
     }
 
-    .line-operational { background: var(--green); opacity: 0.6; }
-    .line-degraded    { background: var(--yellow); opacity: 0.8; }
-    .line-outage      { background: var(--red); }
-    .line-maintenance { background: var(--blue); opacity: 0.8; }
-    .line-unknown     { background: var(--border); }
+    .incident-title a {
+      color: var(--text);
+      text-decoration: none;
+      flex: 1;
+    }
+    .incident-title a:hover { color: var(--brand); }
+
+    .incident-date {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.65rem;
+      color: var(--muted);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .incident-body {
+      font-size: 0.78rem;
+      color: var(--text2);
+      line-height: 1.55;
+    }
+
+    .no-incidents {
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-style: italic;
+    }
 
     /* LOADING / ERROR */
     #loading, #error-msg {
@@ -195,13 +280,12 @@
       padding: 4rem 2rem;
       color: var(--muted);
       font-family: 'DM Mono', monospace;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
     }
-
     #error-msg { color: var(--red); }
 
     .spinner {
-      width: 28px; height: 28px;
+      width: 26px; height: 26px;
       border: 2px solid var(--border);
       border-top-color: var(--brand);
       border-radius: 50%;
@@ -212,10 +296,10 @@
 
     /* FOOTER */
     footer {
-      margin-top: 3rem;
-      padding-top: 1.5rem;
+      margin-top: 2.5rem;
+      padding-top: 1.25rem;
       border-top: 1px solid var(--border);
-      font-size: 0.72rem;
+      font-size: 0.7rem;
       color: var(--muted);
       font-family: 'DM Mono', monospace;
       display: flex;
@@ -239,76 +323,63 @@
     <span id="overall-text">Prüfe Status…</span>
   </div>
 
-  <div id="loading">
-    <div class="spinner"></div>
-    Lade status.json…
-  </div>
-
+  <div id="loading"><div class="spinner"></div>Lade status.json…</div>
   <div id="error-msg" style="display:none"></div>
   <div id="providers-grid" style="display:none"></div>
 
   <footer>
     <span>Paulmann Licht GmbH · Internal Dashboard</span>
-    <span>Daten via n8n → status.json</span>
+    <span>Daten via n8n · Refresh alle 10 Min</span>
   </footer>
 
 </div>
-
 <script>
   const STATUS_JSON_URL = './status.json';
 
-  // --- Status helpers ---
   const STATUS_META = {
-    operational:  { label: 'Operational',  badgeClass: 'badge-operational',  lineClass: 'line-operational',  color: '#22c55e', bannerBg: 'rgba(34,197,94,0.08)'  },
-    degraded:     { label: 'Degraded',     badgeClass: 'badge-degraded',     lineClass: 'line-degraded',     color: '#eab308', bannerBg: 'rgba(234,179,8,0.10)'  },
-    outage:       { label: 'Outage',       badgeClass: 'badge-outage',       lineClass: 'line-outage',       color: '#ef4444', bannerBg: 'rgba(239,68,68,0.10)'  },
-    maintenance:  { label: 'Maintenance',  badgeClass: 'badge-maintenance',  lineClass: 'line-maintenance',  color: '#3b82f6', bannerBg: 'rgba(59,130,246,0.10)' },
-    unknown:      { label: 'Unknown',      badgeClass: 'badge-unknown',      lineClass: 'line-unknown',      color: '#6b6b75', bannerBg: 'rgba(107,107,117,0.08)' },
+    operational:  { label: 'Operational',  badge: 'badge-operational',  bar: 'bar-operational',  color: '#22c55e', bannerBg: 'rgba(34,197,94,0.07)',  bannerBd: 'rgba(34,197,94,0.18)'  },
+    degraded:     { label: 'Degraded',     badge: 'badge-degraded',     bar: 'bar-degraded',     color: '#eab308', bannerBg: 'rgba(234,179,8,0.08)',   bannerBd: 'rgba(234,179,8,0.22)'  },
+    outage:       { label: 'Outage',       badge: 'badge-outage',       bar: 'bar-outage',       color: '#ef4444', bannerBg: 'rgba(239,68,68,0.08)',   bannerBd: 'rgba(239,68,68,0.22)'  },
+    maintenance:  { label: 'Maintenance',  badge: 'badge-maintenance',  bar: 'bar-maintenance',  color: '#3b82f6', bannerBg: 'rgba(59,130,246,0.08)',  bannerBd: 'rgba(59,130,246,0.22)' },
+    unknown:      { label: 'Unknown',      badge: 'badge-unknown',      bar: 'bar-unknown',      color: '#6b6b75', bannerBg: 'rgba(107,107,117,0.07)', bannerBd: 'rgba(107,107,117,0.18)'},
   };
 
-  function getMeta(status) {
-    return STATUS_META[status] || STATUS_META.unknown;
-  }
+  function getMeta(s) { return STATUS_META[s] || STATUS_META.unknown; }
 
   function overallStatus(providers) {
-    const prio = ['outage', 'degraded', 'maintenance', 'operational', 'unknown'];
-    for (const s of prio) {
+    for (const s of ['outage','degraded','maintenance','operational','unknown']) {
       if (providers.some(p => p.status === s)) return s;
     }
     return 'unknown';
   }
 
-  function formatDate(iso) {
-    if (!iso) return '–';
-    try {
-      return new Date(iso).toLocaleString('de-DE', { dateStyle: 'short', timeStyle: 'short' });
-    } catch { return iso; }
+  function fmtDate(iso) {
+    if (!iso) return '';
+    try { return new Date(iso).toLocaleString('de-DE', { dateStyle: 'short', timeStyle: 'short' }); }
+    catch { return iso; }
   }
 
-  // --- Render ---
   function renderDashboard(data) {
     document.getElementById('loading').style.display = 'none';
     const grid = document.getElementById('providers-grid');
-    grid.style.display = 'grid';
+    grid.style.display = 'flex';
 
-    // Last updated
     document.getElementById('last-updated').textContent =
-      'Zuletzt aktualisiert: ' + formatDate(data.updated_at);
+      'Zuletzt aktualisiert: ' + fmtDate(data.updated_at);
 
-    // Overall banner
+    // Banner
     const overall = overallStatus(data.providers);
     const om = getMeta(overall);
     const banner = document.getElementById('overall-banner');
     banner.style.background = om.bannerBg;
-    banner.style.border = `1px solid ${om.color}30`;
+    banner.style.borderColor = om.bannerBd;
     document.getElementById('overall-dot').style.background = om.color;
     document.getElementById('overall-text').textContent =
-      overall === 'operational'
-        ? 'Alle Systeme funktionieren normal.'
-        : overall === 'outage'   ? 'Mindestens ein Anbieter meldet einen Ausfall!'
-        : overall === 'degraded' ? 'Mindestens ein Anbieter meldet eingeschränkten Betrieb.'
-        : overall === 'maintenance' ? 'Wartungsarbeiten bei einem oder mehreren Anbietern.'
-        : 'Status unbekannt.';
+      overall === 'operational'  ? 'Alle Systeme funktionieren normal.' :
+      overall === 'outage'       ? 'Mindestens ein Anbieter meldet einen Ausfall!' :
+      overall === 'degraded'     ? 'Mindestens ein Anbieter meldet eingeschränkten Betrieb.' :
+      overall === 'maintenance'  ? 'Wartungsarbeiten bei einem oder mehreren Anbietern.' :
+                                   'Status unbekannt – Daten werden geprüft.';
 
     // Cards
     grid.innerHTML = '';
@@ -316,24 +387,46 @@
       const m = getMeta(p.status);
       const card = document.createElement('div');
       card.className = 'provider-card';
-      card.style.animationDelay = `${i * 60}ms`;
+      card.style.animationDelay = `${i * 50}ms`;
 
-      const incident = p.latest_incident
-        ? `<div class="card-incident"><strong>⚠ ${p.latest_incident.title}</strong><br>${p.latest_incident.body || ''}</div>`
-        : '';
+      // Recent incidents HTML
+      const incidents = p.recent_incidents || [];
+      let incidentsHtml = '';
+      if (incidents.length === 0) {
+        incidentsHtml = '<p class="no-incidents">Keine aktuellen Meldungen im RSS-Feed.</p>';
+      } else {
+        incidentsHtml = '<ul class="incident-list">' + incidents.map(inc => `
+          <li class="incident-item">
+            <div class="incident-title">
+              ${inc.link ? `<a href="${inc.link}" target="_blank" rel="noopener">${inc.title || '(kein Titel)'}</a>` : `<span>${inc.title || '(kein Titel)'}</span>`}
+              ${inc.date ? `<span class="incident-date">${fmtDate(inc.date)}</span>` : ''}
+            </div>
+            ${inc.body ? `<div class="incident-body">${inc.body.substring(0, 280)}${inc.body.length > 280 ? '…' : ''}</div>` : ''}
+          </li>`).join('') + '</ul>';
+      }
 
       card.innerHTML = `
-        <div class="card-header">
-          <span class="provider-name">${p.name}</span>
-          <span class="status-badge ${m.badgeClass}">${m.label}</span>
+        <div class="card-topbar ${m.bar}"></div>
+        <div class="card-main" onclick="this.closest('.provider-card').classList.toggle('open')">
+          <div class="card-left">
+            <div>
+              <div class="provider-name">${p.name}</div>
+              <div class="card-meta-inline">
+                <a href="${p.status_url}" target="_blank" rel="noopener">${p.status_url.replace('https://', '')}</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-right">
+            <span class="checked-time">${p.checked_at ? fmtDate(p.checked_at) : ''}</span>
+            <span class="status-badge ${m.badge}">${m.label}</span>
+            <span class="toggle-icon">▼</span>
+          </div>
         </div>
-        <div class="card-meta">
-          <a href="${p.status_url}" target="_blank" rel="noopener">${p.status_url.replace('https://', '')}</a>
-          ${p.checked_at ? `<br>Geprüft: ${formatDate(p.checked_at)}` : ''}
-        </div>
-        ${incident}
-        <div class="status-line ${m.lineClass}"></div>
-      `;
+        <div class="card-details">
+          <div class="details-label">Letzte RSS-Einträge (${incidents.length})</div>
+          ${incidentsHtml}
+        </div>`;
+
       grid.appendChild(card);
     });
   }
@@ -345,21 +438,18 @@
     el.textContent = '⚠ ' + msg;
   }
 
-  // --- Fetch ---
   async function load() {
     try {
       const res = await fetch(STATUS_JSON_URL + '?t=' + Date.now());
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-      renderDashboard(data);
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      renderDashboard(await res.json());
     } catch (e) {
       showError('status.json konnte nicht geladen werden: ' + e.message);
     }
   }
 
   load();
-  // Auto-refresh every 5 minutes
-  setInterval(load, 5 * 60 * 1000);
+  setInterval(load, 10 * 60 * 1000);
 </script>
 </body>
 </html>
