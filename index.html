@@ -9,44 +9,37 @@
   <style>
     :root {
       color-scheme: light dark;
-
-      /* DARK */
-      --bg:         #0d0d0f;
-      --surface:    #141416;
-      --surface2:   #1c1c1f;
-      --border:     #2a2a2e;
-      --text:       #e8e8ec;
-      --text2:      #a0a0aa;
-      --muted:      #6b6b75;
-      --brand:      #970437;
-
-      --green:  #22c55e; --green-bg:  rgba(34,197,94,0.10);  --green-bd:  rgba(34,197,94,0.20);
-      --yellow: #eab308; --yellow-bg: rgba(234,179,8,0.10);  --yellow-bd: rgba(234,179,8,0.25);
-      --red:    #ef4444; --red-bg:    rgba(239,68,68,0.10);  --red-bd:    rgba(239,68,68,0.25);
-      --blue:   #3b82f6; --blue-bg:   rgba(59,130,246,0.10); --blue-bd:   rgba(59,130,246,0.25);
-      --gray-bg: rgba(107,107,117,0.10); --gray-bd: rgba(107,107,117,0.20);
+      --bg:       #0d0d0f;
+      --surface:  #141416;
+      --surface2: #1c1c1f;
+      --border:   #2a2a2e;
+      --text:     #e8e8ec;
+      --text2:    #a0a0aa;
+      --muted:    #6b6b75;
+      --brand:    #970437;
+      --green:  #22c55e; --green-bg:  rgba(34,197,94,0.10);  --green-bd:  rgba(34,197,94,0.22);
+      --yellow: #eab308; --yellow-bg: rgba(234,179,8,0.10);  --yellow-bd: rgba(234,179,8,0.28);
+      --red:    #ef4444; --red-bg:    rgba(239,68,68,0.10);  --red-bd:    rgba(239,68,68,0.28);
+      --blue:   #3b82f6; --blue-bg:   rgba(59,130,246,0.10); --blue-bd:   rgba(59,130,246,0.28);
+      --gray-bg: rgba(107,107,117,0.10); --gray-bd: rgba(107,107,117,0.22);
     }
-
     @media (prefers-color-scheme: light) {
       :root {
-        --bg:       #f4f4f6;
+        --bg:       #f2f2f5;
         --surface:  #ffffff;
-        --surface2: #f0f0f3;
-        --border:   #e0e0e6;
+        --surface2: #f7f7fa;
+        --border:   #e2e2e8;
         --text:     #111114;
-        --text2:    #444450;
-        --muted:    #888896;
-
-        --green-bg:  rgba(34,197,94,0.08);  --green-bd:  rgba(34,197,94,0.25);
-        --yellow-bg: rgba(234,179,8,0.08);  --yellow-bd: rgba(234,179,8,0.30);
-        --red-bg:    rgba(239,68,68,0.08);  --red-bd:    rgba(239,68,68,0.30);
-        --blue-bg:   rgba(59,130,246,0.08); --blue-bd:   rgba(59,130,246,0.30);
-        --gray-bg:   rgba(107,107,117,0.08); --gray-bd:  rgba(107,107,117,0.25);
+        --text2:    #44444f;
+        --muted:    #88889a;
+        --green-bg:  rgba(34,197,94,0.07);  --green-bd:  rgba(34,197,94,0.25);
+        --yellow-bg: rgba(234,179,8,0.07);  --yellow-bd: rgba(234,179,8,0.30);
+        --red-bg:    rgba(239,68,68,0.07);  --red-bd:    rgba(239,68,68,0.30);
+        --blue-bg:   rgba(59,130,246,0.07); --blue-bd:   rgba(59,130,246,0.30);
+        --gray-bg:   rgba(107,107,117,0.07); --gray-bd:  rgba(107,107,117,0.25);
       }
     }
-
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     body {
       background: var(--bg);
       color: var(--text);
@@ -54,9 +47,7 @@
       font-weight: 300;
       min-height: 100vh;
       padding: 2rem;
-      transition: background 0.2s, color 0.2s;
     }
-
     .wrapper { max-width: 1100px; margin: 0 auto; }
 
     /* HEADER */
@@ -68,248 +59,154 @@
       padding-bottom: 1.25rem;
       border-bottom: 1px solid var(--border);
     }
-
     .logo-area h1 {
-      font-size: 1.05rem;
-      font-weight: 600;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--brand);
+      font-size: 1.05rem; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase; color: var(--brand);
     }
+    .logo-area p { font-size: 0.75rem; color: var(--muted); margin-top: 0.2rem; font-family: 'DM Mono', monospace; }
+    #last-updated { font-family: 'DM Mono', monospace; font-size: 0.7rem; color: var(--muted); text-align: right; }
 
-    .logo-area p {
-      font-size: 0.75rem;
-      color: var(--muted);
-      margin-top: 0.2rem;
-      font-family: 'DM Mono', monospace;
-    }
-
-    #last-updated {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.7rem;
-      color: var(--muted);
-      text-align: right;
-    }
-
-    /* OVERALL BANNER */
+    /* BANNER */
     #overall-banner {
-      border-radius: 8px;
-      padding: 0.9rem 1.25rem;
-      margin-bottom: 1.75rem;
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      font-weight: 600;
-      font-size: 0.88rem;
-      border: 1px solid transparent;
+      border-radius: 8px; padding: 0.9rem 1.25rem; margin-bottom: 1.75rem;
+      display: flex; align-items: center; gap: 0.75rem;
+      font-weight: 600; font-size: 0.88rem; border: 1px solid transparent;
       transition: background 0.3s, border-color 0.3s;
     }
+    #overall-banner .dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
 
-    #overall-banner .dot {
-      width: 9px; height: 9px;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-
-    /* PROVIDER CARDS — full width stack */
-    #providers-grid {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
+    /* CARDS */
+    #providers-grid { display: flex; flex-direction: column; gap: 1rem; }
 
     .provider-card {
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 10px;
-      overflow: hidden;
+      border-radius: 10px; overflow: hidden;
       animation: fadeIn 0.35s ease both;
       transition: border-color 0.2s;
     }
-
     .provider-card:hover { border-color: var(--muted); }
+    @keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(6px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-
-    /* Card top bar — colored by status */
-    .card-topbar {
-      height: 3px;
-      width: 100%;
-    }
-
+    .card-topbar { height: 3px; width: 100%; }
     .bar-operational { background: var(--green); }
     .bar-degraded    { background: var(--yellow); }
     .bar-outage      { background: var(--red); }
     .bar-maintenance { background: var(--blue); }
     .bar-unknown     { background: var(--border); }
 
-    /* Card main row */
     .card-main {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1.1rem 1.4rem 0.9rem;
-      gap: 1rem;
-      cursor: pointer;
-      user-select: none;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.1rem 1.4rem 1rem; gap: 1rem;
+      cursor: pointer; user-select: none;
     }
+    .card-left { display: flex; align-items: center; gap: 1rem; flex: 1; min-width: 0; }
+    .provider-name { font-size: 1rem; font-weight: 600; }
+    .provider-desc { font-size: 0.75rem; color: var(--text2); margin-top: 0.15rem; font-style: italic; }
+    .card-meta-url { font-family: 'DM Mono', monospace; font-size: 0.68rem; color: var(--muted); margin-top: 0.2rem; }
+    .card-meta-url a { color: var(--muted); text-decoration: none; }
+    .card-meta-url a:hover { color: var(--text); }
 
-    .card-left { display: flex; align-items: center; gap: 1rem; flex: 1; }
-
-    .provider-name {
-      font-size: 1rem;
-      font-weight: 600;
-    }
-
-    .card-meta-inline {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.7rem;
-      color: var(--muted);
-    }
-
-    .card-meta-inline a { color: var(--muted); text-decoration: none; }
-    .card-meta-inline a:hover { color: var(--text); }
-
-    .card-right { display: flex; align-items: center; gap: 1rem; flex-shrink: 0; }
+    .card-right { display: flex; align-items: center; gap: 0.9rem; flex-shrink: 0; }
+    .checked-time { font-family: 'DM Mono', monospace; font-size: 0.68rem; color: var(--muted); white-space: nowrap; }
 
     .status-badge {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.68rem;
-      font-weight: 500;
-      padding: 0.22rem 0.65rem;
-      border-radius: 20px;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      border: 1px solid transparent;
+      font-family: 'DM Mono', monospace; font-size: 0.68rem; font-weight: 500;
+      padding: 0.22rem 0.65rem; border-radius: 20px;
+      text-transform: uppercase; letter-spacing: 0.06em; border: 1px solid transparent;
     }
-
     .badge-operational { background: var(--green-bg);  color: var(--green);  border-color: var(--green-bd); }
     .badge-degraded    { background: var(--yellow-bg); color: var(--yellow); border-color: var(--yellow-bd); }
     .badge-outage      { background: var(--red-bg);    color: var(--red);    border-color: var(--red-bd); }
     .badge-maintenance { background: var(--blue-bg);   color: var(--blue);   border-color: var(--blue-bd); }
     .badge-unknown     { background: var(--gray-bg);   color: var(--muted);  border-color: var(--gray-bd); }
 
-    .checked-time {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.68rem;
-      color: var(--muted);
-      white-space: nowrap;
-    }
-
-    .toggle-icon {
-      color: var(--muted);
-      font-size: 0.7rem;
-      transition: transform 0.2s;
-      width: 16px;
-      text-align: center;
-    }
-
+    .toggle-icon { color: var(--muted); font-size: 0.65rem; transition: transform 0.2s; width: 14px; text-align: center; }
     .provider-card.open .toggle-icon { transform: rotate(180deg); }
+
+    /* ACTIVE INCIDENT INLINE ALERT */
+    .active-incident-alert {
+      margin: 0 1.4rem 0.9rem;
+      padding: 0.75rem 1rem;
+      border-radius: 6px;
+      border-left: 3px solid var(--yellow);
+      background: var(--yellow-bg);
+      font-size: 0.8rem;
+    }
+    .active-incident-alert.is-outage { border-left-color: var(--red); background: var(--red-bg); }
+    .active-incident-alert strong { font-weight: 600; display: block; margin-bottom: 0.25rem; }
+    .active-incident-alert p { color: var(--text2); line-height: 1.5; }
+    .active-incident-alert a { color: var(--muted); font-family: 'DM Mono', monospace; font-size: 0.68rem; text-decoration: none; margin-top: 0.3rem; display: inline-block; }
+    .active-incident-alert a:hover { color: var(--text); }
 
     /* DETAILS PANEL */
     .card-details {
       display: none;
       border-top: 1px solid var(--border);
-      padding: 1rem 1.4rem 1.25rem;
       background: var(--surface2);
     }
-
     .provider-card.open .card-details { display: block; }
 
+    .details-section { padding: 1rem 1.4rem; }
+    .details-section + .details-section { border-top: 1px solid var(--border); }
+
     .details-label {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.65rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      margin-bottom: 0.6rem;
+      font-family: 'DM Mono', monospace; font-size: 0.63rem;
+      text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--muted); margin-bottom: 0.7rem;
     }
 
-    .incident-list { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
-
-    .incident-item {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 0.7rem 0.9rem;
-    }
-
-    .incident-title {
-      font-size: 0.82rem;
-      font-weight: 600;
-      margin-bottom: 0.3rem;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
+    /* COMPONENTS GRID */
+    .components-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       gap: 0.5rem;
     }
-
-    .incident-title a {
-      color: var(--text);
-      text-decoration: none;
-      flex: 1;
+    .component-item {
+      display: flex; align-items: center; justify-content: space-between;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 6px; padding: 0.5rem 0.75rem;
+      font-size: 0.76rem;
     }
-    .incident-title a:hover { color: var(--brand); }
-
-    .incident-date {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.65rem;
-      color: var(--muted);
-      white-space: nowrap;
-      flex-shrink: 0;
+    .component-name { color: var(--text2); flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .component-dot {
+      width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; margin-left: 0.5rem;
     }
+    .dot-operational { background: var(--green); }
+    .dot-degraded    { background: var(--yellow); }
+    .dot-outage      { background: var(--red); }
+    .dot-maintenance { background: var(--blue); }
+    .dot-unknown     { background: var(--muted); }
 
-    .incident-body {
-      font-size: 0.78rem;
-      color: var(--text2);
-      line-height: 1.55;
+    /* INCIDENT LIST */
+    .incident-list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .incident-item {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 6px; padding: 0.7rem 0.9rem;
     }
-
-    .no-incidents {
-      font-size: 0.8rem;
-      color: var(--muted);
-      font-style: italic;
+    .incident-header {
+      display: flex; align-items: flex-start; justify-content: space-between;
+      gap: 0.5rem; margin-bottom: 0.3rem;
     }
+    .incident-title-text { font-size: 0.82rem; font-weight: 600; flex: 1; }
+    .incident-title-text a { color: var(--text); text-decoration: none; }
+    .incident-title-text a:hover { color: var(--brand); }
+    .incident-date { font-family: 'DM Mono', monospace; font-size: 0.63rem; color: var(--muted); white-space: nowrap; flex-shrink: 0; }
+    .incident-body { font-size: 0.77rem; color: var(--text2); line-height: 1.55; }
+    .no-data { font-size: 0.78rem; color: var(--muted); font-style: italic; }
 
     /* LOADING / ERROR */
-    #loading, #error-msg {
-      text-align: center;
-      padding: 4rem 2rem;
-      color: var(--muted);
-      font-family: 'DM Mono', monospace;
-      font-size: 0.82rem;
-    }
+    #loading, #error-msg { text-align: center; padding: 4rem 2rem; color: var(--muted); font-family: 'DM Mono', monospace; font-size: 0.82rem; }
     #error-msg { color: var(--red); }
-
-    .spinner {
-      width: 26px; height: 26px;
-      border: 2px solid var(--border);
-      border-top-color: var(--brand);
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-      margin: 0 auto 1rem;
-    }
+    .spinner { width: 26px; height: 26px; border: 2px solid var(--border); border-top-color: var(--brand); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 1rem; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
     /* FOOTER */
-    footer {
-      margin-top: 2.5rem;
-      padding-top: 1.25rem;
-      border-top: 1px solid var(--border);
-      font-size: 0.7rem;
-      color: var(--muted);
-      font-family: 'DM Mono', monospace;
-      display: flex;
-      justify-content: space-between;
-    }
+    footer { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--border); font-size: 0.7rem; color: var(--muted); font-family: 'DM Mono', monospace; display: flex; justify-content: space-between; }
   </style>
 </head>
 <body>
 <div class="wrapper">
-
   <header>
     <div class="logo-area">
       <h1>Service Status</h1>
@@ -331,32 +228,35 @@
     <span>Paulmann Licht GmbH · Internal Dashboard</span>
     <span>Daten via n8n · Refresh alle 10 Min</span>
   </footer>
-
 </div>
+
 <script>
   const STATUS_JSON_URL = './status.json';
 
-  const STATUS_META = {
-    operational:  { label: 'Operational',  badge: 'badge-operational',  bar: 'bar-operational',  color: '#22c55e', bannerBg: 'rgba(34,197,94,0.07)',  bannerBd: 'rgba(34,197,94,0.18)'  },
-    degraded:     { label: 'Degraded',     badge: 'badge-degraded',     bar: 'bar-degraded',     color: '#eab308', bannerBg: 'rgba(234,179,8,0.08)',   bannerBd: 'rgba(234,179,8,0.22)'  },
-    outage:       { label: 'Outage',       badge: 'badge-outage',       bar: 'bar-outage',       color: '#ef4444', bannerBg: 'rgba(239,68,68,0.08)',   bannerBd: 'rgba(239,68,68,0.22)'  },
-    maintenance:  { label: 'Maintenance',  badge: 'badge-maintenance',  bar: 'bar-maintenance',  color: '#3b82f6', bannerBg: 'rgba(59,130,246,0.08)',  bannerBd: 'rgba(59,130,246,0.22)' },
-    unknown:      { label: 'Unknown',      badge: 'badge-unknown',      bar: 'bar-unknown',      color: '#6b6b75', bannerBg: 'rgba(107,107,117,0.07)', bannerBd: 'rgba(107,107,117,0.18)'},
+  const META = {
+    operational:  { label: 'Operational',  badge: 'badge-operational',  bar: 'bar-operational',  color: '#22c55e', bannerBg: 'rgba(34,197,94,0.07)',   bannerBd: 'rgba(34,197,94,0.18)'  },
+    degraded:     { label: 'Degraded',     badge: 'badge-degraded',     bar: 'bar-degraded',     color: '#eab308', bannerBg: 'rgba(234,179,8,0.08)',    bannerBd: 'rgba(234,179,8,0.22)'  },
+    outage:       { label: 'Outage',       badge: 'badge-outage',       bar: 'bar-outage',       color: '#ef4444', bannerBg: 'rgba(239,68,68,0.08)',    bannerBd: 'rgba(239,68,68,0.22)'  },
+    maintenance:  { label: 'Maintenance',  badge: 'badge-maintenance',  bar: 'bar-maintenance',  color: '#3b82f6', bannerBg: 'rgba(59,130,246,0.08)',   bannerBd: 'rgba(59,130,246,0.22)' },
+    unknown:      { label: 'Unknown',      badge: 'badge-unknown',      bar: 'bar-unknown',      color: '#6b6b75', bannerBg: 'rgba(107,107,117,0.07)',  bannerBd: 'rgba(107,107,117,0.18)'},
   };
 
-  function getMeta(s) { return STATUS_META[s] || STATUS_META.unknown; }
+  function m(s) { return META[s] || META.unknown; }
 
-  function overallStatus(providers) {
-    for (const s of ['outage','degraded','maintenance','operational','unknown']) {
+  function overall(providers) {
+    for (const s of ['outage','degraded','maintenance','operational','unknown'])
       if (providers.some(p => p.status === s)) return s;
-    }
     return 'unknown';
   }
 
-  function fmtDate(iso) {
+  function fmt(iso) {
     if (!iso) return '';
     try { return new Date(iso).toLocaleString('de-DE', { dateStyle: 'short', timeStyle: 'short' }); }
     catch { return iso; }
+  }
+
+  function esc(s) {
+    return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
   function renderDashboard(data) {
@@ -364,66 +264,107 @@
     const grid = document.getElementById('providers-grid');
     grid.style.display = 'flex';
 
-    document.getElementById('last-updated').textContent =
-      'Zuletzt aktualisiert: ' + fmtDate(data.updated_at);
+    document.getElementById('last-updated').textContent = 'Zuletzt aktualisiert: ' + fmt(data.updated_at);
 
     // Banner
-    const overall = overallStatus(data.providers);
-    const om = getMeta(overall);
+    const ov = overall(data.providers);
+    const om = m(ov);
     const banner = document.getElementById('overall-banner');
     banner.style.background = om.bannerBg;
     banner.style.borderColor = om.bannerBd;
     document.getElementById('overall-dot').style.background = om.color;
     document.getElementById('overall-text').textContent =
-      overall === 'operational'  ? 'Alle Systeme funktionieren normal.' :
-      overall === 'outage'       ? 'Mindestens ein Anbieter meldet einen Ausfall!' :
-      overall === 'degraded'     ? 'Mindestens ein Anbieter meldet eingeschränkten Betrieb.' :
-      overall === 'maintenance'  ? 'Wartungsarbeiten bei einem oder mehreren Anbietern.' :
-                                   'Status unbekannt – Daten werden geprüft.';
+      ov === 'operational' ? 'Alle Systeme funktionieren normal.' :
+      ov === 'outage'      ? 'Mindestens ein Anbieter meldet einen Ausfall!' :
+      ov === 'degraded'    ? 'Mindestens ein Anbieter meldet eingeschränkten Betrieb.' :
+      ov === 'maintenance' ? 'Wartungsarbeiten bei einem oder mehreren Anbietern.' :
+                             'Status unbekannt – Daten werden geprüft.';
 
-    // Cards
     grid.innerHTML = '';
     data.providers.forEach((p, i) => {
-      const m = getMeta(p.status);
+      const pm = m(p.status);
       const card = document.createElement('div');
       card.className = 'provider-card';
       card.style.animationDelay = `${i * 50}ms`;
 
-      // Recent incidents HTML
+      // Active incident alert (shown inline, outside collapsible)
+      let alertHtml = '';
+      if (p.latest_incident && p.status !== 'operational') {
+        const isOutage = p.status === 'outage';
+        alertHtml = `
+          <div class="active-incident-alert${isOutage ? ' is-outage' : ''}">
+            <strong>⚠ ${esc(p.latest_incident.title)}</strong>
+            ${p.latest_incident.body ? `<p>${esc(p.latest_incident.body.substring(0, 320))}${p.latest_incident.body.length > 320 ? '…' : ''}</p>` : ''}
+            ${p.latest_incident.link ? `<a href="${esc(p.latest_incident.link)}" target="_blank" rel="noopener">→ Details auf Statuspage</a>` : ''}
+          </div>`;
+      }
+
+      // Components section
+      const comps = p.components || [];
+      let compsHtml = '';
+      if (comps.length > 0) {
+        compsHtml = `
+          <div class="details-section">
+            <div class="details-label">Komponenten (${comps.length})</div>
+            <div class="components-grid">
+              ${comps.map(c => `
+                <div class="component-item">
+                  <span class="component-name">${esc(c.name)}</span>
+                  <span class="component-dot dot-${c.status || 'unknown'}" title="${m(c.status).label}"></span>
+                </div>`).join('')}
+            </div>
+          </div>`;
+      }
+
+      // Recent incidents section
       const incidents = p.recent_incidents || [];
       let incidentsHtml = '';
-      if (incidents.length === 0) {
-        incidentsHtml = '<p class="no-incidents">Keine aktuellen Meldungen im RSS-Feed.</p>';
+      if (incidents.length > 0) {
+        incidentsHtml = `
+          <div class="details-section">
+            <div class="details-label">Aktuelle Incidents (${incidents.length})</div>
+            <ul class="incident-list">
+              ${incidents.map(inc => `
+                <li class="incident-item">
+                  <div class="incident-header">
+                    <div class="incident-title-text">
+                      ${inc.link ? `<a href="${esc(inc.link)}" target="_blank" rel="noopener">${esc(inc.title)}</a>` : esc(inc.title)}
+                    </div>
+                    ${inc.date ? `<span class="incident-date">${fmt(inc.date)}</span>` : ''}
+                  </div>
+                  ${inc.body ? `<div class="incident-body">${esc(inc.body.substring(0, 300))}${inc.body.length > 300 ? '…' : ''}</div>` : ''}
+                </li>`).join('')}
+            </ul>
+          </div>`;
       } else {
-        incidentsHtml = '<ul class="incident-list">' + incidents.map(inc => `
-          <li class="incident-item">
-            <div class="incident-title">
-              ${inc.link ? `<a href="${inc.link}" target="_blank" rel="noopener">${inc.title || '(kein Titel)'}</a>` : `<span>${inc.title || '(kein Titel)'}</span>`}
-              ${inc.date ? `<span class="incident-date">${fmtDate(inc.date)}</span>` : ''}
-            </div>
-            ${inc.body ? `<div class="incident-body">${inc.body.substring(0, 280)}${inc.body.length > 280 ? '…' : ''}</div>` : ''}
-          </li>`).join('') + '</ul>';
+        incidentsHtml = `
+          <div class="details-section">
+            <div class="details-label">Aktuelle Incidents</div>
+            <p class="no-data">Keine aktiven Incidents gemeldet.</p>
+          </div>`;
       }
 
       card.innerHTML = `
-        <div class="card-topbar ${m.bar}"></div>
+        <div class="card-topbar ${pm.bar}"></div>
         <div class="card-main" onclick="this.closest('.provider-card').classList.toggle('open')">
           <div class="card-left">
             <div>
-              <div class="provider-name">${p.name}</div>
-              <div class="card-meta-inline">
-                <a href="${p.status_url}" target="_blank" rel="noopener">${p.status_url.replace('https://', '')}</a>
+              <div class="provider-name">${esc(p.name)}</div>
+              ${p.description ? `<div class="provider-desc">${esc(p.description)}</div>` : ''}
+              <div class="card-meta-url">
+                <a href="${esc(p.status_url)}" target="_blank" rel="noopener">${esc(p.status_url.replace('https://',''))}</a>
               </div>
             </div>
           </div>
           <div class="card-right">
-            <span class="checked-time">${p.checked_at ? fmtDate(p.checked_at) : ''}</span>
-            <span class="status-badge ${m.badge}">${m.label}</span>
+            <span class="checked-time">${p.checked_at ? fmt(p.checked_at) : ''}</span>
+            <span class="status-badge ${pm.badge}">${pm.label}</span>
             <span class="toggle-icon">▼</span>
           </div>
         </div>
+        ${alertHtml}
         <div class="card-details">
-          <div class="details-label">Letzte RSS-Einträge (${incidents.length})</div>
+          ${compsHtml}
           ${incidentsHtml}
         </div>`;
 
