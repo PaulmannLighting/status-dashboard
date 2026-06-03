@@ -1,37 +1,165 @@
 {
-  "updated_at": "2026-06-03T10:36:00.540Z",
+  "updated_at": "2026-06-03T11:20:55.691Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "rss_url": "https://www.githubstatus.com/history.rss",
       "status": "operational",
-      "checked_at": "2026-06-03T10:35:59.743Z",
-      "latest_incident": null
+      "checked_at": "2026-06-03T11:20:54.803Z",
+      "latest_incident": null,
+      "recent_incidents": [
+        {
+          "title": "Disruption with some GitHub services",
+          "body": "Jun 3, 06:46 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jun 3, 06:45 UTC Monitoring - The degradation has been mitigated. We are monitoring to ensure stability. Jun 3, 06:02 UTC Update - We are investigating reports of issues with service(s): Spark. We will continue to keep users updated on progress towards mitigation. Jun 3, 03:45 UTC Update - We are investigating reports of impacted performance for some GitHub services. --- Relevant stamps: dotcom Jun 3, 03:13 UTC Investigating - We are investigating reports of impacted performance for some GitHub services.",
+          "date": "Wed, 03 Jun 2026 06:46:59 +0000",
+          "link": "https://www.githubstatus.com/incidents/j240y90h4g0r"
+        },
+        {
+          "title": "Delays with Code Scanning and Billing",
+          "body": "Jun 2, 00:17 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jun 1, 21:59 UTC Update - We have identified the root cause and applied mitigations to address delays in billing updates and are continuing to see improvement in the processing rate. We will continue to monitor the progress and will provide an update in few hours. GitHub Enterprise Cloud with Data Residency is not impacted. Jun 1, 19:27 UTC Update - We are continuing to investigate delayed billing updates, on GitHub.com. We have applied additional mitigations are continuing to see signs of improvement, and are continuing to work to improve the processing rate. We will continue to keep users updated on progress towards mitigation. GitHub Enterprise Cloud with Data Residency is not impacted. Next update in 2 hours. Jun 1, 18:48 UTC Update - We are continuing to investigate delayed billing updates, on GitHub.com. We have applied additional mitigations and are seeing some more signs of improvement, and are continuing to work to improve the processing rate. We will continue to keep users updated on progress towards mitigation. GitHub Enterprise Cloud with Data Residency is not impacted. Jun 1, 17:28 UTC Update - We are continuing to investigate delayed billing updates, on GitHub.com. We have applied multiple mitigations and are seeing some signs of improvement, and are continuing to work to improve the processing rate. We will continue to keep users updated on progress towards mitigation. GitHub Enterprise Cloud with Data Residency is not impacted. Jun 1, 16:42 UTC Update - We are investigating reports of delayed billing updates, on GitHub.com. We are continuing to investigate delays in our job processing architecture. We are attempting to mitigate at the infrastructure level. Code scanning runs and notifications have recovered. We will continue to keep users updated on progress towards mitigation. GitHub Enterprise Cloud with Data Residency is not impacted. Jun 1, 15:43 UTC Update - We are investigating reports of delayed code scanning runs, billing updates, email and mobile push notifications. We are investigating delays in our job processing architecture. We will continue to keep users updated on progress towards mitigation. Jun 1, 15:17 UTC Update - We are investigating reports of delayed code scanning runs and delayed billing updates. We will continue to keep users updated on progress towards mitigation. Jun 1, 15:17 UTC Investigating - We are investigating reports of impacted performance for some GitHub services.",
+          "date": "Tue, 02 Jun 2026 00:17:58 +0000",
+          "link": "https://www.githubstatus.com/incidents/5wdgxw2rvbt3"
+        },
+        {
+          "title": "Disruption with OpenAI Models",
+          "body": "May 28, 20:41 UTC Resolved - On May 28th, 2026, between approximately 18:27 and 20:41 UTC, the GitHub Copilot service was degraded due to an issue with the Responses API of an upstream provider affecting the GPT-5.2, GPT-5.3-Codex, GPT-5.4, and GPT-5.5 models. Requests routed to these models via the Responses API returned elevated error rates, which also affected Copilot coding agent and Copilot code review. No other models were impacted. We mitigated the incident by shifting traffic away from the affected models while the upstream provider deployed a fix. GitHub is working to improve automated failover for the affected models and strengthen monitoring to prevent similar incidents in the future. May 28, 20:06 UTC Update - Open AI models are currently unavailable. We are shifting requests to other models to reduce impact. May 28, 19:40 UTC Update - We are investigating errors with Copilot requests using OpenAI models May 28, 19:20 UTC Update - Copilot is experiencing degraded performance. We are continuing to investigate. May 28, 19:01 UTC Investigating - We are investigating reports of impacted performance for some GitHub services.",
+          "date": "Thu, 28 May 2026 20:41:58 +0000",
+          "link": "https://www.githubstatus.com/incidents/rhqcgg8lg6mm"
+        },
+        {
+          "title": "Elevated error rates across multiple services",
+          "body": "May 28, 19:07 UTC Resolved - On May 28, 2026, between 19:07 UTC and 19:16 UTC, multiple GitHub services experienced elevated error rates. This was due to a change that was partially deployed to an authentication service, causing errors for dependent services including the web experience, REST API, Git operations, and GitHub Actions. At peak impact, 10% of GitHub Actions runs failed to queue or encountered errors while downloading actions. We mitigated the incident by rolling back the change. We are expanding test coverage and improving our deployment validation process to prevent recurrence of this issue in the future.",
+          "date": "Thu, 28 May 2026 19:07:00 +0000",
+          "link": "https://www.githubstatus.com/incidents/11n51rf8tf27"
+        },
+        {
+          "title": "Webhook APIs and UI Degraded",
+          "body": "May 28, 01:32 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. May 28, 01:27 UTC Monitoring - The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability. May 28, 01:13 UTC Investigating - We are investigating reports of degraded performance for Webhooks",
+          "date": "Thu, 28 May 2026 01:32:27 +0000",
+          "link": "https://www.githubstatus.com/incidents/f3kmjlk25vhd"
+        }
+      ]
     },
     {
       "name": "OpenAI",
       "status_url": "https://status.openai.com",
       "rss_url": "https://status.openai.com/history.rss",
       "status": "operational",
-      "checked_at": "2026-06-03T10:35:59.847Z",
-      "latest_incident": null
+      "checked_at": "2026-06-03T11:20:54.954Z",
+      "latest_incident": null,
+      "recent_incidents": [
+        {
+          "title": "Elevated error rates on Codex, ChatGPT and Responses API",
+          "body": "Status: Resolved All impacted services have now fully recovered. Affected components Codex Web (Operational) App (Operational) Login (Operational) Conversations (Operational) Responses (Operational)",
+          "date": "Wed, 03 Jun 2026 11:09:42 GMT",
+          "link": "https://status.openai.com//incidents/01KT5XJ5ATD6RMYP908WS69FVD"
+        },
+        {
+          "title": "Elevated errors for ChatGPT Pro",
+          "body": "Status: Resolved All impacted services have now fully recovered. Affected components Voice mode (Operational) Search (Operational) Image Generation (Operational) Agent (Operational) Deep Research (Operational) ChatGPT Atlas (Operational) Conversations (Operational) Compliance API (Operational) GPTs (Operational) Connectors/Apps (Operational) Login (Operational) File uploads (Operational)",
+          "date": "Wed, 03 Jun 2026 00:14:31 GMT",
+          "link": "https://status.openai.com//incidents/01KT5AMWGKRTMQW2BAHD70PC4X"
+        },
+        {
+          "title": "codex-gpt-image-2-does-not-exist-errors",
+          "body": "Status: Resolved All impacted services have now fully recovered. Affected components App (Operational) VS Code extension (Operational) Codex API (Operational) Codex Web (Operational) CLI (Operational)",
+          "date": "Wed, 03 Jun 2026 00:13:15 GMT",
+          "link": "https://status.openai.com//incidents/01KT5B2V94YX1T1M88BVQHB58J"
+        },
+        {
+          "title": "Guest users are experiencing elevated error rate when using ChatGPT conversations.",
+          "body": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
+          "date": "Tue, 02 Jun 2026 13:16:09 GMT",
+          "link": "https://status.openai.com//incidents/01KT43GBSRNH7HG9YE93GPNG63"
+        },
+        {
+          "title": "Decreased ChatGPT availability for Free users",
+          "body": "Status: Resolved The issue is resolved. Affected components Conversations (Operational)",
+          "date": "Mon, 01 Jun 2026 17:28:52 GMT",
+          "link": "https://status.openai.com//incidents/01KT204M76EYZYJX7WYG1B2QPH"
+        }
+      ]
     },
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "rss_url": "https://status.claude.com/history.rss",
       "status": "operational",
-      "checked_at": "2026-06-03T10:36:00.213Z",
-      "latest_incident": null
+      "checked_at": "2026-06-03T11:20:55.324Z",
+      "latest_incident": null,
+      "recent_incidents": [
+        {
+          "title": "Elevated errors on Opus 4.7",
+          "body": "Jun 3, 07:38 UTC Resolved - This incident has been resolved. Jun 3, 07:28 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 3, 07:10 UTC Investigating - We are currently investigating this issue.",
+          "date": "Wed, 03 Jun 2026 07:38:04 +0000",
+          "link": "https://status.claude.com/incidents/thp2kyjx60qn"
+        },
+        {
+          "title": "Issue affecting some Claude Code services",
+          "body": "Jun 3, 07:36 UTC Resolved - This incident has been resolved. Jun 3, 04:17 UTC Investigating - We have identified an issue which is resulting in some Claude Code services being degraded. As a result of this issue, users will see issues with Claude Code security reviews, code reviews, routines and some Claude Code web sessions. Our engineers are working to resolve these issues as soon as possible.",
+          "date": "Wed, 03 Jun 2026 07:36:48 +0000",
+          "link": "https://status.claude.com/incidents/0w1blp7cngrr"
+        },
+        {
+          "title": "Elevated errors on multiple models",
+          "body": "Jun 2, 11:49 UTC Resolved - This incident has been resolved. Jun 2, 10:42 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 2, 09:33 UTC Update - We are continuing to work on a fix for this issue. Jun 2, 06:39 UTC Identified - The issue has been identified and a fix is being implemented. Jun 2, 06:04 UTC Investigating - We are currently investigating this issue.",
+          "date": "Tue, 02 Jun 2026 11:49:06 +0000",
+          "link": "https://status.claude.com/incidents/zkr25thltwc9"
+        },
+        {
+          "title": "Degraded performance for Claude Sonnet 4.6",
+          "body": "Jun 1, 19:06 UTC Resolved - This issue has been resolved. Jun 1, 18:28 UTC Investigating - We are investigating elevated errors on requests to Claude Sonnet 4.6. We will provide an update as soon as possible.",
+          "date": "Mon, 01 Jun 2026 19:06:53 +0000",
+          "link": "https://status.claude.com/incidents/vxp8fdrckj7q"
+        },
+        {
+          "title": "Elevated errors on Claude Sonnet 4.6",
+          "body": "Jun 1, 15:41 UTC Resolved - This incident has been resolved. Jun 1, 15:21 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 1, 14:40 UTC Identified - The issue has been identified and a fix is being implemented.",
+          "date": "Mon, 01 Jun 2026 15:41:10 +0000",
+          "link": "https://status.claude.com/incidents/8p6f4r16xxmp"
+        }
+      ]
     },
     {
       "name": "Bunny.net",
       "status_url": "https://status.bunny.net",
       "rss_url": "https://status.bunny.net/history.rss",
       "status": "operational",
-      "checked_at": "2026-06-03T10:36:00.534Z",
-      "latest_incident": null
+      "checked_at": "2026-06-03T11:20:55.686Z",
+      "latest_incident": null,
+      "recent_incidents": [
+        {
+          "title": "Lets Encrypt SSL API Errors",
+          "body": "Jun 3, 09:02 UTC Identified - We have identified an issue on free cert issuance and renewals for custom CDN domains. We have observed a delay from Lets Encrypt API endpoint causing these delays. Existing certificates on custom domains will continue to function as normal - however new and cert renewals via our free certificate option may experience a delay to the certificate issuance.",
+          "date": "Wed, 03 Jun 2026 09:02:51 +0000",
+          "link": "https://status.bunny.net/incidents/nf91yqq773bf"
+        },
+        {
+          "title": "Investigating Issues with Magic Containers and Databases",
+          "body": "Jun 1, 20:18 UTC Resolved - This incident has been resolved. Jun 1, 17:24 UTC Monitoring - Service has been restored and affected systems are operating normally. We are continuing to monitor the platform closely to confirm stability and ensure there are no remaining impacts. Jun 1, 16:02 UTC Investigating - We are currently investigating an issue affecting Magic Containers and Databases. Our engineering team is actively working to identify the cause and restore normal service. Further updates will be provided as they become available.",
+          "date": "Mon, 01 Jun 2026 20:18:45 +0000",
+          "link": "https://status.bunny.net/incidents/y85jlsdtllc4"
+        },
+        {
+          "title": "Stream Service Degradation",
+          "body": "Jun 1, 20:17 UTC Resolved - This incident has been resolved. Jun 1, 17:18 UTC Monitoring - We are seeing normal processing resume for newly submitted video uploads and transcoding jobs. Some videos that entered processing during the incident may remain delayed. Our team is actively reviewing and working through the remaining affected jobs while continuing to monitor the service. Further updates will be provided as they become available. Jun 1, 16:19 UTC Investigating - We are currently investigating a service degradation affecting Stream. Users may experience delays with video uploads, video fetching operations, and transcoding jobs. Playback, delivery, and management of existing videos are not affected and continue to operate normally. Our engineering team is actively working to identify the cause and restore full service. Further updates will be provided as they become available.",
+          "date": "Mon, 01 Jun 2026 20:17:27 +0000",
+          "link": "https://status.bunny.net/incidents/bvxg86vmmpfc"
+        },
+        {
+          "title": "Increased Optimizer Errors",
+          "body": "Jun 1, 10:38 UTC Resolved - This incident has been resolved. Jun 1, 07:24 UTC Investigating - We're currently investigating an issue causing the Optimizer to serve a number of 5XX errors. We're investigating this as a matter of priority and we will provide updates here as soon as we can.",
+          "date": "Mon, 01 Jun 2026 10:38:30 +0000",
+          "link": "https://status.bunny.net/incidents/72jyz6pzcytq"
+        },
+        {
+          "title": "CDN configuration sync delays",
+          "body": "May 27, 11:15 UTC Resolved - The fix has been deployed to all nodes. We will be readding the missing nodes to the pool today. May 26, 16:00 UTC Monitoring - A fix is being staged on a subset of affected nodes. Impacted nodes are since identifying the issue isolated from CDN traffic and only receiving test traffic. Further updates will be provided after testing concludes and deployment to all affected nodes is complete. May 26, 06:47 UTC Identified - We've been observing 25 to 30 nodes in various PoPs around the world exhibiting constant delays with syncing their configuration since yesterday evening. We've depooled all impacted nodes as a temporary workaround and working on a permanent fix.",
+          "date": "Wed, 27 May 2026 11:15:42 +0000",
+          "link": "https://status.bunny.net/incidents/87c8m8v8bhl8"
+        }
+      ]
     }
   ]
 }
