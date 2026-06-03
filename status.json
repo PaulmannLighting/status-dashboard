@@ -1,0 +1,185 @@
+{
+  "name": "Third-Party Status Dashboard",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [{ "field": "minutes", "minutesInterval": 5 }]
+        }
+      },
+      "name": "Every 5 Minutes",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [240, 300]
+    },
+    {
+      "parameters": { "url": "https://www.githubstatus.com/history.rss" },
+      "name": "RSS GitHub",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1.2,
+      "position": [480, 160]
+    },
+    {
+      "parameters": { "url": "https://status.openai.com/history.rss" },
+      "name": "RSS OpenAI",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1.2,
+      "position": [480, 300]
+    },
+    {
+      "parameters": { "url": "https://status.claude.com/history.rss" },
+      "name": "RSS Claude",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1.2,
+      "position": [480, 440]
+    },
+    {
+      "parameters": { "url": "https://status.bunny.net/history.rss" },
+      "name": "RSS Bunny.net",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1.2,
+      "position": [480, 580]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const items = $input.all(); if (!items || items.length === 0) { return [{ json: { name: 'GitHub', status_url: 'https://www.githubstatus.com', rss_url: 'https://www.githubstatus.com/history.rss', status: 'unknown', checked_at: new Date().toISOString(), latest_incident: null } }]; } const first = items[0].json; const title = (first.title || '').toLowerCase(); const snippet = (first.contentSnippet || first.content || '').toLowerCase(); let status = 'operational'; if (title.includes('outage') || snippet.includes('outage')) status = 'outage'; else if (title.includes('degraded') || title.includes('partial') || snippet.includes('degraded')) status = 'degraded'; else if (title.includes('maintenance') || snippet.includes('maintenance')) status = 'maintenance'; const isIncident = status !== 'operational'; return [{ json: { name: 'GitHub', status_url: 'https://www.githubstatus.com', rss_url: 'https://www.githubstatus.com/history.rss', status, checked_at: new Date().toISOString(), latest_incident: isIncident ? { title: first.title || '', body: first.contentSnippet || '' } : null } }];"
+      },
+      "name": "Parse GitHub Status",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [720, 160]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const items = $input.all(); if (!items || items.length === 0) { return [{ json: { name: 'OpenAI', status_url: 'https://status.openai.com', rss_url: 'https://status.openai.com/history.rss', status: 'unknown', checked_at: new Date().toISOString(), latest_incident: null } }]; } const first = items[0].json; const title = (first.title || '').toLowerCase(); const snippet = (first.contentSnippet || first.content || '').toLowerCase(); let status = 'operational'; if (title.includes('outage') || snippet.includes('outage')) status = 'outage'; else if (title.includes('degraded') || title.includes('partial') || snippet.includes('degraded')) status = 'degraded'; else if (title.includes('maintenance') || snippet.includes('maintenance')) status = 'maintenance'; const isIncident = status !== 'operational'; return [{ json: { name: 'OpenAI', status_url: 'https://status.openai.com', rss_url: 'https://status.openai.com/history.rss', status, checked_at: new Date().toISOString(), latest_incident: isIncident ? { title: first.title || '', body: first.contentSnippet || '' } : null } }];"
+      },
+      "name": "Parse OpenAI Status",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [720, 300]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const items = $input.all(); if (!items || items.length === 0) { return [{ json: { name: 'Anthropic (Claude)', status_url: 'https://status.claude.com', rss_url: 'https://status.claude.com/history.rss', status: 'unknown', checked_at: new Date().toISOString(), latest_incident: null } }]; } const first = items[0].json; const title = (first.title || '').toLowerCase(); const snippet = (first.contentSnippet || first.content || '').toLowerCase(); let status = 'operational'; if (title.includes('outage') || snippet.includes('outage')) status = 'outage'; else if (title.includes('degraded') || title.includes('partial') || snippet.includes('degraded')) status = 'degraded'; else if (title.includes('maintenance') || snippet.includes('maintenance')) status = 'maintenance'; const isIncident = status !== 'operational'; return [{ json: { name: 'Anthropic (Claude)', status_url: 'https://status.claude.com', rss_url: 'https://status.claude.com/history.rss', status, checked_at: new Date().toISOString(), latest_incident: isIncident ? { title: first.title || '', body: first.contentSnippet || '' } : null } }];"
+      },
+      "name": "Parse Claude Status",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [720, 440]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const items = $input.all(); if (!items || items.length === 0) { return [{ json: { name: 'Bunny.net', status_url: 'https://status.bunny.net', rss_url: 'https://status.bunny.net/history.rss', status: 'unknown', checked_at: new Date().toISOString(), latest_incident: null } }]; } const first = items[0].json; const title = (first.title || '').toLowerCase(); const snippet = (first.contentSnippet || first.content || '').toLowerCase(); let status = 'operational'; if (title.includes('outage') || snippet.includes('outage')) status = 'outage'; else if (title.includes('degraded') || title.includes('partial') || snippet.includes('degraded')) status = 'degraded'; else if (title.includes('maintenance') || snippet.includes('maintenance')) status = 'maintenance'; const isIncident = status !== 'operational'; return [{ json: { name: 'Bunny.net', status_url: 'https://status.bunny.net', rss_url: 'https://status.bunny.net/history.rss', status, checked_at: new Date().toISOString(), latest_incident: isIncident ? { title: first.title || '', body: first.contentSnippet || '' } : null } }];"
+      },
+      "name": "Parse Bunny.net Status",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [720, 580]
+    },
+    {
+      "parameters": {
+        "mode": "append",
+        "numberInputs": 4
+      },
+      "name": "Merge All Providers",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [960, 370]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const providers = $input.all().map(i => i.json); const payload = { updated_at: new Date().toISOString(), providers }; return [{ json: payload }];"
+      },
+      "name": "Build status.json",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1200, 370]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const item = $input.first().json; const content = JSON.stringify(item, null, 2); const encoded = Buffer.from(content).toString('base64'); return [{ json: { encoded_content: encoded } }];"
+      },
+      "name": "Encode for GitHub",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1440, 370]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.github.com/repos/PaulmannLicht/status-dashboard/contents/status.json",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Accept", "value": "application/vnd.github+json" },
+            { "name": "X-GitHub-Api-Version", "value": "2022-11-28" }
+          ]
+        }
+      },
+      "name": "Get File SHA from GitHub",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "onError": "continueRegularOutput",
+      "position": [1680, 370],
+      "credentials": {
+        "httpHeaderAuth": { "name": "GitHub API Token" }
+      }
+    },
+    {
+      "parameters": {
+        "method": "PUT",
+        "url": "https://api.github.com/repos/PaulmannLicht/status-dashboard/contents/status.json",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Accept", "value": "application/vnd.github+json" },
+            { "name": "Content-Type", "value": "application/json" },
+            { "name": "X-GitHub-Api-Version", "value": "2022-11-28" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ message: 'chore: update status.json ' + new Date().toISOString(), content: $('Encode for GitHub').item.json.encoded_content, sha: $('Get File SHA from GitHub').item.json.sha }) }}"
+      },
+      "name": "Push status.json to GitHub",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [1920, 370],
+      "credentials": {
+        "httpHeaderAuth": { "name": "GitHub API Token" }
+      }
+    }
+  ],
+  "connections": {
+    "Every 5 Minutes": {
+      "main": [[
+        { "node": "RSS GitHub", "type": "main", "index": 0 },
+        { "node": "RSS OpenAI", "type": "main", "index": 0 },
+        { "node": "RSS Claude", "type": "main", "index": 0 },
+        { "node": "RSS Bunny.net", "type": "main", "index": 0 }
+      ]]
+    },
+    "RSS GitHub":    { "main": [[{ "node": "Parse GitHub Status",   "type": "main", "index": 0 }]] },
+    "RSS OpenAI":    { "main": [[{ "node": "Parse OpenAI Status",   "type": "main", "index": 0 }]] },
+    "RSS Claude":    { "main": [[{ "node": "Parse Claude Status",   "type": "main", "index": 0 }]] },
+    "RSS Bunny.net": { "main": [[{ "node": "Parse Bunny.net Status","type": "main", "index": 0 }]] },
+    "Parse GitHub Status":    { "main": [[{ "node": "Merge All Providers", "type": "main", "index": 0 }]] },
+    "Parse OpenAI Status":    { "main": [[{ "node": "Merge All Providers", "type": "main", "index": 1 }]] },
+    "Parse Claude Status":    { "main": [[{ "node": "Merge All Providers", "type": "main", "index": 2 }]] },
+    "Parse Bunny.net Status": { "main": [[{ "node": "Merge All Providers", "type": "main", "index": 3 }]] },
+    "Merge All Providers": { "main": [[{ "node": "Build status.json",       "type": "main", "index": 0 }]] },
+    "Build status.json":   { "main": [[{ "node": "Encode for GitHub",       "type": "main", "index": 0 }]] },
+    "Encode for GitHub":   { "main": [[{ "node": "Get File SHA from GitHub","type": "main", "index": 0 }]] },
+    "Get File SHA from GitHub": { "main": [[{ "node": "Push status.json to GitHub", "type": "main", "index": 0 }]] }
+  }
+}
