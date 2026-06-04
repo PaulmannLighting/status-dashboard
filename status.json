@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-04T03:00:55.120Z",
+  "updated_at": "2026-06-04T03:10:55.241Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T03:00:55.114Z",
+      "checked_at": "2026-06-04T03:10:55.233Z",
       "latest_incident": {
         "title": "Disruption with some GitHub services",
         "body": "Job lag has recovered from a peak of 1.71 days to 9h 9m at 19:29 UTC and continues to decrease. Backlog is draining at a healthy rate with no signs of reversal. New jobs are processing on schedule. Remaining lag will continue to drain over the next few hours as queued work completes; this is expected post-incident catch-up, not active impact. We will continue monitoring and re-engage if lag trend reverses.",
@@ -113,7 +113,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-04T03:00:55.114Z",
+      "checked_at": "2026-06-04T03:10:55.233Z",
       "latest_incident": {
         "title": "Increased latency for Codex compaction",
         "body": "We have identified that users are experiencing elevated latency for the impacted services.\n\nWe are working on implementing a mitigation.",
@@ -272,7 +272,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T03:00:55.115Z",
+      "checked_at": "2026-06-04T03:10:55.234Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T03:00:55.115Z",
+      "checked_at": "2026-06-04T03:10:55.234Z",
       "latest_incident": null,
       "recent_incidents": [
         {
