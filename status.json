@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-06-04T04:10:53.714Z",
+  "updated_at": "2026-06-04T04:21:01.066Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T04:10:53.708Z",
-      "latest_incident": {
-        "title": "Disruption with some GitHub services",
-        "body": "Job lag has recovered from a peak of 1.71 days to 9h 9m at 19:29 UTC and continues to decrease. Backlog is draining at a healthy rate with no signs of reversal. New jobs are processing on schedule. Remaining lag will continue to drain over the next few hours as queued work completes; this is expected post-incident catch-up, not active impact. We will continue monitoring and re-engage if lag trend reverses.",
-        "date": "2026-06-04T02:37:07.094Z",
-        "link": "https://stspg.io/snw2bl07nss4",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-06-04T04:21:01.061Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Disruption with some GitHub services",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-06-04T04:11:59.625Z",
+          "link": "https://stspg.io/snw2bl07nss4",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Disruption with some GitHub services",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -47,14 +48,6 @@
           "link": "https://stspg.io/xjc52mryt9y0",
           "status": "resolved",
           "impact": "none"
-        },
-        {
-          "title": "Webhook APIs and UI Degraded",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
-          "date": "2026-05-28T01:32:27.735Z",
-          "link": "https://stspg.io/b3pmwnvwf3my",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -113,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-04T04:10:53.709Z",
+      "checked_at": "2026-06-04T04:21:01.061Z",
       "latest_incident": {
         "title": "Increased latency for Codex compaction for a subset of users",
         "body": "We have identified that users are experiencing elevated latency for the impacted services.\n\nWe are working on implementing a mitigation.",
@@ -272,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T04:10:53.709Z",
+      "checked_at": "2026-06-04T04:21:01.061Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -348,7 +341,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T04:10:53.709Z",
+      "checked_at": "2026-06-04T04:21:01.061Z",
       "latest_incident": null,
       "recent_incidents": [
         {
