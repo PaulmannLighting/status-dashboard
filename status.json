@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-04T11:40:55.501Z",
+  "updated_at": "2026-06-04T11:51:02.930Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:40:55.494Z",
+      "checked_at": "2026-06-04T11:51:02.922Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:40:55.494Z",
+      "checked_at": "2026-06-04T11:51:02.922Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:40:55.494Z",
+      "checked_at": "2026-06-04T11:51:02.922Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -334,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:40:55.495Z",
+      "checked_at": "2026-06-04T11:51:02.922Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -448,18 +448,19 @@
     {
       "name": "DigitalOcean",
       "status_url": "https://status.digitalocean.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:40:55.495Z",
-      "latest_incident": {
-        "title": "DNS API Service",
-        "body": "Our Engineering team has implemented a fix to resolve the issue impacting our DNS API service. Users should now be able to perform domain and DNS record management operations successfully through the Control Panel and API. Additionally, services affected by this issue, including Let's Encrypt certificate provisioning, MongoDB cluster creation, App Platform deployments, and DigitalOcean Kubernetes (DOKS) cluster create and delete operations, should now be functioning as expected.\n\nWe are monitoring the situation closely and will share an update once the issue is resolved completely.",
-        "date": "2026-06-04T11:39:16.578Z",
-        "link": "https://stspg.io/c9tgc3txntpg",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-06-04T11:51:02.923Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "DNS API Service",
+          "body": "Between 09:41 and 11:24 UTC, our Engineering team identified an issue impacting the DNS API service. During this period, users may have experienced issues performing domain and DNS record management operations through the Control Panel and API. Services dependent on DNS API operations, including Let's Encrypt certificate provisioning, MongoDB cluster creation, App Platform deployments, and DigitalOcean Kubernetes (DOKS) cluster create and delete operations, were also impacted.\n\nOur Engineering team has confirmed that the underlying issue affecting the DNS API service has been fully resolved, and all affected services are now operating normally.\n\nIf you continue to experience any issues, please contact our Support team by opening a ticket. We apologize for any inconvenience caused.",
+          "date": "2026-06-04T11:47:05.272Z",
+          "link": "https://stspg.io/c9tgc3txntpg",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "App Platform Deployments",
           "body": "Our Engineering team has confirmed that the issue impacting build failures on App Platform has been resolved at 07:00 am UTC. All App Platform builds are now succeeding as expected. Customers who previously encountered build failures should now be able to deploy their applications without further issues.\n\nIf you continue to experience any problems, please open a ticket with our support team. Thank you for your patience, and we apologize for any inconvenience.",
@@ -491,14 +492,6 @@
           "link": "https://stspg.io/1cr62wpw64kx",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Anthropic reported outage that's impacting access to their Serverless Inference models",
-          "body": "As of the current time, our Engineering team has confirmed that the issue with Serverless Inference has been resolved. The root cause of the issue was an outage with our provider, Anthropic, which affected users of Sonnet 4.6 and Opus 4.7 models. According to Anthropic's status page (https://status.claude.com/incidents/8z7l5zcy0v3b), they have resolved the outage. If you continue to experience problems, please open a ticket with our Support team. We apologize for any inconvenience this may have caused.",
-          "date": "2026-05-15T02:00:39.064Z",
-          "link": "https://stspg.io/d47rft5t1t68",
-          "status": "resolved",
-          "impact": "major"
         }
       ],
       "components": [
@@ -1353,7 +1346,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:40:55.495Z",
+      "checked_at": "2026-06-04T11:51:02.923Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1442,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:40:55.495Z",
+      "checked_at": "2026-06-04T11:51:02.923Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1554,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:40:55.495Z",
+      "checked_at": "2026-06-04T11:51:02.923Z",
       "latest_incident": null,
       "recent_incidents": [
         {
