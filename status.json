@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-06-04T19:50:55.392Z",
+  "updated_at": "2026-06-04T20:00:55.559Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "outage",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T19:50:55.385Z",
-      "latest_incident": {
-        "title": "Copilot Code Review Failing",
-        "body": "The mitigation for Copilot Code Review is now fully deployed, and new reviews are working as expected.  We are continuing to monitor for full resolution.<br /><br /> Customers may need to re-request Copilot Code Review. Copilot Code Review Actions runs running for longer than 20 minutes may be safely cancelled.",
-        "date": "2026-06-04T19:41:26.002Z",
-        "link": "https://stspg.io/jssh5k7mdbtp",
-        "status": "monitoring",
-        "impact": "critical"
-      },
+      "checked_at": "2026-06-04T20:00:55.552Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Copilot Code Review Failing",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-06-04T19:59:27.372Z",
+          "link": "https://stspg.io/jssh5k7mdbtp",
+          "status": "resolved",
+          "impact": "critical"
+        },
         {
           "title": "Disruption with some GitHub services",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -47,14 +48,6 @@
           "link": "https://stspg.io/d82bfd7406c6",
           "status": "resolved",
           "impact": "critical"
-        },
-        {
-          "title": "Elevated error rates across multiple services",
-          "body": "On May 28, 2026, between 19:07 UTC and 19:16 UTC, multiple GitHub services experienced elevated error rates. This was due to a change that was partially deployed to an authentication service, causing errors for dependent services including the web experience, REST API, Git operations, and GitHub Actions. At peak impact, 10% of GitHub Actions runs failed to queue or encountered errors while downloading actions. We mitigated the incident by rolling back the change. \n\nWe are expanding test coverage and improving our deployment validation process to prevent recurrence of this issue in the future.",
-          "date": "2026-05-28T19:07:00.000Z",
-          "link": "https://stspg.io/xjc52mryt9y0",
-          "status": "resolved",
-          "impact": "none"
         }
       ],
       "components": [
@@ -111,18 +104,19 @@
     {
       "name": "OpenAI",
       "status_url": "https://status.openai.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T19:50:55.385Z",
-      "latest_incident": {
-        "title": "Image API requests failing with 401s",
-        "body": "We have applied the mitigation and are monitoring the recovery.",
-        "date": "2026-06-04T19:36:45Z",
-        "link": "",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-06-04T20:00:55.552Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Image API requests failing with 401s",
+          "body": "All impacted services have now fully recovered.",
+          "date": "2026-06-04T19:52:18Z",
+          "link": "",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Increased latency for Codex compaction for a subset of users",
           "body": "All impacted services have now fully recovered.",
@@ -151,14 +145,6 @@
           "title": "codex-gpt-image-2-does-not-exist-errors",
           "body": "",
           "date": "2026-06-03T00:13:15Z",
-          "link": "",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Guest users are experiencing elevated error rate when using ChatGPT conversations.",
-          "body": "",
-          "date": "2026-06-02T13:16:09Z",
           "link": "",
           "status": "resolved",
           "impact": "minor"
@@ -272,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T19:50:55.386Z",
+      "checked_at": "2026-06-04T20:00:55.553Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -348,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T19:50:55.386Z",
+      "checked_at": "2026-06-04T20:00:55.553Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +450,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T19:50:55.386Z",
+      "checked_at": "2026-06-04T20:00:55.553Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1346,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T19:50:55.386Z",
+      "checked_at": "2026-06-04T20:00:55.553Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1442,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T19:50:55.386Z",
+      "checked_at": "2026-06-04T20:00:55.553Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1554,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T19:50:55.386Z",
+      "checked_at": "2026-06-04T20:00:55.553Z",
       "latest_incident": null,
       "recent_incidents": [
         {
