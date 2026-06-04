@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-04T11:30:55.497Z",
+  "updated_at": "2026-06-04T11:40:55.501Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:30:55.490Z",
+      "checked_at": "2026-06-04T11:40:55.494Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:30:55.491Z",
+      "checked_at": "2026-06-04T11:40:55.494Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:30:55.491Z",
+      "checked_at": "2026-06-04T11:40:55.494Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -334,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:30:55.491Z",
+      "checked_at": "2026-06-04T11:40:55.495Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -449,14 +449,14 @@
       "name": "DigitalOcean",
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-06-04T11:30:55.491Z",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-04T11:40:55.495Z",
       "latest_incident": {
         "title": "DNS API Service",
-        "body": "Our Engineering team continues to investigate an issue impacting our DNS API service. During this time, users may experience issues performing domain and DNS record management operations from the Control Panel and API, including creating, updating, or deleting DNS records. As a result, services that depend on DNS API operations, including Let's Encrypt certificate provisioning, MongoDB cluster creation, App Platform deployments, and DigitalOcean Kubernetes (DOKS) cluster create and delete operations, may also be impacted.\n\nWe apologize for the inconvenience and will share more information as it becomes available.",
-        "date": "2026-06-04T10:59:17.422Z",
+        "body": "Our Engineering team has implemented a fix to resolve the issue impacting our DNS API service. Users should now be able to perform domain and DNS record management operations successfully through the Control Panel and API. Additionally, services affected by this issue, including Let's Encrypt certificate provisioning, MongoDB cluster creation, App Platform deployments, and DigitalOcean Kubernetes (DOKS) cluster create and delete operations, should now be functioning as expected.\n\nWe are monitoring the situation closely and will share an update once the issue is resolved completely.",
+        "date": "2026-06-04T11:39:16.578Z",
         "link": "https://stspg.io/c9tgc3txntpg",
-        "status": "investigating",
+        "status": "monitoring",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -516,7 +516,15 @@
         },
         {
           "name": "Global",
-          "status": "degraded"
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
         },
         {
           "name": "Global",
@@ -532,19 +540,11 @@
         },
         {
           "name": "Global",
-          "status": "degraded"
-        },
-        {
-          "name": "Global",
           "status": "operational"
         },
         {
           "name": "Global",
           "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "degraded"
         },
         {
           "name": "Global",
@@ -956,7 +956,7 @@
         },
         {
           "name": "DNS",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "New York",
@@ -1353,7 +1353,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:30:55.491Z",
+      "checked_at": "2026-06-04T11:40:55.495Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:30:55.492Z",
+      "checked_at": "2026-06-04T11:40:55.495Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:30:55.492Z",
+      "checked_at": "2026-06-04T11:40:55.495Z",
       "latest_incident": null,
       "recent_incidents": [
         {
