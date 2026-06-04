@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-06-04T20:30:55.443Z",
+  "updated_at": "2026-06-04T20:40:55.478Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "outage",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:30:55.434Z",
-      "latest_incident": {
-        "title": "Live updates degraded",
-        "body": "We are investigating reports of impacted performance for some GitHub services.",
-        "date": "2026-06-04T20:20:39.619Z",
-        "link": "https://stspg.io/24nnqdyq32nm",
-        "status": "investigating",
-        "impact": "critical"
-      },
+      "checked_at": "2026-06-04T20:40:55.471Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Live updates degraded",
+          "body": "Everything is operating normally.",
+          "date": "2026-06-04T20:32:07.115Z",
+          "link": "https://stspg.io/24nnqdyq32nm",
+          "status": "resolved",
+          "impact": "critical"
+        },
         {
           "title": "Copilot Code Review Failing",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -47,14 +48,6 @@
           "link": "https://stspg.io/ct11xsjs29k7",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Disruption with OpenAI Models",
-          "body": "On May 28th, 2026, between approximately 18:27 and 20:41 UTC, the GitHub Copilot service was degraded due to an issue with the Responses API of an upstream provider affecting the GPT-5.2, GPT-5.3-Codex, GPT-5.4, and GPT-5.5 models. Requests routed to these models via the Responses API returned elevated error rates, which also affected Copilot coding agent and Copilot code review. No other models were impacted. <br /><br />We mitigated the incident by shifting traffic away from the affected models while the upstream provider deployed a fix. <br /><br />GitHub is working to improve automated failover for the affected models and strengthen monitoring to prevent similar incidents in the future.",
-          "date": "2026-05-28T20:41:58.586Z",
-          "link": "https://stspg.io/d82bfd7406c6",
-          "status": "resolved",
-          "impact": "critical"
         }
       ],
       "components": [
@@ -113,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:30:55.434Z",
+      "checked_at": "2026-06-04T20:40:55.471Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -265,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:30:55.435Z",
+      "checked_at": "2026-06-04T20:40:55.471Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -341,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:30:55.435Z",
+      "checked_at": "2026-06-04T20:40:55.471Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -457,7 +450,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:30:55.436Z",
+      "checked_at": "2026-06-04T20:40:55.472Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1353,7 +1346,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:30:55.436Z",
+      "checked_at": "2026-06-04T20:40:55.472Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1442,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:30:55.436Z",
+      "checked_at": "2026-06-04T20:40:55.472Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1554,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:30:55.436Z",
+      "checked_at": "2026-06-04T20:40:55.472Z",
       "latest_incident": null,
       "recent_incidents": [
         {
