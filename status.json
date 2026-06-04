@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-04T11:18:18.689Z",
+  "updated_at": "2026-06-04T11:20:25.874Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:18:18.670Z",
+      "checked_at": "2026-06-04T11:20:25.855Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:18:18.670Z",
+      "checked_at": "2026-06-04T11:20:25.855Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:18:18.670Z",
+      "checked_at": "2026-06-04T11:20:25.855Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -334,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:18:18.670Z",
+      "checked_at": "2026-06-04T11:20:25.855Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -450,7 +450,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-06-04T11:18:18.671Z",
+      "checked_at": "2026-06-04T11:20:25.856Z",
       "latest_incident": {
         "title": "DNS API Service",
         "body": "Our Engineering team continues to investigate an issue impacting our DNS API service. During this time, users may experience issues performing domain and DNS record management operations from the Control Panel and API, including creating, updating, or deleting DNS records. As a result, services that depend on DNS API operations, including Let's Encrypt certificate provisioning, MongoDB cluster creation, App Platform deployments, and DigitalOcean Kubernetes (DOKS) cluster create and delete operations, may also be impacted.\n\nWe apologize for the inconvenience and will share more information as it becomes available.",
@@ -1350,10 +1350,10 @@
     },
     {
       "name": "Atlassian - JIRA",
-      "status_url": "https://jira-software.status.atlassian.com/",
+      "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:18:18.671Z",
+      "checked_at": "2026-06-04T11:20:25.856Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1440,6 +1440,290 @@
         },
         {
           "name": "Automation for Jira",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "name": "Atlassian - Confluence",
+      "status_url": "https://confluence.status.atlassian.com",
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-04T11:20:25.856Z",
+      "latest_incident": null,
+      "recent_incidents": [
+        {
+          "title": "Users facing errors when attempting to view Calendars in Confluence",
+          "body": "Between 00:50 UTC and 07:30 UTC on 27 May 2026, some users were facing errors when attempting to view Calendars in Confluence. Our engineering team identified and resolved the underlying issue, and this incident has been fully restored.",
+          "date": "2026-05-27T07:48:49.273Z",
+          "link": "https://stspg.io/1jdhk42rgq80",
+          "status": "resolved",
+          "impact": "major"
+        },
+        {
+          "title": "Some macros failing to load in the Confluence Cloud editor",
+          "body": "Between 08:30 UTC and 13:51 UTC on 26 May 2026, some users were unable to load or edit certain macros in the Confluence Cloud page editor. Our engineering team identified and resolved the underlying issue, and macro functionality has been fully restored.",
+          "date": "2026-05-26T13:55:52.365Z",
+          "link": "https://stspg.io/qcp0sf1kjc3w",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Users experiencing issues accessing multiple Atlassian products",
+          "body": "### Summary\n\nOn May 14, 2026, between 04:30 and 05:26 UTC, Atlassian customers experienced widespread service disruption across multiple Atlassian Cloud products. The issue was caused by a race condition in our internal deployment orchestration platform during a routine rollback operation of a core identity service in the us-east region. This race condition resulted in insufficient capacity for the identity service in the affected region which started returning errors to dependent products. The incident was detected within a minute by automated monitoring systems and mitigated in 56 minutes.\n\n### **IMPACT**\n\nDuring the incident, customers attempting to access Atlassian Cloud products in the us-east region experienced authentication and permission failures and were unable to access services. Customers also experienced errors when accessing the support portal until Atlassian fell back to an alternate support method. This was caused by a core identity service in the us-east region becoming unavailable. Affected products included Atlassian Administration, Atlassian Analytics, Bitbucket, Compass, Confluence, Jira, Jira Product Discovery, Jira Service Management and Trello. Some users outside us-east may have been affected in certain scenarios.\n\n### **ROOT CAUSE**\n\nThe incident was caused by a race condition in our internal deployment orchestration platform during a routine rollback operation of a core identity service in the us-east region. This race condition resulted in insufficient capacity for the identity service in the affected region which started returning errors to dependent products.\n\n### **REMEDIAL ACTIONS PLAN & NEXT STEPS**\n\nWe know that outages impact your productivity. Atlassian is prioritizing the following actions to help prevent similar incidents in future:\n\n* **Refine deployment orchestration safeguards**\n\n    * Harden our deployment platform to prevent similar race conditions or resulting capacity loss during a rollback operation.\n    * Streamline mitigation steps when a service becomes unavailable in a region.\n    \n* **Reduce cross-region impact**\n\n    * Improve regional isolation and fallback handling so an issue affecting a single region is less likely to impact customers or product functionality in other regions.\n    \n\nWe recognise how critical reliable access to Atlassian products is for our customers' productivity, and we apologize to customers who were impacted by this incident.\n\nThanks,\n\nAtlassian",
+          "date": "2026-05-19T19:04:43.345Z",
+          "link": "https://stspg.io/v8nbtv6h3xwr",
+          "status": "postmortem",
+          "impact": "critical"
+        },
+        {
+          "title": "Multiple Atlassian services are experiencing issues",
+          "body": "All dates and times below are in UTC unless stated otherwise.\n\n### Summary\n\nOn May 8, 2026 between 00:22 and 06:08, one of our hosting providers suffered a significant incident in a specific availability zone in prod-east which led to Atlassian customers experiencing degraded performance and delays of background operations and automation execution.\n\nThe incident started on May 8, 2026 at 00:22 and was detected within 4 minutes by automated monitoring systems. Our teams worked to restore core access by 06:08. Final cleanup of backlogged processes and minor issues progressed in stages from there was completed iteratively by 19:15.\n\n### **IMPACT**\n\nThe primary infrastructure affected in this incident was the event processing pipeline in the prod-east region, which distributes events between Atlassian services and underpins background operations such as automation execution, search indexing, notifications, permission synchronisation.\n\n* Between 00:22 and 06:08, an infrastructure incident in our hosting provider triggered an ingestion failure in our event processing pipeline.\n* At 02:50, event ingestion was failed over to an unaffected availability zone, progressively restoring live event flows.\n* At 06:08, reliability for new ingestion in prod-east recovered to 100%. The remaining work was to drain the accumulated cross-region backlog of messages, which completed by 17:00.\n* By 18:48, Automation had processed their backlog of events that were created while processing\n\n**Automation**\n\nBetween 00:22 and 02:50, customers with automation rules triggered by events originating from the prod-east region experienced a significant reduction in rule executions. During this window, event-triggered automation rules were not firing because the events that trigger them were not being delivered. Rule authoring, saving, and rules triggered manually, by schedules, or by webhooks were not affected.\n\nAt 02:50, the event processing infrastructure failed over to an unaffected availability zone, restoring delivery of live events to Automation and allowing new event-triggered rules to begin executing normally. However, events generated during the impact window still needed to be replayed before delayed automations could be processed.\n\nBeginning at 08:28, upstream services replayed their queued events in a coordinated sequence, and all replayed events were processed by 18:48. During the replay window, customers may have experienced automation rules executing later than expected, a small number of rules reaching daily processing limits due to compressed replay, and time-sensitive rules not completing as expected if internal timeout thresholds were exceeded.\n\n**Jira and Jira Service Management**\n\nBetween 00:22 and 02:50, customers with tenants hosted in the prod-east region experienced disruption to Jira and Jira Service Management event-driven features like automation, along with a short period of elevated errors during infrastructure failover. Core Jira experiences, including issue view, boards, and project navigation, remained available throughout the incident.\n\nJira event delivery was affected by the primary impact, preventing downstream services from receiving issue lifecycle events. This affected automation rules triggered by Jira events, AI agent orchestration in Jira, notifications for issue updates and transitions, search indexing for newly created or modified issues, and event-driven integrations between Jira and other Atlassian products.\n\nAt 02:50, the event processing infrastructure failed over to an unaffected availability zone, restoring delivery of new events. All events generated during the impact window were retained in a recovery queue and required replaying. This began at 08:28 and completed at 12:00. During the replay window, customers may have experienced automation rules executing later than expected, delayed notifications arriving hours after the triggering action, temporary gaps in search results for content created or modified during the impact window, and AI agent workflows not completing as expected where internal timeout thresholds were exceeded.\n\n**Confluence**\n\nBetween 00:22 and 02:50, customers with tenants hosted in the prod-east region experienced disruptions to event-driven services in Confluence. This resulted in delays to search indexing, notifications, automation rule execution, and permission synchronisation.\n\nThe underlying event processing infrastructure failed over to an unaffected availability zone, after which live Confluence operations resumed normally. However, events generated during the impact window were queued for replay, and some background services remained delayed until that replay and related validation work completed.\n\nBetween 10:14 and 17:00, a bulk replay of all the queued tenant replay tasks was completed to restore data consistency. During and immediately after the replay window, customers may have experienced search results not reflecting content created or modified during the outage, delayed or missing notifications for page and comment activity, automation rules firing later than expected, and brief delays in permission synchronisation for tenants relying on incremental identity sync.\n\n**Bitbucket and Pipelines**\n\nBetween 00:22 and 06:08, customers using Bitbucket and Pipelines experienced failures and degraded functionality across event-driven workflows. Core Git operations, including push, pull, and clone, were not affected and continued to operate normally throughout the incident.\n\nAutomatic pipeline triggers initiated by push or pull request events were unavailable during the impact window. Merge queues, custom merge checks, Forge-based triggers, workspace permission changes, and some workspace provisioning flows were also affected. Customers using merge queues were unable to merge pull requests, and some pipeline steps failed because queued work contributed to elevated concurrency limits.\n\nAt approximately 03:57, Pipelines was reconfigured to consume events through an alternative path, restoring automatic pipeline triggering. Merge queues, custom merge checks, Forge triggers, and other affected workflows were progressively restored as the underlying event processing infrastructure recovered. All Bitbucket and Pipelines services were confirmed fully operational by 06:08. After recovery, queued events were reviewed and replayed where safe to restore data consistency for billing, audit logging, and other background processes.\n\n**Identity Services**\n\nBetween 00:22 and 02:50, customers with tenants hosted in the prod-east region experienced delays in the propagation of identity and group membership changes to downstream Atlassian products. Core identity operations, including authentication, login, and direct group management actions, were not affected and continued to function normally throughout the incident.\n\nThe impact was limited to asynchronous, event-driven operations that depend on the event processing pipeline. This included delays in delivering group membership and user profile changes to products such as Jira and Confluence, which affected downstream permission synchronisation and crowd sync flows. A small number of SCIM-based identity synchronisation and site provisioning workflows also experienced temporary delays.\n\nAfter the event processing infrastructure recovered, backed-up identity and group directory events were replayed where required, restoring downstream consistency for affected products. No identity data was lost. Group membership changes, user profile updates, and provisioning-related events that occurred during the impact window were retained and processed after recovery.\n\n### **REMEDIAL ACTIONS PLAN & NEXT STEPS**\n\nWe know outages impact your productivity. While our monitoring and recovery processes helped us respond quickly, this incident highlighted opportunities to further strengthen resilience for event-driven services.\n\nWe are prioritizing improvements that will:\n\n* **Enhance failover coverage** so critical event processing can recover more smoothly during infrastructure disruptions.\n* **Strengthen recovery handling** so replayed events can be processed more quickly.\n\nWe apologize to customers whose services were impacted during this incident; we are taking immediate steps to improve the platform’s performance and availability.\n\nThanks,\n\nAtlassian Customer Support.",
+          "date": "2026-05-20T06:55:50.889Z",
+          "link": "https://stspg.io/b4c619vvm2pl",
+          "status": "postmortem",
+          "impact": "minor"
+        },
+        {
+          "title": "Disrupted Rovo availability for Automation rules",
+          "body": "On April 14, 2026, affected users may have experienced some service disruption with automation rules that use Rovo agents. The issue has now been resolved, and the service is operating normally for all affected customers.",
+          "date": "2026-04-14T16:11:31.593Z",
+          "link": "https://stspg.io/2ypzgvkf46j6",
+          "status": "resolved",
+          "impact": "critical"
+        }
+      ],
+      "components": [
+        {
+          "name": "View Content",
+          "status": "operational"
+        },
+        {
+          "name": "iOS App",
+          "status": "operational"
+        },
+        {
+          "name": "Create and Edit",
+          "status": "operational"
+        },
+        {
+          "name": "Android App",
+          "status": "operational"
+        },
+        {
+          "name": "Comments",
+          "status": "operational"
+        },
+        {
+          "name": "Authentication and User Management",
+          "status": "operational"
+        },
+        {
+          "name": "Search",
+          "status": "operational"
+        },
+        {
+          "name": "Administration",
+          "status": "operational"
+        },
+        {
+          "name": "Notifications",
+          "status": "operational"
+        },
+        {
+          "name": "Marketplace Apps",
+          "status": "operational"
+        },
+        {
+          "name": "Purchasing & Licensing",
+          "status": "operational"
+        },
+        {
+          "name": "Signup",
+          "status": "operational"
+        },
+        {
+          "name": "Confluence Automations",
+          "status": "operational"
+        },
+        {
+          "name": "Cloud to Cloud Migrations - Copy Product Data",
+          "status": "operational"
+        },
+        {
+          "name": "Server to Cloud Migrations - Copy Product Data",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "name": "Asana",
+      "status_url": "https://status.asana.com",
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-04T11:20:25.856Z",
+      "latest_incident": null,
+      "recent_incidents": [
+        {
+          "title": "Date Time Trigger Automation Failues",
+          "body": "Starting on **April 20th, 2026 at 10:00 AM PDT**, a combination of scaled-up background action jobs in the EU and a recent change to how date time trigger volume is managed overloaded the system that processes resource intensive background action jobs. This caused multi-hour delays in email and inbox notifications in the EU and prevented date time triggers from executing in all regions. Engineers were first alerted on **April 21st** by our monitoring systems, but did not recognize the full scope of the incident until **April 23rd**. On April 23rd, the change to manage date time trigger volume was reverted and the problematic background action jobs were isolated. All delayed notifications were sent by **April 24th, 11:30 AM PDT**, and all delayed date time triggers were executed by **April 27th, 4:00 AM PDT**.",
+          "date": "2026-04-30T00:43:18.652Z",
+          "link": "https://stspg.io/1c3ys4pgz4sn",
+          "status": "postmortem",
+          "impact": "none"
+        },
+        {
+          "title": "Notifications and Background Actions delayed in EU",
+          "body": "Starting on **April 20th, 2026 at 10:00 AM PDT**, a combination of scaled-up background action jobs in the EU and a recent change to how date time trigger volume is managed overloaded the system that processes resource intensive background action jobs. This caused multi-hour delays in email and inbox notifications in the EU and prevented date time triggers from executing in all regions. Engineers were first alerted on **April 21st** by our monitoring systems, but did not recognize the full scope of the incident until **April 23rd**. On April 23rd, the change to manage date time trigger volume was reverted and the problematic background action jobs were isolated. All delayed notifications were sent by **April 24th, 11:30 AM PDT**, and all delayed date time triggers were executed by **April 27th, 4:00 AM PDT**.",
+          "date": "2026-04-30T00:43:02.458Z",
+          "link": "https://stspg.io/hssp9tkgwr4z",
+          "status": "postmortem",
+          "impact": "none"
+        },
+        {
+          "title": "Errors loading Asana",
+          "body": "This incident has been resolved.",
+          "date": "2026-03-26T18:34:04.027Z",
+          "link": "https://stspg.io/74xk62813f57",
+          "status": "resolved",
+          "impact": "none"
+        },
+        {
+          "title": "AWS UAE issues might affect the ME region",
+          "body": "This incident has been resolved.",
+          "date": "2026-03-15T05:58:54.480Z",
+          "link": "https://stspg.io/7j5m5fmps74c",
+          "status": "resolved",
+          "impact": "none"
+        },
+        {
+          "title": "API monitoring",
+          "body": "Our engineers have rolled back recent changes to our primary monitoring systems, and our API and mobile systems are fully operational.",
+          "date": "2026-02-05T23:58:30.402Z",
+          "link": "https://stspg.io/kvd1zkbcjk6y",
+          "status": "resolved",
+          "impact": "none"
+        }
+      ],
+      "components": [
+        {
+          "name": "App",
+          "status": "operational"
+        },
+        {
+          "name": "App",
+          "status": "operational"
+        },
+        {
+          "name": "App",
+          "status": "operational"
+        },
+        {
+          "name": "App",
+          "status": "operational"
+        },
+        {
+          "name": "App",
+          "status": "operational"
+        },
+        {
+          "name": "API",
+          "status": "operational"
+        },
+        {
+          "name": "API",
+          "status": "operational"
+        },
+        {
+          "name": "API",
+          "status": "operational"
+        },
+        {
+          "name": "API",
+          "status": "operational"
+        },
+        {
+          "name": "API",
+          "status": "operational"
+        },
+        {
+          "name": "Mobile",
+          "status": "operational"
+        },
+        {
+          "name": "Mobile",
+          "status": "operational"
+        },
+        {
+          "name": "Mobile",
+          "status": "operational"
+        },
+        {
+          "name": "Mobile",
+          "status": "operational"
+        },
+        {
+          "name": "Mobile",
+          "status": "operational"
+        },
+        {
+          "name": "Automations and Background Actions",
+          "status": "operational"
+        },
+        {
+          "name": "Automations and Background Actions",
+          "status": "operational"
+        },
+        {
+          "name": "Automations and Background Actions",
+          "status": "operational"
+        },
+        {
+          "name": "Automations and Background Actions",
+          "status": "operational"
+        },
+        {
+          "name": "Automations and Background Actions",
+          "status": "operational"
+        },
+        {
+          "name": "Webhooks and Event Streams",
+          "status": "operational"
+        },
+        {
+          "name": "Webhooks and Event Streams",
+          "status": "operational"
+        },
+        {
+          "name": "Webhooks and Event Streams",
+          "status": "operational"
+        },
+        {
+          "name": "Webhooks and Event Streams",
+          "status": "operational"
+        },
+        {
+          "name": "Webhooks and Event Streams",
+          "status": "operational"
+        },
+        {
+          "name": "Notifications",
+          "status": "operational"
+        },
+        {
+          "name": "Notifications",
+          "status": "operational"
+        },
+        {
+          "name": "Notifications",
+          "status": "operational"
+        },
+        {
+          "name": "Notifications",
+          "status": "operational"
+        },
+        {
+          "name": "Notifications",
           "status": "operational"
         }
       ]
