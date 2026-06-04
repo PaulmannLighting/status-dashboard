@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-04T04:30:55.157Z",
+  "updated_at": "2026-06-04T04:40:55.451Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T04:30:55.152Z",
+      "checked_at": "2026-06-04T04:40:55.446Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -104,18 +104,19 @@
     {
       "name": "OpenAI",
       "status_url": "https://status.openai.com",
-      "status": "degraded",
-      "description": "Partial System Degradation",
-      "checked_at": "2026-06-04T04:30:55.152Z",
-      "latest_incident": {
-        "title": "Increased latency for Codex compaction for a subset of users",
-        "body": "We have identified that users are experiencing elevated latency for the impacted services.\n\nWe are working on implementing a mitigation.",
-        "date": "2026-06-04T02:57:25Z",
-        "link": "",
-        "status": "identified",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-04T04:40:55.446Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Increased latency for Codex compaction for a subset of users",
+          "body": "All impacted services have now fully recovered.",
+          "date": "2026-06-04T04:37:16Z",
+          "link": "",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated error rates on Codex, ChatGPT and Responses API",
           "body": "",
@@ -147,14 +148,6 @@
           "link": "",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Decreased ChatGPT availability for Free users",
-          "body": "",
-          "date": "2026-06-01T17:28:52Z",
-          "link": "",
-          "status": "resolved",
-          "impact": "major"
         }
       ],
       "components": [
@@ -184,7 +177,7 @@
         },
         {
           "name": "CLI",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "FedRAMP",
@@ -220,7 +213,7 @@
         },
         {
           "name": "Codex API",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Deep Research",
@@ -244,7 +237,7 @@
         },
         {
           "name": "VS Code extension",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Voice mode",
@@ -265,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T04:30:55.152Z",
+      "checked_at": "2026-06-04T04:40:55.446Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -341,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T04:30:55.152Z",
+      "checked_at": "2026-06-04T04:40:55.446Z",
       "latest_incident": null,
       "recent_incidents": [
         {
