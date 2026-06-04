@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-04T11:00:55.160Z",
+  "updated_at": "2026-06-04T11:01:52.775Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:00:55.154Z",
+      "checked_at": "2026-06-04T11:01:52.764Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:00:55.155Z",
+      "checked_at": "2026-06-04T11:01:52.764Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:00:55.155Z",
+      "checked_at": "2026-06-04T11:01:52.764Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -334,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T11:00:55.155Z",
+      "checked_at": "2026-06-04T11:01:52.764Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -441,6 +441,909 @@
         },
         {
           "name": "CDN Logging",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "name": "DigitalOcean",
+      "status_url": "https://status.digitalocean.com",
+      "status": "degraded",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-06-04T11:01:52.765Z",
+      "latest_incident": {
+        "title": "DNS API Service",
+        "body": "Our Engineering team continues to investigate an issue impacting our DNS API service. During this time, users may experience issues performing domain and DNS record management operations from the Control Panel and API, including creating, updating, or deleting DNS records. As a result, services that depend on DNS API operations, including Let's Encrypt certificate provisioning, MongoDB cluster creation, App Platform deployments, and DigitalOcean Kubernetes (DOKS) cluster create and delete operations, may also be impacted.\n\nWe apologize for the inconvenience and will share more information as it becomes available.",
+        "date": "2026-06-04T10:59:17.422Z",
+        "link": "https://stspg.io/c9tgc3txntpg",
+        "status": "investigating",
+        "impact": "minor"
+      },
+      "recent_incidents": [
+        {
+          "title": "App Platform Deployments",
+          "body": "Our Engineering team has confirmed that the issue impacting build failures on App Platform has been resolved at 07:00 am UTC. All App Platform builds are now succeeding as expected. Customers who previously encountered build failures should now be able to deploy their applications without further issues.\n\nIf you continue to experience any problems, please open a ticket with our support team. Thank you for your patience, and we apologize for any inconvenience.",
+          "date": "2026-05-29T07:58:23.373Z",
+          "link": "https://stspg.io/c5cpdwx9rc37",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Cloud Firewall",
+          "body": "Between 06:35 UTC & 12:36 UTC today, our engineering team identified an issue impacting the Cloud Firewall. During this period, users might have encountered issues while updating their firewall rules.\n\nOur team has taken appropriate measures to address the issue. We can confirm that service has been restored and is now functioning normally.\n\nWe regret the inconvenience caused and appreciate your patience and understanding. However, if you continue to experience any issues, please create a support ticket for further analysis.",
+          "date": "2026-05-20T13:03:09.605Z",
+          "link": "https://stspg.io/5dzt41b39qvv",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Cloud Firewall",
+          "body": "Our Engineering team has verified that the issue causing incorrect Cloud Firewall rules to display on the cloud panel is fully resolved. The user interface continues to function as expected, and all systems have returned to normal operating conditions.\n\nIf you continue to experience problems, please open a ticket with our support team. Thank you for your patience throughout this incident.",
+          "date": "2026-05-20T07:48:14.980Z",
+          "link": "https://stspg.io/6y9xmwmgkyy4",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Block Storage Volume Performance",
+          "body": "From 00:00 UTC to 01:40 UTC, users may have experienced degraded write performance and intermittent impacts to workloads dependent on Block Storage Volumes in the NYC3 region.\n\nOur Engineering team has confirmed that the underlying infrastructure issue affecting Block Storage Volumes at the storage layer has been fully resolved, and services are now operating normally.\n\nIf you continue to experience any issues, please contact our Support team by opening a ticket. We apologize for any inconvenience caused.",
+          "date": "2026-05-20T05:13:50.000Z",
+          "link": "https://stspg.io/1cr62wpw64kx",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Anthropic reported outage that's impacting access to their Serverless Inference models",
+          "body": "As of the current time, our Engineering team has confirmed that the issue with Serverless Inference has been resolved. The root cause of the issue was an outage with our provider, Anthropic, which affected users of Sonnet 4.6 and Opus 4.7 models. According to Anthropic's status page (https://status.claude.com/incidents/8z7l5zcy0v3b), they have resolved the outage. If you continue to experience problems, please open a ticket with our Support team. We apologize for any inconvenience this may have caused.",
+          "date": "2026-05-15T02:00:39.064Z",
+          "link": "https://stspg.io/d47rft5t1t68",
+          "status": "resolved",
+          "impact": "major"
+        }
+      ],
+      "components": [
+        {
+          "name": "API",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "degraded"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "degraded"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "degraded"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Agent Runtime",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "Amsterdam",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "Billing",
+          "status": "operational"
+        },
+        {
+          "name": "AMS2",
+          "status": "operational"
+        },
+        {
+          "name": "AMS2",
+          "status": "operational"
+        },
+        {
+          "name": "AMS2",
+          "status": "operational"
+        },
+        {
+          "name": "AMS2",
+          "status": "operational"
+        },
+        {
+          "name": "AMS2",
+          "status": "operational"
+        },
+        {
+          "name": "AMS2",
+          "status": "operational"
+        },
+        {
+          "name": "AMS2",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "Inference",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "Atlanta",
+          "status": "operational"
+        },
+        {
+          "name": "BYOIP",
+          "status": "operational"
+        },
+        {
+          "name": "ADK",
+          "status": "operational"
+        },
+        {
+          "name": "Bangalore",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "Cloud Control Panel",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "Knowledge Bases",
+          "status": "operational"
+        },
+        {
+          "name": "Frankfurt",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "Cloud Firewall",
+          "status": "operational"
+        },
+        {
+          "name": "Guardrails",
+          "status": "operational"
+        },
+        {
+          "name": "London",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "Community",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "Model Services",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "DNS",
+          "status": "degraded"
+        },
+        {
+          "name": "New York",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "San Francisco",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "Support Center",
+          "status": "operational"
+        },
+        {
+          "name": "Singapore",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "Reserved IP",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "Sydney",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "WWW",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "Toronto",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "SFO1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "SFO1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "CSPM",
           "status": "operational"
         }
       ]
