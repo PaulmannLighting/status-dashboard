@@ -1,13 +1,20 @@
 {
-  "updated_at": "2026-06-04T20:10:55.739Z",
+  "updated_at": "2026-06-04T20:20:55.454Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "operational",
+      "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:10:55.731Z",
-      "latest_incident": null,
+      "checked_at": "2026-06-04T20:20:55.447Z",
+      "latest_incident": {
+        "title": "Live updates degraded",
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "date": "2026-06-04T20:20:39.619Z",
+        "link": "https://stspg.io/24nnqdyq32nm",
+        "status": "investigating",
+        "impact": "critical"
+      },
       "recent_incidents": [
         {
           "title": "Copilot Code Review Failing",
@@ -106,7 +113,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:10:55.731Z",
+      "checked_at": "2026-06-04T20:20:55.447Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:10:55.732Z",
+      "checked_at": "2026-06-04T20:20:55.447Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -334,7 +341,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:10:55.732Z",
+      "checked_at": "2026-06-04T20:20:55.448Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -450,7 +457,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:10:55.732Z",
+      "checked_at": "2026-06-04T20:20:55.448Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1346,7 +1353,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:10:55.732Z",
+      "checked_at": "2026-06-04T20:20:55.448Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1442,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:10:55.732Z",
+      "checked_at": "2026-06-04T20:20:55.448Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1554,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-04T20:10:55.732Z",
+      "checked_at": "2026-06-04T20:20:55.448Z",
       "latest_incident": null,
       "recent_incidents": [
         {
