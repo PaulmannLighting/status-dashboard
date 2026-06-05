@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-05T18:40:55.403Z",
+  "updated_at": "2026-06-05T18:50:55.348Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T18:40:55.390Z",
+      "checked_at": "2026-06-05T18:50:55.338Z",
       "latest_incident": {
         "title": "Accidentally deleted subscriptions for chat integrations (Slack and MS Teams)",
-        "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
-        "date": "2026-06-05T18:05:00.048Z",
+        "body": "We are still exploring options to restore the deleted subscriptions, and we will provide another update soon. In the meantime, customers can manually re-subscribe their Slack and Teams channels to repositories.",
+        "date": "2026-06-05T18:43:49.501Z",
         "link": "https://stspg.io/qzt7bjn4vt07",
         "status": "monitoring",
         "impact": "minor"
@@ -113,7 +113,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-05T18:40:55.391Z",
+      "checked_at": "2026-06-05T18:50:55.338Z",
       "latest_incident": {
         "title": "Voice mode availability impacted",
         "body": "We are investigating the issue for the listed services.",
@@ -272,7 +272,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T18:40:55.391Z",
+      "checked_at": "2026-06-05T18:50:55.339Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T18:40:55.391Z",
+      "checked_at": "2026-06-05T18:50:55.339Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T18:40:55.392Z",
+      "checked_at": "2026-06-05T18:50:55.340Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T18:40:55.392Z",
+      "checked_at": "2026-06-05T18:50:55.340Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T18:40:55.392Z",
+      "checked_at": "2026-06-05T18:50:55.340Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T18:40:55.393Z",
+      "checked_at": "2026-06-05T18:50:55.340Z",
       "latest_incident": null,
       "recent_incidents": [
         {
