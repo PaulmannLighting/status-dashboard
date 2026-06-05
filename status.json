@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-05T13:20:55.460Z",
+  "updated_at": "2026-06-05T13:30:55.722Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T13:20:55.453Z",
+      "checked_at": "2026-06-05T13:30:55.712Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -104,10 +104,17 @@
     {
       "name": "OpenAI",
       "status_url": "https://status.openai.com",
-      "status": "operational",
+      "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T13:20:55.454Z",
-      "latest_incident": null,
+      "checked_at": "2026-06-05T13:30:55.713Z",
+      "latest_incident": {
+        "title": "Some users may experience issues accessing ChatGPT and Codex",
+        "body": "We are investigating the issue for the listed services.",
+        "date": "2026-06-05T13:26:40Z",
+        "link": "",
+        "status": "investigating",
+        "impact": "none"
+      },
       "recent_incidents": [
         {
           "title": "Image API requests failing with 401s",
@@ -151,6 +158,10 @@
         }
       ],
       "components": [
+        {
+          "name": "Codex API",
+          "status": "operational"
+        },
         {
           "name": "Fine-tuning",
           "status": "operational"
@@ -208,10 +219,6 @@
           "status": "operational"
         },
         {
-          "name": "Codex API",
-          "status": "operational"
-        },
-        {
           "name": "Deep Research",
           "status": "operational"
         },
@@ -258,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T13:20:55.454Z",
+      "checked_at": "2026-06-05T13:30:55.713Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -334,7 +341,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T13:20:55.454Z",
+      "checked_at": "2026-06-05T13:30:55.713Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -450,7 +457,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T13:20:55.454Z",
+      "checked_at": "2026-06-05T13:30:55.714Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1346,7 +1353,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T13:20:55.454Z",
+      "checked_at": "2026-06-05T13:30:55.714Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1442,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T13:20:55.454Z",
+      "checked_at": "2026-06-05T13:30:55.714Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1554,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T13:20:55.455Z",
+      "checked_at": "2026-06-05T13:30:55.714Z",
       "latest_incident": null,
       "recent_incidents": [
         {
