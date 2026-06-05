@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-06-05T18:01:06.696Z",
+  "updated_at": "2026-06-05T18:10:55.444Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T18:01:06.688Z",
+      "checked_at": "2026-06-05T18:10:55.437Z",
       "latest_incident": {
         "title": "Disruption with some GitHub services",
-        "body": "Customers may see unexpected repo unsubscription events in their Slack or Teams channels.",
-        "date": "2026-06-05T17:25:44.973Z",
+        "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
+        "date": "2026-06-05T18:05:00.048Z",
         "link": "https://stspg.io/qzt7bjn4vt07",
-        "status": "investigating",
+        "status": "monitoring",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -113,13 +113,13 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-05T18:01:06.688Z",
+      "checked_at": "2026-06-05T18:10:55.437Z",
       "latest_incident": {
         "title": "Voice mode availability impacted",
-        "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
-        "date": "2026-06-05T17:59:06Z",
+        "body": "We are investigating the issue for the listed services.",
+        "date": "2026-06-05T18:04:50Z",
         "link": "",
-        "status": "identified",
+        "status": "investigating",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -272,7 +272,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T18:01:06.689Z",
+      "checked_at": "2026-06-05T18:10:55.437Z",
       "latest_incident": {
         "title": "Elevated errors on many Claude models",
         "body": "Success rates across all models have returned to expected levels. We are continuing to monitor closely to ensure no further issues will recur.",
@@ -355,7 +355,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T18:01:06.689Z",
+      "checked_at": "2026-06-05T18:10:55.438Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -471,7 +471,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T18:01:06.689Z",
+      "checked_at": "2026-06-05T18:10:55.438Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1367,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T18:01:06.689Z",
+      "checked_at": "2026-06-05T18:10:55.438Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1463,7 +1463,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T18:01:06.690Z",
+      "checked_at": "2026-06-05T18:10:55.438Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1575,7 +1575,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T18:01:06.690Z",
+      "checked_at": "2026-06-05T18:10:55.438Z",
       "latest_incident": null,
       "recent_incidents": [
         {
