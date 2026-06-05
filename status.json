@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-05T14:10:55.457Z",
+  "updated_at": "2026-06-05T14:20:55.681Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T14:10:55.445Z",
+      "checked_at": "2026-06-05T14:20:55.673Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -105,14 +105,14 @@
       "name": "OpenAI",
       "status_url": "https://status.openai.com",
       "status": "degraded",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-05T14:10:55.446Z",
+      "description": "Partial System Degradation",
+      "checked_at": "2026-06-05T14:20:55.674Z",
       "latest_incident": {
         "title": "Some users may experience issues accessing OpenAI accounts",
-        "body": "We are investigating the issue for the listed services.",
-        "date": "2026-06-05T13:26:40Z",
+        "body": "We have identified the issue impacting account access for some users, and we are working on a fix.",
+        "date": "2026-06-05T14:20:43Z",
         "link": "",
-        "status": "investigating",
+        "status": "identified",
         "impact": "none"
       },
       "recent_incidents": [
@@ -212,7 +212,7 @@
         },
         {
           "name": "Conversations",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Connectors/Apps",
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T14:10:55.446Z",
+      "checked_at": "2026-06-05T14:20:55.674Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -341,7 +341,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T14:10:55.446Z",
+      "checked_at": "2026-06-05T14:20:55.674Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -457,7 +457,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T14:10:55.447Z",
+      "checked_at": "2026-06-05T14:20:55.674Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1353,7 +1353,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T14:10:55.447Z",
+      "checked_at": "2026-06-05T14:20:55.674Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T14:10:55.447Z",
+      "checked_at": "2026-06-05T14:20:55.675Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T14:10:55.447Z",
+      "checked_at": "2026-06-05T14:20:55.675Z",
       "latest_incident": null,
       "recent_incidents": [
         {
