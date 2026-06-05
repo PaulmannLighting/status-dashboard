@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-05T15:40:55.529Z",
+  "updated_at": "2026-06-05T15:50:55.528Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T15:40:55.518Z",
+      "checked_at": "2026-06-05T15:50:55.504Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-05T15:40:55.519Z",
+      "checked_at": "2026-06-05T15:50:55.505Z",
       "latest_incident": {
         "title": "Users unable to sign in using Microsoft personal accounts",
         "body": "We have applied the mitigation and are monitoring the recovery.",
@@ -265,13 +265,13 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-05T15:40:55.519Z",
+      "checked_at": "2026-06-05T15:50:55.505Z",
       "latest_incident": {
         "title": "Elevated errors on many Claude models",
-        "body": "We are currently investigating this issue.",
-        "date": "2026-06-05T15:19:26.786Z",
+        "body": "We have identified the issue and we are working to mitigate the issue. Current ongoing issues with frontier models are with Opus 4.7 and Opus 4.8 and other models have recovered.",
+        "date": "2026-06-05T15:43:19.966Z",
         "link": "https://stspg.io/14frvys1dj2g",
-        "status": "investigating",
+        "status": "identified",
         "impact": "major"
       },
       "recent_incidents": [
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T15:40:55.519Z",
+      "checked_at": "2026-06-05T15:50:55.505Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T15:40:55.520Z",
+      "checked_at": "2026-06-05T15:50:55.506Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T15:40:55.521Z",
+      "checked_at": "2026-06-05T15:50:55.506Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T15:40:55.521Z",
+      "checked_at": "2026-06-05T15:50:55.506Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T15:40:55.521Z",
+      "checked_at": "2026-06-05T15:50:55.506Z",
       "latest_incident": null,
       "recent_incidents": [
         {
