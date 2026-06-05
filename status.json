@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-05T21:10:55.477Z",
+  "updated_at": "2026-06-05T21:20:55.602Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T21:10:55.469Z",
+      "checked_at": "2026-06-05T21:20:55.595Z",
       "latest_incident": {
         "title": "Auth issue resulting in API impacts, including some Slack and Teams channel subscriptions",
         "body": "Additional detail on the scope of impact during the 14:49 UTC to 16:45 UTC window: a small but elevated percentage of authenticated requests to GitHub.com received incorrect authorization failures. We saw a 1 to 2% increase in 4xx responses for a small number of endpoints (/repos/{owner}/{repo}/pulls/{pull_number}, /repos/{owner}/{repo}, /repos/{owner}/{repo}/contents/{path}). The vast majority of requests completed normally; customers who saw errors during the window can retry now and should see them succeed.",
@@ -113,11 +113,11 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T21:10:55.470Z",
+      "checked_at": "2026-06-05T21:20:55.595Z",
       "latest_incident": {
         "title": "Some users may experience issues accessing OpenAI accounts",
-        "body": "All users impacted should have received an email with more information. The team is monitoring for additional changes.",
-        "date": "2026-06-05T20:53:34Z",
+        "body": "The team is uncovering some additional impacted users and is still working through related subscription and credit impacts for affected users. Impacted users will be receiving an email shortly.",
+        "date": "2026-06-05T21:19:17Z",
         "link": "",
         "status": "monitoring",
         "impact": "none"
@@ -272,7 +272,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T21:10:55.470Z",
+      "checked_at": "2026-06-05T21:20:55.596Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T21:10:55.470Z",
+      "checked_at": "2026-06-05T21:20:55.596Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T21:10:55.470Z",
+      "checked_at": "2026-06-05T21:20:55.596Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T21:10:55.470Z",
+      "checked_at": "2026-06-05T21:20:55.596Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T21:10:55.470Z",
+      "checked_at": "2026-06-05T21:20:55.596Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T21:10:55.471Z",
+      "checked_at": "2026-06-05T21:20:55.597Z",
       "latest_incident": null,
       "recent_incidents": [
         {
