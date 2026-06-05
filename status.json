@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-05T17:20:55.407Z",
+  "updated_at": "2026-06-05T17:30:56.212Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T17:20:55.400Z",
+      "checked_at": "2026-06-05T17:30:56.202Z",
       "latest_incident": {
         "title": "Disruption with some GitHub services",
-        "body": "We are investigating reports of impacted performance for some GitHub services.",
-        "date": "2026-06-05T17:20:31.989Z",
+        "body": "Customers may see unexpected repo unsubscription events in their Slack or Teams channels.",
+        "date": "2026-06-05T17:25:44.973Z",
         "link": "https://stspg.io/qzt7bjn4vt07",
         "status": "investigating",
         "impact": "minor"
@@ -113,7 +113,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T17:20:55.400Z",
+      "checked_at": "2026-06-05T17:30:56.203Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T17:20:55.400Z",
+      "checked_at": "2026-06-05T17:30:56.203Z",
       "latest_incident": {
         "title": "Elevated errors on many Claude models",
         "body": "Success rates across all models have returned to expected levels. We are continuing to monitor closely to ensure no further issues will recur.",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T17:20:55.400Z",
+      "checked_at": "2026-06-05T17:30:56.203Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T17:20:55.401Z",
+      "checked_at": "2026-06-05T17:30:56.203Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T17:20:55.401Z",
+      "checked_at": "2026-06-05T17:30:56.204Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T17:20:55.401Z",
+      "checked_at": "2026-06-05T17:30:56.204Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-05T17:20:55.401Z",
+      "checked_at": "2026-06-05T17:30:56.204Z",
       "latest_incident": null,
       "recent_incidents": [
         {
