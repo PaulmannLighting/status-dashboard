@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-06T15:50:55.372Z",
+  "updated_at": "2026-06-06T16:00:55.451Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T15:50:55.363Z",
+      "checked_at": "2026-06-06T16:00:55.438Z",
       "latest_incident": {
-        "title": "Disruption with some GitHub services",
+        "title": "EU Network Maintenance",
         "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
         "date": "2026-06-06T15:36:41.176Z",
         "link": "https://stspg.io/tc4vhv29qs4c",
@@ -113,7 +113,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T15:50:55.363Z",
+      "checked_at": "2026-06-06T16:00:55.439Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T15:50:55.364Z",
+      "checked_at": "2026-06-06T16:00:55.439Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -341,7 +341,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T15:50:55.364Z",
+      "checked_at": "2026-06-06T16:00:55.440Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -457,7 +457,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T15:50:55.364Z",
+      "checked_at": "2026-06-06T16:00:55.440Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1353,7 +1353,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T15:50:55.365Z",
+      "checked_at": "2026-06-06T16:00:55.440Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T15:50:55.365Z",
+      "checked_at": "2026-06-06T16:00:55.441Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T15:50:55.365Z",
+      "checked_at": "2026-06-06T16:00:55.441Z",
       "latest_incident": null,
       "recent_incidents": [
         {
