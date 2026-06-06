@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-06T23:30:55.382Z",
+  "updated_at": "2026-06-06T23:40:55.532Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T23:30:55.375Z",
+      "checked_at": "2026-06-06T23:40:55.525Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T23:30:55.376Z",
+      "checked_at": "2026-06-06T23:40:55.525Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T23:30:55.376Z",
+      "checked_at": "2026-06-06T23:40:55.525Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -334,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T23:30:55.376Z",
+      "checked_at": "2026-06-06T23:40:55.526Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -450,7 +450,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T23:30:55.376Z",
+      "checked_at": "2026-06-06T23:40:55.526Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1345,8 +1345,8 @@
       "name": "Atlassian - JIRA",
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-06T23:30:55.377Z",
+      "description": "Minor Service Outage",
+      "checked_at": "2026-06-06T23:40:55.526Z",
       "latest_incident": {
         "title": "Users experiencing issues loading work items in Atlassian products",
         "body": "We are aware of users currently experiencing loading work items across Atlassian products in some regions. We are investigating with urgency and will provide update within one hour.",
@@ -1400,11 +1400,11 @@
       "components": [
         {
           "name": "Viewing content",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Create and edit",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Authentication and User Management",
@@ -1449,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T23:30:55.377Z",
+      "checked_at": "2026-06-06T23:40:55.526Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T23:30:55.377Z",
+      "checked_at": "2026-06-06T23:40:55.526Z",
       "latest_incident": null,
       "recent_incidents": [
         {
