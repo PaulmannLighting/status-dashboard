@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-06-06T18:40:55.389Z",
+  "updated_at": "2026-06-06T18:50:57.157Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T18:40:55.382Z",
-      "latest_incident": {
-        "title": "EU Network Maintenance",
-        "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
-        "date": "2026-06-06T15:36:41.176Z",
-        "link": "https://stspg.io/tc4vhv29qs4c",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-06-06T18:50:57.150Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "EU Network Maintenance",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-06-06T18:49:15.588Z",
+          "link": "https://stspg.io/tc4vhv29qs4c",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Disruption with some GitHub services in the EU region",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -47,14 +48,6 @@
           "link": "https://stspg.io/jssh5k7mdbtp",
           "status": "resolved",
           "impact": "critical"
-        },
-        {
-          "title": "Disruption with some GitHub services",
-          "body": "Between June 1, 2026, 23:00 UTC and June 4, 2026 04:11 UTC, customers experienced delays in Dependabot scheduled version updates.  <br /><br />Pull request creation for version updates was delayed, with delays increasing over time and reaching up to two days. Approximately 1.5 million repositories with active Dependabot version update configurations were affected. Dependabot security updates were not affected. The primary cause was changes to an internal platform service that routes requests for Dependabot and other services. <br /> <br />We mitigated the incident by deploying a fix that enables batch enqueuing of update jobs, which significantly increased processing throughput. Once the backlog was drained, Dependabot returned to normal processing times. <br /> <br />To reduce the risk of recurrence, we are working on tuning batch size and concurrency limits for Dependabot update job processing. We are also adding monitoring for job processing lag to enable earlier detection and faster mitigation of similar issues.",
-          "date": "2026-06-04T04:11:59.625Z",
-          "link": "https://stspg.io/snw2bl07nss4",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -113,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T18:40:55.382Z",
+      "checked_at": "2026-06-06T18:50:57.150Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -265,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-06-06T18:40:55.382Z",
+      "checked_at": "2026-06-06T18:50:57.150Z",
       "latest_incident": {
         "title": "Elevated errors on Claude Opus 4.8",
         "body": "We are experiencing elevated error rates on Claude Opus 4.8. Our team has identified the issue and is working to fully resolve these errors.",
@@ -348,7 +341,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T18:40:55.383Z",
+      "checked_at": "2026-06-06T18:50:57.150Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +457,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T18:40:55.383Z",
+      "checked_at": "2026-06-06T18:50:57.151Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1353,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T18:40:55.383Z",
+      "checked_at": "2026-06-06T18:50:57.151Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T18:40:55.383Z",
+      "checked_at": "2026-06-06T18:50:57.151Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-06T18:40:55.383Z",
+      "checked_at": "2026-06-06T18:50:57.151Z",
       "latest_incident": null,
       "recent_incidents": [
         {
