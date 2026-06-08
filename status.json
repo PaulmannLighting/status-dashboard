@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-08T08:10:55.462Z",
+  "updated_at": "2026-06-08T08:20:55.486Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-06-08T08:10:55.455Z",
+      "checked_at": "2026-06-08T08:20:55.478Z",
       "latest_incident": {
-        "title": "Disruption with some GitHub services",
-        "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
-        "date": "2026-06-08T07:32:28.125Z",
+        "title": "Pull Requests and Issues unavailable for signed-out users",
+        "body": "Following investigation, we are seeing that impact is limited to unauthenticated users when accessing Pull Requests or Issues. Our team continues to work towards mitigation with more updates to follow as we have them.",
+        "date": "2026-06-08T08:13:25.865Z",
         "link": "https://stspg.io/hvhc1m3z7sf9",
         "status": "investigating",
         "impact": "critical"
@@ -113,7 +113,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T08:10:55.456Z",
+      "checked_at": "2026-06-08T08:20:55.479Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T08:10:55.456Z",
+      "checked_at": "2026-06-08T08:20:55.479Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -341,7 +341,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T08:10:55.456Z",
+      "checked_at": "2026-06-08T08:20:55.479Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -457,7 +457,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T08:10:55.456Z",
+      "checked_at": "2026-06-08T08:20:55.479Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1353,7 +1353,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T08:10:55.456Z",
+      "checked_at": "2026-06-08T08:20:55.479Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T08:10:55.456Z",
+      "checked_at": "2026-06-08T08:20:55.479Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T08:10:55.457Z",
+      "checked_at": "2026-06-08T08:20:55.480Z",
       "latest_incident": null,
       "recent_incidents": [
         {
