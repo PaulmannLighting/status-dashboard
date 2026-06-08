@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-06-08T10:00:55.417Z",
+  "updated_at": "2026-06-08T10:10:55.468Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-06-08T10:00:55.409Z",
-      "latest_incident": {
-        "title": "Disruption with Claude Opus 4.7",
-        "body": "We are experiencing degraded availability for the Claude Opus 4.7 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue, and starting to see recovery.<br />",
-        "date": "2026-06-08T09:49:32.476Z",
-        "link": "https://stspg.io/6g6hjsmx2f2w",
-        "status": "investigating",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-08T10:10:55.461Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Disruption with Claude Opus 4.7",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-06-08T10:03:32.680Z",
+          "link": "https://stspg.io/6g6hjsmx2f2w",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Pull Requests and Issues unavailable for signed-out users",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -47,14 +48,6 @@
           "link": "https://stspg.io/qzt7bjn4vt07",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Live updates degraded",
-          "body": "Everything is operating normally.",
-          "date": "2026-06-04T20:32:07.115Z",
-          "link": "https://stspg.io/24nnqdyq32nm",
-          "status": "resolved",
-          "impact": "critical"
         }
       ],
       "components": [
@@ -104,7 +97,7 @@
         },
         {
           "name": "Copilot AI Model Providers",
-          "status": "degraded"
+          "status": "operational"
         }
       ]
     },
@@ -113,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T10:00:55.410Z",
+      "checked_at": "2026-06-08T10:10:55.461Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -265,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T10:00:55.410Z",
+      "checked_at": "2026-06-08T10:10:55.461Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -341,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T10:00:55.410Z",
+      "checked_at": "2026-06-08T10:10:55.461Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -457,7 +450,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T10:00:55.411Z",
+      "checked_at": "2026-06-08T10:10:55.462Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1353,7 +1346,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T10:00:55.411Z",
+      "checked_at": "2026-06-08T10:10:55.462Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1442,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T10:00:55.411Z",
+      "checked_at": "2026-06-08T10:10:55.462Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1554,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T10:00:55.411Z",
+      "checked_at": "2026-06-08T10:10:55.462Z",
       "latest_incident": null,
       "recent_incidents": [
         {
