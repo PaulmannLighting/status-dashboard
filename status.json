@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-08T22:20:55.561Z",
+  "updated_at": "2026-06-08T22:30:57.831Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T22:20:55.554Z",
+      "checked_at": "2026-06-08T22:30:57.822Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T22:20:55.554Z",
+      "checked_at": "2026-06-08T22:30:57.823Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -257,8 +257,8 @@
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "degraded",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-08T22:20:55.554Z",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-06-08T22:30:57.823Z",
       "latest_incident": {
         "title": "Elevated errors on Claude Opus 4.8",
         "body": "We are currently investigating this issue.",
@@ -312,11 +312,11 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Console (platform.claude.com)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude API (api.anthropic.com)",
@@ -324,11 +324,11 @@
         },
         {
           "name": "Claude Code",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Cowork",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude for Government",
@@ -341,7 +341,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T22:20:55.555Z",
+      "checked_at": "2026-06-08T22:30:57.823Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -457,7 +457,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T22:20:55.555Z",
+      "checked_at": "2026-06-08T22:30:57.823Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1353,7 +1353,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T22:20:55.555Z",
+      "checked_at": "2026-06-08T22:30:57.824Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T22:20:55.555Z",
+      "checked_at": "2026-06-08T22:30:57.824Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-08T22:20:55.555Z",
+      "checked_at": "2026-06-08T22:30:57.824Z",
       "latest_incident": null,
       "recent_incidents": [
         {
