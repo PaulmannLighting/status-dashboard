@@ -1,14 +1,22 @@
 {
-  "updated_at": "2026-06-09T15:40:55.802Z",
+  "updated_at": "2026-06-09T15:50:55.823Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T15:40:55.791Z",
+      "checked_at": "2026-06-09T15:50:55.816Z",
       "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Degraded availability for GitHub.com, GraphQL API, and Webhooks UI/API",
+          "body": "On June 8, 2026, between 14:49 and 14:54 UTC, a subset of requests to GitHub.com, the REST API, GraphQL API, and Webhooks UI/API experienced elevated error rates due to a transient infrastructure capacity issue that self-resolved within approximately 5 minutes.\n\nUsers experienced HTTP 500 errors and timeouts when accessing GitHub.com, the REST API, GraphQL API, and Webhooks UI/API for approximately 5 minutes, with the REST API taking up to 12 minutes to fully recover.",
+          "date": "2026-06-08T15:00:00.000Z",
+          "link": "https://stspg.io/0f8dp6dk9726",
+          "status": "resolved",
+          "impact": "none"
+        },
         {
           "title": "Disruption with Claude Opus 4.7",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -38,14 +46,6 @@
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
           "date": "2026-06-06T17:07:46.835Z",
           "link": "https://stspg.io/qy483vm80t46",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Auth issue resulting in API impacts, including some Slack and Teams channel subscriptions",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
-          "date": "2026-06-05T22:21:09.754Z",
-          "link": "https://stspg.io/qzt7bjn4vt07",
           "status": "resolved",
           "impact": "minor"
         }
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T15:40:55.792Z",
+      "checked_at": "2026-06-09T15:50:55.816Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T15:40:55.792Z",
+      "checked_at": "2026-06-09T15:50:55.817Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -334,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T15:40:55.792Z",
+      "checked_at": "2026-06-09T15:50:55.817Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -450,7 +450,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T15:40:55.793Z",
+      "checked_at": "2026-06-09T15:50:55.817Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1346,7 +1346,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T15:40:55.793Z",
+      "checked_at": "2026-06-09T15:50:55.817Z",
       "latest_incident": {
         "title": "Some users experiencing issues viewing boards and work items",
         "body": "Our team has been able to apply the fix and mitigate the issue. The services have been restored to normal operations.\n\nWe will continue to actively monitor over the next 8 hours to confirm stability.",
@@ -1449,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T15:40:55.793Z",
+      "checked_at": "2026-06-09T15:50:55.817Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T15:40:55.794Z",
+      "checked_at": "2026-06-09T15:50:55.818Z",
       "latest_incident": null,
       "recent_incidents": [
         {
