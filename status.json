@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-09T22:10:55.785Z",
+  "updated_at": "2026-06-09T22:20:56.682Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T22:10:55.778Z",
+      "checked_at": "2026-06-09T22:20:56.675Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T22:10:55.778Z",
+      "checked_at": "2026-06-09T22:20:56.676Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -256,18 +256,19 @@
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-06-09T22:10:55.778Z",
-      "latest_incident": {
-        "title": "Elevated errors on Claude Opus 4.6",
-        "body": "We are currently investigating this issue.",
-        "date": "2026-06-09T20:32:27.410Z",
-        "link": "https://stspg.io/l9wbh8vqh3k2",
-        "status": "investigating",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-09T22:20:56.676Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Elevated errors on Claude Opus 4.6",
+          "body": "From 1:20pm PT / 20:20 UTC through 2:05pm PT / 21:05 PT, we saw elevated errors on requests to Claude Opus 4.6. This issue has been resolved.",
+          "date": "2026-06-09T22:10:31.955Z",
+          "link": "https://stspg.io/l9wbh8vqh3k2",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Fable not available in the model picker in Claude Code Desktop",
           "body": "This issue has been resolved. If you are experiencing issues with selecting Claude Fable within the Claude Code Desktop application, please ensure you have updated to the latest version.",
@@ -299,20 +300,12 @@
           "link": "https://stspg.io/9ph775tb1mgl",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Elevated errors on Claude Haiku 4.5",
-          "body": "The incident is now resolved. The impact started at 11:35 PT / 18:35 UTC and ended at 12:30 PT / 19:30 UTC.",
-          "date": "2026-06-08T19:52:06.416Z",
-          "link": "https://stspg.io/1yggzs0zxvn4",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
         {
           "name": "claude.ai",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -320,15 +313,15 @@
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Code",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Cowork",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude for Government",
@@ -341,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T22:10:55.778Z",
+      "checked_at": "2026-06-09T22:20:56.676Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -457,7 +450,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T22:10:55.779Z",
+      "checked_at": "2026-06-09T22:20:56.676Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1353,7 +1346,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T22:10:55.779Z",
+      "checked_at": "2026-06-09T22:20:56.677Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1442,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T22:10:55.779Z",
+      "checked_at": "2026-06-09T22:20:56.677Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1554,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-09T22:10:55.779Z",
+      "checked_at": "2026-06-09T22:20:56.677Z",
       "latest_incident": null,
       "recent_incidents": [
         {
