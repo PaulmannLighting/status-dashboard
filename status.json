@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-10T15:40:55.338Z",
+  "updated_at": "2026-06-10T16:00:55.495Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-06-10T15:40:55.331Z",
+      "checked_at": "2026-06-10T16:00:55.483Z",
       "latest_incident": {
         "title": "Authentication issues related to API requests",
-        "body": "We are investigating issues related to sporadic authentication failures impacting approximately 15% of API traffic. We will continue to investigate and provide updates.",
-        "date": "2026-06-10T15:27:46.300Z",
+        "body": "The degradation affecting Issues has been mitigated. We are monitoring to ensure stability.",
+        "date": "2026-06-10T15:46:53.107Z",
         "link": "https://stspg.io/wtyzzxm33wvj",
         "status": "investigating",
         "impact": "critical"
@@ -76,7 +76,7 @@
         },
         {
           "name": "Issues",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Pull Requests",
@@ -113,7 +113,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:40:55.331Z",
+      "checked_at": "2026-06-10T16:00:55.483Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-06-10T15:40:55.331Z",
+      "checked_at": "2026-06-10T16:00:55.484Z",
       "latest_incident": {
         "title": "Elevated errors on Claude Haiku 4.5",
         "body": "We are continuing to work on a fix for this issue.",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:40:55.332Z",
+      "checked_at": "2026-06-10T16:00:55.484Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "maintenance",
       "description": "Service Under Maintenance",
-      "checked_at": "2026-06-10T15:40:55.332Z",
+      "checked_at": "2026-06-10T16:00:55.485Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:40:55.332Z",
+      "checked_at": "2026-06-10T16:00:55.485Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:40:55.332Z",
+      "checked_at": "2026-06-10T16:00:55.486Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:40:55.332Z",
+      "checked_at": "2026-06-10T16:00:55.486Z",
       "latest_incident": null,
       "recent_incidents": [
         {
