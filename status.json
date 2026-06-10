@@ -1,13 +1,20 @@
 {
-  "updated_at": "2026-06-10T15:10:56.150Z",
+  "updated_at": "2026-06-10T15:21:18.341Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "operational",
+      "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:10:56.139Z",
-      "latest_incident": null,
+      "checked_at": "2026-06-10T15:21:18.328Z",
+      "latest_incident": {
+        "title": "Disruption with some GitHub services",
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "date": "2026-06-10T15:20:36.996Z",
+        "link": "https://stspg.io/wtyzzxm33wvj",
+        "status": "investigating",
+        "impact": "major"
+      },
       "recent_incidents": [
         {
           "title": "Degraded availability for GitHub.com, GraphQL API, and Webhooks UI/API",
@@ -106,7 +113,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:10:56.139Z",
+      "checked_at": "2026-06-10T15:21:18.328Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-06-10T15:10:56.139Z",
+      "checked_at": "2026-06-10T15:21:18.328Z",
       "latest_incident": {
         "title": "Elevated errors on Claude Haiku 4.5",
         "body": "We are continuing to work on a fix for this issue.",
@@ -341,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:10:56.140Z",
+      "checked_at": "2026-06-10T15:21:18.329Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -457,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:10:56.140Z",
+      "checked_at": "2026-06-10T15:21:18.330Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1353,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:10:56.140Z",
+      "checked_at": "2026-06-10T15:21:18.330Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:10:56.141Z",
+      "checked_at": "2026-06-10T15:21:18.330Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:10:56.141Z",
+      "checked_at": "2026-06-10T15:21:18.331Z",
       "latest_incident": null,
       "recent_incidents": [
         {
