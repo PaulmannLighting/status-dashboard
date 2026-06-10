@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-10T06:30:55.334Z",
+  "updated_at": "2026-06-10T06:40:55.845Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T06:30:55.326Z",
+      "checked_at": "2026-06-10T06:40:55.838Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T06:30:55.327Z",
+      "checked_at": "2026-06-10T06:40:55.839Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T06:30:55.327Z",
+      "checked_at": "2026-06-10T06:40:55.839Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -334,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T06:30:55.327Z",
+      "checked_at": "2026-06-10T06:40:55.839Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -450,7 +450,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T06:30:55.327Z",
+      "checked_at": "2026-06-10T06:40:55.839Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1344,18 +1344,19 @@
     {
       "name": "Atlassian - JIRA",
       "status_url": "https://jira-software.status.atlassian.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-06-10T06:30:55.327Z",
-      "latest_incident": {
-        "title": "Delays in processing incoming Emails, Work Item notifications, and Scheduled Triggers in Marketplace Apps",
-        "body": "Our team has now determined that performance has returned to expected levels for those impacted by this incident.\n\nAdditional products that are now known to have been impacted by this incident are Confluence, Customer Service Management, and Jira Product Discovery. These products would have seen similar impact where email notifications or processing of events may have been delayed while this incident was underway.\n\nWe are now monitoring for the full recovery of performance across all products and will update when we are confident this issue is fully resolved, or within one hour, whichever is sooner.",
-        "date": "2026-06-10T06:14:06.339Z",
-        "link": "https://stspg.io/wd691l36mbwt",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-10T06:40:55.839Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Delays in processing incoming Emails, Work Item notifications, and Scheduled Triggers in Marketplace Apps",
+          "body": "We are now confident that any of the tasks that were impacted by this incident and were delayed should now be operating as expected.\n\nWe apologize for any inconvenience that this issue may have caused.",
+          "date": "2026-06-10T06:31:05.636Z",
+          "link": "https://stspg.io/wd691l36mbwt",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Some users experiencing issues viewing boards and work items",
           "body": "The issue has now been resolved, and the service is operating normally for all affected customers.",
@@ -1387,14 +1388,6 @@
           "link": "https://stspg.io/5zrnmkyz9c2n",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "For Jira-software viewIssues and viewBoard are degraded",
-          "body": "This incident has been resolved. The issue causing degraded performance for Jira Software and Jira Service Management in the EU region has been fully mitigated. We have deployed a fix to prevent recurrence.\n\nIf you continue to experience issues, please contact Atlassian Support.\n\nWe apologise for the disruption and thank you for your patience.",
-          "date": "2026-06-01T13:23:43.574Z",
-          "link": "https://stspg.io/mmpcpdvtb3m4",
-          "status": "resolved",
-          "impact": "major"
         }
       ],
       "components": [
@@ -1416,7 +1409,7 @@
         },
         {
           "name": "Notifications",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Administration",
@@ -1447,18 +1440,19 @@
     {
       "name": "Atlassian - Confluence",
       "status_url": "https://confluence.status.atlassian.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-06-10T06:30:55.327Z",
-      "latest_incident": {
-        "title": "Delays in processing incoming Emails, Work Item notifications, and Scheduled Triggers in Marketplace Apps",
-        "body": "Our team has now determined that performance has returned to expected levels for those impacted by this incident.\n\nAdditional products that are now known to have been impacted by this incident are Confluence, Customer Service Management, and Jira Product Discovery. These products would have seen similar impact where email notifications or processing of events may have been delayed while this incident was underway.\n\nWe are now monitoring for the full recovery of performance across all products and will update when we are confident this issue is fully resolved, or within one hour, whichever is sooner.",
-        "date": "2026-06-10T06:14:06.010Z",
-        "link": "https://stspg.io/fg4d9cksd79n",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-10T06:40:55.840Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Delays in processing incoming Emails, Work Item notifications, and Scheduled Triggers in Marketplace Apps",
+          "body": "We are now confident that any of the tasks that were impacted by this incident and were delayed should now be operating as expected.\n\nWe apologize for any inconvenience that this issue may have caused.",
+          "date": "2026-06-10T06:31:04.920Z",
+          "link": "https://stspg.io/fg4d9cksd79n",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Users facing errors when attempting to view Calendars in Confluence",
           "body": "Between 00:50 UTC and 07:30 UTC on 27 May 2026, some users were facing errors when attempting to view Calendars in Confluence. Our engineering team identified and resolved the underlying issue, and this incident has been fully restored.",
@@ -1490,14 +1484,6 @@
           "link": "https://stspg.io/b4c619vvm2pl",
           "status": "postmortem",
           "impact": "minor"
-        },
-        {
-          "title": "Disrupted Rovo availability for Automation rules",
-          "body": "On April 14, 2026, affected users may have experienced some service disruption with automation rules that use Rovo agents. The issue has now been resolved, and the service is operating normally for all affected customers.",
-          "date": "2026-04-14T16:11:31.593Z",
-          "link": "https://stspg.io/2ypzgvkf46j6",
-          "status": "resolved",
-          "impact": "critical"
         }
       ],
       "components": [
@@ -1535,7 +1521,7 @@
         },
         {
           "name": "Notifications",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Marketplace Apps",
@@ -1568,7 +1554,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T06:30:55.328Z",
+      "checked_at": "2026-06-10T06:40:55.840Z",
       "latest_incident": null,
       "recent_incidents": [
         {
