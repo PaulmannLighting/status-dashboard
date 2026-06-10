@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-06-10T15:21:18.341Z",
+  "updated_at": "2026-06-10T15:30:55.459Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:21:18.328Z",
+      "description": "Partial System Outage",
+      "checked_at": "2026-06-10T15:30:55.451Z",
       "latest_incident": {
-        "title": "Disruption with some GitHub services",
-        "body": "We are investigating reports of impacted performance for some GitHub services.",
-        "date": "2026-06-10T15:20:36.996Z",
+        "title": "Authentication issues related to API requests",
+        "body": "We are investigating issues related to sporadic authentication failures impacting approximately 15% of API traffic. We will continue to investigate and provide updates.",
+        "date": "2026-06-10T15:27:46.300Z",
         "link": "https://stspg.io/wtyzzxm33wvj",
         "status": "investigating",
-        "impact": "major"
+        "impact": "critical"
       },
       "recent_incidents": [
         {
@@ -72,11 +72,11 @@
         },
         {
           "name": "API Requests",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Issues",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Pull Requests",
@@ -113,7 +113,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:21:18.328Z",
+      "checked_at": "2026-06-10T15:30:55.451Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-06-10T15:21:18.328Z",
+      "checked_at": "2026-06-10T15:30:55.452Z",
       "latest_incident": {
         "title": "Elevated errors on Claude Haiku 4.5",
         "body": "We are continuing to work on a fix for this issue.",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:21:18.329Z",
+      "checked_at": "2026-06-10T15:30:55.452Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:21:18.330Z",
+      "checked_at": "2026-06-10T15:30:55.452Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:21:18.330Z",
+      "checked_at": "2026-06-10T15:30:55.452Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:21:18.330Z",
+      "checked_at": "2026-06-10T15:30:55.452Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T15:21:18.331Z",
+      "checked_at": "2026-06-10T15:30:55.452Z",
       "latest_incident": null,
       "recent_incidents": [
         {
