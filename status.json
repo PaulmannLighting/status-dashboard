@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-10T05:10:56.578Z",
+  "updated_at": "2026-06-10T05:20:55.395Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T05:10:56.570Z",
+      "checked_at": "2026-06-10T05:20:55.388Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T05:10:56.571Z",
+      "checked_at": "2026-06-10T05:20:55.388Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T05:10:56.571Z",
+      "checked_at": "2026-06-10T05:20:55.388Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -334,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T05:10:56.571Z",
+      "checked_at": "2026-06-10T05:20:55.388Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -450,7 +450,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T05:10:56.571Z",
+      "checked_at": "2026-06-10T05:20:55.389Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1346,7 +1346,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-06-10T05:10:56.571Z",
+      "checked_at": "2026-06-10T05:20:55.389Z",
       "latest_incident": {
         "title": "Delays in processing incoming Emails, Work Item notifications, and Scheduled Triggers in Marketplace Apps",
         "body": "We are investigating reports of extended delays being experienced across tasks such as processing of Incoming Emails, Notifications relating to changes or creation of Work Items, in addition to delays in processing Scheduled Triggers from Marketplace apps.\n\nOur team is looking into this with urgency and we will provide further update within one hour as our investigation continues.",
@@ -1449,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T05:10:56.572Z",
+      "checked_at": "2026-06-10T05:20:55.389Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T05:10:56.572Z",
+      "checked_at": "2026-06-10T05:20:55.389Z",
       "latest_incident": null,
       "recent_incidents": [
         {
