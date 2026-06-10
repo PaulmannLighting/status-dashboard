@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-10T17:10:55.742Z",
+  "updated_at": "2026-06-10T17:20:55.702Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T17:10:55.735Z",
+      "checked_at": "2026-06-10T17:20:55.694Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T17:10:55.735Z",
+      "checked_at": "2026-06-10T17:20:55.694Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,11 +258,11 @@
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T17:10:55.735Z",
+      "checked_at": "2026-06-10T17:20:55.694Z",
       "latest_incident": {
         "title": "Elevated errors on Claude Haiku 4.5",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-06-10T16:20:48.830Z",
+        "body": "We are continuing to monitor Claude Haiku 4.5 towards full recovery, and at this point have seen success rates recover to close to normal operating levels. We are working to ensure there are no further issues.",
+        "date": "2026-06-10T17:13:24.112Z",
         "link": "https://stspg.io/hrq9j1llp424",
         "status": "monitoring",
         "impact": "minor"
@@ -341,7 +341,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T17:10:55.735Z",
+      "checked_at": "2026-06-10T17:20:55.694Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -457,7 +457,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "maintenance",
       "description": "Service Under Maintenance",
-      "checked_at": "2026-06-10T17:10:55.736Z",
+      "checked_at": "2026-06-10T17:20:55.695Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1353,7 +1353,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T17:10:55.736Z",
+      "checked_at": "2026-06-10T17:20:55.695Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T17:10:55.736Z",
+      "checked_at": "2026-06-10T17:20:55.695Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-10T17:10:55.736Z",
+      "checked_at": "2026-06-10T17:20:55.695Z",
       "latest_incident": null,
       "recent_incidents": [
         {
