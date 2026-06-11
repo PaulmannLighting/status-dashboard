@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-11T21:30:55.719Z",
+  "updated_at": "2026-06-11T21:40:57.569Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T21:30:55.706Z",
+      "checked_at": "2026-06-11T21:40:57.562Z",
       "latest_incident": {
         "title": "Incident with Webhooks",
         "body": "The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability.",
@@ -113,13 +113,13 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-11T21:30:55.706Z",
+      "checked_at": "2026-06-11T21:40:57.562Z",
       "latest_incident": {
         "title": "Elevated error rates for GPT 5.5 in Codex",
-        "body": "We have identified that users are experiencing elevated errors when using GPT 5.5 in Codex.\n\nWe are working on implementing a mitigation.",
-        "date": "2026-06-11T20:59:52Z",
+        "body": "We have applied the mitigation and are monitoring the recovery.",
+        "date": "2026-06-11T21:33:30Z",
         "link": "",
-        "status": "identified",
+        "status": "monitoring",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -272,7 +272,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T21:30:55.707Z",
+      "checked_at": "2026-06-11T21:40:57.562Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T21:30:55.707Z",
+      "checked_at": "2026-06-11T21:40:57.562Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T21:30:55.708Z",
+      "checked_at": "2026-06-11T21:40:57.563Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T21:30:55.708Z",
+      "checked_at": "2026-06-11T21:40:57.563Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T21:30:55.708Z",
+      "checked_at": "2026-06-11T21:40:57.563Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T21:30:55.709Z",
+      "checked_at": "2026-06-11T21:40:57.563Z",
       "latest_incident": null,
       "recent_incidents": [
         {
