@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-11T15:00:57.510Z",
+  "updated_at": "2026-06-11T15:10:55.598Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T15:00:57.499Z",
+      "checked_at": "2026-06-11T15:10:55.591Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T15:00:57.500Z",
+      "checked_at": "2026-06-11T15:10:55.591Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -256,18 +256,19 @@
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T15:00:57.500Z",
-      "latest_incident": {
-        "title": "Elevated errors on Claude Opus 4.6",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-06-11T14:58:31.024Z",
-        "link": "https://stspg.io/r2r8c96brb9n",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-06-11T15:10:55.591Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Elevated errors on Claude Opus 4.6",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-11T15:01:51.449Z",
+          "link": "https://stspg.io/r2r8c96brb9n",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated errors on Claude Haiku 4.5",
           "body": "This incident has been resolved.",
@@ -297,14 +298,6 @@
           "body": "This issue has been resolved. Claude Opus 4.8 (Fast Mode) saw elevated errors from 7:50 PM PT / 02:50 UTC to 8:30 PM PT / 03:30 UTC.",
           "date": "2026-06-09T03:42:08.379Z",
           "link": "https://stspg.io/pck33z3r9h36",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Elevated errors on Claude Opus 4.8",
-          "body": "This issue has been resolved. Claude Opus 4.8 saw elevated errors from 3:06 PT / 22:06 UTC through 3:28 PT / 22:28 UTC.",
-          "date": "2026-06-08T22:36:14.494Z",
-          "link": "https://stspg.io/b1ym53l7ntdq",
           "status": "resolved",
           "impact": "minor"
         }
@@ -341,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T15:00:57.500Z",
+      "checked_at": "2026-06-11T15:10:55.591Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -457,7 +450,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-11T15:00:57.501Z",
+      "checked_at": "2026-06-11T15:10:55.592Z",
       "latest_incident": {
         "title": "DeepSeek V4 Pro is returning HTTP 429 \"Rate limit exceeded\"",
         "body": "The issue has been identified and a fix is being implemented.",
@@ -1360,7 +1353,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T15:00:57.502Z",
+      "checked_at": "2026-06-11T15:10:55.592Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T15:00:57.502Z",
+      "checked_at": "2026-06-11T15:10:55.592Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T15:00:57.502Z",
+      "checked_at": "2026-06-11T15:10:55.592Z",
       "latest_incident": null,
       "recent_incidents": [
         {
