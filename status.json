@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-11T14:00:55.665Z",
+  "updated_at": "2026-06-11T14:10:55.704Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T14:00:55.655Z",
+      "checked_at": "2026-06-11T14:10:55.696Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -104,18 +104,19 @@
     {
       "name": "OpenAI",
       "status_url": "https://status.openai.com",
-      "status": "degraded",
-      "description": "Partial System Degradation",
-      "checked_at": "2026-06-11T14:00:55.655Z",
-      "latest_incident": {
-        "title": "Disruption in service availabilty for Free and Go users",
-        "body": "We have identified that some ChatGPT Free and Go users are experiencing elevated errors when using conversations. We are working to implement a mitigation.",
-        "date": "2026-06-11T13:03:34Z",
-        "link": "",
-        "status": "identified",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-11T14:10:55.697Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Disruption in service availabilty for Free and Go users",
+          "body": "All impacted services have now fully recovered.",
+          "date": "2026-06-11T14:04:45Z",
+          "link": "",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Disruption in service availabilty for Go users",
           "body": "All impacted services have now fully recovered.",
@@ -144,14 +145,6 @@
           "title": "Voice mode availability impacted",
           "body": "All impacted services have now fully recovered.",
           "date": "2026-06-05T19:04:32Z",
-          "link": "",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Users unable to sign in using Microsoft personal accounts",
-          "body": "All impacted services have now fully recovered.",
-          "date": "2026-06-05T15:58:28Z",
           "link": "",
           "status": "resolved",
           "impact": "minor"
@@ -192,7 +185,7 @@
         },
         {
           "name": "Conversations",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Connectors/Apps",
@@ -265,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T14:00:55.656Z",
+      "checked_at": "2026-06-11T14:10:55.697Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -341,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T14:00:55.656Z",
+      "checked_at": "2026-06-11T14:10:55.697Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -457,7 +450,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T14:00:55.656Z",
+      "checked_at": "2026-06-11T14:10:55.697Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1353,7 +1346,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T14:00:55.657Z",
+      "checked_at": "2026-06-11T14:10:55.698Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1442,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T14:00:55.657Z",
+      "checked_at": "2026-06-11T14:10:55.698Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1554,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T14:00:55.657Z",
+      "checked_at": "2026-06-11T14:10:55.698Z",
       "latest_incident": null,
       "recent_incidents": [
         {
