@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-11T16:50:55.555Z",
+  "updated_at": "2026-06-11T17:00:55.531Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T16:50:55.548Z",
+      "checked_at": "2026-06-11T17:00:55.524Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T16:50:55.548Z",
+      "checked_at": "2026-06-11T17:00:55.524Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -256,10 +256,17 @@
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-11T16:50:55.548Z",
-      "latest_incident": null,
+      "status": "outage",
+      "description": "Minor Service Outage",
+      "checked_at": "2026-06-11T17:00:55.524Z",
+      "latest_incident": {
+        "title": "Elevated errors across models",
+        "body": "We are currently investigating this issue.",
+        "date": "2026-06-11T16:54:52.600Z",
+        "link": "https://stspg.io/7pwy7kxz7yzr",
+        "status": "investigating",
+        "impact": "major"
+      },
       "recent_incidents": [
         {
           "title": "Elevated errors on Claude Opus 4.6",
@@ -305,7 +312,7 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -313,15 +320,15 @@
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Code",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Cowork",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude for Government",
@@ -334,7 +341,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T16:50:55.548Z",
+      "checked_at": "2026-06-11T17:00:55.524Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -450,7 +457,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-11T16:50:55.549Z",
+      "checked_at": "2026-06-11T17:00:55.525Z",
       "latest_incident": {
         "title": "DeepSeek V4 Pro is returning HTTP 429 \"Rate limit exceeded\"",
         "body": "The issue has been identified and a fix is being implemented.",
@@ -1353,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T16:50:55.549Z",
+      "checked_at": "2026-06-11T17:00:55.525Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T16:50:55.549Z",
+      "checked_at": "2026-06-11T17:00:55.525Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T16:50:55.549Z",
+      "checked_at": "2026-06-11T17:00:55.525Z",
       "latest_incident": null,
       "recent_incidents": [
         {
