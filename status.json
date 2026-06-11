@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-11T16:10:55.464Z",
+  "updated_at": "2026-06-11T16:20:55.820Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T16:10:55.457Z",
+      "checked_at": "2026-06-11T16:20:55.813Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T16:10:55.458Z",
+      "checked_at": "2026-06-11T16:20:55.813Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T16:10:55.458Z",
+      "checked_at": "2026-06-11T16:20:55.813Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -334,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T16:10:55.458Z",
+      "checked_at": "2026-06-11T16:20:55.814Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -450,7 +450,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-11T16:10:55.458Z",
+      "checked_at": "2026-06-11T16:20:55.814Z",
       "latest_incident": {
         "title": "DeepSeek V4 Pro is returning HTTP 429 \"Rate limit exceeded\"",
         "body": "The issue has been identified and a fix is being implemented.",
@@ -1353,7 +1353,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T16:10:55.458Z",
+      "checked_at": "2026-06-11T16:20:55.814Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T16:10:55.459Z",
+      "checked_at": "2026-06-11T16:20:55.814Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T16:10:55.459Z",
+      "checked_at": "2026-06-11T16:20:55.814Z",
       "latest_incident": null,
       "recent_incidents": [
         {
