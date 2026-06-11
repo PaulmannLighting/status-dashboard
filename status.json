@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-11T20:50:55.863Z",
+  "updated_at": "2026-06-11T21:00:55.569Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T20:50:55.854Z",
+      "checked_at": "2026-06-11T21:00:55.561Z",
       "latest_incident": {
         "title": "Incident with Webhooks",
         "body": "The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability.",
@@ -111,10 +111,17 @@
     {
       "name": "OpenAI",
       "status_url": "https://status.openai.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-11T20:50:55.855Z",
-      "latest_incident": null,
+      "status": "degraded",
+      "description": "Partial System Degradation",
+      "checked_at": "2026-06-11T21:00:55.562Z",
+      "latest_incident": {
+        "title": "Elevated error rates for GPT 5.5 in Codex",
+        "body": "We have identified that users are experiencing elevated errors when using GPT 5.5 in Codex.\n\nWe are working on implementing a mitigation.",
+        "date": "2026-06-11T20:59:52Z",
+        "link": "",
+        "status": "identified",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "Disruption in service availabilty for Free and Go users",
@@ -171,10 +178,6 @@
           "status": "operational"
         },
         {
-          "name": "CLI",
-          "status": "operational"
-        },
-        {
           "name": "Compliance API",
           "status": "operational"
         },
@@ -199,6 +202,10 @@
           "status": "operational"
         },
         {
+          "name": "CLI",
+          "status": "degraded"
+        },
+        {
           "name": "Deep Research",
           "status": "operational"
         },
@@ -220,7 +227,7 @@
         },
         {
           "name": "VS Code extension",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Voice mode",
@@ -236,7 +243,7 @@
         },
         {
           "name": "Codex Web",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Responses",
@@ -252,11 +259,11 @@
         },
         {
           "name": "App",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Codex API",
-          "status": "operational"
+          "status": "degraded"
         }
       ]
     },
@@ -265,7 +272,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T20:50:55.855Z",
+      "checked_at": "2026-06-11T21:00:55.562Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -341,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T20:50:55.855Z",
+      "checked_at": "2026-06-11T21:00:55.562Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -457,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T20:50:55.856Z",
+      "checked_at": "2026-06-11T21:00:55.562Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1353,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T20:50:55.856Z",
+      "checked_at": "2026-06-11T21:00:55.562Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T20:50:55.856Z",
+      "checked_at": "2026-06-11T21:00:55.563Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T20:50:55.857Z",
+      "checked_at": "2026-06-11T21:00:55.563Z",
       "latest_incident": null,
       "recent_incidents": [
         {
