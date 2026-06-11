@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-06-11T22:10:55.604Z",
+  "updated_at": "2026-06-11T22:20:55.456Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T22:10:55.597Z",
-      "latest_incident": {
-        "title": "Incident with Webhooks",
-        "body": "The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability.",
-        "date": "2026-06-11T20:00:29.040Z",
-        "link": "https://stspg.io/rl21t9c4ywrz",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-06-11T22:20:55.448Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Incident with Webhooks",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-06-11T22:19:48.338Z",
+          "link": "https://stspg.io/rl21t9c4ywrz",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Authentication issues related to API requests",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -47,14 +48,6 @@
           "link": "https://stspg.io/hvhc1m3z7sf9",
           "status": "resolved",
           "impact": "critical"
-        },
-        {
-          "title": "EU Network Maintenance",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
-          "date": "2026-06-06T18:49:15.588Z",
-          "link": "https://stspg.io/tc4vhv29qs4c",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -113,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-11T22:10:55.597Z",
+      "checked_at": "2026-06-11T22:20:55.449Z",
       "latest_incident": {
         "title": "Elevated error rates for GPT 5.5 in Codex",
         "body": "We have applied the mitigation and are monitoring the recovery.",
@@ -272,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T22:10:55.598Z",
+      "checked_at": "2026-06-11T22:20:55.449Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -348,7 +341,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T22:10:55.598Z",
+      "checked_at": "2026-06-11T22:20:55.449Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +457,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T22:10:55.598Z",
+      "checked_at": "2026-06-11T22:20:55.449Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1353,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T22:10:55.598Z",
+      "checked_at": "2026-06-11T22:20:55.450Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T22:10:55.598Z",
+      "checked_at": "2026-06-11T22:20:55.450Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-11T22:10:55.598Z",
+      "checked_at": "2026-06-11T22:20:55.450Z",
       "latest_incident": null,
       "recent_incidents": [
         {
