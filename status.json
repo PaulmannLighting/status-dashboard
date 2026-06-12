@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-12T08:30:55.463Z",
+  "updated_at": "2026-06-12T08:40:55.461Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-12T08:30:55.456Z",
+      "checked_at": "2026-06-12T08:40:55.454Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-12T08:30:55.456Z",
+      "checked_at": "2026-06-12T08:40:55.454Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-12T08:30:55.456Z",
+      "checked_at": "2026-06-12T08:40:55.454Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -334,7 +334,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-12T08:30:55.456Z",
+      "checked_at": "2026-06-12T08:40:55.454Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -450,7 +450,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-12T08:30:55.457Z",
+      "checked_at": "2026-06-12T08:40:55.455Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1346,7 +1346,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-12T08:30:55.457Z",
+      "checked_at": "2026-06-12T08:40:55.455Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1442,12 +1442,12 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-06-12T08:30:55.457Z",
+      "checked_at": "2026-06-12T08:40:55.455Z",
       "latest_incident": {
         "title": "Degraded performance with Confluence Cloud",
-        "body": "Users are experiencing experiencing degraded performance in Confluence Cloud affecting view page and edit page functionality. Our teams are actively investigating and will be sharing more updates in next 1 hour or sooner.",
-        "date": "2026-06-12T07:39:11.321Z",
-        "link": "https://stspg.io/429x5sxfy4gj",
+        "body": "Users are experiencing degraded performance with view content, create and edit functionality on Confluence Cloud primarily in the EU region.\n\nOur teams are actively working to identify the root cause of the issue. We will share additional updates in next 2 hours or sooner as more information is available.",
+        "date": "2026-06-12T08:34:01.796Z",
+        "link": "https://stspg.io/w6wdysc1vdh8",
         "status": "investigating",
         "impact": "minor"
       },
@@ -1561,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-12T08:30:55.457Z",
+      "checked_at": "2026-06-12T08:40:55.455Z",
       "latest_incident": null,
       "recent_incidents": [
         {
