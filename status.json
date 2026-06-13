@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-13T00:50:55.493Z",
+  "updated_at": "2026-06-13T01:00:55.882Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-13T00:50:55.486Z",
+      "checked_at": "2026-06-13T01:00:55.872Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-13T00:50:55.486Z",
+      "checked_at": "2026-06-13T01:00:55.872Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -256,10 +256,17 @@
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-13T00:50:55.486Z",
-      "latest_incident": null,
+      "status": "degraded",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-06-13T01:00:55.873Z",
+      "latest_incident": {
+        "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+        "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
+        "date": "2026-06-13T00:50:44.031Z",
+        "link": "https://stspg.io/kqx0j625mrgv",
+        "status": "monitoring",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "Elevated errors across models",
@@ -305,7 +312,7 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -313,15 +320,15 @@
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Code",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Cowork",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude for Government",
@@ -334,7 +341,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-13T00:50:55.487Z",
+      "checked_at": "2026-06-13T01:00:55.873Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -450,7 +457,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-13T00:50:55.487Z",
+      "checked_at": "2026-06-13T01:00:55.873Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1346,7 +1353,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-13T00:50:55.487Z",
+      "checked_at": "2026-06-13T01:00:55.874Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1442,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-13T00:50:55.487Z",
+      "checked_at": "2026-06-13T01:00:55.874Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1554,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-13T00:50:55.487Z",
+      "checked_at": "2026-06-13T01:00:55.874Z",
       "latest_incident": null,
       "recent_incidents": [
         {
