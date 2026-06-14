@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-14T19:10:59.285Z",
+  "updated_at": "2026-06-14T19:20:55.740Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-14T19:10:59.275Z",
+      "checked_at": "2026-06-14T19:20:55.729Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-14T19:10:59.276Z",
+      "checked_at": "2026-06-14T19:20:55.730Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-14T19:10:59.276Z",
+      "checked_at": "2026-06-14T19:20:55.730Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -341,7 +341,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-14T19:10:59.276Z",
+      "checked_at": "2026-06-14T19:20:55.730Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -457,7 +457,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-14T19:10:59.277Z",
+      "checked_at": "2026-06-14T19:20:55.731Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1353,7 +1353,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-14T19:10:59.277Z",
+      "checked_at": "2026-06-14T19:20:55.731Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1449,7 +1449,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-14T19:10:59.277Z",
+      "checked_at": "2026-06-14T19:20:55.732Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1561,7 +1561,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-14T19:10:59.277Z",
+      "checked_at": "2026-06-14T19:20:55.732Z",
       "latest_incident": null,
       "recent_incidents": [
         {
