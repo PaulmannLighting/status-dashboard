@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-15T16:00:55.542Z",
+  "updated_at": "2026-06-15T16:11:03.593Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-06-15T16:00:55.530Z",
+      "checked_at": "2026-06-15T16:11:03.586Z",
       "latest_incident": {
         "title": "Increased latency with webhooks",
         "body": "We are investigating reports of degraded performance for Webhooks",
@@ -42,7 +42,7 @@
         },
         {
           "title": "Disruption with Claude Opus 4.7",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "body": "On June 8, 2026, between 08:40 UTC and 09:30 UTC, the Claude Opus 4.7 model experienced degraded availability with error rates peaking at 8.4% and averaging 1.9%. This was due to an upstream provider issue that caused temporary unavailability and rate limiting on secondary failover systems. Users selecting Auto or alternative models were unaffected. We are improving provider failover mechanisms and monitoring to prevent similar issues.",
           "date": "2026-06-08T10:03:32.680Z",
           "link": "https://stspg.io/6g6hjsmx2f2w",
           "status": "resolved",
@@ -113,7 +113,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T16:00:55.530Z",
+      "checked_at": "2026-06-15T16:11:03.586Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T16:00:55.531Z",
+      "checked_at": "2026-06-15T16:11:03.587Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T16:00:55.531Z",
+      "checked_at": "2026-06-15T16:11:03.587Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T16:00:55.531Z",
+      "checked_at": "2026-06-15T16:11:03.587Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T16:00:55.532Z",
+      "checked_at": "2026-06-15T16:11:03.587Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T16:00:55.532Z",
+      "checked_at": "2026-06-15T16:11:03.587Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T16:00:55.532Z",
+      "checked_at": "2026-06-15T16:11:03.588Z",
       "latest_incident": null,
       "recent_incidents": [
         {
