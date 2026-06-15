@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-06-15T19:00:55.720Z",
+  "updated_at": "2026-06-15T19:10:55.602Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T19:00:55.709Z",
-      "latest_incident": {
-        "title": "Multiple services have elevated errors and endpoint failures when checking feature flags",
-        "body": "We are investigating reports of impacted performance for some GitHub services.",
-        "date": "2026-06-15T18:32:03.111Z",
-        "link": "https://stspg.io/hsz6jwmfm76g",
-        "status": "investigating",
-        "impact": "minor"
-      },
+      "checked_at": "2026-06-15T19:10:55.594Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Multiple services have elevated errors and endpoint failures when checking feature flags",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-06-15T19:10:15.147Z",
+          "link": "https://stspg.io/hsz6jwmfm76g",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Increased latency with webhooks",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -47,14 +48,6 @@
           "link": "https://stspg.io/0f8dp6dk9726",
           "status": "resolved",
           "impact": "none"
-        },
-        {
-          "title": "Disruption with Claude Opus 4.7",
-          "body": "On June 8, 2026, between 08:40 UTC and 09:30 UTC, the Claude Opus 4.7 model experienced degraded availability with error rates peaking at 8.4% and averaging 1.9%. This was due to an upstream provider issue that caused temporary unavailability and rate limiting on secondary failover systems. Users selecting Auto or alternative models were unaffected. We are improving provider failover mechanisms and monitoring to prevent similar issues.",
-          "date": "2026-06-08T10:03:32.680Z",
-          "link": "https://stspg.io/6g6hjsmx2f2w",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -113,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-15T19:00:55.710Z",
+      "checked_at": "2026-06-15T19:10:55.594Z",
       "latest_incident": {
         "title": "OAuth Account Creation / Login Error",
         "body": "We have identified that users are experiencing an error when attempting to create an account or logging in using Google OAuth for the impacted services.\n\nWe are working on implementing a mitigation.",
@@ -272,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T19:00:55.710Z",
+      "checked_at": "2026-06-15T19:10:55.595Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -355,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T19:00:55.710Z",
+      "checked_at": "2026-06-15T19:10:55.595Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -471,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T19:00:55.711Z",
+      "checked_at": "2026-06-15T19:10:55.595Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T19:00:55.711Z",
+      "checked_at": "2026-06-15T19:10:55.595Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1463,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T19:00:55.711Z",
+      "checked_at": "2026-06-15T19:10:55.595Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1575,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T19:00:55.711Z",
+      "checked_at": "2026-06-15T19:10:55.596Z",
       "latest_incident": null,
       "recent_incidents": [
         {
