@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-15T20:40:55.434Z",
+  "updated_at": "2026-06-15T20:50:55.414Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T20:40:55.426Z",
+      "checked_at": "2026-06-15T20:50:55.407Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T20:40:55.426Z",
+      "checked_at": "2026-06-15T20:50:55.407Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -258,7 +258,7 @@
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T20:40:55.427Z",
+      "checked_at": "2026-06-15T20:50:55.408Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -341,13 +341,13 @@
       "status_url": "https://status.bunny.net",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-06-15T20:40:55.427Z",
+      "checked_at": "2026-06-15T20:50:55.408Z",
       "latest_incident": {
         "title": "Synchronization and Configuration Propagation Delays",
-        "body": "We are currently investigating reports of delays affecting synchronization and the propagation of configuration changes.\n\nOur team is actively investigating the issue and working to determine its scope and impact. We will provide additional updates as soon as more information becomes available.",
-        "date": "2026-06-15T20:25:15.867Z",
+        "body": "Our team has identified the underlying cause of the issue and has implemented a fix.\n\nThe affected processes are now recovering, and pending changes are continuing to propagate. As a result, some synchronization and configuration propagation delays may still be observed while the platform returns to normal operation.\n\nWe are actively monitoring the recovery and will provide another update once processing has normalized.",
+        "date": "2026-06-15T20:45:30.795Z",
         "link": "https://stspg.io/0j4d1lbh5h72",
-        "status": "investigating",
+        "status": "monitoring",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T20:40:55.427Z",
+      "checked_at": "2026-06-15T20:50:55.408Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T20:40:55.427Z",
+      "checked_at": "2026-06-15T20:50:55.408Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T20:40:55.427Z",
+      "checked_at": "2026-06-15T20:50:55.408Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-15T20:40:55.427Z",
+      "checked_at": "2026-06-15T20:50:55.408Z",
       "latest_incident": null,
       "recent_incidents": [
         {
