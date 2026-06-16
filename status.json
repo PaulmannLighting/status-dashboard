@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-06-16T18:10:55.447Z",
+  "updated_at": "2026-06-16T18:20:55.522Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "outage",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T18:10:55.439Z",
-      "latest_incident": {
-        "title": "Disruption with some GitHub services",
-        "body": "The degradation affecting Copilot AI Model Providers has been mitigated. We are monitoring to ensure stability.",
-        "date": "2026-06-16T18:00:30.680Z",
-        "link": "https://stspg.io/0y9pgmg78442",
-        "status": "monitoring",
-        "impact": "major"
-      },
+      "checked_at": "2026-06-16T18:20:55.514Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Disruption with some GitHub services",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-06-16T18:15:24.555Z",
+          "link": "https://stspg.io/0y9pgmg78442",
+          "status": "resolved",
+          "impact": "major"
+        },
         {
           "title": "Multiple services have elevated errors and endpoint failures when checking feature flags",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -47,14 +48,6 @@
           "link": "https://stspg.io/wtyzzxm33wvj",
           "status": "resolved",
           "impact": "critical"
-        },
-        {
-          "title": "Degraded availability for GitHub.com, GraphQL API, and Webhooks UI/API",
-          "body": "On June 8, 2026, between 14:49 and 14:54 UTC, a subset of requests to GitHub.com, the REST API, GraphQL API, and Webhooks UI/API experienced elevated error rates due to a transient infrastructure capacity issue that self-resolved within approximately 5 minutes.\n\nUsers experienced HTTP 500 errors and timeouts when accessing GitHub.com, the REST API, GraphQL API, and Webhooks UI/API for approximately 5 minutes, with the REST API taking up to 12 minutes to fully recover.",
-          "date": "2026-06-08T15:00:00.000Z",
-          "link": "https://stspg.io/0f8dp6dk9726",
-          "status": "resolved",
-          "impact": "none"
         }
       ],
       "components": [
@@ -113,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-16T18:10:55.439Z",
+      "checked_at": "2026-06-16T18:20:55.514Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are investigating the issue for the listed services.",
@@ -271,14 +264,14 @@
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "degraded",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-16T18:10:55.439Z",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-06-16T18:20:55.515Z",
       "latest_incident": {
         "title": "Elevated errors across many models",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-06-16T18:00:12.045Z",
+        "body": "We are still seeing errors on Opus 4.8 and Haiku 4.5.",
+        "date": "2026-06-16T18:15:46.872Z",
         "link": "https://stspg.io/1tl45njm4dyl",
-        "status": "monitoring",
+        "status": "identified",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -326,7 +319,7 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -334,15 +327,15 @@
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Code",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Cowork",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude for Government",
@@ -355,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T18:10:55.439Z",
+      "checked_at": "2026-06-16T18:20:55.515Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -471,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T18:10:55.440Z",
+      "checked_at": "2026-06-16T18:20:55.515Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T18:10:55.440Z",
+      "checked_at": "2026-06-16T18:20:55.515Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1463,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T18:10:55.440Z",
+      "checked_at": "2026-06-16T18:20:55.515Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1575,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T18:10:55.440Z",
+      "checked_at": "2026-06-16T18:20:55.516Z",
       "latest_incident": null,
       "recent_incidents": [
         {
