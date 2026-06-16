@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-16T23:20:55.629Z",
+  "updated_at": "2026-06-16T23:30:55.533Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T23:20:55.622Z",
+      "checked_at": "2026-06-16T23:30:55.526Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-16T23:20:55.622Z",
+      "checked_at": "2026-06-16T23:30:55.526Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are investigating the issue for the listed services.",
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T23:20:55.622Z",
+      "checked_at": "2026-06-16T23:30:55.527Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T23:20:55.623Z",
+      "checked_at": "2026-06-16T23:30:55.527Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,16 +462,16 @@
     {
       "name": "DigitalOcean",
       "status_url": "https://status.digitalocean.com",
-      "status": "outage",
+      "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-16T23:20:55.623Z",
+      "checked_at": "2026-06-16T23:30:55.527Z",
       "latest_incident": {
         "title": "Intermittent 500 Errors on Serverless/GenAI Inference API",
-        "body": "We are actively investigating an issue causing elevated HTTP 500 error rates for customers utilizing our Serverless/GenAI Inference API.\nCustomer Impact: Customers making calls to the inference API—specifically targeting /v1/* endpoints—will experience intermittent HTTP 500 errors and failed requests.",
-        "date": "2026-06-16T22:00:52.000Z",
+        "body": "Our engineering teams have successfully begun implementing mitigation steps to resolve the connectivity issues affecting the inference API. We will provide another update once the API has fully recovered and error rates return to normal.",
+        "date": "2026-06-16T23:29:14.560Z",
         "link": "https://stspg.io/40ln0gl1x56j",
-        "status": "investigating",
-        "impact": "major"
+        "status": "monitoring",
+        "impact": "minor"
       },
       "recent_incidents": [
         {
@@ -1367,7 +1367,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T23:20:55.623Z",
+      "checked_at": "2026-06-16T23:30:55.527Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1463,7 +1463,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T23:20:55.623Z",
+      "checked_at": "2026-06-16T23:30:55.527Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1575,7 +1575,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T23:20:55.623Z",
+      "checked_at": "2026-06-16T23:30:55.528Z",
       "latest_incident": null,
       "recent_incidents": [
         {
