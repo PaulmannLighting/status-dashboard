@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-16T13:40:55.572Z",
+  "updated_at": "2026-06-16T13:50:56.789Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T13:40:55.550Z",
+      "checked_at": "2026-06-16T13:50:56.752Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,16 +106,24 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-16T13:40:55.551Z",
+      "checked_at": "2026-06-16T13:50:56.753Z",
       "latest_incident": {
-        "title": "Codex \"Selected Model is at Capacity\" Error",
-        "body": "We have applied the mitigation and are monitoring the recovery.",
-        "date": "2026-06-16T13:32:49Z",
+        "title": "FedRAMP workspaces and API orgs have degraded performance",
+        "body": "We are investigating the issue for the listed services.",
+        "date": "2026-06-15T22:16:11Z",
         "link": "",
-        "status": "monitoring",
+        "status": "investigating",
         "impact": "minor"
       },
       "recent_incidents": [
+        {
+          "title": "Codex \"Selected Model is at Capacity\" Error",
+          "body": "All impacted services have now fully recovered.",
+          "date": "2026-06-16T13:48:12Z",
+          "link": "",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Users may experience issue with Codex Cloud tasks",
           "body": "All impacted services have now fully recovered.",
@@ -147,20 +155,12 @@
           "link": "",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Disruption in service availabilty for Free and Go users",
-          "body": "All impacted services have now fully recovered.",
-          "date": "2026-06-11T14:04:45Z",
-          "link": "",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
         {
           "name": "CLI",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Fine-tuning",
@@ -224,7 +224,7 @@
         },
         {
           "name": "VS Code extension",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Voice mode",
@@ -240,7 +240,7 @@
         },
         {
           "name": "Codex Web",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "File uploads",
@@ -252,11 +252,11 @@
         },
         {
           "name": "App",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Codex API",
-          "status": "degraded"
+          "status": "operational"
         }
       ]
     },
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T13:40:55.551Z",
+      "checked_at": "2026-06-16T13:50:56.753Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T13:40:55.551Z",
+      "checked_at": "2026-06-16T13:50:56.754Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T13:40:55.552Z",
+      "checked_at": "2026-06-16T13:50:56.754Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T13:40:55.552Z",
+      "checked_at": "2026-06-16T13:50:56.754Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1454,10 +1454,17 @@
     {
       "name": "Atlassian - Confluence",
       "status_url": "https://confluence.status.atlassian.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-16T13:40:55.552Z",
-      "latest_incident": null,
+      "status": "degraded",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-06-16T13:50:56.754Z",
+      "latest_incident": {
+        "title": "Confluence Cloud experiencing degraded viewing experience",
+        "body": "Our team is investigating degraded performance affecting your service. \n\nWe are actively working to identify the cause and resolve the issue. We will provide further updates within one hour.",
+        "date": "2026-06-16T13:46:42.198Z",
+        "link": "https://stspg.io/npzhdwdhc99g",
+        "status": "investigating",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "Degraded performance with Confluence Cloud",
@@ -1503,7 +1510,7 @@
       "components": [
         {
           "name": "View Content",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "iOS App",
@@ -1511,7 +1518,7 @@
         },
         {
           "name": "Create and Edit",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Android App",
@@ -1568,7 +1575,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T13:40:55.552Z",
+      "checked_at": "2026-06-16T13:50:56.755Z",
       "latest_incident": null,
       "recent_incidents": [
         {
