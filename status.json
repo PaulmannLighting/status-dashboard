@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-16T17:50:57.333Z",
+  "updated_at": "2026-06-16T18:00:55.588Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-16T17:50:57.313Z",
+      "checked_at": "2026-06-16T18:00:55.580Z",
       "latest_incident": {
         "title": "Disruption with some GitHub services",
         "body": "We are experiencing degraded availability for the Opus 4.8 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.",
@@ -113,7 +113,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-16T17:50:57.313Z",
+      "checked_at": "2026-06-16T18:00:55.581Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are investigating the issue for the listed services.",
@@ -271,14 +271,14 @@
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-06-16T17:50:57.314Z",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-16T18:00:55.581Z",
       "latest_incident": {
         "title": "Elevated errors across many models",
-        "body": "We are currently investigating this issue.",
-        "date": "2026-06-16T17:29:52.619Z",
+        "body": "A fix has been implemented and we are monitoring the results.",
+        "date": "2026-06-16T18:00:12.045Z",
         "link": "https://stspg.io/1tl45njm4dyl",
-        "status": "investigating",
+        "status": "monitoring",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -326,7 +326,7 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -334,15 +334,15 @@
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Code",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Cowork",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude for Government",
@@ -355,7 +355,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T17:50:57.314Z",
+      "checked_at": "2026-06-16T18:00:55.581Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -471,7 +471,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T17:50:57.315Z",
+      "checked_at": "2026-06-16T18:00:55.582Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1367,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T17:50:57.315Z",
+      "checked_at": "2026-06-16T18:00:55.582Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1463,7 +1463,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T17:50:57.315Z",
+      "checked_at": "2026-06-16T18:00:55.582Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1575,7 +1575,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T17:50:57.316Z",
+      "checked_at": "2026-06-16T18:00:55.582Z",
       "latest_incident": null,
       "recent_incidents": [
         {
