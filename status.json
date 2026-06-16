@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-16T20:10:55.752Z",
+  "updated_at": "2026-06-16T20:20:56.275Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T20:10:55.739Z",
+      "checked_at": "2026-06-16T20:20:56.262Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-16T20:10:55.739Z",
+      "checked_at": "2026-06-16T20:20:56.262Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are investigating the issue for the listed services.",
@@ -265,16 +265,24 @@
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T20:10:55.739Z",
+      "checked_at": "2026-06-16T20:20:56.262Z",
       "latest_incident": {
-        "title": "Opus 4.8 errors",
-        "body": "Opus 4.8 error rates were elevated from 12:41 PDT to approximately 12:53 PDT. The team is monitoring.",
-        "date": "2026-06-16T19:59:26.565Z",
-        "link": "https://stspg.io/0qxpsl8p5gr7",
+        "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+        "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
+        "date": "2026-06-13T00:50:44.031Z",
+        "link": "https://stspg.io/kqx0j625mrgv",
         "status": "monitoring",
-        "impact": "none"
+        "impact": "minor"
       },
       "recent_incidents": [
+        {
+          "title": "Opus 4.8 errors",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-16T20:16:07.194Z",
+          "link": "https://stspg.io/0qxpsl8p5gr7",
+          "status": "resolved",
+          "impact": "none"
+        },
         {
           "title": "Elevated errors across many models",
           "body": "The incident has now been resolved. We had two phases:\n* between 10:23 PT / 17:23 UTC to 11:00 PT / 18:00 UTC -- all Sonnet and Opus models were affected, reaching an error rate of around 10%\n* after 11:00 PT / 18:00 UTC and until 12:20 PT / 19:20 UTC -- Opus 4.8 had an average error rate of 10%\n\nThe incident is now resolved.",
@@ -306,14 +314,6 @@
           "link": "https://stspg.io/7pwy7kxz7yzr",
           "status": "resolved",
           "impact": "major"
-        },
-        {
-          "title": "Elevated errors on Claude Opus 4.6",
-          "body": "This incident has been resolved.",
-          "date": "2026-06-11T15:01:51.449Z",
-          "link": "https://stspg.io/r2r8c96brb9n",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T20:10:55.740Z",
+      "checked_at": "2026-06-16T20:20:56.263Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T20:10:55.740Z",
+      "checked_at": "2026-06-16T20:20:56.263Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T20:10:55.740Z",
+      "checked_at": "2026-06-16T20:20:56.263Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T20:10:55.741Z",
+      "checked_at": "2026-06-16T20:20:56.264Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T20:10:55.741Z",
+      "checked_at": "2026-06-16T20:20:56.264Z",
       "latest_incident": null,
       "recent_incidents": [
         {
