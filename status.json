@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-06-16T18:00:55.588Z",
+  "updated_at": "2026-06-16T18:10:55.447Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
-      "description": "Minor Service Outage",
-      "checked_at": "2026-06-16T18:00:55.580Z",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-16T18:10:55.439Z",
       "latest_incident": {
         "title": "Disruption with some GitHub services",
-        "body": "We are experiencing degraded availability for the Opus 4.8 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.",
-        "date": "2026-06-16T17:47:32.952Z",
+        "body": "The degradation affecting Copilot AI Model Providers has been mitigated. We are monitoring to ensure stability.",
+        "date": "2026-06-16T18:00:30.680Z",
         "link": "https://stspg.io/0y9pgmg78442",
-        "status": "investigating",
+        "status": "monitoring",
         "impact": "major"
       },
       "recent_incidents": [
@@ -104,7 +104,7 @@
         },
         {
           "name": "Copilot AI Model Providers",
-          "status": "degraded"
+          "status": "operational"
         }
       ]
     },
@@ -113,7 +113,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-16T18:00:55.581Z",
+      "checked_at": "2026-06-16T18:10:55.439Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are investigating the issue for the listed services.",
@@ -272,7 +272,7 @@
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T18:00:55.581Z",
+      "checked_at": "2026-06-16T18:10:55.439Z",
       "latest_incident": {
         "title": "Elevated errors across many models",
         "body": "A fix has been implemented and we are monitoring the results.",
@@ -355,7 +355,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T18:00:55.581Z",
+      "checked_at": "2026-06-16T18:10:55.439Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -471,7 +471,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T18:00:55.582Z",
+      "checked_at": "2026-06-16T18:10:55.440Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1367,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T18:00:55.582Z",
+      "checked_at": "2026-06-16T18:10:55.440Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1463,7 +1463,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T18:00:55.582Z",
+      "checked_at": "2026-06-16T18:10:55.440Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1575,7 +1575,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T18:00:55.582Z",
+      "checked_at": "2026-06-16T18:10:55.440Z",
       "latest_incident": null,
       "recent_incidents": [
         {
