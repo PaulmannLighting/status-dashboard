@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-16T21:00:55.610Z",
+  "updated_at": "2026-06-16T21:10:55.408Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T21:00:55.603Z",
+      "checked_at": "2026-06-16T21:10:55.400Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-16T21:00:55.603Z",
+      "checked_at": "2026-06-16T21:10:55.400Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are investigating the issue for the listed services.",
@@ -265,13 +265,13 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-16T21:00:55.603Z",
+      "checked_at": "2026-06-16T21:10:55.400Z",
       "latest_incident": {
         "title": "Elevated errors for Claude Opus 4.8",
-        "body": "We are investigating elevated errors on requests to Claude Opus 4.8. We will provide an update as soon as possible.",
-        "date": "2026-06-16T20:50:02.320Z",
+        "body": "We have resolved the issue resulting in elevated errors on requests to Claude Opus 4.8, and are currently monitoring closely to prevent any further issues.",
+        "date": "2026-06-16T21:01:31.279Z",
         "link": "https://stspg.io/tslzsk6f4hlf",
-        "status": "investigating",
+        "status": "monitoring",
         "impact": "major"
       },
       "recent_incidents": [
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T21:00:55.603Z",
+      "checked_at": "2026-06-16T21:10:55.400Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T21:00:55.604Z",
+      "checked_at": "2026-06-16T21:10:55.401Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T21:00:55.604Z",
+      "checked_at": "2026-06-16T21:10:55.401Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T21:00:55.604Z",
+      "checked_at": "2026-06-16T21:10:55.401Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-16T21:00:55.604Z",
+      "checked_at": "2026-06-16T21:10:55.402Z",
       "latest_incident": null,
       "recent_incidents": [
         {
