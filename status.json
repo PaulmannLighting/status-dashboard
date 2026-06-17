@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-17T00:20:55.593Z",
+  "updated_at": "2026-06-17T00:30:55.500Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T00:20:55.581Z",
+      "checked_at": "2026-06-17T00:30:55.491Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-17T00:20:55.582Z",
+      "checked_at": "2026-06-17T00:30:55.492Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are investigating the issue for the listed services.",
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T00:20:55.582Z",
+      "checked_at": "2026-06-17T00:30:55.492Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T00:20:55.582Z",
+      "checked_at": "2026-06-17T00:30:55.492Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,18 +462,19 @@
     {
       "name": "DigitalOcean",
       "status_url": "https://status.digitalocean.com",
-      "status": "degraded",
-      "description": "Minor Service Outage",
-      "checked_at": "2026-06-17T00:20:55.582Z",
-      "latest_incident": {
-        "title": "Intermittent 500 Errors on Serverless/GenAI Inference API",
-        "body": "Our engineering teams have successfully begun implementing mitigation steps to resolve the connectivity issues affecting the inference API. We will provide another update once the API has fully recovered and error rates return to normal.",
-        "date": "2026-06-16T23:29:14.560Z",
-        "link": "https://stspg.io/40ln0gl1x56j",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-17T00:30:55.492Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Intermittent 500 Errors on Serverless/GenAI Inference API",
+          "body": "The connectivity issues affecting our Serverless/GenAI Inference API have been fully resolved.\nOur engineering teams successfully completed the connectivity restoration. All systems should be functioning normally, and the endpoint should be fully operational.",
+          "date": "2026-06-17T00:29:42.280Z",
+          "link": "https://stspg.io/40ln0gl1x56j",
+          "status": "resolved",
+          "impact": "none"
+        },
         {
           "title": "DeepSeek V4 Pro is returning HTTP 429 \"Rate limit exceeded\"",
           "body": "This incident has been resolved.",
@@ -503,14 +504,6 @@
           "body": "Between 06:35 UTC & 12:36 UTC today, our engineering team identified an issue impacting the Cloud Firewall. During this period, users might have encountered issues while updating their firewall rules.\n\nOur team has taken appropriate measures to address the issue. We can confirm that service has been restored and is now functioning normally.\n\nWe regret the inconvenience caused and appreciate your patience and understanding. However, if you continue to experience any issues, please create a support ticket for further analysis.",
           "date": "2026-05-20T13:03:09.605Z",
           "link": "https://stspg.io/5dzt41b39qvv",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Cloud Firewall",
-          "body": "Our Engineering team has verified that the issue causing incorrect Cloud Firewall rules to display on the cloud panel is fully resolved. The user interface continues to function as expected, and all systems have returned to normal operating conditions.\n\nIf you continue to experience problems, please open a ticket with our support team. Thank you for your patience throughout this incident.",
-          "date": "2026-05-20T07:48:14.980Z",
-          "link": "https://stspg.io/6y9xmwmgkyy4",
           "status": "resolved",
           "impact": "minor"
         }
@@ -654,7 +647,7 @@
         },
         {
           "name": "Inference",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "AMS3",
@@ -1367,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T00:20:55.583Z",
+      "checked_at": "2026-06-17T00:30:55.493Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1463,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T00:20:55.583Z",
+      "checked_at": "2026-06-17T00:30:55.493Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1575,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T00:20:55.583Z",
+      "checked_at": "2026-06-17T00:30:55.493Z",
       "latest_incident": null,
       "recent_incidents": [
         {
