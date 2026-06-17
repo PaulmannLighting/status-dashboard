@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-17T16:20:55.706Z",
+  "updated_at": "2026-06-17T16:30:59.629Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T16:20:55.659Z",
+      "checked_at": "2026-06-17T16:30:59.616Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-17T16:20:55.660Z",
+      "checked_at": "2026-06-17T16:30:59.616Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -265,16 +265,24 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T16:20:55.660Z",
+      "checked_at": "2026-06-17T16:30:59.616Z",
       "latest_incident": {
-        "title": "Elevated errors for Claude Opus 4.8",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-06-17T16:01:23.049Z",
-        "link": "https://stspg.io/jhq0vtzfn0yv",
+        "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+        "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
+        "date": "2026-06-13T00:50:44.031Z",
+        "link": "https://stspg.io/kqx0j625mrgv",
         "status": "monitoring",
-        "impact": "minor"
+        "impact": "major"
       },
       "recent_incidents": [
+        {
+          "title": "Elevated errors for Claude Opus 4.8",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-17T16:28:10.294Z",
+          "link": "https://stspg.io/jhq0vtzfn0yv",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated errors for Claude Opus 4.8",
           "body": "This incident has been resolved.",
@@ -306,14 +314,6 @@
           "link": "https://stspg.io/tslzsk6f4hlf",
           "status": "resolved",
           "impact": "major"
-        },
-        {
-          "title": "Opus 4.8 errors",
-          "body": "This incident has been resolved.",
-          "date": "2026-06-16T20:16:07.194Z",
-          "link": "https://stspg.io/0qxpsl8p5gr7",
-          "status": "resolved",
-          "impact": "none"
         }
       ],
       "components": [
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T16:20:55.661Z",
+      "checked_at": "2026-06-17T16:30:59.617Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "maintenance",
       "description": "Service Under Maintenance",
-      "checked_at": "2026-06-17T16:20:55.661Z",
+      "checked_at": "2026-06-17T16:30:59.617Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T16:20:55.662Z",
+      "checked_at": "2026-06-17T16:30:59.617Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T16:20:55.662Z",
+      "checked_at": "2026-06-17T16:30:59.618Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T16:20:55.662Z",
+      "checked_at": "2026-06-17T16:30:59.618Z",
       "latest_incident": null,
       "recent_incidents": [
         {
