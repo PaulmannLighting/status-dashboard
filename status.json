@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-06-17T19:20:55.618Z",
+  "updated_at": "2026-06-17T19:30:55.642Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T19:20:55.605Z",
-      "latest_incident": {
-        "title": "Disruption with Copilot next edit suggestions",
-        "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
-        "date": "2026-06-17T19:14:46.327Z",
-        "link": "https://stspg.io/7tn8k5v6kzjj",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-06-17T19:30:55.625Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Disruption with Copilot next edit suggestions",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-06-17T19:28:16.628Z",
+          "link": "https://stspg.io/7tn8k5v6kzjj",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Incident with Copilot Availability",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -45,14 +46,6 @@
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
           "date": "2026-06-15T17:37:39.293Z",
           "link": "https://stspg.io/4py2y12w7qpl",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Incident with Webhooks",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
-          "date": "2026-06-11T22:19:48.338Z",
-          "link": "https://stspg.io/rl21t9c4ywrz",
           "status": "resolved",
           "impact": "minor"
         }
@@ -113,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-17T19:20:55.605Z",
+      "checked_at": "2026-06-17T19:30:55.626Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -272,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T19:20:55.605Z",
+      "checked_at": "2026-06-17T19:30:55.626Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -355,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T19:20:55.605Z",
+      "checked_at": "2026-06-17T19:30:55.626Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -471,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T19:20:55.606Z",
+      "checked_at": "2026-06-17T19:30:55.629Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T19:20:55.606Z",
+      "checked_at": "2026-06-17T19:30:55.629Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1463,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T19:20:55.606Z",
+      "checked_at": "2026-06-17T19:30:55.629Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1575,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T19:20:55.606Z",
+      "checked_at": "2026-06-17T19:30:55.630Z",
       "latest_incident": null,
       "recent_incidents": [
         {
