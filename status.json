@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-06-17T04:40:55.416Z",
+  "updated_at": "2026-06-17T04:51:05.589Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "outage",
-      "description": "Partial System Outage",
-      "checked_at": "2026-06-17T04:40:55.408Z",
-      "latest_incident": {
-        "title": "Incident with Copilot Availability",
-        "body": "We've applied a mitigation to unblock Copilot functionality. Users may start to see signs of recovery. Relaunching your client should accelerate signs of recovery. We will continue to monitor the situation.",
-        "date": "2026-06-17T04:26:20.303Z",
-        "link": "https://stspg.io/nhj5lsy4gbzz",
-        "status": "investigating",
-        "impact": "critical"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-17T04:51:05.582Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Incident with Copilot Availability",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-06-17T04:44:07.904Z",
+          "link": "https://stspg.io/nhj5lsy4gbzz",
+          "status": "resolved",
+          "impact": "critical"
+        },
         {
           "title": "Disruption with some GitHub services",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -47,14 +48,6 @@
           "link": "https://stspg.io/rl21t9c4ywrz",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Authentication issues related to API requests",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
-          "date": "2026-06-10T16:39:05.460Z",
-          "link": "https://stspg.io/wtyzzxm33wvj",
-          "status": "resolved",
-          "impact": "critical"
         }
       ],
       "components": [
@@ -96,7 +89,7 @@
         },
         {
           "name": "Copilot",
-          "status": "outage"
+          "status": "operational"
         },
         {
           "name": "Codespaces",
@@ -113,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-17T04:40:55.408Z",
+      "checked_at": "2026-06-17T04:51:05.582Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -272,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T04:40:55.409Z",
+      "checked_at": "2026-06-17T04:51:05.582Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -355,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T04:40:55.409Z",
+      "checked_at": "2026-06-17T04:51:05.583Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -471,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T04:40:55.409Z",
+      "checked_at": "2026-06-17T04:51:05.583Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T04:40:55.409Z",
+      "checked_at": "2026-06-17T04:51:05.583Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1463,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T04:40:55.410Z",
+      "checked_at": "2026-06-17T04:51:05.583Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1575,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-17T04:40:55.410Z",
+      "checked_at": "2026-06-17T04:51:05.583Z",
       "latest_incident": null,
       "recent_incidents": [
         {
