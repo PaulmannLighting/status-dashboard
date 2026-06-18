@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-18T18:50:55.607Z",
+  "updated_at": "2026-06-18T19:00:55.836Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-18T18:50:55.594Z",
+      "checked_at": "2026-06-18T19:00:55.823Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -35,7 +35,7 @@
         },
         {
           "title": "Multiple services have elevated errors and endpoint failures when checking feature flags",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "body": "Between 17:38 UTC and 18:22 UTC on June 15, 2026, approximately 83% of requests to the analytics endpoint serving the /chronicle feature failed.  The cause was an internal feature-flag service that encountered a transient error and failed to recover, causing feature flag checks to fail. The analytics endpoint was gated behind one of these flags, resulting in requests being rejected. We restored service health by removing the feature flag gating the analytics endpoint and deploying that change. To avoid recurrence of similar incidents, we have changed the feature-flag client so that errors that are not known to be permanent are retried, and we are improving alerting and startup behavior so this class of failure is detected and recovered from faster.",
           "date": "2026-06-15T19:10:15.147Z",
           "link": "https://stspg.io/hsz6jwmfm76g",
           "status": "resolved",
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-18T18:50:55.594Z",
+      "checked_at": "2026-06-18T19:00:55.823Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-18T18:50:55.594Z",
+      "checked_at": "2026-06-18T19:00:55.824Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-18T18:50:55.595Z",
+      "checked_at": "2026-06-18T19:00:55.824Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-18T18:50:55.595Z",
+      "checked_at": "2026-06-18T19:00:55.824Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-18T18:50:55.595Z",
+      "checked_at": "2026-06-18T19:00:55.824Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-18T18:50:55.595Z",
+      "checked_at": "2026-06-18T19:00:55.825Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-18T18:50:55.596Z",
+      "checked_at": "2026-06-18T19:00:55.825Z",
       "latest_incident": null,
       "recent_incidents": [
         {
