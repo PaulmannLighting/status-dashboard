@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-18T03:20:55.358Z",
+  "updated_at": "2026-06-18T03:30:55.507Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-18T03:20:55.350Z",
+      "checked_at": "2026-06-18T03:30:55.500Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,11 +106,11 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-18T03:20:55.350Z",
+      "checked_at": "2026-06-18T03:30:55.501Z",
       "latest_incident": {
-        "title": "FedRAMP workspaces and API orgs have degraded performance",
-        "body": "We are still investigating the issue for the listed services.",
-        "date": "2026-06-17T01:24:25Z",
+        "title": "ChatGPT failing to load or save",
+        "body": "We are investigating the issue for the listed services.",
+        "date": "2026-06-18T03:26:46Z",
         "link": "",
         "status": "investigating",
         "impact": "minor"
@@ -163,6 +163,30 @@
           "status": "operational"
         },
         {
+          "name": "Image Generation",
+          "status": "degraded"
+        },
+        {
+          "name": "Deep Research",
+          "status": "degraded"
+        },
+        {
+          "name": "ChatGPT Atlas",
+          "status": "degraded"
+        },
+        {
+          "name": "GPTs",
+          "status": "degraded"
+        },
+        {
+          "name": "Connectors/Apps",
+          "status": "degraded"
+        },
+        {
+          "name": "Search",
+          "status": "degraded"
+        },
+        {
           "name": "Fine-tuning",
           "status": "operational"
         },
@@ -176,11 +200,7 @@
         },
         {
           "name": "Compliance API",
-          "status": "operational"
-        },
-        {
-          "name": "ChatGPT Atlas",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Realtime",
@@ -192,27 +212,7 @@
         },
         {
           "name": "Conversations",
-          "status": "operational"
-        },
-        {
-          "name": "Connectors/Apps",
-          "status": "operational"
-        },
-        {
-          "name": "Deep Research",
-          "status": "operational"
-        },
-        {
-          "name": "Search",
-          "status": "operational"
-        },
-        {
-          "name": "GPTs",
-          "status": "operational"
-        },
-        {
-          "name": "Image Generation",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Audio",
@@ -220,7 +220,7 @@
         },
         {
           "name": "Login",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "VS Code extension",
@@ -228,7 +228,7 @@
         },
         {
           "name": "Voice mode",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Images",
@@ -244,11 +244,11 @@
         },
         {
           "name": "File uploads",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Agent",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "App",
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-18T03:20:55.350Z",
+      "checked_at": "2026-06-18T03:30:55.501Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-18T03:20:55.350Z",
+      "checked_at": "2026-06-18T03:30:55.501Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-18T03:20:55.351Z",
+      "checked_at": "2026-06-18T03:30:55.501Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-18T03:20:55.351Z",
+      "checked_at": "2026-06-18T03:30:55.501Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1456,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-18T03:20:55.351Z",
+      "checked_at": "2026-06-18T03:30:55.501Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-18T03:20:55.351Z",
+      "checked_at": "2026-06-18T03:30:55.502Z",
       "latest_incident": null,
       "recent_incidents": [
         {
