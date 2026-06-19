@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-19T16:30:55.649Z",
+  "updated_at": "2026-06-19T16:40:55.598Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T16:30:55.636Z",
+      "checked_at": "2026-06-19T16:40:55.590Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-19T16:30:55.637Z",
+      "checked_at": "2026-06-19T16:40:55.590Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T16:30:55.637Z",
+      "checked_at": "2026-06-19T16:40:55.590Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T16:30:55.637Z",
+      "checked_at": "2026-06-19T16:40:55.590Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,18 +462,19 @@
     {
       "name": "DigitalOcean",
       "status_url": "https://status.digitalocean.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T16:30:55.637Z",
-      "latest_incident": {
-        "title": "Monitoring Graphs in the Cloud Control Panel",
-        "body": "Our engineering team has implemented the necessary fixes to address the issue affecting the visibility of monitoring graphs within the Cloud Panel. Users should now be able to view monitoring graphs for their services, including Droplets with DO Agent installed, Load Balancers, Databases, etc.\n\nWe are currently monitoring the situation to ensure that the service has returned to normal operation and remain stable. We appreciate your patience and will provide an update once the issue is fully confirmed as resolved.",
-        "date": "2026-06-19T14:50:38.405Z",
-        "link": "https://stspg.io/8jy6pdvsszwm",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-06-19T16:40:55.591Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Monitoring Graphs in the Cloud Control Panel",
+          "body": "Between 13:22 & 14:26 UTC today, users have experienced missing monitoring graphs for Droplets (with DO agent installed), Load Balancers, Databases, and other services within the Cloud Control Panel.\n\nOur engineering team has identified the root cause of the issue and has taken appropriate steps to restore functionality. We can confirm that services have been restored and are functioning as expected.\n\nWe apologize for any inconvenience this may have caused. If you continue to experience issues viewing monitoring graphs, please create a support ticket for further analysis. Thank you for your patience and understanding",
+          "date": "2026-06-19T16:37:38.303Z",
+          "link": "https://stspg.io/8jy6pdvsszwm",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Intermittent 500 Errors on Serverless/GenAI Inference API",
           "body": "The connectivity issues affecting our Serverless/GenAI Inference API have been fully resolved.\nOur engineering teams successfully completed the connectivity restoration. All systems should be functioning normally, and the endpoint should be fully operational.",
@@ -503,14 +504,6 @@
           "body": "Our Engineering team has confirmed that the issue impacting build failures on App Platform has been resolved at 07:00 am UTC. All App Platform builds are now succeeding as expected. Customers who previously encountered build failures should now be able to deploy their applications without further issues.\n\nIf you continue to experience any problems, please open a ticket with our support team. Thank you for your patience, and we apologize for any inconvenience.",
           "date": "2026-05-29T07:58:23.373Z",
           "link": "https://stspg.io/c5cpdwx9rc37",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Cloud Firewall",
-          "body": "Between 06:35 UTC & 12:36 UTC today, our engineering team identified an issue impacting the Cloud Firewall. During this period, users might have encountered issues while updating their firewall rules.\n\nOur team has taken appropriate measures to address the issue. We can confirm that service has been restored and is now functioning normally.\n\nWe regret the inconvenience caused and appreciate your patience and understanding. However, if you continue to experience any issues, please create a support ticket for further analysis.",
-          "date": "2026-05-20T13:03:09.605Z",
-          "link": "https://stspg.io/5dzt41b39qvv",
           "status": "resolved",
           "impact": "minor"
         }
@@ -1367,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T16:30:55.638Z",
+      "checked_at": "2026-06-19T16:40:55.591Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1463,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T16:30:55.638Z",
+      "checked_at": "2026-06-19T16:40:55.591Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1575,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T16:30:55.638Z",
+      "checked_at": "2026-06-19T16:40:55.591Z",
       "latest_incident": null,
       "recent_incidents": [
         {
