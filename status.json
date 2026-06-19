@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-19T09:30:55.550Z",
+  "updated_at": "2026-06-19T09:40:56.243Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T09:30:55.543Z",
+      "checked_at": "2026-06-19T09:40:56.231Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-19T09:30:55.543Z",
+      "checked_at": "2026-06-19T09:40:56.231Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T09:30:55.544Z",
+      "checked_at": "2026-06-19T09:40:56.232Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -346,18 +346,19 @@
     {
       "name": "Bunny.net",
       "status_url": "https://status.bunny.net",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-06-19T09:30:55.544Z",
-      "latest_incident": {
-        "title": "Free certificate issuance with degraded performance",
-        "body": "We identified that this is due to an issue currently experienced by the Let's Encrypt service. Existing certificates on custom domains will continue to function as normal - however new and cert renewals via our free certificate option may experience errors to the certificate issuance. You can follow https://letsencrypt.status.io/ for more details.",
-        "date": "2026-06-18T20:58:09.000Z",
-        "link": "https://stspg.io/7v31krkvk5cb",
-        "status": "identified",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-19T09:40:56.232Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Free certificate issuance with degraded performance",
+          "body": "As per Lets Encrypt status page, this has been resolved - we similarly have observed no degradation/failures on certificate renewals since their update went out.",
+          "date": "2026-06-19T09:37:04.033Z",
+          "link": "https://stspg.io/7v31krkvk5cb",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Synchronization and Configuration Propagation Delays",
           "body": "All pending configuration changes have propagated across the CDN.",
@@ -389,14 +390,6 @@
           "link": "https://stspg.io/11z3h772t3jw",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Increased Optimizer Errors",
-          "body": "This incident has been resolved.",
-          "date": "2026-06-01T10:38:30.234Z",
-          "link": "https://stspg.io/zskk5mrzzl8l",
-          "status": "resolved",
-          "impact": "critical"
         }
       ],
       "components": [
@@ -418,11 +411,11 @@
         },
         {
           "name": "API",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "CDN",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "DNS",
@@ -471,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T09:30:55.544Z",
+      "checked_at": "2026-06-19T09:40:56.233Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T09:30:55.544Z",
+      "checked_at": "2026-06-19T09:40:56.233Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1463,7 +1456,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T09:30:55.544Z",
+      "checked_at": "2026-06-19T09:40:56.233Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1575,7 +1568,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T09:30:55.545Z",
+      "checked_at": "2026-06-19T09:40:56.233Z",
       "latest_incident": null,
       "recent_incidents": [
         {
