@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-19T08:40:55.580Z",
+  "updated_at": "2026-06-19T08:50:55.509Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T08:40:55.572Z",
+      "checked_at": "2026-06-19T08:50:55.502Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-19T08:40:55.573Z",
+      "checked_at": "2026-06-19T08:50:55.502Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -265,16 +265,24 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T08:40:55.573Z",
+      "checked_at": "2026-06-19T08:50:55.502Z",
       "latest_incident": {
-        "title": "Elevated error rates on the Claude API",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-06-19T08:37:12.567Z",
-        "link": "https://stspg.io/05r0qhzdjrx5",
+        "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+        "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
+        "date": "2026-06-13T00:50:44.031Z",
+        "link": "https://stspg.io/kqx0j625mrgv",
         "status": "monitoring",
-        "impact": "minor"
+        "impact": "major"
       },
       "recent_incidents": [
+        {
+          "title": "Elevated error rates on the Claude API",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-19T08:45:47.997Z",
+          "link": "https://stspg.io/05r0qhzdjrx5",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated errors for Claude Opus 4.8",
           "body": "This incident has been resolved.",
@@ -304,14 +312,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-06-17T10:03:12.447Z",
           "link": "https://stspg.io/rd83d4611qzr",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Elevated errors for Claude Opus 4.8",
-          "body": "This incident has been resolved. Requests to Claude Opus 4.8 received elevated errors between 9:59pm PT / 04:59 UTC and 10:41pm PT / 05:41 UTC.",
-          "date": "2026-06-17T06:37:45.424Z",
-          "link": "https://stspg.io/nbnfb446kwm9",
           "status": "resolved",
           "impact": "minor"
         }
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-06-19T08:40:55.573Z",
+      "checked_at": "2026-06-19T08:50:55.502Z",
       "latest_incident": {
         "title": "Free certificate issuance with degraded performance",
         "body": "We identified that this is due to an issue currently experienced by the Let's Encrypt service. Existing certificates on custom domains will continue to function as normal - however new and cert renewals via our free certificate option may experience errors to the certificate issuance. You can follow https://letsencrypt.status.io/ for more details.",
@@ -471,7 +471,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T08:40:55.573Z",
+      "checked_at": "2026-06-19T08:50:55.503Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1367,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T08:40:55.573Z",
+      "checked_at": "2026-06-19T08:50:55.503Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1463,7 +1463,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T08:40:55.574Z",
+      "checked_at": "2026-06-19T08:50:55.503Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1575,7 +1575,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T08:40:55.574Z",
+      "checked_at": "2026-06-19T08:50:55.503Z",
       "latest_incident": null,
       "recent_incidents": [
         {
