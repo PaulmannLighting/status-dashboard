@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-19T22:40:55.538Z",
+  "updated_at": "2026-06-19T22:50:55.550Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T22:40:55.531Z",
+      "checked_at": "2026-06-19T22:50:55.542Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-19T22:40:55.531Z",
+      "checked_at": "2026-06-19T22:50:55.543Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T22:40:55.531Z",
+      "checked_at": "2026-06-19T22:50:55.543Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T22:40:55.531Z",
+      "checked_at": "2026-06-19T22:50:55.543Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T22:40:55.532Z",
+      "checked_at": "2026-06-19T22:50:55.543Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1358,10 +1358,17 @@
     {
       "name": "Atlassian - JIRA",
       "status_url": "https://jira-software.status.atlassian.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-19T22:40:55.532Z",
-      "latest_incident": null,
+      "status": "outage",
+      "description": "Minor Service Outage",
+      "checked_at": "2026-06-19T22:50:55.543Z",
+      "latest_incident": {
+        "title": "Jira : Incoming emails partial outage",
+        "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
+        "date": "2026-06-19T22:46:56.770Z",
+        "link": "https://stspg.io/kpj5zywxxynh",
+        "status": "monitoring",
+        "impact": "major"
+      },
       "recent_incidents": [
         {
           "title": "Delays in processing incoming Emails, Work Item notifications, and Scheduled Triggers in Marketplace Apps",
@@ -1447,7 +1454,7 @@
         },
         {
           "name": "Automation for Jira",
-          "status": "operational"
+          "status": "degraded"
         }
       ]
     },
@@ -1456,7 +1463,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T22:40:55.532Z",
+      "checked_at": "2026-06-19T22:50:55.544Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1568,7 +1575,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-19T22:40:55.532Z",
+      "checked_at": "2026-06-19T22:50:55.544Z",
       "latest_incident": null,
       "recent_incidents": [
         {
