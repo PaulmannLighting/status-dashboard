@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-06-23T23:20:55.398Z",
+  "updated_at": "2026-06-23T23:30:59.469Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T23:20:55.390Z",
-      "latest_incident": {
-        "title": "We are seeing elevated errors with Next Edit Suggestions and Completions",
-        "body": "We are investigating reports of impacted performance for some GitHub services.",
-        "date": "2026-06-23T23:04:50.500Z",
-        "link": "https://stspg.io/87nklrsyfs65",
-        "status": "investigating",
-        "impact": "minor"
-      },
+      "checked_at": "2026-06-23T23:30:59.457Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "We are seeing elevated errors with Next Edit Suggestions and Completions",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-06-23T23:29:34.640Z",
+          "link": "https://stspg.io/87nklrsyfs65",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Disruption with Copilot next edit suggestions",
           "body": "On June 17, 2026, between 16:57 UTC and 19:14 UTC, Copilot code completions were degraded and users were unable to receive Next Edit Suggestions. Standard ghost text code completions were not affected. This was due to a configuration change that caused the service's routing layer to incorrectly discard all Next Edit Suggestion model endpoints as invalid.<br /><br />We mitigated the incident by deploying a corrected configuration change at 18:55 UTC, with full recovery observed at 19:14 UTC.<br /><br />We are working to improve the resilience of our routing layer to limit impact due to a subset of invalid configurations, and to improve our alerting to detect sudden traffic changes that are not captured by standard error rate monitors.",
@@ -47,14 +48,6 @@
           "link": "https://stspg.io/0y9pgmg78442",
           "status": "resolved",
           "impact": "major"
-        },
-        {
-          "title": "Multiple services have elevated errors and endpoint failures when checking feature flags",
-          "body": "Between 17:38 UTC and 18:22 UTC on June 15, 2026, approximately 83% of requests to the analytics endpoint serving the /chronicle feature failed.  The cause was an internal feature-flag service that encountered a transient error and failed to recover, causing feature flag checks to fail. The analytics endpoint was gated behind one of these flags, resulting in requests being rejected. We restored service health by removing the feature flag gating the analytics endpoint and deploying that change. To avoid recurrence of similar incidents, we have changed the feature-flag client so that errors that are not known to be permanent are retried, and we are improving alerting and startup behavior so this class of failure is detected and recovered from faster.",
-          "date": "2026-06-15T19:10:15.147Z",
-          "link": "https://stspg.io/hsz6jwmfm76g",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -113,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-23T23:20:55.390Z",
+      "checked_at": "2026-06-23T23:30:59.457Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -272,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T23:20:55.390Z",
+      "checked_at": "2026-06-23T23:30:59.457Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -355,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T23:20:55.390Z",
+      "checked_at": "2026-06-23T23:30:59.457Z",
       "latest_incident": {
         "title": "Shield API Intermittent Errors",
         "body": "We identified intermittent issues affecting the Shield API that may have caused occasional errors for some users.\nA fix has been implemented, and the service has returned to normal operation. We are currently monitoring to ensure continued stability.",
@@ -478,7 +471,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T23:20:55.391Z",
+      "checked_at": "2026-06-23T23:30:59.458Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1374,7 +1367,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-23T23:20:55.391Z",
+      "checked_at": "2026-06-23T23:30:59.458Z",
       "latest_incident": {
         "title": "Jira : Incoming emails partial outage",
         "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
@@ -1477,7 +1470,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T23:20:55.391Z",
+      "checked_at": "2026-06-23T23:30:59.458Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1589,7 +1582,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T23:20:55.391Z",
+      "checked_at": "2026-06-23T23:30:59.458Z",
       "latest_incident": null,
       "recent_incidents": [
         {
