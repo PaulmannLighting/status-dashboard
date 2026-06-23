@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-23T18:20:55.593Z",
+  "updated_at": "2026-06-23T18:30:59.846Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T18:20:55.585Z",
+      "checked_at": "2026-06-23T18:30:59.838Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-23T18:20:55.585Z",
+      "checked_at": "2026-06-23T18:30:59.838Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -167,6 +167,66 @@
           "status": "operational"
         },
         {
+          "name": "Responses",
+          "status": "operational"
+        },
+        {
+          "name": "Audio",
+          "status": "operational"
+        },
+        {
+          "name": "Files",
+          "status": "operational"
+        },
+        {
+          "name": "Login",
+          "status": "operational"
+        },
+        {
+          "name": "Compliance API",
+          "status": "operational"
+        },
+        {
+          "name": "Search",
+          "status": "operational"
+        },
+        {
+          "name": "Voice mode",
+          "status": "operational"
+        },
+        {
+          "name": "GPTs",
+          "status": "operational"
+        },
+        {
+          "name": "Image Generation",
+          "status": "operational"
+        },
+        {
+          "name": "Deep Research",
+          "status": "operational"
+        },
+        {
+          "name": "ChatGPT Atlas",
+          "status": "operational"
+        },
+        {
+          "name": "Connectors/Apps",
+          "status": "operational"
+        },
+        {
+          "name": "CLI",
+          "status": "operational"
+        },
+        {
+          "name": "VS Code extension",
+          "status": "operational"
+        },
+        {
+          "name": "Ads API",
+          "status": "operational"
+        },
+        {
           "name": "Realtime",
           "status": "operational"
         },
@@ -176,10 +236,6 @@
         },
         {
           "name": "Conversations",
-          "status": "operational"
-        },
-        {
-          "name": "Audio",
           "status": "operational"
         },
         {
@@ -201,62 +257,6 @@
         {
           "name": "App",
           "status": "operational"
-        },
-        {
-          "name": "Codex API",
-          "status": "operational"
-        },
-        {
-          "name": "FedRAMP",
-          "status": "degraded"
-        },
-        {
-          "name": "Ads Manager",
-          "status": "operational"
-        },
-        {
-          "name": "Chat Completions",
-          "status": "operational"
-        },
-        {
-          "name": "Embeddings",
-          "status": "operational"
-        },
-        {
-          "name": "Moderations",
-          "status": "operational"
-        },
-        {
-          "name": "Login",
-          "status": "operational"
-        },
-        {
-          "name": "Connectors/Apps",
-          "status": "operational"
-        },
-        {
-          "name": "CLI",
-          "status": "operational"
-        },
-        {
-          "name": "VS Code extension",
-          "status": "operational"
-        },
-        {
-          "name": "Ads API",
-          "status": "operational"
-        },
-        {
-          "name": "Responses",
-          "status": "operational"
-        },
-        {
-          "name": "Files",
-          "status": "operational"
-        },
-        {
-          "name": "Login",
-          "status": "operational"
         }
       ]
     },
@@ -264,15 +264,15 @@
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-23T18:20:55.586Z",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-06-23T18:30:59.839Z",
       "latest_incident": {
-        "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-        "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
-        "date": "2026-06-13T00:50:44.031Z",
-        "link": "https://stspg.io/kqx0j625mrgv",
-        "status": "monitoring",
-        "impact": "critical"
+        "title": "Claude.ai is experiencing elevated error rates",
+        "body": "We are currently investigating this issue.",
+        "date": "2026-06-23T18:24:12.375Z",
+        "link": "https://stspg.io/hl3355csbyxv",
+        "status": "investigating",
+        "impact": "minor"
       },
       "recent_incidents": [
         {
@@ -319,7 +319,7 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T18:20:55.586Z",
+      "checked_at": "2026-06-23T18:30:59.839Z",
       "latest_incident": {
         "title": "Shield API Intermittent Errors",
         "body": "We identified intermittent issues affecting the Shield API that may have caused occasional errors for some users.\nA fix has been implemented, and the service has returned to normal operation. We are currently monitoring to ensure continued stability.",
@@ -471,7 +471,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T18:20:55.586Z",
+      "checked_at": "2026-06-23T18:30:59.839Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1367,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-23T18:20:55.586Z",
+      "checked_at": "2026-06-23T18:30:59.839Z",
       "latest_incident": {
         "title": "Jira : Incoming emails partial outage",
         "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
@@ -1470,23 +1470,23 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T18:20:55.586Z",
+      "checked_at": "2026-06-23T18:30:59.840Z",
       "latest_incident": null,
       "recent_incidents": [
         {
           "title": "Confluence Cloud experiencing degraded viewing experience",
-          "body": "On June 16, 2026, Confluence Cloud users for some customers may have experienced performance degradation of view and edit page experiences. The issue has now been resolved, and the service is operating normally for all affected customers.",
-          "date": "2026-06-16T15:56:40.613Z",
+          "body": "### Summary\n\n###   \n\nOn Jun 12, 2026, between 07:04 and 12:10 UTC and on Jun 16, 2026, between 12:56 and 14:35 UTC, a subset of Atlassian customers using Confluence Cloud experienced errors and degraded performance when attempting to view or edit pages. The event was triggered when a database cluster within our infrastructure stopped responding to connection close requests. This caused idle connections to accumulate rather than be released — resulting in increased memory pressure and cascading errors for users. The incident was detected by our automated monitoring within 18 minutes and mitigated by scaling database resources and redeploying, which recycled the idle connections. A permanent fix has since been developed and deployed.\n\n  \n\n### IMPACT\n\n###   \n\nThe overall impact was between Jun 12, 2026 07:04 and 12:10 UTC and Jun 16, 2026 12:56 and 14:35 UTC on Confluence Cloud. The June 12 incident caused service disruption to a subset of customers in the EU region while the June 16 incident caused service disruption to a subset of customers in the US region. Impacted users experienced errors or degraded performance when attempting to view, edit, or access Confluence content and spaces.\n\n  \n\n### ROOT CAUSE\n\n###   \n\n1.  A database cluster within our infrastructure stopped responding to connection close requests.\n2.  Idle connections accumulated across clusters rather than being closed, creating a connection leak and increasing memory pressure on the database layer.\n3.  Hitting max connections on the cluster degraded query performance.\n4.  Users attempting to view or edit Confluence content experienced errors and slow load times as a result.\n\n  \n\n### REMEDIAL ACTIONS PLAN & NEXT STEPS\n\n###   \n\nWe know that outages impact your productivity. While we have a number of testing and preventative processes in place, this specific design limitation in our connection cleanup process was not identified until it was triggered by an adverse infrastructure condition in production.\n\n  \n\nWe have already deployed the following fix:\n\n-   Redesigned the database connection cleanup process to prevent unresponsive connections from impacting the closure of others.\n\nTo minimize the impact of similar incidents in the future, we will implement additional preventative measures such as:\n\n-   Monitoring and alerting for connection cleanup latency and failure rates, so that slowdowns in connection closure are detected early.\n-   Enhanced safeguards on database connection creation to limit the blast radius of any future connection accumulation events.\n\nWe apologize to customers whose services were impacted during this incident. We are taking immediate steps to improve the resilience of our platform_._\n\n  \n\nThanks,\n\nAtlassian Customer Support",
+          "date": "2026-06-23T18:25:46.888Z",
           "link": "https://stspg.io/npzhdwdhc99g",
-          "status": "resolved",
+          "status": "postmortem",
           "impact": "minor"
         },
         {
           "title": "Degraded performance with Confluence Cloud",
-          "body": "On June 12th 2026, between 07:04 to 11:06 UTC, some Confluence users may have experienced service disruptions.\n\nThe issue has now been resolved and the service is operating normally for all affected customers.",
-          "date": "2026-06-12T11:15:09.000Z",
+          "body": "### Summary\n\nOn Jun 12, 2026, between 07:04 and 12:10 UTC and on Jun 16, 2026, between 12:56 and 14:35 UTC, a subset of Atlassian customers using Confluence Cloud experienced errors and degraded performance when attempting to view or edit pages. The event was triggered when a database cluster within our infrastructure stopped responding to connection close requests. This caused idle connections to accumulate rather than be released — resulting in increased memory pressure and cascading errors for users. The incident was detected by our automated monitoring within 18 minutes and mitigated by scaling database resources and redeploying, which recycled the idle connections. A permanent fix has since been developed and deployed.\n\n### IMPACT\n\nThe overall impact was between Jun 12, 2026 07:04 and 12:10 UTC and Jun 16, 2026 12:56 and 14:35 UTC on Confluence Cloud. The June 12 incident caused service disruption to a subset of customers in the EU region while the June 16 incident caused service disruption to a subset of customers in the US region. Impacted users experienced errors or degraded performance when attempting to view, edit, or access Confluence content and spaces.\n\n‌\n\n### ROOT CAUSE\n\n‌\n\n1. A database cluster within our infrastructure stopped responding to connection close requests.\n2. Idle connections accumulated across clusters rather than being closed, creating a connection leak and increasing memory pressure on the database layer.\n3. Hitting max connections on the cluster degraded query performance.\n4. Users attempting to view or edit Confluence content experienced errors and slow load times as a result.\n\n‌\n\n### REMEDIAL ACTIONS PLAN & NEXT STEPS\n\n‌\n\nWe know that outages impact your productivity. While we have a number of testing and preventative processes in place, this specific design limitation in our connection cleanup process was not identified until it was triggered by an adverse infrastructure condition in production.\n\n‌\n\nWe have already deployed the following fix:\n\n* Redesigned the database connection cleanup process to prevent unresponsive connections from impacting the closure of others.\n\nTo minimize the impact of similar incidents in the future, we will implement additional preventative measures such as:\n\n* Monitoring and alerting for connection cleanup latency and failure rates, so that slowdowns in connection closure are detected early.\n* Enhanced safeguards on database connection creation to limit the blast radius of any future connection accumulation events.\n\nWe apologize to customers whose services were impacted during this incident. We are taking immediate steps to improve the resilience of our platform_._\n\n‌\n\nThanks,\n\nAtlassian Customer Support",
+          "date": "2026-06-23T18:28:45.698Z",
           "link": "https://stspg.io/429x5sxfy4gj",
-          "status": "resolved",
+          "status": "postmortem",
           "impact": "minor"
         },
         {
@@ -1582,7 +1582,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T18:20:55.587Z",
+      "checked_at": "2026-06-23T18:30:59.840Z",
       "latest_incident": null,
       "recent_incidents": [
         {
