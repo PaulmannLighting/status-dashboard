@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-23T18:30:59.846Z",
+  "updated_at": "2026-06-23T18:40:55.382Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T18:30:59.838Z",
+      "checked_at": "2026-06-23T18:40:55.373Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-23T18:30:59.838Z",
+      "checked_at": "2026-06-23T18:40:55.373Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -264,17 +264,25 @@
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-06-23T18:30:59.839Z",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-23T18:40:55.373Z",
       "latest_incident": {
-        "title": "Claude.ai is experiencing elevated error rates",
-        "body": "We are currently investigating this issue.",
-        "date": "2026-06-23T18:24:12.375Z",
-        "link": "https://stspg.io/hl3355csbyxv",
-        "status": "investigating",
-        "impact": "minor"
+        "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+        "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
+        "date": "2026-06-13T00:50:44.031Z",
+        "link": "https://stspg.io/kqx0j625mrgv",
+        "status": "monitoring",
+        "impact": "critical"
       },
       "recent_incidents": [
+        {
+          "title": "Claude.ai is experiencing elevated error rates",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-23T18:32:57.379Z",
+          "link": "https://stspg.io/hl3355csbyxv",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated error rate across multiple models",
           "body": "This incident has been resolved.",
@@ -306,20 +314,12 @@
           "link": "https://stspg.io/jjzw7yp300my",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Elevated Error Rates for Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 4.6, and Haiku 4.5",
-          "body": "This incident has been resolved.",
-          "date": "2026-06-22T02:06:43.543Z",
-          "link": "https://stspg.io/n57njqf1mk5l",
-          "status": "resolved",
-          "impact": "major"
         }
       ],
       "components": [
         {
           "name": "claude.ai",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T18:30:59.839Z",
+      "checked_at": "2026-06-23T18:40:55.373Z",
       "latest_incident": {
         "title": "Shield API Intermittent Errors",
         "body": "We identified intermittent issues affecting the Shield API that may have caused occasional errors for some users.\nA fix has been implemented, and the service has returned to normal operation. We are currently monitoring to ensure continued stability.",
@@ -471,7 +471,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T18:30:59.839Z",
+      "checked_at": "2026-06-23T18:40:55.374Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1367,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-23T18:30:59.839Z",
+      "checked_at": "2026-06-23T18:40:55.374Z",
       "latest_incident": {
         "title": "Jira : Incoming emails partial outage",
         "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
@@ -1470,7 +1470,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T18:30:59.840Z",
+      "checked_at": "2026-06-23T18:40:55.374Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1582,7 +1582,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T18:30:59.840Z",
+      "checked_at": "2026-06-23T18:40:55.375Z",
       "latest_incident": null,
       "recent_incidents": [
         {
