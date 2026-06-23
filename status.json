@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-23T16:00:55.588Z",
+  "updated_at": "2026-06-23T16:10:55.922Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T16:00:55.581Z",
+      "checked_at": "2026-06-23T16:10:55.914Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-06-23T16:00:55.581Z",
+      "checked_at": "2026-06-23T16:10:55.915Z",
       "latest_incident": {
         "title": "Users may experience elevated errors in ChatGPT uploading and downloading files ",
         "body": "We have applied the mitigation and are monitoring the recovery.",
@@ -264,12 +264,12 @@
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
-      "description": "Minor Service Outage",
-      "checked_at": "2026-06-23T16:00:55.581Z",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-23T16:10:55.915Z",
       "latest_incident": {
         "title": "Elevated error rate across multiple models",
-        "body": "We are continuing to monitor for any further issues.",
-        "date": "2026-06-23T15:28:18.361Z",
+        "body": "We have seen error rates broadly return to normal success levels across all models. We saw elevated error rates on requests to multiple models from 7:08am PT / 14:08 UTC through 8:33am PT / 15:33 UTC.",
+        "date": "2026-06-23T16:05:37.181Z",
         "link": "https://stspg.io/kx1ygc7qfvx1",
         "status": "monitoring",
         "impact": "critical"
@@ -319,23 +319,23 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Console (platform.claude.com)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Code",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Cowork",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude for Government",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T16:00:55.582Z",
+      "checked_at": "2026-06-23T16:10:55.915Z",
       "latest_incident": {
         "title": "Shield API Intermittent Errors",
         "body": "We identified intermittent issues affecting the Shield API that may have caused occasional errors for some users.\nA fix has been implemented, and the service has returned to normal operation. We are currently monitoring to ensure continued stability.",
@@ -471,7 +471,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T16:00:55.582Z",
+      "checked_at": "2026-06-23T16:10:55.915Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1367,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-23T16:00:55.582Z",
+      "checked_at": "2026-06-23T16:10:55.915Z",
       "latest_incident": {
         "title": "Jira : Incoming emails partial outage",
         "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
@@ -1470,7 +1470,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T16:00:55.582Z",
+      "checked_at": "2026-06-23T16:10:55.916Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1582,7 +1582,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T16:00:55.583Z",
+      "checked_at": "2026-06-23T16:10:55.916Z",
       "latest_incident": null,
       "recent_incidents": [
         {
