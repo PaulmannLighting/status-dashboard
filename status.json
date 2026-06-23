@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-23T16:30:55.658Z",
+  "updated_at": "2026-06-23T16:40:55.490Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T16:30:55.651Z",
+      "checked_at": "2026-06-23T16:40:55.483Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -104,18 +104,26 @@
     {
       "name": "OpenAI",
       "status_url": "https://status.openai.com",
-      "status": "outage",
-      "description": "Partial System Outage",
-      "checked_at": "2026-06-23T16:30:55.651Z",
+      "status": "degraded",
+      "description": "Partial System Degradation",
+      "checked_at": "2026-06-23T16:40:55.484Z",
       "latest_incident": {
-        "title": "Users may experience elevated errors in ChatGPT uploading and downloading files ",
-        "body": "We have applied the mitigation and are monitoring the recovery.",
-        "date": "2026-06-23T15:47:40Z",
+        "title": "FedRAMP workspaces and API orgs have degraded performance",
+        "body": "We are still investigating the issue for the listed services.",
+        "date": "2026-06-18T19:41:22Z",
         "link": "",
-        "status": "monitoring",
-        "impact": "major"
+        "status": "investigating",
+        "impact": "minor"
       },
       "recent_incidents": [
+        {
+          "title": "Users may experience elevated errors in ChatGPT uploading and downloading files ",
+          "body": "All impacted services have now fully recovered.",
+          "date": "2026-06-23T16:38:19Z",
+          "link": "",
+          "status": "resolved",
+          "impact": "major"
+        },
         {
           "title": "chatgpt.com access issues",
           "body": "All impacted services have now fully recovered.",
@@ -147,14 +155,6 @@
           "link": "",
           "status": "resolved",
           "impact": "major"
-        },
-        {
-          "title": "Codex \"Selected Model is at Capacity\" Error",
-          "body": "All impacted services have now fully recovered.",
-          "date": "2026-06-16T13:48:12Z",
-          "link": "",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -192,7 +192,7 @@
         },
         {
           "name": "File uploads",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Agent",
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T16:30:55.651Z",
+      "checked_at": "2026-06-23T16:40:55.484Z",
       "latest_incident": {
         "title": "Elevated error rate across multiple models",
         "body": "We have seen error rates broadly return to normal success levels across all models. We saw elevated error rates on requests to multiple models from 7:08am PT / 14:08 UTC through 8:33am PT / 15:33 UTC.",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T16:30:55.651Z",
+      "checked_at": "2026-06-23T16:40:55.484Z",
       "latest_incident": {
         "title": "Shield API Intermittent Errors",
         "body": "We identified intermittent issues affecting the Shield API that may have caused occasional errors for some users.\nA fix has been implemented, and the service has returned to normal operation. We are currently monitoring to ensure continued stability.",
@@ -471,7 +471,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T16:30:55.652Z",
+      "checked_at": "2026-06-23T16:40:55.484Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1367,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-23T16:30:55.652Z",
+      "checked_at": "2026-06-23T16:40:55.485Z",
       "latest_incident": {
         "title": "Jira : Incoming emails partial outage",
         "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
@@ -1470,7 +1470,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T16:30:55.652Z",
+      "checked_at": "2026-06-23T16:40:55.485Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1582,7 +1582,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T16:30:55.652Z",
+      "checked_at": "2026-06-23T16:40:55.485Z",
       "latest_incident": null,
       "recent_incidents": [
         {
