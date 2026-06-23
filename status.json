@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-23T14:50:56.874Z",
+  "updated_at": "2026-06-23T15:00:57.017Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T14:50:56.847Z",
+      "checked_at": "2026-06-23T15:00:57.006Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-06-23T14:50:56.848Z",
+      "checked_at": "2026-06-23T15:00:57.007Z",
       "latest_incident": {
         "title": "Users may experience elevated errors in ChatGPT uploading and downloading files ",
         "body": "We are investigating the issue for the listed services.",
@@ -265,13 +265,13 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-06-23T14:50:56.849Z",
+      "checked_at": "2026-06-23T15:00:57.007Z",
       "latest_incident": {
         "title": "Elevated error rate across multiple models",
-        "body": "The issue has been identified and a fix is being implemented.",
-        "date": "2026-06-23T14:25:01.492Z",
+        "body": "A fix has been implemented and we are monitoring the results.",
+        "date": "2026-06-23T14:53:46.736Z",
         "link": "https://stspg.io/kx1ygc7qfvx1",
-        "status": "identified",
+        "status": "monitoring",
         "impact": "critical"
       },
       "recent_incidents": [
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T14:50:56.849Z",
+      "checked_at": "2026-06-23T15:00:57.008Z",
       "latest_incident": {
         "title": "Shield API Intermittent Errors",
         "body": "We identified intermittent issues affecting the Shield API that may have caused occasional errors for some users.\nA fix has been implemented, and the service has returned to normal operation. We are currently monitoring to ensure continued stability.",
@@ -471,7 +471,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T14:50:56.851Z",
+      "checked_at": "2026-06-23T15:00:57.008Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1367,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-23T14:50:56.851Z",
+      "checked_at": "2026-06-23T15:00:57.009Z",
       "latest_incident": {
         "title": "Jira : Incoming emails partial outage",
         "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
@@ -1470,7 +1470,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T14:50:56.851Z",
+      "checked_at": "2026-06-23T15:00:57.009Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1582,7 +1582,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-23T14:50:56.852Z",
+      "checked_at": "2026-06-23T15:00:57.009Z",
       "latest_incident": null,
       "recent_incidents": [
         {
