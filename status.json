@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-06-24T13:11:48.582Z",
+  "updated_at": "2026-06-24T13:20:56.575Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:11:48.486Z",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-06-24T13:20:56.460Z",
       "latest_incident": {
-        "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-        "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
-        "date": "2026-06-13T00:50:44.031Z",
-        "link": "https://stspg.io/kqx0j625mrgv",
-        "status": "monitoring",
-        "impact": "critical"
+        "title": "Elevated error rate on Claude Opus 4.8",
+        "body": "We are currently investigating this issue.",
+        "date": "2026-06-24T13:16:17.717Z",
+        "link": "https://stspg.io/wnw8wdn9sfwm",
+        "status": "investigating",
+        "impact": "minor"
       },
       "recent_incidents": [
         {
@@ -60,23 +60,23 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Console (platform.claude.com)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Code",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Cowork",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude for Government",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:11:48.487Z",
+      "checked_at": "2026-06-24T13:20:56.461Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-24T13:11:48.487Z",
+      "checked_at": "2026-06-24T13:20:56.461Z",
       "latest_incident": {
         "title": "Jira : Incoming emails partial outage",
         "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
@@ -364,7 +364,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:11:48.487Z",
+      "checked_at": "2026-06-24T13:20:56.461Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -476,7 +476,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:11:48.487Z",
+      "checked_at": "2026-06-24T13:20:56.461Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -592,7 +592,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:11:48.487Z",
+      "checked_at": "2026-06-24T13:20:56.461Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -708,7 +708,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:11:48.488Z",
+      "checked_at": "2026-06-24T13:20:56.462Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -764,7 +764,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-24T13:11:48.488Z",
+      "checked_at": "2026-06-24T13:20:56.462Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "Cloudflare is aware of and investigating Workers AI experiencing degraded availability in some models.\n\nImpacted models:\n- @cf/moonshotai/kimi-k2.6\n- @cf/moonshotai/kimi-k2.7-code",
@@ -1738,7 +1738,7 @@
         },
         {
           "name": "Kathmandu, Nepal - (KTM)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Palermo, Italy - (PMO)",
@@ -2651,7 +2651,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:11:48.489Z",
+      "checked_at": "2026-06-24T13:20:56.463Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3547,7 +3547,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:11:48.489Z",
+      "checked_at": "2026-06-24T13:20:56.463Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3647,7 +3647,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-24T13:11:48.489Z",
+      "checked_at": "2026-06-24T13:20:56.463Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -3806,7 +3806,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-06-24T13:11:48.573Z",
+      "checked_at": "2026-06-24T13:20:56.554Z",
       "latest_incident": null,
       "recent_incidents": [
         {
