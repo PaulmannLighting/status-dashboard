@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-24T03:10:55.557Z",
+  "updated_at": "2026-06-24T03:20:55.483Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T03:10:55.549Z",
+      "checked_at": "2026-06-24T03:20:55.475Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-24T03:10:55.549Z",
+      "checked_at": "2026-06-24T03:20:55.475Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T03:10:55.549Z",
+      "checked_at": "2026-06-24T03:20:55.476Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -346,18 +346,19 @@
     {
       "name": "Bunny.net",
       "status_url": "https://status.bunny.net",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T03:10:55.549Z",
-      "latest_incident": {
-        "title": "Shield API Intermittent Errors",
-        "body": "We identified intermittent issues affecting the Shield API that may have caused occasional errors for some users.\nA fix has been implemented, and the service has returned to normal operation. We are currently monitoring to ensure continued stability.",
-        "date": "2026-06-23T13:22:21.372Z",
-        "link": "https://stspg.io/x4bnjzcfbyhb",
-        "status": "monitoring",
-        "impact": "none"
-      },
+      "checked_at": "2026-06-24T03:20:55.476Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Shield API Intermittent Errors",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-24T03:11:23.808Z",
+          "link": "https://stspg.io/x4bnjzcfbyhb",
+          "status": "resolved",
+          "impact": "none"
+        },
         {
           "title": "Free certificate issuance with degraded performance",
           "body": "As per Lets Encrypt status page, this has been resolved - we similarly have observed no degradation/failures on certificate renewals since their update went out.",
@@ -389,14 +390,6 @@
           "link": "https://stspg.io/71ppnx6tdv08",
           "status": "postmortem",
           "impact": "major"
-        },
-        {
-          "title": "Stream Service Degradation",
-          "body": "This incident has been resolved.",
-          "date": "2026-06-01T20:17:27.804Z",
-          "link": "https://stspg.io/11z3h772t3jw",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -471,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T03:10:55.550Z",
+      "checked_at": "2026-06-24T03:20:55.476Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1367,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-24T03:10:55.550Z",
+      "checked_at": "2026-06-24T03:20:55.476Z",
       "latest_incident": {
         "title": "Jira : Incoming emails partial outage",
         "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
@@ -1470,7 +1463,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T03:10:55.550Z",
+      "checked_at": "2026-06-24T03:20:55.476Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1582,7 +1575,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T03:10:55.550Z",
+      "checked_at": "2026-06-24T03:20:55.476Z",
       "latest_incident": null,
       "recent_incidents": [
         {
