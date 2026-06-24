@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-24T13:40:56.335Z",
+  "updated_at": "2026-06-24T13:43:24.207Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-06-24T13:40:56.185Z",
+      "checked_at": "2026-06-24T13:43:24.104Z",
       "latest_incident": {
         "title": "Elevated error rate on Claude Opus 4.8",
         "body": "We are currently investigating this issue.",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:40:56.186Z",
+      "checked_at": "2026-06-24T13:43:24.104Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-24T13:40:56.186Z",
+      "checked_at": "2026-06-24T13:43:24.105Z",
       "latest_incident": {
         "title": "Jira : Incoming emails partial outage",
         "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
@@ -364,7 +364,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:40:56.186Z",
+      "checked_at": "2026-06-24T13:43:24.105Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -476,7 +476,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:40:56.187Z",
+      "checked_at": "2026-06-24T13:43:24.105Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -592,7 +592,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:40:56.187Z",
+      "checked_at": "2026-06-24T13:43:24.105Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -708,7 +708,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:40:56.187Z",
+      "checked_at": "2026-06-24T13:43:24.105Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -760,11 +760,219 @@
       ]
     },
     {
+      "name": "Circleci.com",
+      "status_url": "https://status.circleci.com",
+      "status": "degraded",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-06-24T13:43:24.105Z",
+      "latest_incident": null,
+      "recent_incidents": [
+        {
+          "title": "Delays starting Docker jobs",
+          "body": "The issue where customers running Docker jobs experienced significant delays, with jobs stuck in a \"preparing environment\" state, has now been resolved. We thank you for your patience while our team worked on implementing a fix.",
+          "date": "2026-06-23T19:58:24.368Z",
+          "link": "https://stspg.io/dw1r4sr0mrtl",
+          "status": "resolved",
+          "impact": "major"
+        },
+        {
+          "title": "Issue authenticating only Bitbucket users",
+          "body": "Customers using Bitbucket as their VCS provider or as their login provider experienced errors when interacting with Bitbucket repositories and authenticating to CircleCI. This was caused by an incident with Atlassian Bitbucket's OAuth service, which has now been resolved and all affected functionality has returned to normal.",
+          "date": "2026-06-12T00:18:31.301Z",
+          "link": "https://stspg.io/qjt275qv8plh",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Issues publishing orbs",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-10T23:07:35.612Z",
+          "link": "https://stspg.io/zwjbxfw5b7yy",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Incident with GitHub APIs",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-10T16:41:14.512Z",
+          "link": "https://stspg.io/86hq0zrpf1mp",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Increased 500 Errors on Pipeline and Workflow API Endpoints and UI",
+          "body": "Between 13:29 UTC and 18:20 UTC on June 9, 2026, some customers experienced 500 errors when making requests to the pipeline values and workflow API endpoints, as well as errors in the UI. Jobs running were not impacted during this window. The issue has been resolved and all affected functionality has returned to normal. We thank you for your patience while our team worked on implementing a fix.",
+          "date": "2026-06-09T18:43:23.042Z",
+          "link": "https://stspg.io/frwqpjlwzb9r",
+          "status": "resolved",
+          "impact": "minor"
+        }
+      ],
+      "components": [
+        {
+          "name": "AWS",
+          "status": "operational"
+        },
+        {
+          "name": "Atlassian Bitbucket API",
+          "status": "operational"
+        },
+        {
+          "name": "Docker Jobs",
+          "status": "operational"
+        },
+        {
+          "name": "Atlassian Bitbucket Source downloads",
+          "status": "operational"
+        },
+        {
+          "name": "Google Cloud Platform Google Cloud DNS",
+          "status": "operational"
+        },
+        {
+          "name": "Machine Jobs",
+          "status": "operational"
+        },
+        {
+          "name": "Atlassian Bitbucket SSH",
+          "status": "operational"
+        },
+        {
+          "name": "macOS Jobs",
+          "status": "operational"
+        },
+        {
+          "name": "Google Cloud Platform Google Cloud Networking",
+          "status": "operational"
+        },
+        {
+          "name": "Atlassian Bitbucket Webhooks",
+          "status": "operational"
+        },
+        {
+          "name": "Google Cloud Platform Google Cloud Storage",
+          "status": "operational"
+        },
+        {
+          "name": "Windows Jobs",
+          "status": "operational"
+        },
+        {
+          "name": "Google Cloud Platform Google Compute Engine",
+          "status": "operational"
+        },
+        {
+          "name": "Pipelines & Workflows",
+          "status": "operational"
+        },
+        {
+          "name": "Docker Hub",
+          "status": "operational"
+        },
+        {
+          "name": "mailgun API",
+          "status": "operational"
+        },
+        {
+          "name": "GitHub Git Operations",
+          "status": "operational"
+        },
+        {
+          "name": "CircleCI API",
+          "status": "operational"
+        },
+        {
+          "name": "CircleCI UI",
+          "status": "operational"
+        },
+        {
+          "name": "mailgun Outbound Delivery",
+          "status": "operational"
+        },
+        {
+          "name": "GitHub Pull Requests",
+          "status": "operational"
+        },
+        {
+          "name": "Artifacts",
+          "status": "operational"
+        },
+        {
+          "name": "GitHub API Requests",
+          "status": "operational"
+        },
+        {
+          "name": "mailgun SMTP",
+          "status": "operational"
+        },
+        {
+          "name": "GitHub Packages",
+          "status": "operational"
+        },
+        {
+          "name": "Runner",
+          "status": "operational"
+        },
+        {
+          "name": "OpenAI",
+          "status": "operational"
+        },
+        {
+          "name": "GitHub Webhooks",
+          "status": "operational"
+        },
+        {
+          "name": "CircleCI Webhooks",
+          "status": "operational"
+        },
+        {
+          "name": "Auth0 User Authentication",
+          "status": "operational"
+        },
+        {
+          "name": "CircleCI Insights",
+          "status": "operational"
+        },
+        {
+          "name": "GitLab",
+          "status": "operational"
+        },
+        {
+          "name": "Docker Registry",
+          "status": "operational"
+        },
+        {
+          "name": "CircleCI Releases",
+          "status": "operational"
+        },
+        {
+          "name": "Notifications & Status Updates",
+          "status": "operational"
+        },
+        {
+          "name": "Docker Authentication",
+          "status": "operational"
+        },
+        {
+          "name": "Billing & Account",
+          "status": "operational"
+        },
+        {
+          "name": "Anthropic api.anthropic.com",
+          "status": "degraded"
+        },
+        {
+          "name": "packagecloud.io",
+          "status": "operational"
+        }
+      ]
+    },
+    {
       "name": "Cloudflare",
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-24T13:40:56.188Z",
+      "checked_at": "2026-06-24T13:43:24.106Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "Cloudflare is aware of and investigating Workers AI experiencing degraded availability in some models.\n\nImpacted models:\n- @cf/moonshotai/kimi-k2.6\n- @cf/moonshotai/kimi-k2.7-code",
@@ -1358,7 +1566,7 @@
         },
         {
           "name": "Nairobi, Kenya - (NBO)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Goiânia, Brazil - (GYN)",
@@ -2651,7 +2859,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:40:56.189Z",
+      "checked_at": "2026-06-24T13:43:24.106Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3547,7 +3755,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T13:40:56.189Z",
+      "checked_at": "2026-06-24T13:43:24.106Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3647,7 +3855,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-24T13:40:56.189Z",
+      "checked_at": "2026-06-24T13:43:24.107Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -3806,7 +4014,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-06-24T13:40:56.319Z",
+      "checked_at": "2026-06-24T13:43:24.195Z",
       "latest_incident": null,
       "recent_incidents": [
         {
