@@ -1,271 +1,12 @@
 {
-  "updated_at": "2026-06-24T12:10:55.534Z",
+  "updated_at": "2026-06-24T12:20:15.950Z",
   "providers": [
-    {
-      "name": "GitHub",
-      "status_url": "https://www.githubstatus.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-24T12:10:55.434Z",
-      "latest_incident": null,
-      "recent_incidents": [
-        {
-          "title": "We are seeing elevated errors with Next Edit Suggestions and Completions",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
-          "date": "2026-06-23T23:29:34.640Z",
-          "link": "https://stspg.io/87nklrsyfs65",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Disruption with Copilot next edit suggestions",
-          "body": "On June 17, 2026, between 16:57 UTC and 19:14 UTC, Copilot code completions were degraded and users were unable to receive Next Edit Suggestions. Standard ghost text code completions were not affected. This was due to a configuration change that caused the service's routing layer to incorrectly discard all Next Edit Suggestion model endpoints as invalid.<br /><br />We mitigated the incident by deploying a corrected configuration change at 18:55 UTC, with full recovery observed at 19:14 UTC.<br /><br />We are working to improve the resilience of our routing layer to limit impact due to a subset of invalid configurations, and to improve our alerting to detect sudden traffic changes that are not captured by standard error rate monitors.",
-          "date": "2026-06-17T19:28:16.628Z",
-          "link": "https://stspg.io/7tn8k5v6kzjj",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Incident With Webhooks",
-          "body": "On June 17, 2026, between 11:35 UTC and 19:20 UTC, the Webhooks service was degraded and delivered webhook payloads with missing installation information. On average, 11.3% of webhook deliveries were impacted. Customers relying on the installation field for authentication or routing were unable to process affected webhooks. A smaller subset of deliveries for the security_advisory event (0.04%) were delivered successfully but were not recorded for redelivery. This was due to a defect in a new delivery code path that failed to include installation data in webhook payloads.\n\nWe mitigated the incident by disabling the feature flag controlling the new code path.\n\nWe are working to improve our automated validation of webhook payloads, and introduce automated alerting for webhook payload regressions to reduce our time to detection and mitigation of issues like this one in the future.\n\nThe following events were affected: branch_protection_configuration, code_scanning_alert, commit_comment, custom_property, custom_property_values, dependabot_alert, deploy_key, deployment_protection_rule, deployment_review, dismissal_request_code_scanning, dismissal_request_secret_scanning, installation_target, member, membership, merge_queue_entry, org_block, organization, projects_v2, projects_v2_item, pull_request_review_thread, repository_ruleset, secret_scanning_alert, secret_scanning_alert_location, secret_scanning_scan, security_and_analysis, star, sub_issues, team, team_add, workflow_job.",
-          "date": "2026-06-17T19:00:00.000Z",
-          "link": "https://stspg.io/t0qkhqpm5vlm",
-          "status": "resolved",
-          "impact": "none"
-        },
-        {
-          "title": "Incident with Copilot Availability",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
-          "date": "2026-06-17T04:44:07.904Z",
-          "link": "https://stspg.io/nhj5lsy4gbzz",
-          "status": "resolved",
-          "impact": "critical"
-        },
-        {
-          "title": "Disruption with some GitHub services",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
-          "date": "2026-06-16T18:15:24.555Z",
-          "link": "https://stspg.io/0y9pgmg78442",
-          "status": "resolved",
-          "impact": "major"
-        }
-      ],
-      "components": [
-        {
-          "name": "Git Operations",
-          "status": "operational"
-        },
-        {
-          "name": "Webhooks",
-          "status": "operational"
-        },
-        {
-          "name": "Visit www.githubstatus.com for more information",
-          "status": "operational"
-        },
-        {
-          "name": "API Requests",
-          "status": "operational"
-        },
-        {
-          "name": "Issues",
-          "status": "operational"
-        },
-        {
-          "name": "Pull Requests",
-          "status": "operational"
-        },
-        {
-          "name": "Actions",
-          "status": "operational"
-        },
-        {
-          "name": "Packages",
-          "status": "operational"
-        },
-        {
-          "name": "Pages",
-          "status": "operational"
-        },
-        {
-          "name": "Copilot",
-          "status": "operational"
-        },
-        {
-          "name": "Codespaces",
-          "status": "operational"
-        },
-        {
-          "name": "Copilot AI Model Providers",
-          "status": "operational"
-        }
-      ]
-    },
-    {
-      "name": "OpenAI",
-      "status_url": "https://status.openai.com",
-      "status": "degraded",
-      "description": "Partial System Degradation",
-      "checked_at": "2026-06-24T12:10:55.434Z",
-      "latest_incident": {
-        "title": "FedRAMP workspaces and API orgs have degraded performance",
-        "body": "We are still investigating the issue for the listed services.",
-        "date": "2026-06-18T19:41:22Z",
-        "link": "",
-        "status": "investigating",
-        "impact": "minor"
-      },
-      "recent_incidents": [
-        {
-          "title": "gpt-4o-mini high error rate",
-          "body": "All impacted services have now fully recovered.",
-          "date": "2026-06-24T06:07:32Z",
-          "link": "",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Users may experience elevated errors in ChatGPT uploading and downloading files ",
-          "body": "All impacted services have now fully recovered.",
-          "date": "2026-06-23T16:38:19Z",
-          "link": "",
-          "status": "resolved",
-          "impact": "major"
-        },
-        {
-          "title": "chatgpt.com access issues",
-          "body": "All impacted services have now fully recovered.",
-          "date": "2026-06-19T05:23:27Z",
-          "link": "",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "SSO login errors for some ChatGPT Enterprise workspaces",
-          "body": "All impacted services have now fully recovered.",
-          "date": "2026-06-18T11:55:12Z",
-          "link": "",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "ChatGPT failing to load or save",
-          "body": "All impacted services have now fully recovered.",
-          "date": "2026-06-18T03:55:02Z",
-          "link": "",
-          "status": "resolved",
-          "impact": "minor"
-        }
-      ],
-      "components": [
-        {
-          "name": "Batch",
-          "status": "operational"
-        },
-        {
-          "name": "Audio",
-          "status": "operational"
-        },
-        {
-          "name": "Login",
-          "status": "operational"
-        },
-        {
-          "name": "Compliance API",
-          "status": "operational"
-        },
-        {
-          "name": "Search",
-          "status": "operational"
-        },
-        {
-          "name": "Voice mode",
-          "status": "operational"
-        },
-        {
-          "name": "GPTs",
-          "status": "operational"
-        },
-        {
-          "name": "Image Generation",
-          "status": "operational"
-        },
-        {
-          "name": "Deep Research",
-          "status": "operational"
-        },
-        {
-          "name": "ChatGPT Atlas",
-          "status": "operational"
-        },
-        {
-          "name": "Connectors/Apps",
-          "status": "operational"
-        },
-        {
-          "name": "CLI",
-          "status": "operational"
-        },
-        {
-          "name": "VS Code extension",
-          "status": "operational"
-        },
-        {
-          "name": "Ads API",
-          "status": "operational"
-        },
-        {
-          "name": "Fine-tuning",
-          "status": "operational"
-        },
-        {
-          "name": "Files",
-          "status": "operational"
-        },
-        {
-          "name": "Responses",
-          "status": "operational"
-        },
-        {
-          "name": "Realtime",
-          "status": "operational"
-        },
-        {
-          "name": "Sora",
-          "status": "operational"
-        },
-        {
-          "name": "Conversations",
-          "status": "operational"
-        },
-        {
-          "name": "Images",
-          "status": "operational"
-        },
-        {
-          "name": "Codex Web",
-          "status": "operational"
-        },
-        {
-          "name": "File uploads",
-          "status": "operational"
-        },
-        {
-          "name": "Agent",
-          "status": "operational"
-        },
-        {
-          "name": "App",
-          "status": "operational"
-        }
-      ]
-    },
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T12:10:55.434Z",
+      "checked_at": "2026-06-24T12:20:15.835Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -344,1238 +85,11 @@
       ]
     },
     {
-      "name": "Bunny.net",
-      "status_url": "https://status.bunny.net",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-24T12:10:55.434Z",
-      "latest_incident": null,
-      "recent_incidents": [
-        {
-          "title": "Shield API Intermittent Errors",
-          "body": "This incident has been resolved.",
-          "date": "2026-06-24T03:11:23.808Z",
-          "link": "https://stspg.io/x4bnjzcfbyhb",
-          "status": "resolved",
-          "impact": "none"
-        },
-        {
-          "title": "Free certificate issuance with degraded performance",
-          "body": "As per Lets Encrypt status page, this has been resolved - we similarly have observed no degradation/failures on certificate renewals since their update went out.",
-          "date": "2026-06-19T09:37:04.033Z",
-          "link": "https://stspg.io/7v31krkvk5cb",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Synchronization and Configuration Propagation Delays",
-          "body": "All pending configuration changes have propagated across the CDN.",
-          "date": "2026-06-15T21:24:25.923Z",
-          "link": "https://stspg.io/0j4d1lbh5h72",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Lets Encrypt SSL API Errors",
-          "body": "We no longer see delays stemming from Lets Encrypt and the issue is considered resolved.",
-          "date": "2026-06-03T12:38:39.861Z",
-          "link": "https://stspg.io/3pnzszsh7d68",
-          "status": "resolved",
-          "impact": "none"
-        },
-        {
-          "title": "Investigating Issues with Magic Containers and Databases",
-          "body": "Processing Delays and Intermittent Timeouts for Magic Containers\n\nOn June 1, Magic Containers experienced degraded service for approximately one hour due to a network connectivity issue in our hosting provider's environment. Customers running workloads may have seen increased processing delays, intermittent timeouts, temporary disruption, or reduced availability as some workloads were automatically rescheduled. The issue was resolved after the underlying network conditions stabilized, allowing scheduling activity to resume normally.\n\nWe are improving the resilience of Magic Containers so degraded connectivity can be detected and handled more effectively, not only complete outages. We are also adding safeguards to reduce unnecessary or duplicate workload rescheduling during degraded conditions, helping limit customer impact if similar infrastructure issues occur again.",
-          "date": "2026-06-03T09:17:01.466Z",
-          "link": "https://stspg.io/71ppnx6tdv08",
-          "status": "postmortem",
-          "impact": "major"
-        }
-      ],
-      "components": [
-        {
-          "name": "Website",
-          "status": "operational"
-        },
-        {
-          "name": "Stream Service",
-          "status": "operational"
-        },
-        {
-          "name": "Dashboard",
-          "status": "operational"
-        },
-        {
-          "name": "Stream - Transcoding Service",
-          "status": "operational"
-        },
-        {
-          "name": "API",
-          "status": "operational"
-        },
-        {
-          "name": "CDN",
-          "status": "operational"
-        },
-        {
-          "name": "DNS",
-          "status": "operational"
-        },
-        {
-          "name": "Edge Storage",
-          "status": "operational"
-        },
-        {
-          "name": "Optimizer",
-          "status": "operational"
-        },
-        {
-          "name": "Origin Shield",
-          "status": "operational"
-        },
-        {
-          "name": "Bunny Fonts",
-          "status": "operational"
-        },
-        {
-          "name": "Edge Scripting",
-          "status": "operational"
-        },
-        {
-          "name": "Magic Containers",
-          "status": "operational"
-        },
-        {
-          "name": "Bunny Shield",
-          "status": "operational"
-        },
-        {
-          "name": "Bunny Database",
-          "status": "operational"
-        },
-        {
-          "name": "CDN Logging",
-          "status": "operational"
-        }
-      ]
-    },
-    {
-      "name": "DigitalOcean",
-      "status_url": "https://status.digitalocean.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-24T12:10:55.435Z",
-      "latest_incident": null,
-      "recent_incidents": [
-        {
-          "title": "Monitoring Graphs in the Cloud Control Panel",
-          "body": "Between 13:22 & 14:26 UTC today, users have experienced missing monitoring graphs for Droplets (with DO agent installed), Load Balancers, Databases, and other services within the Cloud Control Panel.\n\nOur engineering team has identified the root cause of the issue and has taken appropriate steps to restore functionality. We can confirm that services have been restored and are functioning as expected.\n\nWe apologize for any inconvenience this may have caused. If you continue to experience issues viewing monitoring graphs, please create a support ticket for further analysis. Thank you for your patience and understanding",
-          "date": "2026-06-19T16:37:38.303Z",
-          "link": "https://stspg.io/8jy6pdvsszwm",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Intermittent 500 Errors on Serverless/GenAI Inference API",
-          "body": "The connectivity issues affecting our Serverless/GenAI Inference API have been fully resolved.\nOur engineering teams successfully completed the connectivity restoration. All systems should be functioning normally, and the endpoint should be fully operational.",
-          "date": "2026-06-17T00:29:42.280Z",
-          "link": "https://stspg.io/40ln0gl1x56j",
-          "status": "resolved",
-          "impact": "none"
-        },
-        {
-          "title": "DeepSeek V4 Pro is returning HTTP 429 \"Rate limit exceeded\"",
-          "body": "This incident has been resolved.",
-          "date": "2026-06-11T17:42:05.051Z",
-          "link": "https://stspg.io/r8mzkb94pf9g",
-          "status": "resolved",
-          "impact": "major"
-        },
-        {
-          "title": "DNS API Service",
-          "body": "Between 09:41 and 11:24 UTC, our Engineering team identified an issue impacting the DNS API service. During this period, users may have experienced issues performing domain and DNS record management operations through the Control Panel and API. Services dependent on DNS API operations, including Let's Encrypt certificate provisioning, MongoDB cluster creation, App Platform deployments, and DigitalOcean Kubernetes (DOKS) cluster create and delete operations, were also impacted.\n\nOur Engineering team has confirmed that the underlying issue affecting the DNS API service has been fully resolved, and all affected services are now operating normally.\n\nIf you continue to experience any issues, please contact our Support team by opening a ticket. We apologize for any inconvenience caused.",
-          "date": "2026-06-04T11:47:05.272Z",
-          "link": "https://stspg.io/c9tgc3txntpg",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "App Platform Deployments",
-          "body": "Our Engineering team has confirmed that the issue impacting build failures on App Platform has been resolved at 07:00 am UTC. All App Platform builds are now succeeding as expected. Customers who previously encountered build failures should now be able to deploy their applications without further issues.\n\nIf you continue to experience any problems, please open a ticket with our support team. Thank you for your patience, and we apologize for any inconvenience.",
-          "date": "2026-05-29T07:58:23.373Z",
-          "link": "https://stspg.io/c5cpdwx9rc37",
-          "status": "resolved",
-          "impact": "minor"
-        }
-      ],
-      "components": [
-        {
-          "name": "API",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Global",
-          "status": "operational"
-        },
-        {
-          "name": "Agent Runtime",
-          "status": "operational"
-        },
-        {
-          "name": "ATL1",
-          "status": "operational"
-        },
-        {
-          "name": "Amsterdam",
-          "status": "operational"
-        },
-        {
-          "name": "AMS3",
-          "status": "operational"
-        },
-        {
-          "name": "AMS3",
-          "status": "operational"
-        },
-        {
-          "name": "AMS3",
-          "status": "operational"
-        },
-        {
-          "name": "AMS3",
-          "status": "operational"
-        },
-        {
-          "name": "AMS3",
-          "status": "operational"
-        },
-        {
-          "name": "Billing",
-          "status": "operational"
-        },
-        {
-          "name": "AMS2",
-          "status": "operational"
-        },
-        {
-          "name": "AMS2",
-          "status": "operational"
-        },
-        {
-          "name": "AMS2",
-          "status": "operational"
-        },
-        {
-          "name": "AMS2",
-          "status": "operational"
-        },
-        {
-          "name": "AMS2",
-          "status": "operational"
-        },
-        {
-          "name": "AMS2",
-          "status": "operational"
-        },
-        {
-          "name": "AMS2",
-          "status": "operational"
-        },
-        {
-          "name": "AMS3",
-          "status": "operational"
-        },
-        {
-          "name": "ATL1",
-          "status": "operational"
-        },
-        {
-          "name": "Inference",
-          "status": "operational"
-        },
-        {
-          "name": "AMS3",
-          "status": "operational"
-        },
-        {
-          "name": "AMS3",
-          "status": "operational"
-        },
-        {
-          "name": "AMS3",
-          "status": "operational"
-        },
-        {
-          "name": "BLR1",
-          "status": "operational"
-        },
-        {
-          "name": "AMS3",
-          "status": "operational"
-        },
-        {
-          "name": "AMS3",
-          "status": "operational"
-        },
-        {
-          "name": "AMS3",
-          "status": "operational"
-        },
-        {
-          "name": "AMS3",
-          "status": "operational"
-        },
-        {
-          "name": "NYC2",
-          "status": "operational"
-        },
-        {
-          "name": "BLR1",
-          "status": "operational"
-        },
-        {
-          "name": "ATL1",
-          "status": "operational"
-        },
-        {
-          "name": "ATL1",
-          "status": "operational"
-        },
-        {
-          "name": "ATL1",
-          "status": "operational"
-        },
-        {
-          "name": "ATL1",
-          "status": "operational"
-        },
-        {
-          "name": "Atlanta",
-          "status": "operational"
-        },
-        {
-          "name": "BYOIP",
-          "status": "operational"
-        },
-        {
-          "name": "ADK",
-          "status": "operational"
-        },
-        {
-          "name": "Bangalore",
-          "status": "operational"
-        },
-        {
-          "name": "FRA1",
-          "status": "operational"
-        },
-        {
-          "name": "BLR1",
-          "status": "operational"
-        },
-        {
-          "name": "FRA1",
-          "status": "operational"
-        },
-        {
-          "name": "FRA1",
-          "status": "operational"
-        },
-        {
-          "name": "BLR1",
-          "status": "operational"
-        },
-        {
-          "name": "Cloud Control Panel",
-          "status": "operational"
-        },
-        {
-          "name": "BLR1",
-          "status": "operational"
-        },
-        {
-          "name": "TOR1",
-          "status": "operational"
-        },
-        {
-          "name": "ATL1",
-          "status": "operational"
-        },
-        {
-          "name": "ATL1",
-          "status": "operational"
-        },
-        {
-          "name": "ATL1",
-          "status": "operational"
-        },
-        {
-          "name": "ATL1",
-          "status": "operational"
-        },
-        {
-          "name": "ATL1",
-          "status": "operational"
-        },
-        {
-          "name": "ATL1",
-          "status": "operational"
-        },
-        {
-          "name": "ATL1",
-          "status": "operational"
-        },
-        {
-          "name": "Knowledge Bases",
-          "status": "operational"
-        },
-        {
-          "name": "Frankfurt",
-          "status": "operational"
-        },
-        {
-          "name": "BLR1",
-          "status": "operational"
-        },
-        {
-          "name": "BLR1",
-          "status": "operational"
-        },
-        {
-          "name": "NYC3",
-          "status": "operational"
-        },
-        {
-          "name": "BLR1",
-          "status": "operational"
-        },
-        {
-          "name": "FRA1",
-          "status": "operational"
-        },
-        {
-          "name": "BLR1",
-          "status": "operational"
-        },
-        {
-          "name": "FRA1",
-          "status": "operational"
-        },
-        {
-          "name": "BLR1",
-          "status": "operational"
-        },
-        {
-          "name": "LON1",
-          "status": "operational"
-        },
-        {
-          "name": "NYC3",
-          "status": "operational"
-        },
-        {
-          "name": "FRA1",
-          "status": "operational"
-        },
-        {
-          "name": "BLR1",
-          "status": "operational"
-        },
-        {
-          "name": "BLR1",
-          "status": "operational"
-        },
-        {
-          "name": "Cloud Firewall",
-          "status": "operational"
-        },
-        {
-          "name": "Guardrails",
-          "status": "operational"
-        },
-        {
-          "name": "London",
-          "status": "operational"
-        },
-        {
-          "name": "FRA1",
-          "status": "operational"
-        },
-        {
-          "name": "FRA1",
-          "status": "operational"
-        },
-        {
-          "name": "LON1",
-          "status": "operational"
-        },
-        {
-          "name": "FRA1",
-          "status": "operational"
-        },
-        {
-          "name": "NYC3",
-          "status": "operational"
-        },
-        {
-          "name": "FRA1",
-          "status": "operational"
-        },
-        {
-          "name": "FRA1",
-          "status": "operational"
-        },
-        {
-          "name": "FRA1",
-          "status": "operational"
-        },
-        {
-          "name": "LON1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO3",
-          "status": "operational"
-        },
-        {
-          "name": "NYC1",
-          "status": "operational"
-        },
-        {
-          "name": "FRA1",
-          "status": "operational"
-        },
-        {
-          "name": "Community",
-          "status": "operational"
-        },
-        {
-          "name": "SFO2",
-          "status": "operational"
-        },
-        {
-          "name": "Model Services",
-          "status": "operational"
-        },
-        {
-          "name": "LON1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO3",
-          "status": "operational"
-        },
-        {
-          "name": "LON1",
-          "status": "operational"
-        },
-        {
-          "name": "LON1",
-          "status": "operational"
-        },
-        {
-          "name": "NYC1",
-          "status": "operational"
-        },
-        {
-          "name": "LON1",
-          "status": "operational"
-        },
-        {
-          "name": "LON1",
-          "status": "operational"
-        },
-        {
-          "name": "LON1",
-          "status": "operational"
-        },
-        {
-          "name": "LON1",
-          "status": "operational"
-        },
-        {
-          "name": "SGP1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO3",
-          "status": "operational"
-        },
-        {
-          "name": "NYC1",
-          "status": "operational"
-        },
-        {
-          "name": "DNS",
-          "status": "operational"
-        },
-        {
-          "name": "New York",
-          "status": "operational"
-        },
-        {
-          "name": "SFO2",
-          "status": "operational"
-        },
-        {
-          "name": "NYC1",
-          "status": "operational"
-        },
-        {
-          "name": "San Francisco",
-          "status": "operational"
-        },
-        {
-          "name": "NYC1",
-          "status": "operational"
-        },
-        {
-          "name": "SGP1",
-          "status": "operational"
-        },
-        {
-          "name": "NYC1",
-          "status": "operational"
-        },
-        {
-          "name": "NYC3",
-          "status": "operational"
-        },
-        {
-          "name": "NYC1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO3",
-          "status": "operational"
-        },
-        {
-          "name": "NYC1",
-          "status": "operational"
-        },
-        {
-          "name": "NYC2",
-          "status": "operational"
-        },
-        {
-          "name": "SGP1",
-          "status": "operational"
-        },
-        {
-          "name": "SYD1",
-          "status": "operational"
-        },
-        {
-          "name": "NYC1",
-          "status": "operational"
-        },
-        {
-          "name": "NYC1",
-          "status": "operational"
-        },
-        {
-          "name": "Support Center",
-          "status": "operational"
-        },
-        {
-          "name": "Singapore",
-          "status": "operational"
-        },
-        {
-          "name": "NYC2",
-          "status": "operational"
-        },
-        {
-          "name": "SYD1",
-          "status": "operational"
-        },
-        {
-          "name": "NYC2",
-          "status": "operational"
-        },
-        {
-          "name": "NYC2",
-          "status": "operational"
-        },
-        {
-          "name": "NYC2",
-          "status": "operational"
-        },
-        {
-          "name": "NYC2",
-          "status": "operational"
-        },
-        {
-          "name": "NYC2",
-          "status": "operational"
-        },
-        {
-          "name": "SGP1",
-          "status": "operational"
-        },
-        {
-          "name": "NYC2",
-          "status": "operational"
-        },
-        {
-          "name": "NYC3",
-          "status": "operational"
-        },
-        {
-          "name": "SYD1",
-          "status": "operational"
-        },
-        {
-          "name": "Reserved IP",
-          "status": "operational"
-        },
-        {
-          "name": "SFO2",
-          "status": "operational"
-        },
-        {
-          "name": "LON1",
-          "status": "operational"
-        },
-        {
-          "name": "Sydney",
-          "status": "operational"
-        },
-        {
-          "name": "NYC3",
-          "status": "operational"
-        },
-        {
-          "name": "NYC3",
-          "status": "operational"
-        },
-        {
-          "name": "NYC3",
-          "status": "operational"
-        },
-        {
-          "name": "SFO3",
-          "status": "operational"
-        },
-        {
-          "name": "NYC3",
-          "status": "operational"
-        },
-        {
-          "name": "SYD1",
-          "status": "operational"
-        },
-        {
-          "name": "NYC3",
-          "status": "operational"
-        },
-        {
-          "name": "NYC3",
-          "status": "operational"
-        },
-        {
-          "name": "TOR1",
-          "status": "operational"
-        },
-        {
-          "name": "NYC3",
-          "status": "operational"
-        },
-        {
-          "name": "WWW",
-          "status": "operational"
-        },
-        {
-          "name": "SFO2",
-          "status": "operational"
-        },
-        {
-          "name": "Toronto",
-          "status": "operational"
-        },
-        {
-          "name": "SGP1",
-          "status": "operational"
-        },
-        {
-          "name": "SGP1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO3",
-          "status": "operational"
-        },
-        {
-          "name": "SFO1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO1",
-          "status": "operational"
-        },
-        {
-          "name": "LON1",
-          "status": "operational"
-        },
-        {
-          "name": "SYD1",
-          "status": "operational"
-        },
-        {
-          "name": "SGP1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO2",
-          "status": "operational"
-        },
-        {
-          "name": "SFO2",
-          "status": "operational"
-        },
-        {
-          "name": "SFO2",
-          "status": "operational"
-        },
-        {
-          "name": "SFO2",
-          "status": "operational"
-        },
-        {
-          "name": "SFO2",
-          "status": "operational"
-        },
-        {
-          "name": "SFO2",
-          "status": "operational"
-        },
-        {
-          "name": "SFO1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO3",
-          "status": "operational"
-        },
-        {
-          "name": "SFO3",
-          "status": "operational"
-        },
-        {
-          "name": "SFO3",
-          "status": "operational"
-        },
-        {
-          "name": "TOR1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO3",
-          "status": "operational"
-        },
-        {
-          "name": "SFO3",
-          "status": "operational"
-        },
-        {
-          "name": "SYD1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO3",
-          "status": "operational"
-        },
-        {
-          "name": "SFO2",
-          "status": "operational"
-        },
-        {
-          "name": "SGP1",
-          "status": "operational"
-        },
-        {
-          "name": "SGP1",
-          "status": "operational"
-        },
-        {
-          "name": "SGP1",
-          "status": "operational"
-        },
-        {
-          "name": "SGP1",
-          "status": "operational"
-        },
-        {
-          "name": "SGP1",
-          "status": "operational"
-        },
-        {
-          "name": "SGP1",
-          "status": "operational"
-        },
-        {
-          "name": "TOR1",
-          "status": "operational"
-        },
-        {
-          "name": "SFO3",
-          "status": "operational"
-        },
-        {
-          "name": "SYD1",
-          "status": "operational"
-        },
-        {
-          "name": "SYD1",
-          "status": "operational"
-        },
-        {
-          "name": "SYD1",
-          "status": "operational"
-        },
-        {
-          "name": "SYD1",
-          "status": "operational"
-        },
-        {
-          "name": "SYD1",
-          "status": "operational"
-        },
-        {
-          "name": "SYD1",
-          "status": "operational"
-        },
-        {
-          "name": "SYD1",
-          "status": "operational"
-        },
-        {
-          "name": "TOR1",
-          "status": "operational"
-        },
-        {
-          "name": "TOR1",
-          "status": "operational"
-        },
-        {
-          "name": "TOR1",
-          "status": "operational"
-        },
-        {
-          "name": "TOR1",
-          "status": "operational"
-        },
-        {
-          "name": "TOR1",
-          "status": "operational"
-        },
-        {
-          "name": "TOR1",
-          "status": "operational"
-        },
-        {
-          "name": "TOR1",
-          "status": "operational"
-        },
-        {
-          "name": "CSPM",
-          "status": "operational"
-        }
-      ]
-    },
-    {
-      "name": "Atlassian - JIRA",
-      "status_url": "https://jira-software.status.atlassian.com",
-      "status": "outage",
-      "description": "Minor Service Outage",
-      "checked_at": "2026-06-24T12:10:55.435Z",
-      "latest_incident": {
-        "title": "Jira : Incoming emails partial outage",
-        "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
-        "date": "2026-06-19T22:46:56.770Z",
-        "link": "https://stspg.io/kpj5zywxxynh",
-        "status": "monitoring",
-        "impact": "major"
-      },
-      "recent_incidents": [
-        {
-          "title": "Delays in processing incoming Emails, Work Item notifications, and Scheduled Triggers in Marketplace Apps",
-          "body": "We are now confident that any of the tasks that were impacted by this incident and were delayed should now be operating as expected.\n\nWe apologize for any inconvenience that this issue may have caused.",
-          "date": "2026-06-10T06:31:05.636Z",
-          "link": "https://stspg.io/wd691l36mbwt",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Some users experiencing issues viewing boards and work items",
-          "body": "The issue has now been resolved, and the service is operating normally for all affected customers.",
-          "date": "2026-06-09T18:28:13.487Z",
-          "link": "https://stspg.io/ph1bzz5mhyxx",
-          "status": "resolved",
-          "impact": "major"
-        },
-        {
-          "title": "Users experiencing issues loading work items in Jira and JSM",
-          "body": "On June 08 2026, between 01:30 and 02:40 UTC, users experienced degraded performance with Jira Software front-end experiences affecting view board, navigation, and backlog across multiple regions. \n\nWe have implemented a fix and services have been restored to normal operation. We continue to monitor the situation closely.",
-          "date": "2026-06-08T02:56:33.698Z",
-          "link": "https://stspg.io/vs3wjprmn4vh",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Users experiencing issues loading work items in Atlassian products",
-          "body": "The issues relating to viewing and creating work items in Jira should now be fully resolved.",
-          "date": "2026-06-07T00:13:10.899Z",
-          "link": "https://stspg.io/d78wzb7bczn8",
-          "status": "resolved",
-          "impact": "major"
-        },
-        {
-          "title": "Degraded performance of Jira and JSM automations in US East",
-          "body": "On June 2, 2026, some Jira and Jira Service Management users in the US-East region may have experienced performance degradation of automation rule executions. The issue has now been resolved, and the service is operating normally for all affected customers. Previously delayed automation rules are expected to be completed within 12 hours.",
-          "date": "2026-06-02T16:51:29.000Z",
-          "link": "https://stspg.io/5zrnmkyz9c2n",
-          "status": "resolved",
-          "impact": "minor"
-        }
-      ],
-      "components": [
-        {
-          "name": "Viewing content",
-          "status": "operational"
-        },
-        {
-          "name": "Create and edit",
-          "status": "operational"
-        },
-        {
-          "name": "Authentication and User Management",
-          "status": "operational"
-        },
-        {
-          "name": "Search",
-          "status": "operational"
-        },
-        {
-          "name": "Notifications",
-          "status": "operational"
-        },
-        {
-          "name": "Administration",
-          "status": "operational"
-        },
-        {
-          "name": "Marketplace",
-          "status": "operational"
-        },
-        {
-          "name": "Mobile",
-          "status": "operational"
-        },
-        {
-          "name": "Purchasing & Licensing",
-          "status": "operational"
-        },
-        {
-          "name": "Signup",
-          "status": "operational"
-        },
-        {
-          "name": "Automation for Jira",
-          "status": "degraded"
-        }
-      ]
-    },
-    {
-      "name": "Atlassian - Confluence",
-      "status_url": "https://confluence.status.atlassian.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-06-24T12:10:55.435Z",
-      "latest_incident": null,
-      "recent_incidents": [
-        {
-          "title": "Confluence Cloud experiencing degraded viewing experience",
-          "body": "### Summary\n\n###   \n\nOn Jun 12, 2026, between 07:04 and 12:10 UTC and on Jun 16, 2026, between 12:56 and 14:35 UTC, a subset of Atlassian customers using Confluence Cloud experienced errors and degraded performance when attempting to view or edit pages. The event was triggered when a database cluster within our infrastructure stopped responding to connection close requests. This caused idle connections to accumulate rather than be released — resulting in increased memory pressure and cascading errors for users. The incident was detected by our automated monitoring within 18 minutes and mitigated by scaling database resources and redeploying, which recycled the idle connections. A permanent fix has since been developed and deployed.\n\n  \n\n### IMPACT\n\n###   \n\nThe overall impact was between Jun 12, 2026 07:04 and 12:10 UTC and Jun 16, 2026 12:56 and 14:35 UTC on Confluence Cloud. The June 12 incident caused service disruption to a subset of customers in the EU region while the June 16 incident caused service disruption to a subset of customers in the US region. Impacted users experienced errors or degraded performance when attempting to view, edit, or access Confluence content and spaces.\n\n  \n\n### ROOT CAUSE\n\n###   \n\n1.  A database cluster within our infrastructure stopped responding to connection close requests.\n2.  Idle connections accumulated across clusters rather than being closed, creating a connection leak and increasing memory pressure on the database layer.\n3.  Hitting max connections on the cluster degraded query performance.\n4.  Users attempting to view or edit Confluence content experienced errors and slow load times as a result.\n\n  \n\n### REMEDIAL ACTIONS PLAN & NEXT STEPS\n\n###   \n\nWe know that outages impact your productivity. While we have a number of testing and preventative processes in place, this specific design limitation in our connection cleanup process was not identified until it was triggered by an adverse infrastructure condition in production.\n\n  \n\nWe have already deployed the following fix:\n\n-   Redesigned the database connection cleanup process to prevent unresponsive connections from impacting the closure of others.\n\nTo minimize the impact of similar incidents in the future, we will implement additional preventative measures such as:\n\n-   Monitoring and alerting for connection cleanup latency and failure rates, so that slowdowns in connection closure are detected early.\n-   Enhanced safeguards on database connection creation to limit the blast radius of any future connection accumulation events.\n\nWe apologize to customers whose services were impacted during this incident. We are taking immediate steps to improve the resilience of our platform_._\n\n  \n\nThanks,\n\nAtlassian Customer Support",
-          "date": "2026-06-23T18:25:46.888Z",
-          "link": "https://stspg.io/npzhdwdhc99g",
-          "status": "postmortem",
-          "impact": "minor"
-        },
-        {
-          "title": "Degraded performance with Confluence Cloud",
-          "body": "### Summary\n\nOn Jun 12, 2026, between 07:04 and 12:10 UTC and on Jun 16, 2026, between 12:56 and 14:35 UTC, a subset of Atlassian customers using Confluence Cloud experienced errors and degraded performance when attempting to view or edit pages. The event was triggered when a database cluster within our infrastructure stopped responding to connection close requests. This caused idle connections to accumulate rather than be released — resulting in increased memory pressure and cascading errors for users. The incident was detected by our automated monitoring within 18 minutes and mitigated by scaling database resources and redeploying, which recycled the idle connections. A permanent fix has since been developed and deployed.\n\n### IMPACT\n\nThe overall impact was between Jun 12, 2026 07:04 and 12:10 UTC and Jun 16, 2026 12:56 and 14:35 UTC on Confluence Cloud. The June 12 incident caused service disruption to a subset of customers in the EU region while the June 16 incident caused service disruption to a subset of customers in the US region. Impacted users experienced errors or degraded performance when attempting to view, edit, or access Confluence content and spaces.\n\n‌\n\n### ROOT CAUSE\n\n‌\n\n1. A database cluster within our infrastructure stopped responding to connection close requests.\n2. Idle connections accumulated across clusters rather than being closed, creating a connection leak and increasing memory pressure on the database layer.\n3. Hitting max connections on the cluster degraded query performance.\n4. Users attempting to view or edit Confluence content experienced errors and slow load times as a result.\n\n‌\n\n### REMEDIAL ACTIONS PLAN & NEXT STEPS\n\n‌\n\nWe know that outages impact your productivity. While we have a number of testing and preventative processes in place, this specific design limitation in our connection cleanup process was not identified until it was triggered by an adverse infrastructure condition in production.\n\n‌\n\nWe have already deployed the following fix:\n\n* Redesigned the database connection cleanup process to prevent unresponsive connections from impacting the closure of others.\n\nTo minimize the impact of similar incidents in the future, we will implement additional preventative measures such as:\n\n* Monitoring and alerting for connection cleanup latency and failure rates, so that slowdowns in connection closure are detected early.\n* Enhanced safeguards on database connection creation to limit the blast radius of any future connection accumulation events.\n\nWe apologize to customers whose services were impacted during this incident. We are taking immediate steps to improve the resilience of our platform_._\n\n‌\n\nThanks,\n\nAtlassian Customer Support",
-          "date": "2026-06-23T18:28:45.698Z",
-          "link": "https://stspg.io/429x5sxfy4gj",
-          "status": "postmortem",
-          "impact": "minor"
-        },
-        {
-          "title": "Delays in processing incoming Emails, Work Item notifications, and Scheduled Triggers in Marketplace Apps",
-          "body": "We are now confident that any of the tasks that were impacted by this incident and were delayed should now be operating as expected.\n\nWe apologize for any inconvenience that this issue may have caused.",
-          "date": "2026-06-10T06:31:04.920Z",
-          "link": "https://stspg.io/fg4d9cksd79n",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Users facing errors when attempting to view Calendars in Confluence",
-          "body": "Between 00:50 UTC and 07:30 UTC on 27 May 2026, some users were facing errors when attempting to view Calendars in Confluence. Our engineering team identified and resolved the underlying issue, and this incident has been fully restored.",
-          "date": "2026-05-27T07:48:49.273Z",
-          "link": "https://stspg.io/1jdhk42rgq80",
-          "status": "resolved",
-          "impact": "major"
-        },
-        {
-          "title": "Some macros failing to load in the Confluence Cloud editor",
-          "body": "Between 08:30 UTC and 13:51 UTC on 26 May 2026, some users were unable to load or edit certain macros in the Confluence Cloud page editor. Our engineering team identified and resolved the underlying issue, and macro functionality has been fully restored.",
-          "date": "2026-05-26T13:55:52.365Z",
-          "link": "https://stspg.io/qcp0sf1kjc3w",
-          "status": "resolved",
-          "impact": "minor"
-        }
-      ],
-      "components": [
-        {
-          "name": "View Content",
-          "status": "operational"
-        },
-        {
-          "name": "iOS App",
-          "status": "operational"
-        },
-        {
-          "name": "Create and Edit",
-          "status": "operational"
-        },
-        {
-          "name": "Android App",
-          "status": "operational"
-        },
-        {
-          "name": "Comments",
-          "status": "operational"
-        },
-        {
-          "name": "Authentication and User Management",
-          "status": "operational"
-        },
-        {
-          "name": "Search",
-          "status": "operational"
-        },
-        {
-          "name": "Administration",
-          "status": "operational"
-        },
-        {
-          "name": "Notifications",
-          "status": "operational"
-        },
-        {
-          "name": "Marketplace Apps",
-          "status": "operational"
-        },
-        {
-          "name": "Purchasing & Licensing",
-          "status": "operational"
-        },
-        {
-          "name": "Signup",
-          "status": "operational"
-        },
-        {
-          "name": "Confluence Automations",
-          "status": "operational"
-        },
-        {
-          "name": "Cloud to Cloud Migrations - Copy Product Data",
-          "status": "operational"
-        },
-        {
-          "name": "Server to Cloud Migrations - Copy Product Data",
-          "status": "operational"
-        }
-      ]
-    },
-    {
       "name": "Asana",
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T12:10:55.435Z",
+      "checked_at": "2026-06-24T12:20:15.836Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1743,11 +257,514 @@
       ]
     },
     {
+      "name": "Atlassian - JIRA",
+      "status_url": "https://jira-software.status.atlassian.com",
+      "status": "outage",
+      "description": "Minor Service Outage",
+      "checked_at": "2026-06-24T12:20:15.836Z",
+      "latest_incident": {
+        "title": "Jira : Incoming emails partial outage",
+        "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
+        "date": "2026-06-19T22:46:56.770Z",
+        "link": "https://stspg.io/kpj5zywxxynh",
+        "status": "monitoring",
+        "impact": "major"
+      },
+      "recent_incidents": [
+        {
+          "title": "Delays in processing incoming Emails, Work Item notifications, and Scheduled Triggers in Marketplace Apps",
+          "body": "We are now confident that any of the tasks that were impacted by this incident and were delayed should now be operating as expected.\n\nWe apologize for any inconvenience that this issue may have caused.",
+          "date": "2026-06-10T06:31:05.636Z",
+          "link": "https://stspg.io/wd691l36mbwt",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Some users experiencing issues viewing boards and work items",
+          "body": "The issue has now been resolved, and the service is operating normally for all affected customers.",
+          "date": "2026-06-09T18:28:13.487Z",
+          "link": "https://stspg.io/ph1bzz5mhyxx",
+          "status": "resolved",
+          "impact": "major"
+        },
+        {
+          "title": "Users experiencing issues loading work items in Jira and JSM",
+          "body": "On June 08 2026, between 01:30 and 02:40 UTC, users experienced degraded performance with Jira Software front-end experiences affecting view board, navigation, and backlog across multiple regions. \n\nWe have implemented a fix and services have been restored to normal operation. We continue to monitor the situation closely.",
+          "date": "2026-06-08T02:56:33.698Z",
+          "link": "https://stspg.io/vs3wjprmn4vh",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Users experiencing issues loading work items in Atlassian products",
+          "body": "The issues relating to viewing and creating work items in Jira should now be fully resolved.",
+          "date": "2026-06-07T00:13:10.899Z",
+          "link": "https://stspg.io/d78wzb7bczn8",
+          "status": "resolved",
+          "impact": "major"
+        },
+        {
+          "title": "Degraded performance of Jira and JSM automations in US East",
+          "body": "On June 2, 2026, some Jira and Jira Service Management users in the US-East region may have experienced performance degradation of automation rule executions. The issue has now been resolved, and the service is operating normally for all affected customers. Previously delayed automation rules are expected to be completed within 12 hours.",
+          "date": "2026-06-02T16:51:29.000Z",
+          "link": "https://stspg.io/5zrnmkyz9c2n",
+          "status": "resolved",
+          "impact": "minor"
+        }
+      ],
+      "components": [
+        {
+          "name": "Viewing content",
+          "status": "operational"
+        },
+        {
+          "name": "Create and edit",
+          "status": "operational"
+        },
+        {
+          "name": "Authentication and User Management",
+          "status": "operational"
+        },
+        {
+          "name": "Search",
+          "status": "operational"
+        },
+        {
+          "name": "Notifications",
+          "status": "operational"
+        },
+        {
+          "name": "Administration",
+          "status": "operational"
+        },
+        {
+          "name": "Marketplace",
+          "status": "operational"
+        },
+        {
+          "name": "Mobile",
+          "status": "operational"
+        },
+        {
+          "name": "Purchasing & Licensing",
+          "status": "operational"
+        },
+        {
+          "name": "Signup",
+          "status": "operational"
+        },
+        {
+          "name": "Automation for Jira",
+          "status": "degraded"
+        }
+      ]
+    },
+    {
+      "name": "Atlassian - Confluence",
+      "status_url": "https://confluence.status.atlassian.com",
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-24T12:20:15.836Z",
+      "latest_incident": null,
+      "recent_incidents": [
+        {
+          "title": "Confluence Cloud experiencing degraded viewing experience",
+          "body": "### Summary\n\n###   \n\nOn Jun 12, 2026, between 07:04 and 12:10 UTC and on Jun 16, 2026, between 12:56 and 14:35 UTC, a subset of Atlassian customers using Confluence Cloud experienced errors and degraded performance when attempting to view or edit pages. The event was triggered when a database cluster within our infrastructure stopped responding to connection close requests. This caused idle connections to accumulate rather than be released — resulting in increased memory pressure and cascading errors for users. The incident was detected by our automated monitoring within 18 minutes and mitigated by scaling database resources and redeploying, which recycled the idle connections. A permanent fix has since been developed and deployed.\n\n  \n\n### IMPACT\n\n###   \n\nThe overall impact was between Jun 12, 2026 07:04 and 12:10 UTC and Jun 16, 2026 12:56 and 14:35 UTC on Confluence Cloud. The June 12 incident caused service disruption to a subset of customers in the EU region while the June 16 incident caused service disruption to a subset of customers in the US region. Impacted users experienced errors or degraded performance when attempting to view, edit, or access Confluence content and spaces.\n\n  \n\n### ROOT CAUSE\n\n###   \n\n1.  A database cluster within our infrastructure stopped responding to connection close requests.\n2.  Idle connections accumulated across clusters rather than being closed, creating a connection leak and increasing memory pressure on the database layer.\n3.  Hitting max connections on the cluster degraded query performance.\n4.  Users attempting to view or edit Confluence content experienced errors and slow load times as a result.\n\n  \n\n### REMEDIAL ACTIONS PLAN & NEXT STEPS\n\n###   \n\nWe know that outages impact your productivity. While we have a number of testing and preventative processes in place, this specific design limitation in our connection cleanup process was not identified until it was triggered by an adverse infrastructure condition in production.\n\n  \n\nWe have already deployed the following fix:\n\n-   Redesigned the database connection cleanup process to prevent unresponsive connections from impacting the closure of others.\n\nTo minimize the impact of similar incidents in the future, we will implement additional preventative measures such as:\n\n-   Monitoring and alerting for connection cleanup latency and failure rates, so that slowdowns in connection closure are detected early.\n-   Enhanced safeguards on database connection creation to limit the blast radius of any future connection accumulation events.\n\nWe apologize to customers whose services were impacted during this incident. We are taking immediate steps to improve the resilience of our platform_._\n\n  \n\nThanks,\n\nAtlassian Customer Support",
+          "date": "2026-06-23T18:25:46.888Z",
+          "link": "https://stspg.io/npzhdwdhc99g",
+          "status": "postmortem",
+          "impact": "minor"
+        },
+        {
+          "title": "Degraded performance with Confluence Cloud",
+          "body": "### Summary\n\nOn Jun 12, 2026, between 07:04 and 12:10 UTC and on Jun 16, 2026, between 12:56 and 14:35 UTC, a subset of Atlassian customers using Confluence Cloud experienced errors and degraded performance when attempting to view or edit pages. The event was triggered when a database cluster within our infrastructure stopped responding to connection close requests. This caused idle connections to accumulate rather than be released — resulting in increased memory pressure and cascading errors for users. The incident was detected by our automated monitoring within 18 minutes and mitigated by scaling database resources and redeploying, which recycled the idle connections. A permanent fix has since been developed and deployed.\n\n### IMPACT\n\nThe overall impact was between Jun 12, 2026 07:04 and 12:10 UTC and Jun 16, 2026 12:56 and 14:35 UTC on Confluence Cloud. The June 12 incident caused service disruption to a subset of customers in the EU region while the June 16 incident caused service disruption to a subset of customers in the US region. Impacted users experienced errors or degraded performance when attempting to view, edit, or access Confluence content and spaces.\n\n‌\n\n### ROOT CAUSE\n\n‌\n\n1. A database cluster within our infrastructure stopped responding to connection close requests.\n2. Idle connections accumulated across clusters rather than being closed, creating a connection leak and increasing memory pressure on the database layer.\n3. Hitting max connections on the cluster degraded query performance.\n4. Users attempting to view or edit Confluence content experienced errors and slow load times as a result.\n\n‌\n\n### REMEDIAL ACTIONS PLAN & NEXT STEPS\n\n‌\n\nWe know that outages impact your productivity. While we have a number of testing and preventative processes in place, this specific design limitation in our connection cleanup process was not identified until it was triggered by an adverse infrastructure condition in production.\n\n‌\n\nWe have already deployed the following fix:\n\n* Redesigned the database connection cleanup process to prevent unresponsive connections from impacting the closure of others.\n\nTo minimize the impact of similar incidents in the future, we will implement additional preventative measures such as:\n\n* Monitoring and alerting for connection cleanup latency and failure rates, so that slowdowns in connection closure are detected early.\n* Enhanced safeguards on database connection creation to limit the blast radius of any future connection accumulation events.\n\nWe apologize to customers whose services were impacted during this incident. We are taking immediate steps to improve the resilience of our platform_._\n\n‌\n\nThanks,\n\nAtlassian Customer Support",
+          "date": "2026-06-23T18:28:45.698Z",
+          "link": "https://stspg.io/429x5sxfy4gj",
+          "status": "postmortem",
+          "impact": "minor"
+        },
+        {
+          "title": "Delays in processing incoming Emails, Work Item notifications, and Scheduled Triggers in Marketplace Apps",
+          "body": "We are now confident that any of the tasks that were impacted by this incident and were delayed should now be operating as expected.\n\nWe apologize for any inconvenience that this issue may have caused.",
+          "date": "2026-06-10T06:31:04.920Z",
+          "link": "https://stspg.io/fg4d9cksd79n",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Users facing errors when attempting to view Calendars in Confluence",
+          "body": "Between 00:50 UTC and 07:30 UTC on 27 May 2026, some users were facing errors when attempting to view Calendars in Confluence. Our engineering team identified and resolved the underlying issue, and this incident has been fully restored.",
+          "date": "2026-05-27T07:48:49.273Z",
+          "link": "https://stspg.io/1jdhk42rgq80",
+          "status": "resolved",
+          "impact": "major"
+        },
+        {
+          "title": "Some macros failing to load in the Confluence Cloud editor",
+          "body": "Between 08:30 UTC and 13:51 UTC on 26 May 2026, some users were unable to load or edit certain macros in the Confluence Cloud page editor. Our engineering team identified and resolved the underlying issue, and macro functionality has been fully restored.",
+          "date": "2026-05-26T13:55:52.365Z",
+          "link": "https://stspg.io/qcp0sf1kjc3w",
+          "status": "resolved",
+          "impact": "minor"
+        }
+      ],
+      "components": [
+        {
+          "name": "View Content",
+          "status": "operational"
+        },
+        {
+          "name": "iOS App",
+          "status": "operational"
+        },
+        {
+          "name": "Create and Edit",
+          "status": "operational"
+        },
+        {
+          "name": "Android App",
+          "status": "operational"
+        },
+        {
+          "name": "Comments",
+          "status": "operational"
+        },
+        {
+          "name": "Authentication and User Management",
+          "status": "operational"
+        },
+        {
+          "name": "Search",
+          "status": "operational"
+        },
+        {
+          "name": "Administration",
+          "status": "operational"
+        },
+        {
+          "name": "Notifications",
+          "status": "operational"
+        },
+        {
+          "name": "Marketplace Apps",
+          "status": "operational"
+        },
+        {
+          "name": "Purchasing & Licensing",
+          "status": "operational"
+        },
+        {
+          "name": "Signup",
+          "status": "operational"
+        },
+        {
+          "name": "Confluence Automations",
+          "status": "operational"
+        },
+        {
+          "name": "Cloud to Cloud Migrations - Copy Product Data",
+          "status": "operational"
+        },
+        {
+          "name": "Server to Cloud Migrations - Copy Product Data",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "name": "Bunny.net",
+      "status_url": "https://status.bunny.net",
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-24T12:20:15.837Z",
+      "latest_incident": null,
+      "recent_incidents": [
+        {
+          "title": "Shield API Intermittent Errors",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-24T03:11:23.808Z",
+          "link": "https://stspg.io/x4bnjzcfbyhb",
+          "status": "resolved",
+          "impact": "none"
+        },
+        {
+          "title": "Free certificate issuance with degraded performance",
+          "body": "As per Lets Encrypt status page, this has been resolved - we similarly have observed no degradation/failures on certificate renewals since their update went out.",
+          "date": "2026-06-19T09:37:04.033Z",
+          "link": "https://stspg.io/7v31krkvk5cb",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Synchronization and Configuration Propagation Delays",
+          "body": "All pending configuration changes have propagated across the CDN.",
+          "date": "2026-06-15T21:24:25.923Z",
+          "link": "https://stspg.io/0j4d1lbh5h72",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Lets Encrypt SSL API Errors",
+          "body": "We no longer see delays stemming from Lets Encrypt and the issue is considered resolved.",
+          "date": "2026-06-03T12:38:39.861Z",
+          "link": "https://stspg.io/3pnzszsh7d68",
+          "status": "resolved",
+          "impact": "none"
+        },
+        {
+          "title": "Investigating Issues with Magic Containers and Databases",
+          "body": "Processing Delays and Intermittent Timeouts for Magic Containers\n\nOn June 1, Magic Containers experienced degraded service for approximately one hour due to a network connectivity issue in our hosting provider's environment. Customers running workloads may have seen increased processing delays, intermittent timeouts, temporary disruption, or reduced availability as some workloads were automatically rescheduled. The issue was resolved after the underlying network conditions stabilized, allowing scheduling activity to resume normally.\n\nWe are improving the resilience of Magic Containers so degraded connectivity can be detected and handled more effectively, not only complete outages. We are also adding safeguards to reduce unnecessary or duplicate workload rescheduling during degraded conditions, helping limit customer impact if similar infrastructure issues occur again.",
+          "date": "2026-06-03T09:17:01.466Z",
+          "link": "https://stspg.io/71ppnx6tdv08",
+          "status": "postmortem",
+          "impact": "major"
+        }
+      ],
+      "components": [
+        {
+          "name": "Website",
+          "status": "operational"
+        },
+        {
+          "name": "Stream Service",
+          "status": "operational"
+        },
+        {
+          "name": "Dashboard",
+          "status": "operational"
+        },
+        {
+          "name": "Stream - Transcoding Service",
+          "status": "operational"
+        },
+        {
+          "name": "API",
+          "status": "operational"
+        },
+        {
+          "name": "CDN",
+          "status": "operational"
+        },
+        {
+          "name": "DNS",
+          "status": "operational"
+        },
+        {
+          "name": "Edge Storage",
+          "status": "operational"
+        },
+        {
+          "name": "Optimizer",
+          "status": "operational"
+        },
+        {
+          "name": "Origin Shield",
+          "status": "operational"
+        },
+        {
+          "name": "Bunny Fonts",
+          "status": "operational"
+        },
+        {
+          "name": "Edge Scripting",
+          "status": "operational"
+        },
+        {
+          "name": "Magic Containers",
+          "status": "operational"
+        },
+        {
+          "name": "Bunny Shield",
+          "status": "operational"
+        },
+        {
+          "name": "Bunny Database",
+          "status": "operational"
+        },
+        {
+          "name": "CDN Logging",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "name": "Channable.com",
+      "status_url": "https://www.channablestatus.com",
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-24T12:20:15.837Z",
+      "latest_incident": null,
+      "recent_incidents": [
+        {
+          "title": "Problems with processing Shopify imports and orders",
+          "body": "The issue has improved and Shopify order sync and stock updates are largely processing again.\n\nNo action required: Any orders that failed during the incident have been or are being automatically re-sent by us.",
+          "date": "2026-06-03T17:20:27.000+02:00",
+          "link": "https://stspg.io/w8cdqx9b02v3",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Issue with Shopify API imports and order connections",
+          "body": "We're closing this status page now, as the majority of technical issues have been resolved. \n\nWe're still working with Shopify to get the Channable app up and running again on the Shopify App store.\n\nAll workarounds, such as the temporary fix for metafields, still apply. You can stay up-to-date by following the changelog.",
+          "date": "2026-06-02T16:02:19.942+02:00",
+          "link": "https://stspg.io/3q3zhgb42ztl",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Delay in background processing",
+          "body": "This issue has been resolved. We are working through our backlog of background jobs at a normal pace again.",
+          "date": "2026-05-12T12:41:54.286+02:00",
+          "link": "https://stspg.io/zrq4y7m25nfx",
+          "status": "resolved",
+          "impact": "major"
+        },
+        {
+          "title": "Elevated error rate when running import jobs",
+          "body": "This incident has been resolved.",
+          "date": "2026-03-04T17:26:05.829+01:00",
+          "link": "https://stspg.io/mv09sy4254fl",
+          "status": "resolved",
+          "impact": "major"
+        },
+        {
+          "title": "Channable is showing pages incorrectly",
+          "body": "The incident has been resolved. No systems are currently affected anymore and processes are being caught up on. Do note that there still might be a small delay while we work through the backlog of tasks that got delayed.",
+          "date": "2026-02-20T17:31:27.839+01:00",
+          "link": "https://stspg.io/0zw2ctdjxmvf",
+          "status": "resolved",
+          "impact": "none"
+        }
+      ],
+      "components": [
+        {
+          "name": "Channable tool",
+          "status": "operational"
+        },
+        {
+          "name": "Shopify",
+          "status": "operational"
+        },
+        {
+          "name": "Returns",
+          "status": "operational"
+        },
+        {
+          "name": "Help Center",
+          "status": "operational"
+        },
+        {
+          "name": "Other",
+          "status": "operational"
+        },
+        {
+          "name": "Stock updates",
+          "status": "operational"
+        },
+        {
+          "name": "Hosted feeds",
+          "status": "operational"
+        },
+        {
+          "name": "Email",
+          "status": "operational"
+        },
+        {
+          "name": "Order synchronization",
+          "status": "operational"
+        },
+        {
+          "name": "Ads",
+          "status": "operational"
+        },
+        {
+          "name": "Inbound Calls",
+          "status": "operational"
+        },
+        {
+          "name": "Marketplaces",
+          "status": "operational"
+        },
+        {
+          "name": "Repricers",
+          "status": "operational"
+        },
+        {
+          "name": "Insights & Analytics",
+          "status": "operational"
+        },
+        {
+          "name": "Creative suite (Dynamic Image Editor)",
+          "status": "operational"
+        },
+        {
+          "name": "Comparison Shopping Service (CSS)",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "name": "Channelengine.com",
+      "status_url": "https://status.channelengine.com",
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-24T12:20:15.837Z",
+      "latest_incident": null,
+      "recent_incidents": [
+        {
+          "title": "Web and Api Connectivity issues",
+          "body": "The Microsoft Azure disruption has been resolved and our temporary workarounds have been reverted.",
+          "date": "2025-10-30T08:58:14.163+01:00",
+          "link": "https://stspg.io/fdphp213lqfm",
+          "status": "resolved",
+          "impact": "critical"
+        },
+        {
+          "title": "ChannelEngine web portal not responding",
+          "body": "This incident has been resolved.",
+          "date": "2025-10-16T09:49:54.385+02:00",
+          "link": "https://stspg.io/cq1jk4mdrv7s",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Web and Api Connectivity Issues in Europe",
+          "body": "All issues have been resolved.",
+          "date": "2025-10-09T20:24:57.443+02:00",
+          "link": "https://stspg.io/dvd12c0hmrhh",
+          "status": "resolved",
+          "impact": "major"
+        },
+        {
+          "title": "Partial Service Disruption",
+          "body": "All issues have been resolved.",
+          "date": "2025-07-23T18:00:34.000+02:00",
+          "link": "https://stspg.io/q48d1cqh4971",
+          "status": "resolved",
+          "impact": "major"
+        },
+        {
+          "title": "Partial service disruption",
+          "body": "This incident is marked as resolved, we will continue to monitor the situation to ensure stability regardless. If you experience any inconsistencies, please contact our support team.",
+          "date": "2025-02-24T17:55:47.213+01:00",
+          "link": "https://stspg.io/xhpkxlnnx549",
+          "status": "resolved",
+          "impact": "minor"
+        }
+      ],
+      "components": [
+        {
+          "name": "ChannelEngine",
+          "status": "operational"
+        }
+      ]
+    },
+    {
       "name": "Cloudflare",
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-24T12:10:55.436Z",
+      "checked_at": "2026-06-24T12:20:15.838Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "Cloudflare is aware of and investigating Workers AI experiencing degraded availability in some models.\n\nImpacted models:\n- @cf/moonshotai/kimi-k2.6\n- @cf/moonshotai/kimi-k2.7-code",
@@ -2261,7 +1278,7 @@
         },
         {
           "name": "Dhaka, Bangladesh - (DAC)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Florianopolis, Brazil - (FLN)",
@@ -3630,11 +2647,1166 @@
       ]
     },
     {
+      "name": "DigitalOcean",
+      "status_url": "https://status.digitalocean.com",
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-24T12:20:15.839Z",
+      "latest_incident": null,
+      "recent_incidents": [
+        {
+          "title": "Monitoring Graphs in the Cloud Control Panel",
+          "body": "Between 13:22 & 14:26 UTC today, users have experienced missing monitoring graphs for Droplets (with DO agent installed), Load Balancers, Databases, and other services within the Cloud Control Panel.\n\nOur engineering team has identified the root cause of the issue and has taken appropriate steps to restore functionality. We can confirm that services have been restored and are functioning as expected.\n\nWe apologize for any inconvenience this may have caused. If you continue to experience issues viewing monitoring graphs, please create a support ticket for further analysis. Thank you for your patience and understanding",
+          "date": "2026-06-19T16:37:38.303Z",
+          "link": "https://stspg.io/8jy6pdvsszwm",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Intermittent 500 Errors on Serverless/GenAI Inference API",
+          "body": "The connectivity issues affecting our Serverless/GenAI Inference API have been fully resolved.\nOur engineering teams successfully completed the connectivity restoration. All systems should be functioning normally, and the endpoint should be fully operational.",
+          "date": "2026-06-17T00:29:42.280Z",
+          "link": "https://stspg.io/40ln0gl1x56j",
+          "status": "resolved",
+          "impact": "none"
+        },
+        {
+          "title": "DeepSeek V4 Pro is returning HTTP 429 \"Rate limit exceeded\"",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-11T17:42:05.051Z",
+          "link": "https://stspg.io/r8mzkb94pf9g",
+          "status": "resolved",
+          "impact": "major"
+        },
+        {
+          "title": "DNS API Service",
+          "body": "Between 09:41 and 11:24 UTC, our Engineering team identified an issue impacting the DNS API service. During this period, users may have experienced issues performing domain and DNS record management operations through the Control Panel and API. Services dependent on DNS API operations, including Let's Encrypt certificate provisioning, MongoDB cluster creation, App Platform deployments, and DigitalOcean Kubernetes (DOKS) cluster create and delete operations, were also impacted.\n\nOur Engineering team has confirmed that the underlying issue affecting the DNS API service has been fully resolved, and all affected services are now operating normally.\n\nIf you continue to experience any issues, please contact our Support team by opening a ticket. We apologize for any inconvenience caused.",
+          "date": "2026-06-04T11:47:05.272Z",
+          "link": "https://stspg.io/c9tgc3txntpg",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "App Platform Deployments",
+          "body": "Our Engineering team has confirmed that the issue impacting build failures on App Platform has been resolved at 07:00 am UTC. All App Platform builds are now succeeding as expected. Customers who previously encountered build failures should now be able to deploy their applications without further issues.\n\nIf you continue to experience any problems, please open a ticket with our support team. Thank you for your patience, and we apologize for any inconvenience.",
+          "date": "2026-05-29T07:58:23.373Z",
+          "link": "https://stspg.io/c5cpdwx9rc37",
+          "status": "resolved",
+          "impact": "minor"
+        }
+      ],
+      "components": [
+        {
+          "name": "API",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Global",
+          "status": "operational"
+        },
+        {
+          "name": "Agent Runtime",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "Amsterdam",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "Billing",
+          "status": "operational"
+        },
+        {
+          "name": "AMS2",
+          "status": "operational"
+        },
+        {
+          "name": "AMS2",
+          "status": "operational"
+        },
+        {
+          "name": "AMS2",
+          "status": "operational"
+        },
+        {
+          "name": "AMS2",
+          "status": "operational"
+        },
+        {
+          "name": "AMS2",
+          "status": "operational"
+        },
+        {
+          "name": "AMS2",
+          "status": "operational"
+        },
+        {
+          "name": "AMS2",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "Inference",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "AMS3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "Atlanta",
+          "status": "operational"
+        },
+        {
+          "name": "BYOIP",
+          "status": "operational"
+        },
+        {
+          "name": "ADK",
+          "status": "operational"
+        },
+        {
+          "name": "Bangalore",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "Cloud Control Panel",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "ATL1",
+          "status": "operational"
+        },
+        {
+          "name": "Knowledge Bases",
+          "status": "operational"
+        },
+        {
+          "name": "Frankfurt",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "BLR1",
+          "status": "operational"
+        },
+        {
+          "name": "Cloud Firewall",
+          "status": "operational"
+        },
+        {
+          "name": "Guardrails",
+          "status": "operational"
+        },
+        {
+          "name": "London",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "FRA1",
+          "status": "operational"
+        },
+        {
+          "name": "Community",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "Model Services",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "DNS",
+          "status": "operational"
+        },
+        {
+          "name": "New York",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "San Francisco",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC1",
+          "status": "operational"
+        },
+        {
+          "name": "Support Center",
+          "status": "operational"
+        },
+        {
+          "name": "Singapore",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC2",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "Reserved IP",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "Sydney",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "NYC3",
+          "status": "operational"
+        },
+        {
+          "name": "WWW",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "Toronto",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "SFO1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO1",
+          "status": "operational"
+        },
+        {
+          "name": "LON1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "SFO1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "SFO2",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "SGP1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "SFO3",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "SYD1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "TOR1",
+          "status": "operational"
+        },
+        {
+          "name": "CSPM",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "name": "GitHub",
+      "status_url": "https://www.githubstatus.com",
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-24T12:20:15.839Z",
+      "latest_incident": null,
+      "recent_incidents": [
+        {
+          "title": "We are seeing elevated errors with Next Edit Suggestions and Completions",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-06-23T23:29:34.640Z",
+          "link": "https://stspg.io/87nklrsyfs65",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Disruption with Copilot next edit suggestions",
+          "body": "On June 17, 2026, between 16:57 UTC and 19:14 UTC, Copilot code completions were degraded and users were unable to receive Next Edit Suggestions. Standard ghost text code completions were not affected. This was due to a configuration change that caused the service's routing layer to incorrectly discard all Next Edit Suggestion model endpoints as invalid.<br /><br />We mitigated the incident by deploying a corrected configuration change at 18:55 UTC, with full recovery observed at 19:14 UTC.<br /><br />We are working to improve the resilience of our routing layer to limit impact due to a subset of invalid configurations, and to improve our alerting to detect sudden traffic changes that are not captured by standard error rate monitors.",
+          "date": "2026-06-17T19:28:16.628Z",
+          "link": "https://stspg.io/7tn8k5v6kzjj",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Incident With Webhooks",
+          "body": "On June 17, 2026, between 11:35 UTC and 19:20 UTC, the Webhooks service was degraded and delivered webhook payloads with missing installation information. On average, 11.3% of webhook deliveries were impacted. Customers relying on the installation field for authentication or routing were unable to process affected webhooks. A smaller subset of deliveries for the security_advisory event (0.04%) were delivered successfully but were not recorded for redelivery. This was due to a defect in a new delivery code path that failed to include installation data in webhook payloads.\n\nWe mitigated the incident by disabling the feature flag controlling the new code path.\n\nWe are working to improve our automated validation of webhook payloads, and introduce automated alerting for webhook payload regressions to reduce our time to detection and mitigation of issues like this one in the future.\n\nThe following events were affected: branch_protection_configuration, code_scanning_alert, commit_comment, custom_property, custom_property_values, dependabot_alert, deploy_key, deployment_protection_rule, deployment_review, dismissal_request_code_scanning, dismissal_request_secret_scanning, installation_target, member, membership, merge_queue_entry, org_block, organization, projects_v2, projects_v2_item, pull_request_review_thread, repository_ruleset, secret_scanning_alert, secret_scanning_alert_location, secret_scanning_scan, security_and_analysis, star, sub_issues, team, team_add, workflow_job.",
+          "date": "2026-06-17T19:00:00.000Z",
+          "link": "https://stspg.io/t0qkhqpm5vlm",
+          "status": "resolved",
+          "impact": "none"
+        },
+        {
+          "title": "Incident with Copilot Availability",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-06-17T04:44:07.904Z",
+          "link": "https://stspg.io/nhj5lsy4gbzz",
+          "status": "resolved",
+          "impact": "critical"
+        },
+        {
+          "title": "Disruption with some GitHub services",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-06-16T18:15:24.555Z",
+          "link": "https://stspg.io/0y9pgmg78442",
+          "status": "resolved",
+          "impact": "major"
+        }
+      ],
+      "components": [
+        {
+          "name": "Git Operations",
+          "status": "operational"
+        },
+        {
+          "name": "Webhooks",
+          "status": "operational"
+        },
+        {
+          "name": "Visit www.githubstatus.com for more information",
+          "status": "operational"
+        },
+        {
+          "name": "API Requests",
+          "status": "operational"
+        },
+        {
+          "name": "Issues",
+          "status": "operational"
+        },
+        {
+          "name": "Pull Requests",
+          "status": "operational"
+        },
+        {
+          "name": "Actions",
+          "status": "operational"
+        },
+        {
+          "name": "Packages",
+          "status": "operational"
+        },
+        {
+          "name": "Pages",
+          "status": "operational"
+        },
+        {
+          "name": "Copilot",
+          "status": "operational"
+        },
+        {
+          "name": "Codespaces",
+          "status": "operational"
+        },
+        {
+          "name": "Copilot AI Model Providers",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "status_url": "https://status.openai.com",
+      "status": "degraded",
+      "description": "Partial System Degradation",
+      "checked_at": "2026-06-24T12:20:15.839Z",
+      "latest_incident": {
+        "title": "FedRAMP workspaces and API orgs have degraded performance",
+        "body": "We are still investigating the issue for the listed services.",
+        "date": "2026-06-18T19:41:22Z",
+        "link": "",
+        "status": "investigating",
+        "impact": "minor"
+      },
+      "recent_incidents": [
+        {
+          "title": "gpt-4o-mini high error rate",
+          "body": "All impacted services have now fully recovered.",
+          "date": "2026-06-24T06:07:32Z",
+          "link": "",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Users may experience elevated errors in ChatGPT uploading and downloading files ",
+          "body": "All impacted services have now fully recovered.",
+          "date": "2026-06-23T16:38:19Z",
+          "link": "",
+          "status": "resolved",
+          "impact": "major"
+        },
+        {
+          "title": "chatgpt.com access issues",
+          "body": "All impacted services have now fully recovered.",
+          "date": "2026-06-19T05:23:27Z",
+          "link": "",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "SSO login errors for some ChatGPT Enterprise workspaces",
+          "body": "All impacted services have now fully recovered.",
+          "date": "2026-06-18T11:55:12Z",
+          "link": "",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "ChatGPT failing to load or save",
+          "body": "All impacted services have now fully recovered.",
+          "date": "2026-06-18T03:55:02Z",
+          "link": "",
+          "status": "resolved",
+          "impact": "minor"
+        }
+      ],
+      "components": [
+        {
+          "name": "Batch",
+          "status": "operational"
+        },
+        {
+          "name": "Audio",
+          "status": "operational"
+        },
+        {
+          "name": "Login",
+          "status": "operational"
+        },
+        {
+          "name": "Compliance API",
+          "status": "operational"
+        },
+        {
+          "name": "Search",
+          "status": "operational"
+        },
+        {
+          "name": "Voice mode",
+          "status": "operational"
+        },
+        {
+          "name": "GPTs",
+          "status": "operational"
+        },
+        {
+          "name": "Image Generation",
+          "status": "operational"
+        },
+        {
+          "name": "Deep Research",
+          "status": "operational"
+        },
+        {
+          "name": "ChatGPT Atlas",
+          "status": "operational"
+        },
+        {
+          "name": "Connectors/Apps",
+          "status": "operational"
+        },
+        {
+          "name": "CLI",
+          "status": "operational"
+        },
+        {
+          "name": "VS Code extension",
+          "status": "operational"
+        },
+        {
+          "name": "Ads API",
+          "status": "operational"
+        },
+        {
+          "name": "Fine-tuning",
+          "status": "operational"
+        },
+        {
+          "name": "Files",
+          "status": "operational"
+        },
+        {
+          "name": "Responses",
+          "status": "operational"
+        },
+        {
+          "name": "Realtime",
+          "status": "operational"
+        },
+        {
+          "name": "Sora",
+          "status": "operational"
+        },
+        {
+          "name": "Conversations",
+          "status": "operational"
+        },
+        {
+          "name": "Images",
+          "status": "operational"
+        },
+        {
+          "name": "Codex Web",
+          "status": "operational"
+        },
+        {
+          "name": "File uploads",
+          "status": "operational"
+        },
+        {
+          "name": "Agent",
+          "status": "operational"
+        },
+        {
+          "name": "App",
+          "status": "operational"
+        }
+      ]
+    },
+    {
       "name": "Hetzner",
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-06-24T12:10:55.527Z",
+      "checked_at": "2026-06-24T12:20:15.939Z",
       "latest_incident": null,
       "recent_incidents": [
         {
