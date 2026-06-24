@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-24T17:20:56.100Z",
+  "updated_at": "2026-06-24T17:30:58.892Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T17:20:55.905Z",
+      "checked_at": "2026-06-24T17:30:58.685Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T17:20:55.905Z",
+      "checked_at": "2026-06-24T17:30:58.685Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-24T17:20:55.905Z",
+      "checked_at": "2026-06-24T17:30:58.685Z",
       "latest_incident": {
         "title": "Jira : Incoming emails partial outage",
         "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
@@ -364,7 +364,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T17:20:55.905Z",
+      "checked_at": "2026-06-24T17:30:58.686Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -476,7 +476,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T17:20:55.906Z",
+      "checked_at": "2026-06-24T17:30:58.686Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -592,7 +592,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T17:20:55.906Z",
+      "checked_at": "2026-06-24T17:30:58.686Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -708,7 +708,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T17:20:55.906Z",
+      "checked_at": "2026-06-24T17:30:58.686Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -764,7 +764,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T17:20:55.906Z",
+      "checked_at": "2026-06-24T17:30:58.686Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -972,16 +972,24 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-24T17:20:55.907Z",
+      "checked_at": "2026-06-24T17:30:58.687Z",
       "latest_incident": {
-        "title": "Issues with granular roles for Cloudflare Tunnel and Mesh",
-        "body": "Cloudflare is investigating permission issues with resource-based granular roles where a subset of users are not being granted access to their scoped Cloudflare Tunnel and Cloudflare Mesh resources.\n\nThis specifically impacts users attempting to view, configure, or manage individual Tunnel instances or Mesh nodes via the Cloudflare Dashboard or API when relying on resource-scoped policies. All account-level roles, global permissions, and active tunnel and mesh data traffic remain unaffected.\n\nOur engineering team is actively working on resolving the root cause, and we will provide further updates as soon as more information is available.",
-        "date": "2026-06-24T15:16:41.616Z",
-        "link": "https://stspg.io/05pyf0430db2",
+        "title": "Workers AI experiencing degraded availability in some models",
+        "body": "Cloudflare is aware of and investigating Workers AI experiencing degraded availability in some models.\n\nImpacted models:\n- @cf/moonshotai/kimi-k2.6\n- @cf/moonshotai/kimi-k2.7-code",
+        "date": "2026-06-16T14:04:46.239Z",
+        "link": "https://stspg.io/hp348196t57r",
         "status": "investigating",
         "impact": "minor"
       },
       "recent_incidents": [
+        {
+          "title": "Issues with granular roles for Cloudflare Tunnel and Mesh",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-24T17:30:29.106Z",
+          "link": "https://stspg.io/05pyf0430db2",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Network Performance Issues - Increased HTTP 5XX Errors in Ashburn, US",
           "body": "Between 17:07 and 17:45 UTC, Cloudflare experienced network performance issues in the Ashburn, US region, resulting in an elevated rate of 5xx errors for a subset of traffic. During this time, impacted users may have encountered intermittent connectivity issues or unexpected server responses. The underlying issue was successfully mitigated, and all error rates have fully subsided. \n\nThis incident has been resolved.",
@@ -1011,14 +1019,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-06-22T16:04:54.160Z",
           "link": "https://stspg.io/86y7mlr7gs44",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Cloudflare is investigating an issue where customers are being blocked deploying Managed Rules",
-          "body": "This incident has been resolved.",
-          "date": "2026-06-22T15:15:34.069Z",
-          "link": "https://stspg.io/740yzyvltf7p",
           "status": "resolved",
           "impact": "minor"
         }
@@ -2466,7 +2466,7 @@
         },
         {
           "name": "Mesh",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Xinyu, China - (KHN)",
@@ -2622,7 +2622,7 @@
         },
         {
           "name": "Tunnel",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Turnstile",
@@ -2859,7 +2859,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T17:20:55.907Z",
+      "checked_at": "2026-06-24T17:30:58.687Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3755,7 +3755,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T17:20:55.907Z",
+      "checked_at": "2026-06-24T17:30:58.688Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3855,7 +3855,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-24T17:20:55.907Z",
+      "checked_at": "2026-06-24T17:30:58.688Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -4014,7 +4014,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-06-24T17:20:56.091Z",
+      "checked_at": "2026-06-24T17:30:58.885Z",
       "latest_incident": null,
       "recent_incidents": [
         {
