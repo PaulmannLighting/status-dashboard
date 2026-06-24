@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-24T12:00:55.593Z",
+  "updated_at": "2026-06-24T12:04:55.332Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T12:00:55.504Z",
+      "checked_at": "2026-06-24T12:04:55.179Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-24T12:00:55.504Z",
+      "checked_at": "2026-06-24T12:04:55.180Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T12:00:55.505Z",
+      "checked_at": "2026-06-24T12:04:55.180Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T12:00:55.505Z",
+      "checked_at": "2026-06-24T12:04:55.180Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T12:00:55.505Z",
+      "checked_at": "2026-06-24T12:04:55.181Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-24T12:00:55.505Z",
+      "checked_at": "2026-06-24T12:04:55.181Z",
       "latest_incident": {
         "title": "Jira : Incoming emails partial outage",
         "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
@@ -1463,7 +1463,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T12:00:55.506Z",
+      "checked_at": "2026-06-24T12:04:55.181Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1575,7 +1575,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T12:00:55.506Z",
+      "checked_at": "2026-06-24T12:04:55.181Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1743,11 +1743,1898 @@
       ]
     },
     {
+      "name": "Cloudflare",
+      "status_url": "https://www.cloudflarestatus.com",
+      "status": "degraded",
+      "description": "Minor Service Outage",
+      "checked_at": "2026-06-24T12:04:55.182Z",
+      "latest_incident": {
+        "title": "Workers AI experiencing degraded availability in some models",
+        "body": "Cloudflare is aware of and investigating Workers AI experiencing degraded availability in some models.\n\nImpacted models:\n- @cf/moonshotai/kimi-k2.6\n- @cf/moonshotai/kimi-k2.7-code",
+        "date": "2026-06-16T14:04:46.239Z",
+        "link": "https://stspg.io/hp348196t57r",
+        "status": "investigating",
+        "impact": "minor"
+      },
+      "recent_incidents": [
+        {
+          "title": "Network Performance Issues - Increased HTTP 5XX Errors in Ashburn, US",
+          "body": "Between 17:07 and 17:45 UTC, Cloudflare experienced network performance issues in the Ashburn, US region, resulting in an elevated rate of 5xx errors for a subset of traffic. During this time, impacted users may have encountered intermittent connectivity issues or unexpected server responses. The underlying issue was successfully mitigated, and all error rates have fully subsided. \n\nThis incident has been resolved.",
+          "date": "2026-06-23T16:00:00.000Z",
+          "link": "https://stspg.io/0g2l9y0tj35v",
+          "status": "resolved",
+          "impact": "none"
+        },
+        {
+          "title": "Email Delivery Delays",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-22T21:44:47.714Z",
+          "link": "https://stspg.io/nvsxhk1n5lm2",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Increased Error Rates",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-22T21:22:25.562Z",
+          "link": "https://stspg.io/2276w5rw3mp4",
+          "status": "resolved",
+          "impact": "none"
+        },
+        {
+          "title": "Customers may see incorrect invoice payment status",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-22T16:04:54.160Z",
+          "link": "https://stspg.io/86y7mlr7gs44",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Cloudflare is investigating an issue where customers are being blocked deploying Managed Rules",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-22T15:15:34.069Z",
+          "link": "https://stspg.io/740yzyvltf7p",
+          "status": "resolved",
+          "impact": "minor"
+        }
+      ],
+      "components": [
+        {
+          "name": "Amsterdam, Netherlands - (AMS)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Amman, Jordan - (AMM)",
+          "status": "operational"
+        },
+        {
+          "name": "Adelaide, SA, Australia - (ADL)",
+          "status": "operational"
+        },
+        {
+          "name": "Americana, Brazil - (QWJ)",
+          "status": "operational"
+        },
+        {
+          "name": "Accra, Ghana - (ACC)",
+          "status": "operational"
+        },
+        {
+          "name": "Ahmedabad, India - (AMD)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Albuquerque, NM, United States - (ABQ)",
+          "status": "operational"
+        },
+        {
+          "name": "Abuse Reports",
+          "status": "operational"
+        },
+        {
+          "name": "Auckland, New Zealand - (AKL)",
+          "status": "operational"
+        },
+        {
+          "name": "Athens, Greece - (ATH)",
+          "status": "operational"
+        },
+        {
+          "name": "Access",
+          "status": "operational"
+        },
+        {
+          "name": "Arica, Chile - (ARI)",
+          "status": "degraded"
+        },
+        {
+          "name": "Algiers, Algeria - (ALG)",
+          "status": "operational"
+        },
+        {
+          "name": "Almaty, Kazakhstan - (ALA)",
+          "status": "operational"
+        },
+        {
+          "name": "Astara, Azerbaijan - (LLK)",
+          "status": "operational"
+        },
+        {
+          "name": "Anchorage, AK, United States - (ANC)",
+          "status": "operational"
+        },
+        {
+          "name": "Ashburn, VA, United States - (IAD)",
+          "status": "operational"
+        },
+        {
+          "name": "Brisbane, QLD, Australia - (BNE)",
+          "status": "operational"
+        },
+        {
+          "name": "Barcelona, Spain - (BCN)",
+          "status": "operational"
+        },
+        {
+          "name": "Baghdad, Iraq - (BGW)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Asunción, Paraguay - (ASU)",
+          "status": "operational"
+        },
+        {
+          "name": "Annaba, Algeria - (AAE)",
+          "status": "operational"
+        },
+        {
+          "name": "AI Gateway",
+          "status": "operational"
+        },
+        {
+          "name": "Atlanta, GA, United States - (ATL)",
+          "status": "operational"
+        },
+        {
+          "name": "Belgrade, Serbia - (BEG)",
+          "status": "operational"
+        },
+        {
+          "name": "Baku, Azerbaijan - (GYD)",
+          "status": "operational"
+        },
+        {
+          "name": "Bangalore, India - (BLR)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Antananarivo, Madagascar - (TNR)",
+          "status": "operational"
+        },
+        {
+          "name": "Canberra, ACT, Australia - (CBR)",
+          "status": "operational"
+        },
+        {
+          "name": "Belém, Brazil - (BEL)",
+          "status": "operational"
+        },
+        {
+          "name": "AI Search",
+          "status": "operational"
+        },
+        {
+          "name": "Berlin, Germany - (TXL)",
+          "status": "operational"
+        },
+        {
+          "name": "Always Online",
+          "status": "operational"
+        },
+        {
+          "name": "Bangkok, Thailand - (BKK)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Cape Town, South Africa - (CPT)",
+          "status": "operational"
+        },
+        {
+          "name": "Belo Horizonte, Brazil - (CNF)",
+          "status": "operational"
+        },
+        {
+          "name": "Basra, Iraq - (BSR)",
+          "status": "degraded"
+        },
+        {
+          "name": "Christchurch, New Zealand - (CHC)",
+          "status": "operational"
+        },
+        {
+          "name": "Austin, TX, United States - (AUS)",
+          "status": "operational"
+        },
+        {
+          "name": "Analytics",
+          "status": "operational"
+        },
+        {
+          "name": "Beirut, Lebanon - (BEY)",
+          "status": "operational"
+        },
+        {
+          "name": "Bandar Seri Begawan, Brunei - (BWN)",
+          "status": "degraded"
+        },
+        {
+          "name": "Blumenau, Brazil - (BNU)",
+          "status": "operational"
+        },
+        {
+          "name": "Hagatna, Guam - (GUM)",
+          "status": "degraded"
+        },
+        {
+          "name": "Bangor, ME, United States - (BGR)",
+          "status": "operational"
+        },
+        {
+          "name": "Bordeaux, France - (BOD)",
+          "status": "operational"
+        },
+        {
+          "name": "API",
+          "status": "operational"
+        },
+        {
+          "name": "Boston, MA, United States - (BOS)",
+          "status": "operational"
+        },
+        {
+          "name": "Bogotá, Colombia - (BOG)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Dakar, Senegal - (DKR)",
+          "status": "degraded"
+        },
+        {
+          "name": "Dammam, Saudi Arabia - (DMM)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Bratislava, Slovakia   - (BTS)",
+          "status": "operational"
+        },
+        {
+          "name": "Melbourne, VIC, Australia - (MEL)",
+          "status": "operational"
+        },
+        {
+          "name": "Doha, Qatar - (DOH)",
+          "status": "operational"
+        },
+        {
+          "name": "Brussels, Belgium - (BRU)",
+          "status": "operational"
+        },
+        {
+          "name": "Buffalo, NY, United States - (BUF)",
+          "status": "operational"
+        },
+        {
+          "name": "Dar Es Salaam, Tanzania - (DAR)",
+          "status": "operational"
+        },
+        {
+          "name": "Brasilia, Brazil - (BSB)",
+          "status": "maintenance"
+        },
+        {
+          "name": "API Shield",
+          "status": "operational"
+        },
+        {
+          "name": "Buenos Aires, Argentina - (EZE)",
+          "status": "operational"
+        },
+        {
+          "name": "Bucharest, Romania - (OTP)",
+          "status": "operational"
+        },
+        {
+          "name": "Dubai, United Arab Emirates - (DXB)",
+          "status": "operational"
+        },
+        {
+          "name": "Djibouti City, Djibouti - (JIB)",
+          "status": "operational"
+        },
+        {
+          "name": "Calgary, AB, Canada - (YYC)",
+          "status": "degraded"
+        },
+        {
+          "name": "Cebu, Philippines - (CEB)",
+          "status": "operational"
+        },
+        {
+          "name": "Noumea, New Caledonia - (NOU)",
+          "status": "operational"
+        },
+        {
+          "name": "Apps Marketplace",
+          "status": "operational"
+        },
+        {
+          "name": "Perth, WA, Australia - (PER)",
+          "status": "operational"
+        },
+        {
+          "name": "Budapest, Hungary - (BUD)",
+          "status": "operational"
+        },
+        {
+          "name": "Durban, South Africa - (DUR)",
+          "status": "operational"
+        },
+        {
+          "name": "Charlotte, NC, United States - (CLT)",
+          "status": "operational"
+        },
+        {
+          "name": "Caçador, Brazil - (CFC)",
+          "status": "operational"
+        },
+        {
+          "name": "Erbil, Iraq - (EBL)",
+          "status": "operational"
+        },
+        {
+          "name": "Chandigarh, India - (IXC)",
+          "status": "operational"
+        },
+        {
+          "name": "Area 1 - API",
+          "status": "operational"
+        },
+        {
+          "name": "Chicago, IL, United States - (ORD)",
+          "status": "operational"
+        },
+        {
+          "name": "Sydney, NSW, Australia - (SYD)",
+          "status": "operational"
+        },
+        {
+          "name": "Chișinău, Moldova - (KIV)",
+          "status": "operational"
+        },
+        {
+          "name": "Campinas, Brazil - (VCP)",
+          "status": "operational"
+        },
+        {
+          "name": "Changde, China - (CGD)",
+          "status": "operational"
+        },
+        {
+          "name": "Haifa, Israel - (HFA)",
+          "status": "operational"
+        },
+        {
+          "name": "Gaborone, Botswana - (GBE)",
+          "status": "operational"
+        },
+        {
+          "name": "Area 1 - Dash",
+          "status": "operational"
+        },
+        {
+          "name": "Copenhagen, Denmark - (CPH)",
+          "status": "operational"
+        },
+        {
+          "name": "Chennai, India - (MAA)",
+          "status": "operational"
+        },
+        {
+          "name": "Argo Smart Routing",
+          "status": "operational"
+        },
+        {
+          "name": "Harare, Zimbabwe - (HRE)",
+          "status": "degraded"
+        },
+        {
+          "name": "Jeddah, Saudi Arabia - (JED)",
+          "status": "operational"
+        },
+        {
+          "name": "Tahiti, French Polynesia - (PPT)",
+          "status": "operational"
+        },
+        {
+          "name": "Cleveland, OH, United States - (CLE)",
+          "status": "operational"
+        },
+        {
+          "name": "Johannesburg, South Africa - (JNB)",
+          "status": "operational"
+        },
+        {
+          "name": "Kuwait City, Kuwait - (KWI)",
+          "status": "operational"
+        },
+        {
+          "name": "Dublin, Ireland - (DUB)",
+          "status": "operational"
+        },
+        {
+          "name": "Columbus, OH, United States - (CMH)",
+          "status": "operational"
+        },
+        {
+          "name": "Córdoba, Argentina - (COR)",
+          "status": "operational"
+        },
+        {
+          "name": "Audit Logs",
+          "status": "operational"
+        },
+        {
+          "name": "Suva, Fiji - (SUV)",
+          "status": "operational"
+        },
+        {
+          "name": "Dallas, TX, United States - (DFW)",
+          "status": "operational"
+        },
+        {
+          "name": "Düsseldorf, Germany - (DUS)",
+          "status": "operational"
+        },
+        {
+          "name": "Manama, Bahrain - (BAH)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Authoritative DNS",
+          "status": "operational"
+        },
+        {
+          "name": "Kigali, Rwanda - (KGL)",
+          "status": "degraded"
+        },
+        {
+          "name": "Chittagong, Bangladesh - (CGP)",
+          "status": "operational"
+        },
+        {
+          "name": "Hobart, Australia - (HBA)",
+          "status": "operational"
+        },
+        {
+          "name": "Frankfurt, Germany - (FRA)",
+          "status": "operational"
+        },
+        {
+          "name": "Muscat, Oman - (MCT)",
+          "status": "operational"
+        },
+        {
+          "name": "Billing",
+          "status": "operational"
+        },
+        {
+          "name": "Denver, CO, United States - (DEN)",
+          "status": "operational"
+        },
+        {
+          "name": "Colombo, Sri Lanka - (CMB)",
+          "status": "operational"
+        },
+        {
+          "name": "Lagos, Nigeria - (LOS)",
+          "status": "operational"
+        },
+        {
+          "name": "Curitiba, Brazil - (CWB)",
+          "status": "operational"
+        },
+        {
+          "name": "Wellington, New Zealand - (WLG)",
+          "status": "operational"
+        },
+        {
+          "name": "Luanda, Angola - (LAD)",
+          "status": "operational"
+        },
+        {
+          "name": "Detroit, MI, United States - (DTW)",
+          "status": "operational"
+        },
+        {
+          "name": "Geneva, Switzerland - (GVA)",
+          "status": "operational"
+        },
+        {
+          "name": "Dhaka, Bangladesh - (DAC)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Florianopolis, Brazil - (FLN)",
+          "status": "operational"
+        },
+        {
+          "name": "Najaf, Iraq - (NJF)",
+          "status": "degraded"
+        },
+        {
+          "name": "Blog",
+          "status": "operational"
+        },
+        {
+          "name": "Fortaleza, Brazil - (FOR)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Gothenburg, Sweden - (GOT)",
+          "status": "operational"
+        },
+        {
+          "name": "Maputo, Mozambique - (MPM)",
+          "status": "operational"
+        },
+        {
+          "name": "Bring Your Own IP (BYOIP)",
+          "status": "operational"
+        },
+        {
+          "name": "Foshan, China - (FUO)",
+          "status": "operational"
+        },
+        {
+          "name": "Nasiriyah, Iraq - (XNH)",
+          "status": "degraded"
+        },
+        {
+          "name": "Durham, NC, United States - (RDU)",
+          "status": "operational"
+        },
+        {
+          "name": "Mombasa, Kenya - (MBA)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Hamburg, Germany - (HAM)",
+          "status": "operational"
+        },
+        {
+          "name": "Ramallah - (ZDM)",
+          "status": "operational"
+        },
+        {
+          "name": "Browser Isolation",
+          "status": "operational"
+        },
+        {
+          "name": "Georgetown, Guyana - (GEO)",
+          "status": "degraded"
+        },
+        {
+          "name": "Fukuoka, Japan - (FUK)",
+          "status": "operational"
+        },
+        {
+          "name": "Guadalajara, Mexico - (GDL)",
+          "status": "operational"
+        },
+        {
+          "name": "Helsinki, Finland - (HEL)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Riyadh, Saudi Arabia - (RUH)",
+          "status": "operational"
+        },
+        {
+          "name": "Nairobi, Kenya - (NBO)",
+          "status": "operational"
+        },
+        {
+          "name": "Goiânia, Brazil - (GYN)",
+          "status": "operational"
+        },
+        {
+          "name": "Fuzhou, China - (FOC)",
+          "status": "operational"
+        },
+        {
+          "name": "Halifax, Canada - (YHZ)",
+          "status": "operational"
+        },
+        {
+          "name": "Browser Run",
+          "status": "operational"
+        },
+        {
+          "name": "Guangzhou, China - (CAN)",
+          "status": "operational"
+        },
+        {
+          "name": "Istanbul, Turkey - (IST)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Guatemala City, Guatemala - (GUA)",
+          "status": "operational"
+        },
+        {
+          "name": "Honolulu, HI, United States - (HNL)",
+          "status": "operational"
+        },
+        {
+          "name": "Sulaymaniyah, Iraq - (ISU)",
+          "status": "operational"
+        },
+        {
+          "name": "Bot Management",
+          "status": "operational"
+        },
+        {
+          "name": "Oran, Algeria - (ORN)",
+          "status": "operational"
+        },
+        {
+          "name": "Tel Aviv, Israel - (TLV)",
+          "status": "operational"
+        },
+        {
+          "name": "Houston, TX, United States - (IAH)",
+          "status": "operational"
+        },
+        {
+          "name": "Guayaquil, Ecuador - (GYE)",
+          "status": "operational"
+        },
+        {
+          "name": "Haikou, China - (HAK)",
+          "status": "operational"
+        },
+        {
+          "name": "Ouagadougou, Burkina Faso   - (OUA)",
+          "status": "operational"
+        },
+        {
+          "name": "Izmir, Turkey - (ADB)",
+          "status": "degraded"
+        },
+        {
+          "name": "Brand Protection",
+          "status": "operational"
+        },
+        {
+          "name": "Kyiv, Ukraine - (KBP)",
+          "status": "operational"
+        },
+        {
+          "name": "Port Louis, Mauritius - (MRU)",
+          "status": "operational"
+        },
+        {
+          "name": "Indianapolis, IN, United States - (IND)",
+          "status": "operational"
+        },
+        {
+          "name": "Hanoi, Vietnam - (HAN)",
+          "status": "operational"
+        },
+        {
+          "name": "Cache Reserve",
+          "status": "operational"
+        },
+        {
+          "name": "Lisbon, Portugal - (LIS)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Jacksonville, FL, United States - (JAX)",
+          "status": "operational"
+        },
+        {
+          "name": "CDN/Cache",
+          "status": "operational"
+        },
+        {
+          "name": "Hengshui, China - (SJW)",
+          "status": "operational"
+        },
+        {
+          "name": "Joinville, Brazil - (JOI)",
+          "status": "operational"
+        },
+        {
+          "name": "London, United Kingdom - (LHR)",
+          "status": "operational"
+        },
+        {
+          "name": "Kansas City, MO, United States - (MCI)",
+          "status": "operational"
+        },
+        {
+          "name": "Ho Chi Minh City, Vietnam - (SGN)",
+          "status": "operational"
+        },
+        {
+          "name": "CDN Cache Purge",
+          "status": "operational"
+        },
+        {
+          "name": "Tunis, Tunisia - (TUN)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Juazeiro do Norte, Brazil - (JDO)",
+          "status": "operational"
+        },
+        {
+          "name": "Hong Kong - (HKG)",
+          "status": "operational"
+        },
+        {
+          "name": "Lima, Peru - (LIM)",
+          "status": "operational"
+        },
+        {
+          "name": "Luxembourg City, Luxembourg - (LUX)",
+          "status": "operational"
+        },
+        {
+          "name": "Kingston, Jamaica - (KIN)",
+          "status": "operational"
+        },
+        {
+          "name": "Kinshasa, DR Congo - (FIH)",
+          "status": "degraded"
+        },
+        {
+          "name": "Challenge Platform",
+          "status": "operational"
+        },
+        {
+          "name": "Las Vegas, NV, United States - (LAS)",
+          "status": "operational"
+        },
+        {
+          "name": "Hyderabad, India - (HYD)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Manaus, Brazil - (MAO)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Cloud Access Security Broker (CASB)",
+          "status": "operational"
+        },
+        {
+          "name": "Lyon, France - (LYS)",
+          "status": "operational"
+        },
+        {
+          "name": "Cairo, Egypt - (CAI)",
+          "status": "operational"
+        },
+        {
+          "name": "Los Angeles, CA, United States - (LAX)",
+          "status": "operational"
+        },
+        {
+          "name": "Madrid, Spain - (MAD)",
+          "status": "operational"
+        },
+        {
+          "name": "Medellín, Colombia - (MDE)",
+          "status": "operational"
+        },
+        {
+          "name": "Islamabad, Pakistan - (ISB)",
+          "status": "operational"
+        },
+        {
+          "name": "Windhoek, Namibia - (WDH)",
+          "status": "degraded"
+        },
+        {
+          "name": "Cloud App Control / Kivera",
+          "status": "operational"
+        },
+        {
+          "name": "Manchester, United Kingdom - (MAN)",
+          "status": "operational"
+        },
+        {
+          "name": "Memphis, TN, United States - (MEM)",
+          "status": "operational"
+        },
+        {
+          "name": "Jakarta, Indonesia - (CGK)",
+          "status": "operational"
+        },
+        {
+          "name": "Neuquén, Argentina - (NQN)",
+          "status": "operational"
+        },
+        {
+          "name": "Yamoussoukro, Ivory Coast - (ASK)",
+          "status": "operational"
+        },
+        {
+          "name": "Cloud Connector",
+          "status": "operational"
+        },
+        {
+          "name": "Marseille, France - (MRS)",
+          "status": "operational"
+        },
+        {
+          "name": "Panama City, Panama - (PTY)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Mexico City, Mexico - (MEX)",
+          "status": "degraded"
+        },
+        {
+          "name": "Abidjan, Ivory Coast - (ABJ)",
+          "status": "operational"
+        },
+        {
+          "name": "Cloud Network Interconnect (CNI)",
+          "status": "operational"
+        },
+        {
+          "name": "Miami, FL, United States - (MIA)",
+          "status": "operational"
+        },
+        {
+          "name": "Milan, Italy - (MXP)",
+          "status": "operational"
+        },
+        {
+          "name": "Jinan, China - (TNA)",
+          "status": "operational"
+        },
+        {
+          "name": "Paramaribo, Suriname - (PBM)",
+          "status": "operational"
+        },
+        {
+          "name": "Cloudforce One Reports",
+          "status": "operational"
+        },
+        {
+          "name": "Kampala, Uganda - (EBB)",
+          "status": "operational"
+        },
+        {
+          "name": "Minneapolis, MN, United States - (MSP)",
+          "status": "operational"
+        },
+        {
+          "name": "Porto Alegre, Brazil - (POA)",
+          "status": "operational"
+        },
+        {
+          "name": "Community Site",
+          "status": "operational"
+        },
+        {
+          "name": "Minsk, Belarus - (MSQ)",
+          "status": "operational"
+        },
+        {
+          "name": "Montréal, QC, Canada - (YUL)",
+          "status": "operational"
+        },
+        {
+          "name": "Moscow, Russia - (DME)",
+          "status": "operational"
+        },
+        {
+          "name": "Johor Bahru, Malaysia - (JHB)",
+          "status": "operational"
+        },
+        {
+          "name": "Saint-Denis, Réunion - (RUN)",
+          "status": "operational"
+        },
+        {
+          "name": "Containers",
+          "status": "operational"
+        },
+        {
+          "name": "Quito, Ecuador - (UIO)",
+          "status": "operational"
+        },
+        {
+          "name": "Munich, Germany - (MUC)",
+          "status": "operational"
+        },
+        {
+          "name": "Kanpur, India - (KNU)",
+          "status": "operational"
+        },
+        {
+          "name": "Nashville, United States - (BNA)",
+          "status": "operational"
+        },
+        {
+          "name": "Custom Pages",
+          "status": "operational"
+        },
+        {
+          "name": "Newark, NJ, United States - (EWR)",
+          "status": "operational"
+        },
+        {
+          "name": "Nicosia, Cyprus - (LCA)",
+          "status": "operational"
+        },
+        {
+          "name": "Kaohsiung City, Taiwan - (KHH)",
+          "status": "operational"
+        },
+        {
+          "name": "Recife, Brazil - (REC)",
+          "status": "operational"
+        },
+        {
+          "name": "D1",
+          "status": "operational"
+        },
+        {
+          "name": "Oslo, Norway - (OSL)",
+          "status": "operational"
+        },
+        {
+          "name": "Norfolk, VA, United States - (ORF)",
+          "status": "degraded"
+        },
+        {
+          "name": "Karachi, Pakistan - (KHI)",
+          "status": "operational"
+        },
+        {
+          "name": "Ribeirao Preto, Brazil - (RAO)",
+          "status": "operational"
+        },
+        {
+          "name": "Data Localization Suite",
+          "status": "operational"
+        },
+        {
+          "name": "Rio de Janeiro, Brazil - (GIG)",
+          "status": "operational"
+        },
+        {
+          "name": "Kathmandu, Nepal - (KTM)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Palermo, Italy - (PMO)",
+          "status": "operational"
+        },
+        {
+          "name": "Data Loss Prevention (DLP)",
+          "status": "operational"
+        },
+        {
+          "name": "Oklahoma City, OK, United States - (OKC)",
+          "status": "operational"
+        },
+        {
+          "name": "Dashboard",
+          "status": "operational"
+        },
+        {
+          "name": "Paris, France - (CDG)",
+          "status": "operational"
+        },
+        {
+          "name": "Omaha, NE, United States - (OMA)",
+          "status": "operational"
+        },
+        {
+          "name": "Prague, Czech Republic - (PRG)",
+          "status": "operational"
+        },
+        {
+          "name": "Developer's Site",
+          "status": "operational"
+        },
+        {
+          "name": "Kolkata, India - (CCU)",
+          "status": "operational"
+        },
+        {
+          "name": "San José, Costa Rica - (SJO)",
+          "status": "operational"
+        },
+        {
+          "name": "Ottawa, Canada - (YOW)",
+          "status": "degraded"
+        },
+        {
+          "name": "Santiago, Chile - (SCL)",
+          "status": "operational"
+        },
+        {
+          "name": "Reykjavík, Iceland - (KEF)",
+          "status": "operational"
+        },
+        {
+          "name": "Philadelphia, United States - (PHL)",
+          "status": "operational"
+        },
+        {
+          "name": "Krasnoyarsk, Russia - (KJA)",
+          "status": "operational"
+        },
+        {
+          "name": "Digital Experience Monitoring (DEX)",
+          "status": "operational"
+        },
+        {
+          "name": "Lusaka, Zambia - (LUN)",
+          "status": "operational"
+        },
+        {
+          "name": "Kuala Lumpur, Malaysia - (KUL)",
+          "status": "operational"
+        },
+        {
+          "name": "Phoenix, AZ, United States - (PHX)",
+          "status": "operational"
+        },
+        {
+          "name": "Riga, Latvia - (RIX)",
+          "status": "operational"
+        },
+        {
+          "name": "Distributed Web Gateway",
+          "status": "operational"
+        },
+        {
+          "name": "Santo Domingo, Dominican Republic - (SDQ)",
+          "status": "operational"
+        },
+        {
+          "name": "Addis Ababa, Ethiopia - (ADD)",
+          "status": "operational"
+        },
+        {
+          "name": "Rome, Italy - (FCO)",
+          "status": "operational"
+        },
+        {
+          "name": "Pittsburgh, PA, United States - (PIT)",
+          "status": "operational"
+        },
+        {
+          "name": "São José do Rio Preto, Brazil - (SJP)",
+          "status": "operational"
+        },
+        {
+          "name": "DNS Firewall",
+          "status": "operational"
+        },
+        {
+          "name": "Lilongwe, Malawi - (LLW)",
+          "status": "degraded"
+        },
+        {
+          "name": "Portland, OR, United States - (PDX)",
+          "status": "operational"
+        },
+        {
+          "name": "Saint Petersburg, Russia - (LED)",
+          "status": "operational"
+        },
+        {
+          "name": "DNS Root Servers",
+          "status": "operational"
+        },
+        {
+          "name": "Langfang, China - (PKX)",
+          "status": "operational"
+        },
+        {
+          "name": "São José dos Campos, Brazil - (SJK)",
+          "status": "operational"
+        },
+        {
+          "name": "Constantine, Algeria - (CZL)",
+          "status": "operational"
+        },
+        {
+          "name": "São Paulo, Brazil - (GRU)",
+          "status": "maintenance"
+        },
+        {
+          "name": "DNS Updates",
+          "status": "operational"
+        },
+        {
+          "name": "Queretaro, MX, Mexico - (QRO)",
+          "status": "operational"
+        },
+        {
+          "name": "Santa Venera, Malta - (MLA)",
+          "status": "operational"
+        },
+        {
+          "name": "Richmond, VA, United States - (RIC)",
+          "status": "operational"
+        },
+        {
+          "name": "Sorocaba, Brazil - (SOD)",
+          "status": "operational"
+        },
+        {
+          "name": "Durable Objects",
+          "status": "operational"
+        },
+        {
+          "name": "Skopje, North Macedonia - (SKP)",
+          "status": "operational"
+        },
+        {
+          "name": "Sofia, Bulgaria - (SOF)",
+          "status": "operational"
+        },
+        {
+          "name": "Macau - (MFM)",
+          "status": "operational"
+        },
+        {
+          "name": "Sacramento, CA, United States - (SMF)",
+          "status": "operational"
+        },
+        {
+          "name": "Email Routing",
+          "status": "operational"
+        },
+        {
+          "name": "Stockholm, Sweden - (ARN)",
+          "status": "operational"
+        },
+        {
+          "name": "Salt Lake City, UT, United States - (SLC)",
+          "status": "operational"
+        },
+        {
+          "name": "Malé, Maldives - (MLE)",
+          "status": "operational"
+        },
+        {
+          "name": "Tegucigalpa, Honduras - (TGU)",
+          "status": "operational"
+        },
+        {
+          "name": "Email Security (Area1)",
+          "status": "operational"
+        },
+        {
+          "name": "Timbó, Brazil - (NVT)",
+          "status": "operational"
+        },
+        {
+          "name": "Stuttgart, Germany   - (STR)",
+          "status": "operational"
+        },
+        {
+          "name": "San Antonio, TX, United States - (SAT)",
+          "status": "operational"
+        },
+        {
+          "name": "Email Security (Zero Trust)",
+          "status": "operational"
+        },
+        {
+          "name": "Manila, Philippines - (MNL)",
+          "status": "operational"
+        },
+        {
+          "name": "San Diego, CA, United States - (SAN)",
+          "status": "operational"
+        },
+        {
+          "name": "Tallinn, Estonia - (TLL)",
+          "status": "operational"
+        },
+        {
+          "name": "Uberlândia, Brazil - (UDI)",
+          "status": "operational"
+        },
+        {
+          "name": "Email Sending",
+          "status": "operational"
+        },
+        {
+          "name": "Mumbai, India - (BOM)",
+          "status": "operational"
+        },
+        {
+          "name": "Tbilisi, Georgia - (TBS)",
+          "status": "operational"
+        },
+        {
+          "name": "San Francisco, CA, United States - (SFO)",
+          "status": "operational"
+        },
+        {
+          "name": "Ethereum Gateway",
+          "status": "operational"
+        },
+        {
+          "name": "Vitoria, Brazil - (VIX)",
+          "status": "operational"
+        },
+        {
+          "name": "San Jose, CA, United States - (SJC)",
+          "status": "operational"
+        },
+        {
+          "name": "Thessaloniki, Greece - (SKG)",
+          "status": "operational"
+        },
+        {
+          "name": "Nagpur, India - (NAG)",
+          "status": "operational"
+        },
+        {
+          "name": "Firewall",
+          "status": "operational"
+        },
+        {
+          "name": "Saskatoon, SK, Canada - (YXE)",
+          "status": "degraded"
+        },
+        {
+          "name": "Naha, Japan  - (OKA)",
+          "status": "operational"
+        },
+        {
+          "name": "Tirana, Albania - (TIA)",
+          "status": "operational"
+        },
+        {
+          "name": "Gateway",
+          "status": "operational"
+        },
+        {
+          "name": "Campos dos Goytacazes, Brazil - (CAW)",
+          "status": "operational"
+        },
+        {
+          "name": "Seattle, WA, United States - (SEA)",
+          "status": "operational"
+        },
+        {
+          "name": "Vienna, Austria - (VIE)",
+          "status": "operational"
+        },
+        {
+          "name": "New Delhi, India - (DEL)",
+          "status": "operational"
+        },
+        {
+          "name": "Geo-Key Manager",
+          "status": "operational"
+        },
+        {
+          "name": "Chapeco, Brazil - (XAP)",
+          "status": "degraded"
+        },
+        {
+          "name": "Osaka, Japan - (KIX)",
+          "status": "operational"
+        },
+        {
+          "name": "Vilnius, Lithuania - (VNO)",
+          "status": "operational"
+        },
+        {
+          "name": "Sioux Falls, SD, United States - (FSD)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Bridgetown, Barbados - (BGI)",
+          "status": "operational"
+        },
+        {
+          "name": "Health Checks",
+          "status": "operational"
+        },
+        {
+          "name": "Warsaw, Poland - (WAW)",
+          "status": "operational"
+        },
+        {
+          "name": "St. Louis, MO, United States - (STL)",
+          "status": "operational"
+        },
+        {
+          "name": "Patna, India - (PAT)",
+          "status": "operational"
+        },
+        {
+          "name": "St. George's, Grenada - (GND)",
+          "status": "operational"
+        },
+        {
+          "name": "Hyperdrive",
+          "status": "operational"
+        },
+        {
+          "name": "Phnom Penh, Cambodia - (PNH)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Tallahassee, FL, United States - (TLH)",
+          "status": "operational"
+        },
+        {
+          "name": "Image Resizing",
+          "status": "operational"
+        },
+        {
+          "name": "Santiago de los Caballeros, Dominican Republic - (STI)",
+          "status": "operational"
+        },
+        {
+          "name": "Wroclaw, Poland - (WRO)",
+          "status": "operational"
+        },
+        {
+          "name": "Zagreb, Croatia - (ZAG)",
+          "status": "operational"
+        },
+        {
+          "name": "Qingdao, China - (TAO)",
+          "status": "operational"
+        },
+        {
+          "name": "Images",
+          "status": "operational"
+        },
+        {
+          "name": "Tampa, FL, United States - (TPA)",
+          "status": "operational"
+        },
+        {
+          "name": "La Paz, Bolivia - (LPB)",
+          "status": "operational"
+        },
+        {
+          "name": "Toronto, ON, Canada - (YYZ)",
+          "status": "operational"
+        },
+        {
+          "name": "Seoul, South Korea - (ICN)",
+          "status": "operational"
+        },
+        {
+          "name": "Infrastructure",
+          "status": "operational"
+        },
+        {
+          "name": "Zurich, Switzerland - (ZRH)",
+          "status": "operational"
+        },
+        {
+          "name": "Vancouver, BC, Canada - (YVR)",
+          "status": "operational"
+        },
+        {
+          "name": "Shanghai, China - (SHA)",
+          "status": "operational"
+        },
+        {
+          "name": "San Juan, Puerto Rico - (SJU)",
+          "status": "operational"
+        },
+        {
+          "name": "IP Geolocation",
+          "status": "operational"
+        },
+        {
+          "name": "Singapore, Singapore - (SIN)",
+          "status": "operational"
+        },
+        {
+          "name": "Winnipeg, MB, Canada - (YWG)",
+          "status": "operational"
+        },
+        {
+          "name": "Load Balancing and Monitoring",
+          "status": "operational"
+        },
+        {
+          "name": "Barranquilla, Colombia - (BAQ)",
+          "status": "operational"
+        },
+        {
+          "name": "Surat Thani, Thailand - (URT)",
+          "status": "operational"
+        },
+        {
+          "name": "Lists",
+          "status": "operational"
+        },
+        {
+          "name": "Palmas, Brazil - (PMW)",
+          "status": "operational"
+        },
+        {
+          "name": "Taipei - (TPE)",
+          "status": "operational"
+        },
+        {
+          "name": "Aracatuba, Brazil - (ARU)",
+          "status": "operational"
+        },
+        {
+          "name": "Log Explorer",
+          "status": "operational"
+        },
+        {
+          "name": "Logs",
+          "status": "operational"
+        },
+        {
+          "name": "Port of Spain, Trinidad and Tobago - (POS)",
+          "status": "operational"
+        },
+        {
+          "name": "Cloudflare Network Firewall",
+          "status": "operational"
+        },
+        {
+          "name": "Salvador, Brazil - (SSA)",
+          "status": "operational"
+        },
+        {
+          "name": "Magic Transit",
+          "status": "operational"
+        },
+        {
+          "name": "Tokyo, Japan - (NRT)",
+          "status": "operational"
+        },
+        {
+          "name": "Cloudflare WAN",
+          "status": "operational"
+        },
+        {
+          "name": "Ulaanbaatar, Mongolia - (ULN)",
+          "status": "operational"
+        },
+        {
+          "name": "Cloudflare One Appliance",
+          "status": "operational"
+        },
+        {
+          "name": "Marketing Site",
+          "status": "operational"
+        },
+        {
+          "name": "Vientiane, Laos - (VTE)",
+          "status": "operational"
+        },
+        {
+          "name": "MCP Portal",
+          "status": "operational"
+        },
+        {
+          "name": "Mesh",
+          "status": "operational"
+        },
+        {
+          "name": "Xinyu, China - (KHN)",
+          "status": "operational"
+        },
+        {
+          "name": "Mirage",
+          "status": "operational"
+        },
+        {
+          "name": "Network",
+          "status": "operational"
+        },
+        {
+          "name": "Yerevan, Armenia - (EVN)",
+          "status": "operational"
+        },
+        {
+          "name": "Notifications",
+          "status": "operational"
+        },
+        {
+          "name": "Yogyakarta, Indonesia - (JOG)",
+          "status": "degraded"
+        },
+        {
+          "name": "Observatory",
+          "status": "operational"
+        },
+        {
+          "name": "Page Shield",
+          "status": "operational"
+        },
+        {
+          "name": "Pages",
+          "status": "operational"
+        },
+        {
+          "name": "Queues",
+          "status": "operational"
+        },
+        {
+          "name": "R2",
+          "status": "operational"
+        },
+        {
+          "name": "Radar",
+          "status": "operational"
+        },
+        {
+          "name": "Randomness Beacon",
+          "status": "operational"
+        },
+        {
+          "name": "Cagayan de Oro, Philippines - (CGY)",
+          "status": "operational"
+        },
+        {
+          "name": "Realtime SFU",
+          "status": "operational"
+        },
+        {
+          "name": "Ljubljana, Slovenia - (LJU)",
+          "status": "degraded"
+        },
+        {
+          "name": "Realtime TURN Service",
+          "status": "operational"
+        },
+        {
+          "name": "RealtimeKit",
+          "status": "operational"
+        },
+        {
+          "name": "Recursive DNS",
+          "status": "operational"
+        },
+        {
+          "name": "Registrar",
+          "status": "operational"
+        },
+        {
+          "name": "Registration Data Access Protocol (RDAP)",
+          "status": "operational"
+        },
+        {
+          "name": "Kochi, India - (COK)",
+          "status": "operational"
+        },
+        {
+          "name": "Rules",
+          "status": "operational"
+        },
+        {
+          "name": "Cuiaba, Brazil - (CGB)",
+          "status": "operational"
+        },
+        {
+          "name": "Secondary DNS",
+          "status": "operational"
+        },
+        {
+          "name": "Security Center",
+          "status": "operational"
+        },
+        {
+          "name": "Denpasar, Indonesia - (DPS)",
+          "status": "operational"
+        },
+        {
+          "name": "Snippets",
+          "status": "operational"
+        },
+        {
+          "name": "Spectrum",
+          "status": "operational"
+        },
+        {
+          "name": "Kannur, India - (CNN)",
+          "status": "operational"
+        },
+        {
+          "name": "Speed Optimizations",
+          "status": "operational"
+        },
+        {
+          "name": "Stream",
+          "status": "operational"
+        },
+        {
+          "name": "SSL Certificate Provisioning",
+          "status": "operational"
+        },
+        {
+          "name": "SSL for SaaS Provisioning",
+          "status": "operational"
+        },
+        {
+          "name": "Subscriptions",
+          "status": "operational"
+        },
+        {
+          "name": "Support Site",
+          "status": "operational"
+        },
+        {
+          "name": "Time Services",
+          "status": "operational"
+        },
+        {
+          "name": "Trace",
+          "status": "operational"
+        },
+        {
+          "name": "Tunnel",
+          "status": "operational"
+        },
+        {
+          "name": "Turnstile",
+          "status": "operational"
+        },
+        {
+          "name": "User Profiles",
+          "status": "operational"
+        },
+        {
+          "name": "Cali, Colombia - (CLO)",
+          "status": "operational"
+        },
+        {
+          "name": "URL Scanner",
+          "status": "operational"
+        },
+        {
+          "name": "Vectorize",
+          "status": "operational"
+        },
+        {
+          "name": "San Pedro Sula, Honduras - (SAP)",
+          "status": "degraded"
+        },
+        {
+          "name": "Waiting Room",
+          "status": "operational"
+        },
+        {
+          "name": "Cloudflare One Client",
+          "status": "operational"
+        },
+        {
+          "name": "Web Analytics",
+          "status": "operational"
+        },
+        {
+          "name": "WebSockets",
+          "status": "operational"
+        },
+        {
+          "name": "Workers",
+          "status": "operational"
+        },
+        {
+          "name": "Workers AI",
+          "status": "degraded"
+        },
+        {
+          "name": "Workers Assets",
+          "status": "operational"
+        },
+        {
+          "name": "Workers Builds",
+          "status": "operational"
+        },
+        {
+          "name": "Workers Preview",
+          "status": "operational"
+        },
+        {
+          "name": "Workers KV",
+          "status": "operational"
+        },
+        {
+          "name": "Workers Observability",
+          "status": "operational"
+        },
+        {
+          "name": "Workflows",
+          "status": "operational"
+        },
+        {
+          "name": "Wrangler",
+          "status": "operational"
+        },
+        {
+          "name": "Zaraz",
+          "status": "operational"
+        },
+        {
+          "name": "Zero Trust",
+          "status": "operational"
+        },
+        {
+          "name": "Zero Trust Dashboard",
+          "status": "operational"
+        },
+        {
+          "name": "Zone Versioning",
+          "status": "operational"
+        },
+        {
+          "name": "Shenzhen, China - (SZX)",
+          "status": "operational"
+        },
+        {
+          "name": "Guiyang, China - (KWE)",
+          "status": "operational"
+        },
+        {
+          "name": "Shaoxing, China - (HGH)",
+          "status": "operational"
+        },
+        {
+          "name": "Changzhou, China - (CZX)",
+          "status": "operational"
+        },
+        {
+          "name": "Kunming, China - (KMG)",
+          "status": "operational"
+        },
+        {
+          "name": "Chiang Mai, Thailand - (CNX)",
+          "status": "operational"
+        },
+        {
+          "name": "Zhengzhou, China - (CGO)",
+          "status": "operational"
+        },
+        {
+          "name": "Yangquan, China - (TYN)",
+          "status": "operational"
+        },
+        {
+          "name": "Changsha, China - (CSX)",
+          "status": "operational"
+        },
+        {
+          "name": "Dalian, China - (DLC)",
+          "status": "operational"
+        },
+        {
+          "name": "Beihai, China - (BHY)",
+          "status": "operational"
+        },
+        {
+          "name": "Chongqing, China - (CKG)",
+          "status": "operational"
+        },
+        {
+          "name": "Xiangyang, China - (XFN)",
+          "status": "operational"
+        },
+        {
+          "name": "Da Nang, Vietnam - (DAD)",
+          "status": "operational"
+        },
+        {
+          "name": "Jiaxing, China - (JXG)",
+          "status": "operational"
+        },
+        {
+          "name": "Tarlac City, Philippines - (CRK)",
+          "status": "operational"
+        },
+        {
+          "name": "Thimphu, Bhutan - (PBH)",
+          "status": "operational"
+        },
+        {
+          "name": "Baoji, China - (XIY)",
+          "status": "operational"
+        },
+        {
+          "name": "Astana, Kazakhstan - (NQZ)",
+          "status": "degraded"
+        },
+        {
+          "name": "Kuching, Malaysia - (KCH)",
+          "status": "operational"
+        },
+        {
+          "name": "Aktobe, Kazakhstan - (AKX)",
+          "status": "operational"
+        },
+        {
+          "name": "Tongren, China - (TEN)",
+          "status": "operational"
+        },
+        {
+          "name": "Taizhou, China - (HYN)",
+          "status": "operational"
+        },
+        {
+          "name": "Bishkek, Kyrgyzstan - (FRU)",
+          "status": "operational"
+        },
+        {
+          "name": "Malang, Indonesia - (MLG)",
+          "status": "operational"
+        },
+        {
+          "name": "Lahore, Pakistan - (LHE)",
+          "status": "operational"
+        },
+        {
+          "name": "Chengdu, China - (CTU)",
+          "status": "operational"
+        },
+        {
+          "name": "Agra, India - (AGR)",
+          "status": "operational"
+        },
+        {
+          "name": "Coimbatore, India - (CJB)",
+          "status": "operational"
+        },
+        {
+          "name": "Xingyi, China - (ACX)",
+          "status": "operational"
+        },
+        {
+          "name": "Bhubaneswar, India - (BBI)",
+          "status": "operational"
+        },
+        {
+          "name": "Luoyang, China - (LYA)",
+          "status": "operational"
+        },
+        {
+          "name": "Pune, India - (PNQ)",
+          "status": "operational"
+        },
+        {
+          "name": "Sambalpur, India - (JRG)",
+          "status": "operational"
+        }
+      ]
+    },
+    {
       "name": "Hetzner",
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-06-24T12:00:55.583Z",
+      "checked_at": "2026-06-24T12:04:55.300Z",
       "latest_incident": null,
       "recent_incidents": [
         {
