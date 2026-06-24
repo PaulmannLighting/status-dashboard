@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-24T11:50:55.419Z",
+  "updated_at": "2026-06-24T11:58:59.795Z",
   "providers": [
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T11:50:55.412Z",
+      "checked_at": "2026-06-24T11:58:59.644Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -106,7 +106,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-24T11:50:55.412Z",
+      "checked_at": "2026-06-24T11:58:59.644Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -265,7 +265,7 @@
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T11:50:55.413Z",
+      "checked_at": "2026-06-24T11:58:59.645Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -348,7 +348,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T11:50:55.413Z",
+      "checked_at": "2026-06-24T11:58:59.645Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -464,7 +464,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T11:50:55.413Z",
+      "checked_at": "2026-06-24T11:58:59.645Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1360,7 +1360,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-24T11:50:55.413Z",
+      "checked_at": "2026-06-24T11:58:59.645Z",
       "latest_incident": {
         "title": "Jira : Incoming emails partial outage",
         "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
@@ -1463,7 +1463,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T11:50:55.413Z",
+      "checked_at": "2026-06-24T11:58:59.645Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1575,7 +1575,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-24T11:50:55.413Z",
+      "checked_at": "2026-06-24T11:58:59.645Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1741,6 +1741,47 @@
           "status": "operational"
         }
       ]
+    },
+    {
+      "name": "Hetzner",
+      "status_url": "https://status.hetzner.com",
+      "status": "operational",
+      "description": "Keine aktuellen Störungen",
+      "checked_at": "2026-06-24T11:58:59.774Z",
+      "latest_incident": null,
+      "recent_incidents": [
+        {
+          "title": "Gefälschte E-Mails im Umlauf: Datenklau durch Phishing",
+          "link": "",
+          "date": "2026-06-12T09:26:02+00:00",
+          "body": "\\n \\n Start: 2024-07-05T06:00:00+00:00 \\n \\n Phishing stellt eine ernstzunehmende digitale Bedrohung dar, die laut Studien jährlich Schäden in Milliardenhöhe verursacht – ein Risiko, das weder Privatpersonen noch Unternehmen unterschätzen sollten.\\n\\nAktuell sind vermehrt verschiedene Phishing E-Mai"
+        },
+        {
+          "title": "Einschränkung telefonischer Support zu den Themen Domain und SSL",
+          "link": "",
+          "date": "2024-04-30T09:31:12+00:00",
+          "body": "\\n \\n Start: 2024-04-29T10:00:00+00:00 \\n \\n Es kommt derzeit leider zu verlängerten Bearbeitungszeiten bei Anfragen zu den Themenbereichen der SSL-Zertifikate und Domainregistrierungen.\\n\\nTelefonische Anfragen hierzu können aus diesem Grunde derzeit leider nicht bearbeitet werden. Wenden Sie sich "
+        },
+        {
+          "title": "Eingeschränkte Verfügbarkeit von Cloud Instanzen",
+          "link": "",
+          "date": "2026-05-18T09:51:47+00:00",
+          "body": "\\n \\n Start: 2026-04-28T06:00:00+00:00 \\n \\n Aufgrund der anhaltenden hohen Nachfrage sowie der limitierten Verfügbarkeit erforderlicher Hardware-Komponenten ist die Bereitstellung von Cloud Instanzen an unseren Standorten derzeit nur eingeschränkt möglich. \\n\\nVor diesem Hintergrund sehen wir uns a"
+        },
+        {
+          "title": "Eine hohes Besucheraufkommen des ObjectStorage kann zu Timeouts führen.",
+          "link": "",
+          "date": "2026-05-19T06:25:51+00:00",
+          "body": "\\n \\n Start: 2026-01-15T15:39:25+00:00 \\n \\n Wir verzeichnen derzeit eine außergewöhnlich hohes Besucheraufkommen, was gelegentlich zu Timeouts bei Anfragen führen kann.\\nUnser Team arbeitet bereits intensiv an der Erweiterung unserer Hardwarekapazität.\\n\\nVielen Dank für Ihre Geduld. \\n \\n Update \\"
+        },
+        {
+          "title": "Bearbeitungszeiten bei Domainaufträgen und Rechnungsfragen",
+          "link": "",
+          "date": "2026-06-12T09:30:04+00:00",
+          "body": "\\n \\n Start: 2026-04-16T13:03:04+00:00 \\n \\n Aufgrund des aktuell sehr hohen Supportaufkommens kann es zu längeren Bearbeitungszeiten bei Domainaufträgen und Rechnungsfragen kommen. Um eine möglichst schnelle Bearbeitung zu gewährleisten, nutzen Sie bitte unser Kontaktformular und fassen Sie Ihre An"
+        }
+      ],
+      "components": []
     }
   ]
 }
