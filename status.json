@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-25T03:00:57.002Z",
+  "updated_at": "2026-06-25T03:10:56.061Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-25T03:00:56.848Z",
+      "checked_at": "2026-06-25T03:10:55.887Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-25T03:00:56.848Z",
+      "checked_at": "2026-06-25T03:10:55.887Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-25T03:00:56.849Z",
+      "checked_at": "2026-06-25T03:10:55.887Z",
       "latest_incident": {
         "title": "Jira : Incoming emails partial outage",
         "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
@@ -364,7 +364,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-25T03:00:56.849Z",
+      "checked_at": "2026-06-25T03:10:55.888Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -476,7 +476,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-25T03:00:56.849Z",
+      "checked_at": "2026-06-25T03:10:55.888Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -592,7 +592,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-25T03:00:56.850Z",
+      "checked_at": "2026-06-25T03:10:55.888Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -708,7 +708,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-25T03:00:56.850Z",
+      "checked_at": "2026-06-25T03:10:55.888Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -762,18 +762,19 @@
     {
       "name": "Circleci.com",
       "status_url": "https://status.circleci.com",
-      "status": "outage",
-      "description": "Minor Service Outage",
-      "checked_at": "2026-06-25T03:00:56.850Z",
-      "latest_incident": {
-        "title": "Issues with network routing for Mac jobs",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-06-25T02:58:28.931Z",
-        "link": "https://stspg.io/mrq29l3fw2cm",
-        "status": "monitoring",
-        "impact": "major"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-25T03:10:55.888Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Issues with network routing for Mac jobs",
+          "body": "We are concluding this incident based on a confirmed fix with our infrastructure provider and successful tests.  For any customers seeing failed runs, please run again for a successful connection.",
+          "date": "2026-06-25T03:06:41.792Z",
+          "link": "https://stspg.io/mrq29l3fw2cm",
+          "status": "resolved",
+          "impact": "major"
+        },
         {
           "title": "Delays starting Docker jobs",
           "body": "The issue where customers running Docker jobs experienced significant delays, with jobs stuck in a \"preparing environment\" state, has now been resolved. We thank you for your patience while our team worked on implementing a fix.",
@@ -803,14 +804,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-06-10T16:41:14.512Z",
           "link": "https://stspg.io/86hq0zrpf1mp",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Increased 500 Errors on Pipeline and Workflow API Endpoints and UI",
-          "body": "Between 13:29 UTC and 18:20 UTC on June 9, 2026, some customers experienced 500 errors when making requests to the pipeline values and workflow API endpoints, as well as errors in the UI. Jobs running were not impacted during this window. The issue has been resolved and all affected functionality has returned to normal. We thank you for your patience while our team worked on implementing a fix.",
-          "date": "2026-06-09T18:43:23.042Z",
-          "link": "https://stspg.io/frwqpjlwzb9r",
           "status": "resolved",
           "impact": "minor"
         }
@@ -846,7 +839,7 @@
         },
         {
           "name": "macOS Jobs",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Google Cloud Platform Google Cloud Networking",
@@ -979,7 +972,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-25T03:00:56.851Z",
+      "checked_at": "2026-06-25T03:10:55.893Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "Cloudflare is aware of and investigating Workers AI experiencing degraded availability in some models.\n\nImpacted models:\n- @cf/moonshotai/kimi-k2.6\n- @cf/moonshotai/kimi-k2.7-code",
@@ -2345,7 +2338,7 @@
         },
         {
           "name": "Tampa, FL, United States - (TPA)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "La Paz, Bolivia - (LPB)",
@@ -2866,7 +2859,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-25T03:00:56.851Z",
+      "checked_at": "2026-06-25T03:10:55.894Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3762,7 +3755,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-25T03:00:56.851Z",
+      "checked_at": "2026-06-25T03:10:55.894Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3862,7 +3855,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-25T03:00:56.852Z",
+      "checked_at": "2026-06-25T03:10:55.894Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -4021,7 +4014,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-06-25T03:00:56.992Z",
+      "checked_at": "2026-06-25T03:10:56.048Z",
       "latest_incident": null,
       "recent_incidents": [
         {
