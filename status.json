@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-26T05:10:55.821Z",
+  "updated_at": "2026-06-26T05:20:56.069Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-26T05:10:55.722Z",
+      "checked_at": "2026-06-26T05:20:55.977Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-26T05:10:55.723Z",
+      "checked_at": "2026-06-26T05:20:55.978Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -259,18 +259,19 @@
     {
       "name": "Atlassian - JIRA",
       "status_url": "https://jira-software.status.atlassian.com",
-      "status": "outage",
-      "description": "Minor Service Outage",
-      "checked_at": "2026-06-26T05:10:55.723Z",
-      "latest_incident": {
-        "title": "Jira : Incoming emails partial outage",
-        "body": "Jira and JSM customers using Microsoft OAuth for automatic creation of Jira tickets from email were unable to read email. This is now fixed and functional for all new incoming email processing.\n\nThe impacted customers during the incident period need to re-authorise the Microsoft mail server to restore and below are the instructions.\n\nTo re-authorise an incoming Microsoft mail server:\n\nLogin in Jira as Admin\nSelect  > System\nSelect Mail > Incoming Mail.\nSelect Edit incoming mail server.\nSelect re-authorise .\n\nEnter your Microsoft credentials to continue using your Microsoft mail server.",
-        "date": "2026-06-19T22:46:56.770Z",
-        "link": "https://stspg.io/kpj5zywxxynh",
-        "status": "monitoring",
-        "impact": "major"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-26T05:20:55.978Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Jira : Incoming emails partial outage",
+          "body": "Our team has proactively reached out to all impacted organizations providing the below instructions to re-authorize their Microsoft mail server. If you are still experiencing this issue, please attempt to complete the re-authorization as advised below.\n\nIf further issues still occur that you believe to be related to this incident, please reach out to Atlassian support for further assistance.",
+          "date": "2026-06-26T05:13:01.620Z",
+          "link": "https://stspg.io/kpj5zywxxynh",
+          "status": "resolved",
+          "impact": "major"
+        },
         {
           "title": "Delays in processing incoming Emails, Work Item notifications, and Scheduled Triggers in Marketplace Apps",
           "body": "We are now confident that any of the tasks that were impacted by this incident and were delayed should now be operating as expected.\n\nWe apologize for any inconvenience that this issue may have caused.",
@@ -302,14 +303,6 @@
           "link": "https://stspg.io/d78wzb7bczn8",
           "status": "resolved",
           "impact": "major"
-        },
-        {
-          "title": "Degraded performance of Jira and JSM automations in US East",
-          "body": "On June 2, 2026, some Jira and Jira Service Management users in the US-East region may have experienced performance degradation of automation rule executions. The issue has now been resolved, and the service is operating normally for all affected customers. Previously delayed automation rules are expected to be completed within 12 hours.",
-          "date": "2026-06-02T16:51:29.000Z",
-          "link": "https://stspg.io/5zrnmkyz9c2n",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -355,7 +348,7 @@
         },
         {
           "name": "Automation for Jira",
-          "status": "degraded"
+          "status": "operational"
         }
       ]
     },
@@ -364,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-26T05:10:55.723Z",
+      "checked_at": "2026-06-26T05:20:55.978Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -476,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-26T05:10:55.723Z",
+      "checked_at": "2026-06-26T05:20:55.978Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -592,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-26T05:10:55.724Z",
+      "checked_at": "2026-06-26T05:20:55.978Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -708,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-26T05:10:55.724Z",
+      "checked_at": "2026-06-26T05:20:55.978Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -764,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-26T05:10:55.724Z",
+      "checked_at": "2026-06-26T05:20:55.978Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -972,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-26T05:10:55.725Z",
+      "checked_at": "2026-06-26T05:20:55.979Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "Cloudflare is aware of and investigating Workers AI experiencing degraded availability in some models.\n\nImpacted models:\n- @cf/moonshotai/kimi-k2.6\n- @cf/moonshotai/kimi-k2.7-code",
@@ -1078,7 +1071,7 @@
         },
         {
           "name": "Almaty, Kazakhstan - (ALA)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Astara, Azerbaijan - (LLK)",
@@ -2859,7 +2852,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-26T05:10:55.726Z",
+      "checked_at": "2026-06-26T05:20:55.979Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3755,7 +3748,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-26T05:10:55.726Z",
+      "checked_at": "2026-06-26T05:20:55.979Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3855,7 +3848,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-06-26T05:10:55.726Z",
+      "checked_at": "2026-06-26T05:20:55.980Z",
       "latest_incident": {
         "title": "FedRAMP workspaces and API orgs have degraded performance",
         "body": "We are still investigating the issue for the listed services.",
@@ -4014,7 +4007,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-06-26T05:10:55.814Z",
+      "checked_at": "2026-06-26T05:20:56.061Z",
       "latest_incident": null,
       "recent_incidents": [
         {
