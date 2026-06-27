@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-27T18:20:55.842Z",
+  "updated_at": "2026-06-27T18:30:55.914Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-27T18:20:55.698Z",
+      "checked_at": "2026-06-27T18:30:55.826Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -16,6 +16,14 @@
         "impact": "critical"
       },
       "recent_incidents": [
+        {
+          "title": "elevated errors on Opus 48",
+          "body": "Elevated errors on Opus-48. It has been mitigated. We are actively monitoring the system.",
+          "date": "2026-06-27T18:00:00.000Z",
+          "link": "https://stspg.io/86p1g659mdnm",
+          "status": "resolved",
+          "impact": "none"
+        },
         {
           "title": "Elevated errors on Opus 4.8 Fast",
           "body": "This incident has been resolved.",
@@ -47,14 +55,6 @@
           "link": "https://stspg.io/kx1ygc7qfvx1",
           "status": "resolved",
           "impact": "critical"
-        },
-        {
-          "title": "Elevated errors for Claude Opus 4.8",
-          "body": "This incident has been resolved.",
-          "date": "2026-06-23T08:45:58.019Z",
-          "link": "https://stspg.io/7tlhvndrdpm9",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-27T18:20:55.699Z",
+      "checked_at": "2026-06-27T18:30:55.827Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-27T18:20:55.699Z",
+      "checked_at": "2026-06-27T18:30:55.827Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-27T18:20:55.699Z",
+      "checked_at": "2026-06-27T18:30:55.827Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-27T18:20:55.699Z",
+      "checked_at": "2026-06-27T18:30:55.827Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-27T18:20:55.700Z",
+      "checked_at": "2026-06-27T18:30:55.827Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-27T18:20:55.700Z",
+      "checked_at": "2026-06-27T18:30:55.827Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-27T18:20:55.700Z",
+      "checked_at": "2026-06-27T18:30:55.827Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-27T18:20:55.701Z",
+      "checked_at": "2026-06-27T18:30:55.828Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "Cloudflare is aware of and investigating Workers AI experiencing degraded availability in some models.\n\nImpacted models:\n- @cf/moonshotai/kimi-k2.6\n- @cf/moonshotai/kimi-k2.7-code",
@@ -2852,9 +2852,17 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-27T18:20:55.701Z",
+      "checked_at": "2026-06-27T18:30:55.828Z",
       "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Droplet Backup Service",
+          "body": "Between 00:00 UTC & 16:00 UTC today, our Engineering team identified an issue affecting backup operations on Droplets.  During this period, backups scheduled within this window may not have been created and may appear as missing.\n\nOur team has taken necessary measures to resolve the issue, and we can confirm that the backup service has been restored and is now functioning normally. Upcoming scheduled backups should be performed as expected.\n\nWe sincerely apologize for any inconvenience this may have caused and appreciate your understanding. However, if you have any further questions or concerns, please create a support ticket for further analysis.",
+          "date": "2026-06-27T18:24:25.102Z",
+          "link": "https://stspg.io/djw8kv2yfvcd",
+          "status": "resolved",
+          "impact": "none"
+        },
         {
           "title": "Anthropic Inference Model Availability",
           "body": "Our Engineering team has resolved the issue that was causing HTTP 400 errors for requests to Anthropic models. Users should now be able to access Anthropic models without any issues.\nIf you continue to experience problems, please open a ticket with our Support team so we can investigate further.\nWe apologize for any inconvenience this may have caused.",
@@ -2886,14 +2894,6 @@
           "link": "https://stspg.io/r8mzkb94pf9g",
           "status": "resolved",
           "impact": "major"
-        },
-        {
-          "title": "DNS API Service",
-          "body": "Between 09:41 and 11:24 UTC, our Engineering team identified an issue impacting the DNS API service. During this period, users may have experienced issues performing domain and DNS record management operations through the Control Panel and API. Services dependent on DNS API operations, including Let's Encrypt certificate provisioning, MongoDB cluster creation, App Platform deployments, and DigitalOcean Kubernetes (DOKS) cluster create and delete operations, were also impacted.\n\nOur Engineering team has confirmed that the underlying issue affecting the DNS API service has been fully resolved, and all affected services are now operating normally.\n\nIf you continue to experience any issues, please contact our Support team by opening a ticket. We apologize for any inconvenience caused.",
-          "date": "2026-06-04T11:47:05.272Z",
-          "link": "https://stspg.io/c9tgc3txntpg",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -3748,11 +3748,11 @@
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-27T18:20:55.701Z",
+      "checked_at": "2026-06-27T18:30:55.828Z",
       "latest_incident": {
         "title": "Disruption with some GitHub services",
-        "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
-        "date": "2026-06-27T14:04:56.330Z",
+        "body": "This is progressing as expected, but we're going to extend the maintenance window by a couple of hours. Our new expected completion time is 21:00 UTC.",
+        "date": "2026-06-27T18:22:54.728Z",
         "link": "https://stspg.io/h85w6wz46mvk",
         "status": "monitoring",
         "impact": "minor"
@@ -3855,7 +3855,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-27T18:20:55.701Z",
+      "checked_at": "2026-06-27T18:30:55.828Z",
       "latest_incident": {
         "title": "Codex Usage Limits Depleting Faster Than Expected",
         "body": "We have identified that some reports of Codex usage limits depleting faster than expected are related to our abuse and fraud prevention systems incorrectly rate limiting certain accounts. The impact appears limited, and we have not observed broader degradation to Codex usage. We are continuing to monitor the situation.",
@@ -4014,7 +4014,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-06-27T18:20:55.835Z",
+      "checked_at": "2026-06-27T18:30:55.906Z",
       "latest_incident": null,
       "recent_incidents": [
         {
