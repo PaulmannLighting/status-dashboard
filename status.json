@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-29T16:51:25.969Z",
+  "updated_at": "2026-06-29T17:00:55.979Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-29T16:51:25.874Z",
+      "checked_at": "2026-06-29T17:00:55.874Z",
       "latest_incident": {
         "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
         "body": "Learn more here: https://anthropic.com/news/fable-mythos-access",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-29T16:51:25.875Z",
+      "checked_at": "2026-06-29T17:00:55.875Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-29T16:51:25.875Z",
+      "checked_at": "2026-06-29T17:00:55.875Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-29T16:51:25.875Z",
+      "checked_at": "2026-06-29T17:00:55.875Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-29T16:51:25.876Z",
+      "checked_at": "2026-06-29T17:00:55.876Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-29T16:51:25.876Z",
+      "checked_at": "2026-06-29T17:00:55.876Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-29T16:51:25.876Z",
+      "checked_at": "2026-06-29T17:00:55.876Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -755,18 +755,19 @@
     {
       "name": "Circleci.com",
       "status_url": "https://status.circleci.com",
-      "status": "outage",
-      "description": "Minor Service Outage",
-      "checked_at": "2026-06-29T16:51:25.876Z",
-      "latest_incident": {
-        "title": "Some customers are unable to access their organizations",
-        "body": "Error rates viewing orgs are recovering. We will continue to monitor to verify the fix resolves the issues.",
-        "date": "2026-06-29T16:44:57.376Z",
-        "link": "https://stspg.io/ty6ll6xj9c18",
-        "status": "monitoring",
-        "impact": "major"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-06-29T17:00:55.876Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Some customers are unable to access their organizations",
+          "body": "This incident has been resolved.",
+          "date": "2026-06-29T16:58:09.761Z",
+          "link": "https://stspg.io/ty6ll6xj9c18",
+          "status": "resolved",
+          "impact": "major"
+        },
         {
           "title": "Xcode 26.6 Demand + Queueing",
           "body": "We observed a surge in demand for Xcode 26.6 and have since mitigated the incident by increasing the available capacity for that Xcode version. Customers may have seen jobs queueing for ~10-15 mins.",
@@ -798,14 +799,6 @@
           "link": "https://stspg.io/dw1r4sr0mrtl",
           "status": "postmortem",
           "impact": "major"
-        },
-        {
-          "title": "Issue authenticating only Bitbucket users",
-          "body": "Customers using Bitbucket as their VCS provider or as their login provider experienced errors when interacting with Bitbucket repositories and authenticating to CircleCI. This was caused by an incident with Atlassian Bitbucket's OAuth service, which has now been resolved and all affected functionality has returned to normal.",
-          "date": "2026-06-12T00:18:31.301Z",
-          "link": "https://stspg.io/qjt275qv8plh",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -883,7 +876,7 @@
         },
         {
           "name": "CircleCI UI",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "mailgun Outbound Delivery",
@@ -972,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-06-29T16:51:25.877Z",
+      "checked_at": "2026-06-29T17:00:55.877Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "Cloudflare is aware of and investigating Workers AI experiencing degraded availability in some models.\n\nImpacted models:\n- @cf/moonshotai/kimi-k2.6\n- @cf/moonshotai/kimi-k2.7-code",
@@ -2859,7 +2852,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-29T16:51:25.878Z",
+      "checked_at": "2026-06-29T17:00:55.877Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3755,7 +3748,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-29T16:51:25.878Z",
+      "checked_at": "2026-06-29T17:00:55.877Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3855,7 +3848,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-06-29T16:51:25.878Z",
+      "checked_at": "2026-06-29T17:00:55.878Z",
       "latest_incident": {
         "title": "Codex Usage Limits Depleting Faster Than Expected",
         "body": "We have identified that some reports of Codex usage limits depleting faster than expected are related to our abuse and fraud prevention systems incorrectly rate limiting certain accounts. The impact appears limited, and we have not observed broader degradation to Codex usage. We are continuing to monitor the situation.",
@@ -4014,7 +4007,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-06-29T16:51:25.961Z",
+      "checked_at": "2026-06-29T17:00:55.971Z",
       "latest_incident": null,
       "recent_incidents": [
         {
