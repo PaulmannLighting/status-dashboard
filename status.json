@@ -1,13 +1,20 @@
 {
-  "updated_at": "2026-07-02T00:30:55.820Z",
+  "updated_at": "2026-07-02T00:40:55.942Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-07-02T00:30:55.704Z",
-      "latest_incident": null,
+      "status": "degraded",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-07-02T00:40:55.819Z",
+      "latest_incident": {
+        "title": "Elevated errors on Claude Opus 4.8",
+        "body": "We are currently investigating this issue.",
+        "date": "2026-07-02T00:38:30.806Z",
+        "link": "https://stspg.io/lv9trc80pvyx",
+        "status": "investigating",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
@@ -53,7 +60,7 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -61,15 +68,15 @@
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Code",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Cowork",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude for Government",
@@ -82,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T00:30:55.705Z",
+      "checked_at": "2026-07-02T00:40:55.819Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T00:30:55.705Z",
+      "checked_at": "2026-07-02T00:40:55.820Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T00:30:55.705Z",
+      "checked_at": "2026-07-02T00:40:55.820Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T00:30:55.705Z",
+      "checked_at": "2026-07-02T00:40:55.821Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T00:30:55.705Z",
+      "checked_at": "2026-07-02T00:40:55.821Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T00:30:55.706Z",
+      "checked_at": "2026-07-02T00:40:55.821Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T00:30:55.706Z",
+      "checked_at": "2026-07-02T00:40:55.821Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,12 +965,12 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-02T00:30:55.707Z",
+      "checked_at": "2026-07-02T00:40:55.822Z",
       "latest_incident": {
-        "title": "Cloudflare is investigating issues with network performance in ENAM and WNAM, US",
-        "body": "Cloudflare is investigating issues with network performance in ENAM and WNAM, US. We are working to analyse and mitigate this problem. More updates to follow shortly.",
-        "date": "2026-07-02T00:23:23.006Z",
-        "link": "https://stspg.io/wknf2sjp9xrr",
+        "title": "Cloudflare is aware of and investigating an issue with Cloudflare Pages",
+        "body": "Cloudflare is aware of and investigating an issue with Cloudflare Pages build delays which potentially impacts multiple customers. Further detail will be provided as more information becomes available.",
+        "date": "2026-07-02T00:35:16.966Z",
+        "link": "https://stspg.io/fkccl5fvsm0x",
         "status": "investigating",
         "impact": "minor"
       },
@@ -1016,7 +1023,7 @@
         },
         {
           "name": "Amman, Jordan - (AMM)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Adelaide, SA, Australia - (ADL)",
@@ -1088,7 +1095,7 @@
         },
         {
           "name": "Baghdad, Iraq - (BGW)",
-          "status": "degraded"
+          "status": "maintenance"
         },
         {
           "name": "Asunción, Paraguay - (ASU)",
@@ -1692,7 +1699,7 @@
         },
         {
           "name": "Lima, Peru - (LIM)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Luxembourg City, Luxembourg - (LUX)",
@@ -2484,7 +2491,7 @@
         },
         {
           "name": "Pages",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Queues",
@@ -2845,7 +2852,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-02T00:30:55.708Z",
+      "checked_at": "2026-07-02T00:40:55.823Z",
       "latest_incident": {
         "title": "Agent Timeouts While Retrieving Data from Knowledge Bases",
         "body": "Our Engineering team has identified the issue causing Agents to experience timeouts while retrieving data from Knowledge Bases.\n\nPlease be assured that our Engineering team is actively working on a fix and is treating this issue with high priority.\n\nWe sincerely apologise for any inconvenience this may have caused and appreciate your patience and understanding. If you have any further questions, please create a support ticket so that we can investigate your specific case further.",
@@ -3748,7 +3755,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T00:30:55.708Z",
+      "checked_at": "2026-07-02T00:40:55.823Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3848,7 +3855,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-07-02T00:30:55.709Z",
+      "checked_at": "2026-07-02T00:40:55.824Z",
       "latest_incident": {
         "title": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
         "body": "Core functionality has been restored but we are aware of known and ongoing issues in FedRAMP workspaces with Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and the Compliance Logs Platform download endpoint. We are working to resolve these issues and will share further updates we have more information available.",
@@ -4007,7 +4014,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-02T00:30:55.813Z",
+      "checked_at": "2026-07-02T00:40:55.934Z",
       "latest_incident": null,
       "recent_incidents": [
         {
