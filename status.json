@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-02T16:00:56.351Z",
+  "updated_at": "2026-07-02T16:11:08.986Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T16:00:56.237Z",
+      "checked_at": "2026-07-02T16:11:08.893Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T16:00:56.238Z",
+      "checked_at": "2026-07-02T16:11:08.894Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T16:00:56.238Z",
+      "checked_at": "2026-07-02T16:11:08.894Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T16:00:56.239Z",
+      "checked_at": "2026-07-02T16:11:08.894Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T16:00:56.239Z",
+      "checked_at": "2026-07-02T16:11:08.894Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T16:00:56.239Z",
+      "checked_at": "2026-07-02T16:11:08.894Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T16:00:56.239Z",
+      "checked_at": "2026-07-02T16:11:08.894Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,11 +750,11 @@
       "status_url": "https://status.circleci.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-07-02T16:00:56.240Z",
+      "checked_at": "2026-07-02T16:11:08.895Z",
       "latest_incident": {
         "title": "Outage impacting web experience and pipelines starting",
-        "body": "We are currently investigating this issue.",
-        "date": "2026-07-02T15:25:28.480Z",
+        "body": "We are investigating an issue that may cause some customers to be redirected to a login page and prevents some pipelines from starting. Thank you for your patience as we continue our mitigation of this issue.",
+        "date": "2026-07-02T16:07:52.751Z",
         "link": "https://stspg.io/n86hwbb1whpc",
         "status": "investigating",
         "impact": "critical"
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-02T16:00:56.242Z",
+      "checked_at": "2026-07-02T16:11:08.895Z",
       "latest_incident": {
         "title": "Realtimekit Issues",
         "body": "The issue has been identified and a fix is being implemented.",
@@ -2852,7 +2852,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T16:00:56.243Z",
+      "checked_at": "2026-07-02T16:11:08.895Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3748,7 +3748,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-02T16:00:56.243Z",
+      "checked_at": "2026-07-02T16:11:08.896Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3848,7 +3848,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-07-02T16:00:56.244Z",
+      "checked_at": "2026-07-02T16:11:08.896Z",
       "latest_incident": {
         "title": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
         "body": "Core functionality has been restored but we are aware of known and ongoing issues in FedRAMP workspaces with Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and the Compliance Logs Platform download endpoint. We are working to resolve these issues and will share further updates we have more information available.",
@@ -4007,7 +4007,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-02T16:00:56.343Z",
+      "checked_at": "2026-07-02T16:11:08.979Z",
       "latest_incident": null,
       "recent_incidents": [
         {
