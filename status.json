@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-07-06T20:00:58.201Z",
+  "updated_at": "2026-07-06T20:10:56.064Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "outage",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-06T20:00:58.072Z",
-      "latest_incident": {
-        "title": "Elevated errors on Claude.ai",
-        "body": "We have applied a fix, and at this time are seeing recovery of Claude.ai and related services such as OAuth log-in for Claude Code.",
-        "date": "2026-07-06T19:46:02.528Z",
-        "link": "https://stspg.io/nhdng5lxrsdm",
-        "status": "monitoring",
-        "impact": "critical"
-      },
+      "checked_at": "2026-07-06T20:10:55.970Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Elevated errors on Claude.ai",
+          "body": "This issue has been resolved.",
+          "date": "2026-07-06T20:05:43.735Z",
+          "link": "https://stspg.io/nhdng5lxrsdm",
+          "status": "resolved",
+          "impact": "critical"
+        },
         {
           "title": "Elevated errors on several models",
           "body": "This incident has been resolved.",
@@ -47,14 +48,6 @@
           "link": "https://stspg.io/lv9trc80pvyx",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-          "body": "Learn more here: https://anthropic.com/news/redeploying-fable-5",
-          "date": "2026-07-01T19:26:26.285Z",
-          "link": "https://stspg.io/kqx0j625mrgv",
-          "status": "resolved",
-          "impact": "critical"
         }
       ],
       "components": [
@@ -89,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-06T20:00:58.072Z",
+      "checked_at": "2026-07-06T20:10:55.971Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-06T20:00:58.073Z",
+      "checked_at": "2026-07-06T20:10:55.971Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-06T20:00:58.073Z",
+      "checked_at": "2026-07-06T20:10:55.971Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-06T20:00:58.073Z",
+      "checked_at": "2026-07-06T20:10:55.971Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-06T20:00:58.074Z",
+      "checked_at": "2026-07-06T20:10:55.971Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-06T20:00:58.074Z",
+      "checked_at": "2026-07-06T20:10:55.971Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-06T20:00:58.074Z",
+      "checked_at": "2026-07-06T20:10:55.972Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-06T20:00:58.075Z",
+      "checked_at": "2026-07-06T20:10:55.972Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -1127,7 +1120,7 @@
         },
         {
           "name": "Antananarivo, Madagascar - (TNR)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Canberra, ACT, Australia - (CBR)",
@@ -2856,7 +2849,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-06T20:00:58.075Z",
+      "checked_at": "2026-07-06T20:10:55.972Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3752,7 +3745,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-06T20:00:58.075Z",
+      "checked_at": "2026-07-06T20:10:55.973Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3852,7 +3845,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-07-06T20:00:58.076Z",
+      "checked_at": "2026-07-06T20:10:55.973Z",
       "latest_incident": {
         "title": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
         "body": "Core functionality has been restored but we are aware of known and ongoing issues in FedRAMP workspaces with Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and the Compliance Logs Platform download endpoint. We are working to resolve these issues and will share further updates we have more information available.",
@@ -4011,7 +4004,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-06T20:00:58.194Z",
+      "checked_at": "2026-07-06T20:10:56.057Z",
       "latest_incident": null,
       "recent_incidents": [
         {
