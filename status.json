@@ -1,14 +1,30 @@
 {
-  "updated_at": "2026-07-03T13:11:09.145Z",
+  "updated_at": "2026-07-06T05:55:25.945Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-03T13:11:09.024Z",
+      "checked_at": "2026-07-06T05:55:25.827Z",
       "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Elevated errors across many models",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-04T00:20:18.266Z",
+          "link": "https://stspg.io/qxyj0p4s8s1r",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Elevated errors on Claude Fable 5 and Claude Mythos 5",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-03T22:06:42.392Z",
+          "link": "https://stspg.io/vcwhhf28sp2s",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated errors on Claude Opus 4.8",
           "body": "This incident has been resolved.",
@@ -32,22 +48,6 @@
           "link": "https://stspg.io/f2wj8x9fk5c5",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Elevated errors on Opus 4.5",
-          "body": "This incident has been resolved.",
-          "date": "2026-06-29T14:27:35.715Z",
-          "link": "https://stspg.io/t354swgk93v0",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "elevated errors on Opus 48",
-          "body": "Elevated errors on Opus-48. It has been mitigated. We are actively monitoring the system.",
-          "date": "2026-06-27T18:00:00.000Z",
-          "link": "https://stspg.io/86p1g659mdnm",
-          "status": "resolved",
-          "impact": "none"
         }
       ],
       "components": [
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-03T13:11:09.024Z",
+      "checked_at": "2026-07-06T05:55:25.827Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-03T13:11:09.024Z",
+      "checked_at": "2026-07-06T05:55:25.827Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-03T13:11:09.025Z",
+      "checked_at": "2026-07-06T05:55:25.828Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-03T13:11:09.025Z",
+      "checked_at": "2026-07-06T05:55:25.828Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-03T13:11:09.025Z",
+      "checked_at": "2026-07-06T05:55:25.828Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-03T13:11:09.026Z",
+      "checked_at": "2026-07-06T05:55:25.828Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-03T13:11:09.026Z",
+      "checked_at": "2026-07-06T05:55:25.828Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -956,55 +956,55 @@
     {
       "name": "Cloudflare",
       "status_url": "https://www.cloudflarestatus.com",
-      "status": "outage",
+      "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-03T13:11:09.028Z",
+      "checked_at": "2026-07-06T05:55:25.829Z",
       "latest_incident": {
-        "title": "Issues with network performance in North America",
-        "body": "We are continuing to monitor for any further issues.",
-        "date": "2026-07-03T13:03:13.822Z",
-        "link": "https://stspg.io/x4vj844yfnd7",
-        "status": "monitoring",
-        "impact": "major"
+        "title": "Workers AI experiencing degraded availability in some models",
+        "body": "We are continuing to investigate this issue.",
+        "date": "2026-07-04T08:11:03.037Z",
+        "link": "https://stspg.io/hp348196t57r",
+        "status": "investigating",
+        "impact": "minor"
       },
       "recent_incidents": [
         {
-          "title": "Cloudflare Workers build delays",
+          "title": "Issues with network performance in North America",
           "body": "This incident has been resolved.",
-          "date": "2026-07-02T23:39:17.862Z",
-          "link": "https://stspg.io/171tpnq09pbf",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Realtimekit Issues",
-          "body": "This incident has been resolved.",
-          "date": "2026-07-02T22:31:30.854Z",
-          "link": "https://stspg.io/06z86spkqy02",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Network Congestion in Newark, NJ (EWR)",
-          "body": "Between 20:18-21:30 UTC customers reaching Newark, NJ (EWR) would have experienced an elevated number of network errors due to congestion. The impacted services would have included Cloudflare Zero Trust and R2.",
-          "date": "2026-07-02T22:12:08.793Z",
-          "link": "https://stspg.io/wnc8zpcnn157",
-          "status": "resolved",
-          "impact": "none"
-        },
-        {
-          "title": "Cloudflare is investigating issues with network performance in ENAM and WNAM, US",
-          "body": "This incident has been resolved.",
-          "date": "2026-07-02T10:15:43.792Z",
-          "link": "https://stspg.io/wknf2sjp9xrr",
+          "date": "2026-07-06T01:49:27.948Z",
+          "link": "https://stspg.io/x4vj844yfnd7",
           "status": "resolved",
           "impact": "major"
         },
         {
-          "title": "Cloudflare is aware of and investigating an issue with Cloudflare Workers Builds",
+          "title": "Elevated number of errors in Munich, Germany",
+          "body": "Between 05:07-05:19 UTC customers reaching Munich may have experienced an elevated number of 4XX or 5XX errors. The issue is now resolved",
+          "date": "2026-07-05T05:35:53.000Z",
+          "link": "https://stspg.io/5h4rqwsg6rc4",
+          "status": "resolved",
+          "impact": "none"
+        },
+        {
+          "title": "Cloudflare Vectorize Issues",
           "body": "This incident has been resolved.",
-          "date": "2026-07-02T01:40:24.433Z",
-          "link": "https://stspg.io/fkccl5fvsm0x",
+          "date": "2026-07-04T22:47:19.988Z",
+          "link": "https://stspg.io/x2fpjyvrwj4s",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "New users unable to deploy Workers",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-04T15:32:44.045Z",
+          "link": "https://stspg.io/4y74rlhmwnpc",
+          "status": "resolved",
+          "impact": "minor"
+        },
+        {
+          "title": "Resolution Issues for .AL Domains",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-04T08:22:52.349Z",
+          "link": "https://stspg.io/hwybmv5883ss",
           "status": "resolved",
           "impact": "minor"
         }
@@ -1016,7 +1016,7 @@
         },
         {
           "name": "Amman, Jordan - (AMM)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Adelaide, SA, Australia - (ADL)",
@@ -1220,7 +1220,7 @@
         },
         {
           "name": "Doha, Qatar - (DOH)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Brussels, Belgium - (BRU)",
@@ -1232,7 +1232,7 @@
         },
         {
           "name": "Dar Es Salaam, Tanzania - (DAR)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Brasilia, Brazil - (BSB)",
@@ -1384,7 +1384,7 @@
         },
         {
           "name": "Córdoba, Argentina - (COR)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Audit Logs",
@@ -1504,7 +1504,7 @@
         },
         {
           "name": "Nasiriyah, Iraq - (XNH)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Durham, NC, United States - (RDU)",
@@ -1548,7 +1548,7 @@
         },
         {
           "name": "Nairobi, Kenya - (NBO)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Goiânia, Brazil - (GYN)",
@@ -1592,7 +1592,7 @@
         },
         {
           "name": "Oran, Algeria - (ORN)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Tel Aviv, Israel - (TLV)",
@@ -1612,7 +1612,7 @@
         },
         {
           "name": "Ouagadougou, Burkina Faso   - (OUA)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Izmir, Turkey - (ADB)",
@@ -1624,7 +1624,7 @@
         },
         {
           "name": "Kyiv, Ukraine - (KBP)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Port Louis, Mauritius - (MRU)",
@@ -1716,7 +1716,7 @@
         },
         {
           "name": "Hyderabad, India - (HYD)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Manaus, Brazil - (MAO)",
@@ -1776,7 +1776,7 @@
         },
         {
           "name": "Yamoussoukro, Ivory Coast - (ASK)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Cloud Connector",
@@ -1788,7 +1788,7 @@
         },
         {
           "name": "Panama City, Panama - (PTY)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Mexico City, Mexico - (MEX)",
@@ -1816,7 +1816,7 @@
         },
         {
           "name": "Paramaribo, Suriname - (PBM)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Cloudforce One Reports",
@@ -1912,7 +1912,7 @@
         },
         {
           "name": "Karachi, Pakistan - (KHI)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Ribeirao Preto, Brazil - (RAO)",
@@ -2360,7 +2360,7 @@
         },
         {
           "name": "Winnipeg, MB, Canada - (YWG)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Load Balancing and Monitoring",
@@ -2404,7 +2404,7 @@
         },
         {
           "name": "Port of Spain, Trinidad and Tobago - (POS)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Cloudflare Network Firewall",
@@ -2460,7 +2460,7 @@
         },
         {
           "name": "Network",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Yerevan, Armenia - (EVN)",
@@ -2643,6 +2643,10 @@
           "status": "operational"
         },
         {
+          "name": "WARP",
+          "status": "operational"
+        },
+        {
           "name": "Web Analytics",
           "status": "operational"
         },
@@ -2804,7 +2808,7 @@
         },
         {
           "name": "Lahore, Pakistan - (LHE)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Chengdu, China - (CTU)",
@@ -2845,9 +2849,25 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-03T13:11:09.029Z",
+      "checked_at": "2026-07-06T05:55:25.829Z",
       "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Limited access to Deepseek V4 Pro model",
+          "body": "Our Engineering team has confirmed that the issue with the Deepseek V4 Pro model in Serverless Inference and Agent Platform has been fully resolved. The model is now operational, and users should be able to use it without experiencing any errors.\n\nIf you continue to experience any problems, please open a ticket with our Support team. We apologize for any inconvenience this may have caused and appreciate your patience.",
+          "date": "2026-07-05T00:53:19.389Z",
+          "link": "https://stspg.io/wwsc9zft1lxd",
+          "status": "resolved",
+          "impact": "major"
+        },
+        {
+          "title": "Droplet Actions in NYC3",
+          "body": "Our Engineering team has confirmed that the issue impacting Droplets in the NYC3 region has been fully resolved. Users can now perform actions on their Droplets or create new Droplets in this region without any issues.\n\nWe appreciate your patience while we worked to resolve this issue. If you continue to experience any problems, please open a support ticket from your account so our team can investigate further.",
+          "date": "2026-07-04T15:10:06.071Z",
+          "link": "https://stspg.io/1ggj0xnb3n4v",
+          "status": "resolved",
+          "impact": "none"
+        },
         {
           "title": "Managed Database Clusters",
           "body": "Our engineering team has resolved the issue with Managed Database Clusters. All database systems should now be operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.",
@@ -2871,22 +2891,6 @@
           "link": "https://stspg.io/r6yw4xc720r8",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Droplet Resize",
-          "body": "Our Engineering team has confirmed that the issue impacting Droplet resizes using the \"Downscale Anytime\" option has been fully resolved. Users can now resize their Droplets using the \"Downscale Anytime\" option without any issues.\n\nWe appreciate your patience while we worked to resolve this issue. If you continue to experience any problems, please open a support ticket from your account so our team can investigate further.",
-          "date": "2026-07-01T13:28:10.841Z",
-          "link": "https://stspg.io/m6y2gmlz3jrv",
-          "status": "resolved",
-          "impact": "none"
-        },
-        {
-          "title": "Droplet Backup Service",
-          "body": "Between 00:00 UTC & 16:00 UTC today, our Engineering team identified an issue affecting backup operations on Droplets.  During this period, backups scheduled within this window may not have been created and may appear as missing.\n\nOur team has taken necessary measures to resolve the issue, and we can confirm that the backup service has been restored and is now functioning normally. Upcoming scheduled backups should be performed as expected.\n\nWe sincerely apologize for any inconvenience this may have caused and appreciate your understanding. However, if you have any further questions or concerns, please create a support ticket for further analysis.",
-          "date": "2026-06-27T18:24:25.102Z",
-          "link": "https://stspg.io/djw8kv2yfvcd",
-          "status": "resolved",
-          "impact": "none"
         }
       ],
       "components": [
@@ -3741,7 +3745,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-03T13:11:09.029Z",
+      "checked_at": "2026-07-06T05:55:25.829Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3841,7 +3845,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-07-03T13:11:09.029Z",
+      "checked_at": "2026-07-06T05:55:25.829Z",
       "latest_incident": {
         "title": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
         "body": "Core functionality has been restored but we are aware of known and ongoing issues in FedRAMP workspaces with Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and the Compliance Logs Platform download endpoint. We are working to resolve these issues and will share further updates we have more information available.",
@@ -4000,7 +4004,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-03T13:11:09.138Z",
+      "checked_at": "2026-07-06T05:55:25.920Z",
       "latest_incident": null,
       "recent_incidents": [
         {
