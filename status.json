@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-07T16:10:55.943Z",
+  "updated_at": "2026-07-07T16:20:55.985Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-07T16:10:55.839Z",
+      "checked_at": "2026-07-07T16:20:55.871Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-07T16:10:55.839Z",
+      "checked_at": "2026-07-07T16:20:55.871Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-07T16:10:55.839Z",
+      "checked_at": "2026-07-07T16:20:55.871Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-07T16:10:55.840Z",
+      "checked_at": "2026-07-07T16:20:55.871Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-07T16:10:55.840Z",
+      "checked_at": "2026-07-07T16:20:55.871Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-07T16:10:55.840Z",
+      "checked_at": "2026-07-07T16:20:55.872Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-07T16:10:55.840Z",
+      "checked_at": "2026-07-07T16:20:55.872Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-07T16:10:55.840Z",
+      "checked_at": "2026-07-07T16:20:55.872Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-07T16:10:55.841Z",
+      "checked_at": "2026-07-07T16:20:55.872Z",
       "latest_incident": {
         "title": "Cloudflare Registrar operations issues",
         "body": "Cloudflare is aware of and investigating an issue with Cloudflare Registrar that may prevent customers from registering, renewing, updating and transferring domains.\n\nFurther detail will be provided as more information becomes available.",
@@ -1460,7 +1460,7 @@
         },
         {
           "name": "Luanda, Angola - (LAD)",
-          "status": "degraded"
+          "status": "maintenance"
         },
         {
           "name": "Detroit, MI, United States - (DTW)",
@@ -2853,7 +2853,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-07T16:10:55.842Z",
+      "checked_at": "2026-07-07T16:20:55.873Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3747,18 +3747,19 @@
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "outage",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-07T16:10:55.842Z",
-      "latest_incident": {
-        "title": "Actions and Codespaces APIs experiencing partial failures",
-        "body": "The degradation affecting Actions and Codespaces has been mitigated. We are monitoring to ensure stability.",
-        "date": "2026-07-07T16:02:02.561Z",
-        "link": "https://stspg.io/rmlwm65yzzjj",
-        "status": "monitoring",
-        "impact": "major"
-      },
+      "checked_at": "2026-07-07T16:20:55.873Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Actions and Codespaces APIs experiencing partial failures",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-07-07T16:17:16.965Z",
+          "link": "https://stspg.io/rmlwm65yzzjj",
+          "status": "resolved",
+          "impact": "major"
+        },
         {
           "title": "Incident with Pages",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -3788,14 +3789,6 @@
           "body": "From June 26, 2026 at 23:40 UTC through June 28, 2026 at 20:55 UTC, Copilot Cloud Agent was degraded. The agent could fail when reporting progress, replying to pull request comments, or opening pull requests. For affected built-in tool calls, the average error rate was approximately 8%, with hourly error rates peaking around 26%.<br /><br />This was due to a regression introduced during a Copilot Cloud Agent runtime deployment that caused several built-in agent tools to become unavailable. In many cases, the affected tool calls failed silently so agent jobs appeared to succeed. This monitoring gap meant it took longer than expected to identify the failure. We mitigated the incident by reverting the runtime deployment to the previously stable version.<br /><br />We've added monitoring and alerting for this class of tool-availability error to reduce time-to-detection. We're also adding regression tests for these built-in agent tools, and improving the shipping safety for future runtime rollouts to avoid similar issues.",
           "date": "2026-06-28T20:55:58.925Z",
           "link": "https://stspg.io/v6kqsytzxg2j",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Disruption with some GitHub services",
-          "body": "This incident was used to notify for a maintenance event. There is no specific root cause analysis. Work progressed as planned without any issues to report.",
-          "date": "2026-06-27T20:33:11.027Z",
-          "link": "https://stspg.io/h85w6wz46mvk",
           "status": "resolved",
           "impact": "minor"
         }
@@ -3856,16 +3849,24 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-07-07T16:10:55.842Z",
+      "checked_at": "2026-07-07T16:20:55.873Z",
       "latest_incident": {
-        "title": "Elevated errors with image generation in ChatGPT",
-        "body": "We have implemented a mitigation and are seeing error rates return to normal levels. We are monitoring the recovery, and some users may continue to experience errors with image generation in ChatGPT.",
-        "date": "2026-07-07T14:40:15Z",
+        "title": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "body": "Core functionality has been restored but we are aware of known and ongoing issues in FedRAMP workspaces with Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and the Compliance Logs Platform download endpoint. We are working to resolve these issues and will share further updates we have more information available.",
+        "date": "2026-06-29T07:00:00Z",
         "link": "",
-        "status": "monitoring",
+        "status": "investigating",
         "impact": "minor"
       },
       "recent_incidents": [
+        {
+          "title": "Elevated errors with image generation in ChatGPT",
+          "body": "All impacted services have now fully recovered.",
+          "date": "2026-07-07T16:12:58Z",
+          "link": "",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Codex Usage Limits Depleting Faster Than Expected",
           "body": "All impacted services have now fully recovered.",
@@ -3894,14 +3895,6 @@
           "title": "Small Number of Users Have Incorrectly Cancelled Subscription",
           "body": "All impacted services have now fully recovered.",
           "date": "2026-06-26T02:18:06Z",
-          "link": "",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Users may encounter issues using access token with Codex",
-          "body": "This is now resolved",
-          "date": "2026-06-25T11:03:57Z",
           "link": "",
           "status": "resolved",
           "impact": "minor"
@@ -3938,7 +3931,7 @@
         },
         {
           "name": "Image Generation",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "ChatGPT Atlas",
@@ -4015,7 +4008,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-07T16:10:55.934Z",
+      "checked_at": "2026-07-07T16:20:55.977Z",
       "latest_incident": null,
       "recent_incidents": [
         {
