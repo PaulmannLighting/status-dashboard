@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-11T13:50:55.804Z",
+  "updated_at": "2026-07-11T14:00:55.857Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-11T13:50:55.683Z",
+      "checked_at": "2026-07-11T14:00:55.750Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-11T13:50:55.683Z",
+      "checked_at": "2026-07-11T14:00:55.750Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-11T13:50:55.684Z",
+      "checked_at": "2026-07-11T14:00:55.750Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-11T13:50:55.684Z",
+      "checked_at": "2026-07-11T14:00:55.750Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-11T13:50:55.684Z",
+      "checked_at": "2026-07-11T14:00:55.751Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-11T13:50:55.684Z",
+      "checked_at": "2026-07-11T14:00:55.751Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-11T13:50:55.684Z",
+      "checked_at": "2026-07-11T14:00:55.751Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-11T13:50:55.685Z",
+      "checked_at": "2026-07-11T14:00:55.751Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-11T13:50:55.685Z",
+      "checked_at": "2026-07-11T14:00:55.751Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -2544,7 +2544,7 @@
         },
         {
           "name": "Kochi, India - (COK)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Cuiaba, Brazil - (CGB)",
@@ -2857,7 +2857,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-11T13:50:55.686Z",
+      "checked_at": "2026-07-11T14:00:55.752Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3753,7 +3753,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-11T13:50:55.686Z",
+      "checked_at": "2026-07-11T14:00:55.752Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3853,7 +3853,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-11T13:50:55.686Z",
+      "checked_at": "2026-07-11T14:00:55.752Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4005,7 +4005,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-11T13:50:55.796Z",
+      "checked_at": "2026-07-11T14:00:55.850Z",
       "latest_incident": null,
       "recent_incidents": [
         {
