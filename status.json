@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-14T22:30:56.056Z",
+  "updated_at": "2026-07-14T22:40:56.099Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T22:30:55.944Z",
+      "checked_at": "2026-07-14T22:40:55.987Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T22:30:55.945Z",
+      "checked_at": "2026-07-14T22:40:55.987Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T22:30:55.945Z",
+      "checked_at": "2026-07-14T22:40:55.987Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T22:30:55.945Z",
+      "checked_at": "2026-07-14T22:40:55.988Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T22:30:55.945Z",
+      "checked_at": "2026-07-14T22:40:55.988Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T22:30:55.946Z",
+      "checked_at": "2026-07-14T22:40:55.988Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T22:30:55.946Z",
+      "checked_at": "2026-07-14T22:40:55.988Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-14T22:30:55.946Z",
+      "checked_at": "2026-07-14T22:40:55.988Z",
       "latest_incident": {
         "title": "Issues with network routing for Mac jobs",
         "body": "Our Mac infrastructure provider has shifted more traffic to working network providers and we're starting to see significant recovery again in VCS fetch times. As always, our engineering team will continue to monitor this closely and we'll provide another update soon.",
@@ -762,10 +762,10 @@
       "recent_incidents": [
         {
           "title": "Login issues for some Bitbucket users",
-          "body": "The issue where customers logging in with a Bitbucket-linked identity experienced login errors, and some customers experienced workflows that failed to start or did not update, has been resolved. \n\nWhat you may still experience and need to do\n- If you use Bitbucket as your login method, please log out and reauthenticate the CircleCI Bitbucket integration on your account.\n- If any of your workflows are stuck or showing missing status checks, please rerun them to pick up the fix.\n- If you continue to experience issues after taking these steps, please reach out to CircleCI Support.\n\nWe thank you for your patience while our team worked on implementing a fix.",
-          "date": "2026-07-14T05:15:18.525Z",
+          "body": "## Summary\n\nFrom 01:33 UTC to 05:18 UTC on July 14, 2026, customers with a Bitbucket-linked identity were unable to log in to CircleCI, and some customers experienced workflows that failed to start or update, due to a change in how Bitbucket's OAuth service reports account permissions. At 05:07 UTC, we deployed a fix that corrected how our systems read the updated permissions field. Some customers needed to log out and re-authenticate their Bitbucket integration after we deployed the fix. Our systems continued processing the backlog of affected jobs until 08:39 UTC.\n\nWe thank our customers for their patience as we resolved this incident. Please reach out to our support team with any questions or concerns.\n\nThe status page for this incident can be found [here](https://status.circleci.com/incidents/gsyjwybg477g).\n\n## Background\n\nCircleCI supports logging in with a GitHub account, a Bitbucket account, or an email and password. When a customer logs in with a Bitbucket-linked identity, or when CircleCI needs to refresh the customer's access on their behalf, we exchange an authorization token with Bitbucket's OAuth service. This exchange includes a list of the permissions, or \"scopes,\" the customer has granted us, which Bitbucket and CircleCI use to confirm what CircleCI is authorized to do on the customer’s behalf.\n\n## What Happened\n\n\\(All times UTC\\)\n\nOn April 8, 2026, [Bitbucket announced a change to its OAuth service](https://developer.atlassian.com/cloud/bitbucket/changelog/#CHANGE-3139): it would be renaming the field used to report a customer's granted permissions. Bitbucket ran a transition period during which both the old and new field names were available, then fully removed the old field name on May 4, 2026. Our systems had not been updated to recognize the new field name, so once Bitbucket fully phased out the old one, requests that depended on it began to fail.\n\nAt 01:33 on July 14, 2026, our systems began failing to process permissions information returned for Bitbucket-linked accounts, because our systems still expected the old permissions structure. This caused login attempts for all Bitbucket-linked accounts to fail, including for customers who log in with GitHub but have a Bitbucket identity linked to their account.\n\nAt 01:59, automated monitoring alerted our engineering team to a spike in errors on the affected systems. The team began investigating immediately, confirmed customer impact at 02:38, and alerted customers via our status page at 02:51. By 03:00, the team had isolated the failures to the renamed Bitbucket field.\n\nBeginning at 03:17, workflow status updates for Bitbucket pipelines belonging to customers with an expired access token began to be dropped. The Bitbucket permissions check is used broadly across our platform, and these permissions failures also affected some of our internal job-processing systems. This caused a subset of workflows to become stuck without a final status, and caused some pull requests to show missing or stuck status checks.\n\nAt 04:21, the team deployed an initial fix that resolved the underlying issue, restoring the login flow and returning our internal permissions system to normal operation. Some affected customers needed to log out and log back in to pick up the fix. By 05:07, the team deployed two additional fixes so our systems would begin accepting Bitbucket's new permissions field format going forward. We resolved the incident at 05:18.\n\nSome customers did need to log out and re-authenticate their Bitbucket integration before their account fully recovered. Our systems continued processing a backlog of affected jobs, returning to normal levels by approximately 08:39.\n\n## Future Prevention and Process Improvement\n\nWe are taking the following steps to prevent a recurrence and improve our response time:\n\n**We are hardening our authorization code against upstream API changes.** This incident happened because our system did not gracefully handle a renamed field in a response from a third-party identity provider. We will be immediately updating our authorization code so that unexpected or missing fields from GitHub, Bitbucket, and GitLab are handled safely.\n\n**We are improving how we track upstream provider changes.** We currently already monitor changelogs from our identity providers for exactly this kind of breaking change, but we didn't add this particular provider change to our monitoring in time to catch it before it shipped. We are auditing and expanding this monitoring so provider announcements reach our team before they affect customers.\n\n**We are improving how we classify and communicate incidents in their earliest minutes.** This incident's initial classification did not immediately reflect its customer-facing severity. We are refining our incident tooling and guidance to help engineers identify and communicate customer impact more quickly.\n\n**We are improving the resilience of our workflow-processing pipeline.** A downstream failure in this incident caused some workflow status updates to be dropped rather than retried or clearly surfaced. We are reviewing this system's retry and error-handling behavior so similar downstream failures are more visible and easier to recover from.\n\nCustomer experience is our top priority, and we commit to continually improving the reliability of our systems to match the trust that our customers place in us. Please reach out to our support team with any questions or concerns.",
+          "date": "2026-07-14T22:31:39.552Z",
           "link": "https://stspg.io/lzl0fmm6xmts",
-          "status": "resolved",
+          "status": "postmortem",
           "impact": "minor"
         },
         {
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-14T22:30:55.948Z",
+      "checked_at": "2026-07-14T22:40:55.990Z",
       "latest_incident": {
         "title": "Elevated errors in item PUT requests to AI Search",
         "body": "Cloudflare is observing issues with Cloudflare AI Search service.\n\nWe are currently working on a resolution. More updates to follow shortly.",
@@ -1123,7 +1123,7 @@
         },
         {
           "name": "Bangalore, India - (BLR)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Antananarivo, Madagascar - (TNR)",
@@ -1219,7 +1219,7 @@
         },
         {
           "name": "Bratislava, Slovakia   - (BTS)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "API",
@@ -2819,7 +2819,7 @@
         },
         {
           "name": "Bishkek, Kyrgyzstan - (FRU)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Malang, Indonesia - (MLG)",
@@ -2868,7 +2868,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-14T22:30:55.948Z",
+      "checked_at": "2026-07-14T22:40:55.990Z",
       "latest_incident": {
         "title": "Serverless Inference - Gemma4 Latency Issues Causing Timeouts & Slow Responses",
         "body": "We are currently experiencing an issue affecting customers using the Gemma 4 model on our Serverless Inference platform. Customers may experience significantly increased latency or request timeouts.\n\nOur Engineering team has identified a backend configuration issue as the root cause, which is temporarily impacting model performance. Please be assured that our Engineering team is actively working on a fix and is treating this issue with high priority.\n\nWe sincerely apologise for any inconvenience this may have caused and appreciate your patience and understanding. If you have any further questions, please create a support ticket so that we can investigate your specific case further.",
@@ -3771,7 +3771,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T22:30:55.949Z",
+      "checked_at": "2026-07-14T22:40:55.991Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3871,7 +3871,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T22:30:55.949Z",
+      "checked_at": "2026-07-14T22:40:55.991Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4023,7 +4023,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-14T22:30:56.048Z",
+      "checked_at": "2026-07-14T22:40:56.091Z",
       "latest_incident": null,
       "recent_incidents": [
         {
