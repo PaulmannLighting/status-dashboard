@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-14T15:00:55.837Z",
+  "updated_at": "2026-07-14T15:10:55.862Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T15:00:55.744Z",
+      "checked_at": "2026-07-14T15:10:55.773Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T15:00:55.744Z",
+      "checked_at": "2026-07-14T15:10:55.773Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T15:00:55.745Z",
+      "checked_at": "2026-07-14T15:10:55.773Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T15:00:55.745Z",
+      "checked_at": "2026-07-14T15:10:55.774Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T15:00:55.745Z",
+      "checked_at": "2026-07-14T15:10:55.774Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T15:00:55.745Z",
+      "checked_at": "2026-07-14T15:10:55.774Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T15:00:55.745Z",
+      "checked_at": "2026-07-14T15:10:55.774Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "outage",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-14T15:00:55.746Z",
+      "checked_at": "2026-07-14T15:10:55.775Z",
       "latest_incident": {
         "title": "Issues with network routing for Mac jobs",
         "body": "Unfortunately there are still some customers that may be experiencing jobs that hang or fail to progress during Github fetch steps due to ongoing intermittent networking issues with our Mac infrastructure provider. Our engineers are actively working with them to resolve this. We appreciate your patience.\n\nIn the meantime, we've seen success with increasing the no_output_timeout to 15 - 20 min to allow more time for Github fetches. This can be done by following this community guide: https://support.circleci.com/hc/en-us/articles/360007188574-Build-has-Hit-Timeout-Limit",
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-14T15:00:55.746Z",
+      "checked_at": "2026-07-14T15:10:55.776Z",
       "latest_incident": {
         "title": "Elevated errors in item PUT requests to AI Search",
         "body": "Cloudflare is observing issues with Cloudflare AI Search service.\n\nWe are currently working on a resolution. More updates to follow shortly.",
@@ -1099,7 +1099,7 @@
         },
         {
           "name": "Asunción, Paraguay - (ASU)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Annaba, Algeria - (AAE)",
@@ -1243,7 +1243,7 @@
         },
         {
           "name": "Dar Es Salaam, Tanzania - (DAR)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Brasilia, Brazil - (BSB)",
@@ -2868,7 +2868,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-14T15:00:55.747Z",
+      "checked_at": "2026-07-14T15:10:55.777Z",
       "latest_incident": {
         "title": "Serverless Inference - Gemma4 Latency Issues Causing Timeouts & Slow Responses",
         "body": "We are currently experiencing an issue affecting customers using the Gemma 4 model on our Serverless Inference platform. Customers may experience significantly increased latency or request timeouts.\n\nOur Engineering team has identified a backend configuration issue as the root cause, which is temporarily impacting model performance. Please be assured that our Engineering team is actively working on a fix and is treating this issue with high priority.\n\nWe sincerely apologise for any inconvenience this may have caused and appreciate your patience and understanding. If you have any further questions, please create a support ticket so that we can investigate your specific case further.",
@@ -3771,7 +3771,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T15:00:55.747Z",
+      "checked_at": "2026-07-14T15:10:55.777Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3869,10 +3869,17 @@
     {
       "name": "OpenAI",
       "status_url": "https://status.openai.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-07-14T15:00:55.747Z",
-      "latest_incident": null,
+      "status": "degraded",
+      "description": "Partial System Degradation",
+      "checked_at": "2026-07-14T15:10:55.777Z",
+      "latest_incident": {
+        "title": "Some ChatGPT Go users may experience conversation failures when using GPT-5.5.",
+        "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
+        "date": "2026-07-14T15:07:36Z",
+        "link": "",
+        "status": "identified",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "Users may experience elevated errors uploading, deleting, and navigating files in the ChatGPT Library",
@@ -3917,10 +3924,6 @@
       ],
       "components": [
         {
-          "name": "Conversations",
-          "status": "operational"
-        },
-        {
           "name": "Batch",
           "status": "operational"
         },
@@ -3931,6 +3934,10 @@
         {
           "name": "Login",
           "status": "operational"
+        },
+        {
+          "name": "Conversations",
+          "status": "degraded"
         },
         {
           "name": "Compliance API",
@@ -4023,7 +4030,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-14T15:00:55.830Z",
+      "checked_at": "2026-07-14T15:10:55.854Z",
       "latest_incident": null,
       "recent_incidents": [
         {
