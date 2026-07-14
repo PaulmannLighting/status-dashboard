@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-14T09:50:58.299Z",
+  "updated_at": "2026-07-14T10:00:55.818Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T09:50:58.196Z",
+      "checked_at": "2026-07-14T10:00:55.728Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T09:50:58.196Z",
+      "checked_at": "2026-07-14T10:00:55.728Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T09:50:58.196Z",
+      "checked_at": "2026-07-14T10:00:55.728Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T09:50:58.196Z",
+      "checked_at": "2026-07-14T10:00:55.728Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T09:50:58.196Z",
+      "checked_at": "2026-07-14T10:00:55.729Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T09:50:58.197Z",
+      "checked_at": "2026-07-14T10:00:55.729Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T09:50:58.197Z",
+      "checked_at": "2026-07-14T10:00:55.729Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-14T09:50:58.197Z",
+      "checked_at": "2026-07-14T10:00:55.729Z",
       "latest_incident": {
         "title": "Issues with network routing for Mac jobs",
         "body": "We've identified the issue. Some customers may experience jobs that hang or fail to progress during Github fetch steps due to intermittent networking issues. Our engineers are actively monitoring.\n\nIn the meantime, we've seen success with increasing the no_output_timeout to 15 - 20 min to allow more time for Github fetches. This can be done by following this community guide: https://support.circleci.com/hc/en-us/articles/360007188574-Build-has-Hit-Timeout-Limit",
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-14T09:50:58.197Z",
+      "checked_at": "2026-07-14T10:00:55.730Z",
       "latest_incident": {
         "title": "Elevated errors in item PUT requests to AI Search",
         "body": "Cloudflare is observing issues with Cloudflare AI Search service.\n\nWe are currently working on a resolution. More updates to follow shortly.",
@@ -2868,7 +2868,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-14T09:50:58.198Z",
+      "checked_at": "2026-07-14T10:00:55.730Z",
       "latest_incident": {
         "title": "Serverless Inference - Gemma4 Latency Issues Causing Timeouts & Slow Responses",
         "body": "A fix has been deployed to resolve the backend configuration issue. We are closely monitoring system performance to ensure full recovery and normal response times for all Gemma 4 inference workflows.",
@@ -3769,18 +3769,19 @@
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-07-14T09:50:58.198Z",
-      "latest_incident": {
-        "title": "Disruption with some GitHub services",
-        "body": "Codespaces is experiencing degraded performance. We are continuing to investigate.",
-        "date": "2026-07-14T08:22:37.117Z",
-        "link": "https://stspg.io/qd0t2882ckl9",
-        "status": "investigating",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-07-14T10:00:55.730Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Disruption with some GitHub services",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-07-14T09:56:43.021Z",
+          "link": "https://stspg.io/qd0t2882ckl9",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Actions runs are experiencing failures to start",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -3810,14 +3811,6 @@
           "body": "On July 2nd, 2026, between approximately 15:00 and 18:30 UTC, the GitHub Pages service experienced degraded deployment performance due to a surge in demand that exceeded available processing capacity. During this period, users publishing to GitHub Pages may have seen their deployments queued or taking substantially longer than usual to go live. No other GitHub services were impacted.<br /><br />We mitigated the incident by scaling up Pages deployment workers and provisioning additional storage capacity to clear the backlog.<br /><br />GitHub is reviewing capacity planning and autoscaling measures to reduce the likelihood of similar delays in the future.",
           "date": "2026-07-02T18:25:24.658Z",
           "link": "https://stspg.io/wgv67m39tbml",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Delays in copilot budget limits resets for some users",
-          "body": "On July 1, 2026, between approximately 00:00 UTC and 13:04 UTC, some GitHub Copilot customers whose budget was exhausted before the monthly reset remained incorrectly blocked from paid Copilot usage after the new billing month began, even though their budgets had reset. Some budget changes also took longer than usual to apply. Only customers with an exhausted budget were affected, which limited the impact.<br /><br />This was caused by a caching issue at the monthly reset: for some users, a pre-reset \"budget exhausted\" status was re-saved and served even though their budget had reset, so they stayed blocked. We had built a safeguard ahead of the reset to prevent this, but it did not take effect because an internal configuration service did not load its settings correctly. We resolved the incident by deploying a change that discards the outdated status and recomputes access from current budget data independently of that configuration, and by working through the backlog of budget updates.<br /><br />To prevent recurrence, we are ensuring pre-reset status cannot survive the monthly budget reset, adding alerting for this failure mode, and increasing capacity to absorb the monthly surge of budget updates.",
-          "date": "2026-07-01T13:26:06.678Z",
-          "link": "https://stspg.io/jy3yhfvwxpjh",
           "status": "resolved",
           "impact": "minor"
         }
@@ -3865,7 +3858,7 @@
         },
         {
           "name": "Codespaces",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Copilot AI Model Providers",
@@ -3878,7 +3871,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-14T09:50:58.198Z",
+      "checked_at": "2026-07-14T10:00:55.731Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4030,7 +4023,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-14T09:50:58.274Z",
+      "checked_at": "2026-07-14T10:00:55.811Z",
       "latest_incident": null,
       "recent_incidents": [
         {
