@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-15T15:40:55.965Z",
+  "updated_at": "2026-07-15T15:50:55.901Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T15:40:55.877Z",
+      "checked_at": "2026-07-15T15:50:55.813Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T15:40:55.877Z",
+      "checked_at": "2026-07-15T15:50:55.813Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T15:40:55.877Z",
+      "checked_at": "2026-07-15T15:50:55.814Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T15:40:55.877Z",
+      "checked_at": "2026-07-15T15:50:55.814Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T15:40:55.877Z",
+      "checked_at": "2026-07-15T15:50:55.814Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T15:40:55.878Z",
+      "checked_at": "2026-07-15T15:50:55.815Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T15:40:55.878Z",
+      "checked_at": "2026-07-15T15:50:55.815Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T15:40:55.878Z",
+      "checked_at": "2026-07-15T15:50:55.815Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,16 +958,24 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-15T15:40:55.878Z",
+      "checked_at": "2026-07-15T15:50:55.816Z",
       "latest_incident": {
-        "title": "Elevated R2 errors in ENAM region",
-        "body": "The issue has been identified and a fix is being implemented.",
-        "date": "2026-07-15T15:28:06.274Z",
+        "title": "Elevated errors in ENAM region",
+        "body": "A fix has been implemented and we are monitoring the results.",
+        "date": "2026-07-15T15:45:31.805Z",
         "link": "https://stspg.io/pgwf7flysrld",
-        "status": "identified",
+        "status": "monitoring",
         "impact": "minor"
       },
       "recent_incidents": [
+        {
+          "title": "Network Performance Issues in AMS",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-15T15:49:52.692Z",
+          "link": "https://stspg.io/1cypztc9zqp6",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated R2 errors in WEUR region",
           "body": "An effective fix for this issue has been applied and this incident is now resolved.",
@@ -999,20 +1007,12 @@
           "link": "https://stspg.io/v70sdy1ytrf8",
           "status": "resolved",
           "impact": "none"
-        },
-        {
-          "title": "Elevated R2 errors in EU region",
-          "body": "This incident has been resolved.",
-          "date": "2026-07-14T04:36:09.166Z",
-          "link": "https://stspg.io/7bbzj3wtpk31",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
         {
           "name": "Amsterdam, Netherlands - (AMS)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Amman, Jordan - (AMM)",
@@ -1764,7 +1764,7 @@
         },
         {
           "name": "Memphis, TN, United States - (MEM)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Jakarta, Indonesia - (CGK)",
@@ -2112,7 +2112,7 @@
         },
         {
           "name": "Durable Objects",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Stockholm, Sweden - (ARN)",
@@ -2352,7 +2352,7 @@
         },
         {
           "name": "Infrastructure",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "San Juan, Puerto Rico - (SJU)",
@@ -2861,7 +2861,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T15:40:55.879Z",
+      "checked_at": "2026-07-15T15:50:55.816Z",
       "latest_incident": {
         "title": "Serverless Inference - Gemma4 Latency Issues Causing Timeouts & Slow Responses",
         "body": "A fix has been deployed to resolve the issue. We are closely monitoring system performance to ensure full recovery and normal response times for all Gemma 4 inference workflows.",
@@ -3764,7 +3764,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T15:40:55.879Z",
+      "checked_at": "2026-07-15T15:50:55.817Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3864,7 +3864,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T15:40:55.879Z",
+      "checked_at": "2026-07-15T15:50:55.817Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4016,7 +4016,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-15T15:40:55.959Z",
+      "checked_at": "2026-07-15T15:50:55.894Z",
       "latest_incident": null,
       "recent_incidents": [
         {
