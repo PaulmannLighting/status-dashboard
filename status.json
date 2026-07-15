@@ -1,13 +1,20 @@
 {
-  "updated_at": "2026-07-15T14:01:19.390Z",
+  "updated_at": "2026-07-15T14:10:55.996Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-07-15T14:01:19.279Z",
-      "latest_incident": null,
+      "status": "degraded",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-07-15T14:10:55.905Z",
+      "latest_incident": {
+        "title": "Elevated errors on multiple models",
+        "body": "We are currently investigating this issue.",
+        "date": "2026-07-15T14:04:00.611Z",
+        "link": "https://stspg.io/tznbd1r92fwk",
+        "status": "investigating",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "Partial outage of claude.ai: container creation",
@@ -53,23 +60,23 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Console (platform.claude.com)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Code",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Cowork",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude for Government",
@@ -82,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T14:01:19.279Z",
+      "checked_at": "2026-07-15T14:10:55.906Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T14:01:19.280Z",
+      "checked_at": "2026-07-15T14:10:55.906Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T14:01:19.280Z",
+      "checked_at": "2026-07-15T14:10:55.906Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T14:01:19.281Z",
+      "checked_at": "2026-07-15T14:10:55.906Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T14:01:19.281Z",
+      "checked_at": "2026-07-15T14:10:55.906Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T14:01:19.282Z",
+      "checked_at": "2026-07-15T14:10:55.906Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -748,9 +755,9 @@
     {
       "name": "Circleci.com",
       "status_url": "https://status.circleci.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-07-15T14:01:19.282Z",
+      "status": "degraded",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-07-15T14:10:55.906Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -945,7 +952,7 @@
         },
         {
           "name": "Anthropic api.anthropic.com",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "packagecloud.io",
@@ -958,13 +965,13 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-15T14:01:19.285Z",
+      "checked_at": "2026-07-15T14:10:55.907Z",
       "latest_incident": {
-        "title": "Network Performance issues - Increased HTTP 502 Errors in HKG",
-        "body": "Cloudflare is investigating an increased level of HTTP 502 errors originating from the Hong Kong datacenter. We are working to analyse and mitigate this problem. More updates to follow shortly.",
-        "date": "2026-07-15T11:00:03.000Z",
-        "link": "https://stspg.io/ylqdc3v0ns46",
-        "status": "monitoring",
+        "title": "Network Performance Issues in AMS",
+        "body": "Cloudflare is investigating issues with network performance in Amsterdam. We are working to analyse and mitigate this problem. More updates to follow shortly.",
+        "date": "2026-07-15T13:39:27.000Z",
+        "link": "https://stspg.io/1cypztc9zqp6",
+        "status": "investigating",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -1012,7 +1019,7 @@
       "components": [
         {
           "name": "Amsterdam, Netherlands - (AMS)",
-          "status": "degraded"
+          "status": "maintenance"
         },
         {
           "name": "Amman, Jordan - (AMM)",
@@ -2352,7 +2359,7 @@
         },
         {
           "name": "Infrastructure",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "San Juan, Puerto Rico - (SJU)",
@@ -2861,7 +2868,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T14:01:19.287Z",
+      "checked_at": "2026-07-15T14:10:55.907Z",
       "latest_incident": {
         "title": "Serverless Inference - Gemma4 Latency Issues Causing Timeouts & Slow Responses",
         "body": "A fix has been deployed to resolve the issue. We are closely monitoring system performance to ensure full recovery and normal response times for all Gemma 4 inference workflows.",
@@ -3764,7 +3771,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T14:01:19.288Z",
+      "checked_at": "2026-07-15T14:10:55.907Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3864,7 +3871,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-15T14:01:19.288Z",
+      "checked_at": "2026-07-15T14:10:55.907Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4016,7 +4023,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-15T14:01:19.381Z",
+      "checked_at": "2026-07-15T14:10:55.989Z",
       "latest_incident": null,
       "recent_incidents": [
         {
