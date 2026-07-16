@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-16T04:40:55.617Z",
+  "updated_at": "2026-07-16T04:51:01.445Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T04:40:55.530Z",
+      "checked_at": "2026-07-16T04:51:01.358Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T04:40:55.530Z",
+      "checked_at": "2026-07-16T04:51:01.358Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T04:40:55.530Z",
+      "checked_at": "2026-07-16T04:51:01.358Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T04:40:55.530Z",
+      "checked_at": "2026-07-16T04:51:01.359Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T04:40:55.531Z",
+      "checked_at": "2026-07-16T04:51:01.359Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T04:40:55.531Z",
+      "checked_at": "2026-07-16T04:51:01.359Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T04:40:55.531Z",
+      "checked_at": "2026-07-16T04:51:01.359Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T04:40:55.531Z",
+      "checked_at": "2026-07-16T04:51:01.359Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,16 +958,24 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-16T04:40:55.532Z",
+      "checked_at": "2026-07-16T04:51:01.361Z",
       "latest_incident": {
-        "title": "Cloudflare R2 Issues",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-07-16T04:38:10.007Z",
-        "link": "https://stspg.io/2nz8b5n6lpy3",
-        "status": "monitoring",
+        "title": "Workers AI experiencing degraded availability in some models",
+        "body": "We are continuing to investigate this issue.",
+        "date": "2026-07-04T08:11:03.037Z",
+        "link": "https://stspg.io/hp348196t57r",
+        "status": "investigating",
         "impact": "minor"
       },
       "recent_incidents": [
+        {
+          "title": "Cloudflare R2 Issues",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-16T04:49:58.272Z",
+          "link": "https://stspg.io/2nz8b5n6lpy3",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Network Performance issues - Increased HTTP 502 Errors in HKG",
           "body": "This incident has been resolved.",
@@ -997,14 +1005,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-07-15T15:49:52.692Z",
           "link": "https://stspg.io/1cypztc9zqp6",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Elevated R2 errors in WEUR region",
-          "body": "An effective fix for this issue has been applied and this incident is now resolved.",
-          "date": "2026-07-14T17:36:34.327Z",
-          "link": "https://stspg.io/9125znqtrs58",
           "status": "resolved",
           "impact": "minor"
         }
@@ -2416,7 +2416,7 @@
         },
         {
           "name": "Salvador, Brazil - (SSA)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Cloudflare Network Firewall",
@@ -2500,7 +2500,7 @@
         },
         {
           "name": "R2",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Radar",
@@ -2861,7 +2861,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T04:40:55.532Z",
+      "checked_at": "2026-07-16T04:51:01.361Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3869,7 +3869,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T04:40:55.533Z",
+      "checked_at": "2026-07-16T04:51:01.361Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3969,7 +3969,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T04:40:55.533Z",
+      "checked_at": "2026-07-16T04:51:01.362Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4121,7 +4121,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-16T04:40:55.609Z",
+      "checked_at": "2026-07-16T04:51:01.437Z",
       "latest_incident": null,
       "recent_incidents": [
         {
