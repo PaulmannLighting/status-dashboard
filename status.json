@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-07-16T13:30:55.989Z",
+  "updated_at": "2026-07-16T13:40:56.099Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-07-16T13:30:55.850Z",
-      "latest_incident": {
-        "title": "Elevated errors for Claude Opus 4.7",
-        "body": "We are currently investigating this issue.",
-        "date": "2026-07-16T08:58:06.014Z",
-        "link": "https://stspg.io/3vvl4w8559r5",
-        "status": "investigating",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-07-16T13:40:55.999Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Elevated errors for Claude Opus 4.7",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-16T13:30:55.394Z",
+          "link": "https://stspg.io/3vvl4w8559r5",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Enterprise SSO sign-in failures",
           "body": "This incident has been resolved.",
@@ -47,14 +48,6 @@
           "link": "https://stspg.io/7vd6cvlw38jb",
           "status": "resolved",
           "impact": "major"
-        },
-        {
-          "title": "Elevated errors on Claude Haiku 4.5",
-          "body": "This incident has been resolved.",
-          "date": "2026-07-13T15:24:22.332Z",
-          "link": "https://stspg.io/b9qprh6xw5q7",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -68,15 +61,15 @@
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Code",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Cowork",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude for Government",
@@ -89,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T13:30:55.850Z",
+      "checked_at": "2026-07-16T13:40:56.000Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T13:30:55.850Z",
+      "checked_at": "2026-07-16T13:40:56.000Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T13:30:55.851Z",
+      "checked_at": "2026-07-16T13:40:56.000Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T13:30:55.851Z",
+      "checked_at": "2026-07-16T13:40:56.000Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T13:30:55.851Z",
+      "checked_at": "2026-07-16T13:40:56.001Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T13:30:55.851Z",
+      "checked_at": "2026-07-16T13:40:56.001Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -755,9 +748,9 @@
     {
       "name": "Circleci.com",
       "status_url": "https://status.circleci.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-07-16T13:30:55.851Z",
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-07-16T13:40:56.001Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -952,7 +945,7 @@
         },
         {
           "name": "Anthropic api.anthropic.com",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "packagecloud.io",
@@ -965,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-16T13:30:55.852Z",
+      "checked_at": "2026-07-16T13:40:56.002Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -1095,7 +1088,7 @@
         },
         {
           "name": "Baghdad, Iraq - (BGW)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Asunción, Paraguay - (ASU)",
@@ -2011,7 +2004,7 @@
         },
         {
           "name": "Riga, Latvia - (RIX)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Santo Domingo, Dominican Republic - (SDQ)",
@@ -2059,7 +2052,7 @@
         },
         {
           "name": "São José dos Campos, Brazil - (SJK)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "DNS Firewall",
@@ -2866,10 +2859,17 @@
     {
       "name": "DigitalOcean",
       "status_url": "https://status.digitalocean.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-07-16T13:30:55.852Z",
-      "latest_incident": null,
+      "status": "degraded",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-07-16T13:40:56.003Z",
+      "latest_incident": {
+        "title": "Reserved IP routing in TOR1",
+        "body": "Our Engineering team is investigating an issue affecting Reserved IP routing in the TOR1 region. The issue is causing inbound and outbound traffic to and from Reserved IPs in TOR1 to fail.\n\nIn the meantime, detaching and reassigning the Reserved IP to the Droplet may restore connectivity. We recommend trying this workaround if you are experiencing issues with your Reserved IP in TOR1.\n\nOur engineering team is actively investigating the root cause and working towards a resolution. We will provide updates as more information becomes available.",
+        "date": "2026-07-16T13:39:47.275Z",
+        "link": "https://stspg.io/x0s0pghvdcgv",
+        "status": "investigating",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "Serverless Inference - Gemma4 Latency Issues Causing Timeouts & Slow Responses",
@@ -3503,7 +3503,7 @@
         },
         {
           "name": "Reserved IP",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "SFO2",
@@ -3855,7 +3855,7 @@
         },
         {
           "name": "TOR1",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "TOR1",
@@ -3876,7 +3876,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T13:30:55.852Z",
+      "checked_at": "2026-07-16T13:40:56.004Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3976,7 +3976,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-07-16T13:30:55.852Z",
+      "checked_at": "2026-07-16T13:40:56.004Z",
       "latest_incident": {
         "title": "Elevated Error Rates For SSO Login",
         "body": "We have applied the mitigation and are monitoring the recovery.",
@@ -4135,7 +4135,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-16T13:30:55.958Z",
+      "checked_at": "2026-07-16T13:40:56.092Z",
       "latest_incident": null,
       "recent_incidents": [
         {
