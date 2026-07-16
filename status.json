@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-16T17:20:56.330Z",
+  "updated_at": "2026-07-16T17:30:55.950Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T17:20:56.240Z",
+      "checked_at": "2026-07-16T17:30:55.841Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T17:20:56.240Z",
+      "checked_at": "2026-07-16T17:30:55.842Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T17:20:56.240Z",
+      "checked_at": "2026-07-16T17:30:55.842Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T17:20:56.240Z",
+      "checked_at": "2026-07-16T17:30:55.842Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T17:20:56.241Z",
+      "checked_at": "2026-07-16T17:30:55.842Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T17:20:56.241Z",
+      "checked_at": "2026-07-16T17:30:55.842Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T17:20:56.241Z",
+      "checked_at": "2026-07-16T17:30:55.842Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T17:20:56.241Z",
+      "checked_at": "2026-07-16T17:30:55.842Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,11 +958,11 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-16T17:20:56.242Z",
+      "checked_at": "2026-07-16T17:30:55.843Z",
       "latest_incident": {
         "title": "Durable Objects Increased Errors",
-        "body": "We are continuing to work on a fix for this issue.",
-        "date": "2026-07-16T17:14:32.764Z",
+        "body": "We have applied a fix and are beginning to see service recovery.",
+        "date": "2026-07-16T17:25:23.363Z",
         "link": "https://stspg.io/mxywk4j6y5xm",
         "status": "identified",
         "impact": "major"
@@ -1504,7 +1504,7 @@
         },
         {
           "name": "Nasiriyah, Iraq - (XNH)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Durham, NC, United States - (RDU)",
@@ -2863,18 +2863,19 @@
     {
       "name": "DigitalOcean",
       "status_url": "https://status.digitalocean.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T17:20:56.243Z",
-      "latest_incident": {
-        "title": "Reserved IP routing in TOR1",
-        "body": "Our Engineering team has implemented a fix for the issue affecting Reserved IP routing in the TOR1 region, and we are currently monitoring the results.\n\nInbound and outbound traffic to and from Reserved IPs in TOR1 should now be restored. If you reassigned your Reserved IP as a workaround and are still experiencing issues, please reach out to our support team.\n\nWe will continue to monitor the situation closely and provide a further update once we have confirmed the issue is fully resolved.",
-        "date": "2026-07-16T17:01:27.917Z",
-        "link": "https://stspg.io/x0s0pghvdcgv",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-07-16T17:30:55.843Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Reserved IP routing in TOR1",
+          "body": "Our Engineering team has confirmed that the underlying issue affecting Reserved IP routing in the TOR1 region has been fully resolved, and services are now operating normally.\n\nIf you continue to experience any issues, please contact our Support team by opening a ticket. We apologize for any inconvenience caused.",
+          "date": "2026-07-16T17:24:35.996Z",
+          "link": "https://stspg.io/x0s0pghvdcgv",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Serverless Inference - Gemma4 Latency Issues Causing Timeouts & Slow Responses",
           "body": "The deployed fix has successfully restored full functionality, and our monitoring shows that system performance has completely stabilized. Response times for all Gemma 4 inference workflows have returned to normal baseline levels.\nWe will continue to track platform stability moving forward to ensure long-term reliability. We apologize for any disruption this may have caused to your workflows and appreciate your patience throughout the recovery process.",
@@ -2906,14 +2907,6 @@
           "link": "https://stspg.io/1ggj0xnb3n4v",
           "status": "resolved",
           "impact": "none"
-        },
-        {
-          "title": "Managed Database Clusters",
-          "body": "Our engineering team has resolved the issue with Managed Database Clusters. All database systems should now be operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.",
-          "date": "2026-07-03T08:20:23.462Z",
-          "link": "https://stspg.io/rpkck6zr7ht5",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -3880,7 +3873,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T17:20:56.243Z",
+      "checked_at": "2026-07-16T17:30:55.844Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3980,7 +3973,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T17:20:56.243Z",
+      "checked_at": "2026-07-16T17:30:55.844Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4132,7 +4125,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-16T17:20:56.321Z",
+      "checked_at": "2026-07-16T17:30:55.939Z",
       "latest_incident": null,
       "recent_incidents": [
         {
