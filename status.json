@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-16T15:20:56.051Z",
+  "updated_at": "2026-07-16T15:30:58.433Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T15:20:55.949Z",
+      "checked_at": "2026-07-16T15:30:58.303Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T15:20:55.949Z",
+      "checked_at": "2026-07-16T15:30:58.304Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T15:20:55.949Z",
+      "checked_at": "2026-07-16T15:30:58.304Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T15:20:55.949Z",
+      "checked_at": "2026-07-16T15:30:58.304Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T15:20:55.949Z",
+      "checked_at": "2026-07-16T15:30:58.305Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T15:20:55.949Z",
+      "checked_at": "2026-07-16T15:30:58.305Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T15:20:55.950Z",
+      "checked_at": "2026-07-16T15:30:58.305Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T15:20:55.950Z",
+      "checked_at": "2026-07-16T15:30:58.305Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-16T15:20:55.950Z",
+      "checked_at": "2026-07-16T15:30:58.306Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -2861,13 +2861,13 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-16T15:20:55.951Z",
+      "checked_at": "2026-07-16T15:30:58.307Z",
       "latest_incident": {
         "title": "Reserved IP routing in TOR1",
-        "body": "Our Engineering team is investigating an issue affecting Reserved IP routing in the TOR1 region. The issue is causing inbound and outbound traffic to and from Reserved IPs in TOR1 to fail.\n\nIn the meantime, detaching and reassigning the Reserved IP to the Droplet may restore connectivity. We recommend trying this workaround if you are experiencing issues with your Reserved IP in TOR1.\n\nOur engineering team is actively investigating the root cause and working towards a resolution. We will provide updates as more information becomes available.",
-        "date": "2026-07-16T13:39:47.275Z",
+        "body": "Our Engineering team has identified the cause of the issue affecting Reserved IP routing in the TOR1 region, which was causing inbound and outbound traffic to and from Reserved IPs in TOR1 to fail.\n\nDetaching and reassigning the Reserved IP to the Droplet may restore connectivity in the meantime. We recommend trying this workaround if you are still experiencing issues with your Reserved IP in TOR1.\n\nOur engineering team is now working on implementing a fix. We will provide updates as more information becomes available.",
+        "date": "2026-07-16T15:30:04.792Z",
         "link": "https://stspg.io/x0s0pghvdcgv",
-        "status": "investigating",
+        "status": "identified",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -3876,7 +3876,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-16T15:20:55.951Z",
+      "checked_at": "2026-07-16T15:30:58.308Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3974,18 +3974,19 @@
     {
       "name": "OpenAI",
       "status_url": "https://status.openai.com",
-      "status": "degraded",
-      "description": "Partial System Degradation",
-      "checked_at": "2026-07-16T15:20:55.951Z",
-      "latest_incident": {
-        "title": "Elevated Error Rates For SSO Login",
-        "body": "We have applied the mitigation and are monitoring the recovery.",
-        "date": "2026-07-16T10:57:24Z",
-        "link": "",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-07-16T15:30:58.308Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Elevated Error Rates For SSO Login",
+          "body": "All impacted services have now fully recovered.",
+          "date": "2026-07-16T15:23:13Z",
+          "link": "",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated errors affecting ChatGPT",
           "body": "All impacted services have now fully recovered.",
@@ -4017,14 +4018,6 @@
           "link": "",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Elevated errors when creating sites in ChatGPT",
-          "body": "All impacted services have now fully recovered.",
-          "date": "2026-07-13T12:59:55Z",
-          "link": "",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -4034,7 +4027,7 @@
         },
         {
           "name": "Login",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Audio",
@@ -4042,7 +4035,7 @@
         },
         {
           "name": "Login",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Conversations",
@@ -4135,7 +4128,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-16T15:20:56.041Z",
+      "checked_at": "2026-07-16T15:30:58.425Z",
       "latest_incident": null,
       "recent_incidents": [
         {
