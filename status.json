@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-17T06:10:55.829Z",
+  "updated_at": "2026-07-17T06:20:57.070Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T06:10:55.705Z",
+      "checked_at": "2026-07-17T06:20:56.968Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T06:10:55.705Z",
+      "checked_at": "2026-07-17T06:20:56.968Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T06:10:55.706Z",
+      "checked_at": "2026-07-17T06:20:56.969Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T06:10:55.706Z",
+      "checked_at": "2026-07-17T06:20:56.969Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T06:10:55.706Z",
+      "checked_at": "2026-07-17T06:20:56.969Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T06:10:55.707Z",
+      "checked_at": "2026-07-17T06:20:56.969Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T06:10:55.707Z",
+      "checked_at": "2026-07-17T06:20:56.969Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T06:10:55.707Z",
+      "checked_at": "2026-07-17T06:20:56.970Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,16 +958,24 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-17T06:10:55.708Z",
+      "checked_at": "2026-07-17T06:20:56.971Z",
       "latest_incident": {
-        "title": "CNI 2.0 issues in London",
-        "body": "Cloudflare is currently investigating issues related to CNI 2.0 in London. Customers utilizing CNI 2.0 through London (LHR) data center will experience a failure to send traffic over their CNI. \nWe are working to mitigate impact to CNI customers. More updates to follow shortly.",
-        "date": "2026-07-17T05:47:50.276Z",
-        "link": "https://stspg.io/6fl2p4nvn7vk",
+        "title": "Workers AI experiencing degraded availability in some models",
+        "body": "We are continuing to investigate this issue.",
+        "date": "2026-07-04T08:11:03.037Z",
+        "link": "https://stspg.io/hp348196t57r",
         "status": "investigating",
         "impact": "minor"
       },
       "recent_incidents": [
+        {
+          "title": "CNI 2.0 issues in London",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-17T06:16:09.822Z",
+          "link": "https://stspg.io/6fl2p4nvn7vk",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Increased HTTP 500 Errors in Querétaro, Mexico",
           "body": "This incident has been resolved.",
@@ -999,14 +1007,6 @@
           "link": "https://stspg.io/mxywk4j6y5xm",
           "status": "resolved",
           "impact": "major"
-        },
-        {
-          "title": "Magic WAN / Magic Transit tunnel health alert delivery",
-          "body": "This incident has been resolved.",
-          "date": "2026-07-16T12:49:08.055Z",
-          "link": "https://stspg.io/gzg9x0nw1qvv",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -1840,7 +1840,7 @@
         },
         {
           "name": "Cloud Network Interconnect (CNI)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Montréal, QC, Canada - (YUL)",
@@ -2865,7 +2865,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T06:10:55.708Z",
+      "checked_at": "2026-07-17T06:20:56.972Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3873,7 +3873,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T06:10:55.709Z",
+      "checked_at": "2026-07-17T06:20:56.972Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3973,7 +3973,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T06:10:55.709Z",
+      "checked_at": "2026-07-17T06:20:56.972Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4125,7 +4125,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-17T06:10:55.821Z",
+      "checked_at": "2026-07-17T06:20:57.060Z",
       "latest_incident": null,
       "recent_incidents": [
         {
