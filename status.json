@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-07-17T12:20:56.114Z",
+  "updated_at": "2026-07-17T12:30:55.844Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-07-17T12:20:56.017Z",
-      "latest_incident": {
-        "title": "Elevated errors on Sonnet 5 and Haiku 4.5",
-        "body": "The issue has been identified and a fix is being implemented.",
-        "date": "2026-07-17T07:10:36.804Z",
-        "link": "https://stspg.io/p0rgrvqnx02s",
-        "status": "identified",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-07-17T12:30:55.717Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Elevated errors on Sonnet 5 and Haiku 4.5",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-17T12:21:30.321Z",
+          "link": "https://stspg.io/p0rgrvqnx02s",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated errors for multiple models",
           "body": "This issue has been resolved. From 11:30am PT / 18:30 UTC through to 3:15pm PT / 22:15 UTC some users experienced elevated errors on requests to Claude Models. Most errors were experienced within the first hour of the impact window.",
@@ -47,20 +48,12 @@
           "link": "https://stspg.io/mx5x9z0vlpyw",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Elevated errors on multiple models",
-          "body": "This incident has been resolved.",
-          "date": "2026-07-15T15:11:10.047Z",
-          "link": "https://stspg.io/tznbd1r92fwk",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
         {
           "name": "claude.ai",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -68,15 +61,15 @@
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Code",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Cowork",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude for Government",
@@ -89,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T12:20:56.018Z",
+      "checked_at": "2026-07-17T12:30:55.718Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T12:20:56.018Z",
+      "checked_at": "2026-07-17T12:30:55.718Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T12:20:56.018Z",
+      "checked_at": "2026-07-17T12:30:55.718Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T12:20:56.018Z",
+      "checked_at": "2026-07-17T12:30:55.718Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T12:20:56.019Z",
+      "checked_at": "2026-07-17T12:30:55.718Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T12:20:56.019Z",
+      "checked_at": "2026-07-17T12:30:55.719Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -755,9 +748,9 @@
     {
       "name": "Circleci.com",
       "status_url": "https://status.circleci.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-07-17T12:20:56.019Z",
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-07-17T12:30:55.719Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -952,7 +945,7 @@
         },
         {
           "name": "Anthropic api.anthropic.com",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "packagecloud.io",
@@ -965,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-17T12:20:56.020Z",
+      "checked_at": "2026-07-17T12:30:55.720Z",
       "latest_incident": {
         "title": "Network Performance Issues in Paris, France (CDG)",
         "body": "A fix has been implemented and we are monitoring the results.",
@@ -1303,7 +1296,7 @@
         },
         {
           "name": "Caçador, Brazil - (CFC)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Erbil, Iraq - (EBL)",
@@ -1511,7 +1504,7 @@
         },
         {
           "name": "Nasiriyah, Iraq - (XNH)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Durham, NC, United States - (RDU)",
@@ -1923,7 +1916,7 @@
         },
         {
           "name": "Ribeirao Preto, Brazil - (RAO)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Custom Pages",
@@ -2071,7 +2064,7 @@
         },
         {
           "name": "São Paulo, Brazil - (GRU)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Queretaro, MX, Mexico - (QRO)",
@@ -2872,7 +2865,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T12:20:56.021Z",
+      "checked_at": "2026-07-17T12:30:55.720Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3880,7 +3873,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T12:20:56.021Z",
+      "checked_at": "2026-07-17T12:30:55.721Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3980,7 +3973,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T12:20:56.021Z",
+      "checked_at": "2026-07-17T12:30:55.721Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4132,7 +4125,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-17T12:20:56.107Z",
+      "checked_at": "2026-07-17T12:30:55.836Z",
       "latest_incident": null,
       "recent_incidents": [
         {
