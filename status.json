@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-17T00:30:57.304Z",
+  "updated_at": "2026-07-17T00:40:55.796Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T00:30:57.192Z",
+      "checked_at": "2026-07-17T00:40:55.698Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T00:30:57.193Z",
+      "checked_at": "2026-07-17T00:40:55.698Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T00:30:57.193Z",
+      "checked_at": "2026-07-17T00:40:55.699Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T00:30:57.193Z",
+      "checked_at": "2026-07-17T00:40:55.699Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T00:30:57.194Z",
+      "checked_at": "2026-07-17T00:40:55.699Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T00:30:57.194Z",
+      "checked_at": "2026-07-17T00:40:55.699Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T00:30:57.194Z",
+      "checked_at": "2026-07-17T00:40:55.699Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -748,18 +748,19 @@
     {
       "name": "Circleci.com",
       "status_url": "https://status.circleci.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-07-17T00:30:57.194Z",
-      "latest_incident": {
-        "title": "Errors accessing CircleCI and delays starting pipelines and scheduled workflows",
-        "body": "What's happening\nThe upstream incident affecting GitHub has been mitigated and is now being monitored on GitHub's side. You can follow GitHub's status at https://www.githubstatus.com/.\n\nWhat can you expect\nAccess to the CircleCI web app, sign-in, and pipeline and workflow processing are returning to normal. You may still see intermittent errors or delayed scheduled pipelines and workflows as systems stabilize. Thank you for your patience while we monitor for full recovery.",
-        "date": "2026-07-17T00:09:55.352Z",
-        "link": "https://stspg.io/jftpxjjgvqxy",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-07-17T00:40:55.700Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Errors accessing CircleCI and delays starting pipelines and scheduled workflows",
+          "body": "An incident affecting GitHub's API caused CircleCI customers to experience errors loading the web app and signing in, along with pipelines and scheduled workflows failing to start or running late. GitHub has resolved the underlying incident (https://www.githubstatus.com/) and all affected functionality has returned to normal.\n\nCustomers whose jobs or pipelines failed may rerun them. Scheduled pipelines and workflows that were missed during the incident will not run automatically and will need to be re-triggered.\n\nWe thank you for your patience.",
+          "date": "2026-07-17T00:26:36.776Z",
+          "link": "https://stspg.io/jftpxjjgvqxy",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Delays starting jobs on Docker (Gen 2) resource classes",
           "body": "On July 13 between 15:30 UTC and 22:40 UTC, we experienced delays starting jobs on Docker (Gen 2) resource classes due to capacity constraints from our cloud provider. The same issue recurred on July 14 between 15:45 UTC and 22:50 UTC.\n\nDelays reached up to 25 minutes on July 13 and up to 24 minutes on July 14. The medium+ and 2 X-large+ resource classes saw the longest waits. Earlier updates in this incident reported figures based on average wait times, which didn't reflect the maximum impact some customers may have experienced.\n\nWait times have now returned to normal. We are continuing to work with our cloud provider to add capacity ahead of the next peak period. Thank you for your patience.",
@@ -791,14 +792,6 @@
           "link": "https://stspg.io/vc3sdl5vsqyr",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Outage impacting web experience and pipelines starting",
-          "body": "## Summary\n\nOn July 2, 2026, from 15:12 UTC to 16:44 UTC, some CircleCI customers experienced failures starting pipelines and difficulty accessing the CircleCI UI, including an inability to log in. Customers triggering pipelines via the API may also have had pipelines fail to run.\n\nThe incident originated from a combination of internal maintenance and customer-initiated project deletions running concurrently, which caused elevated load on a data service. The connection layer between our API and that data service was not configured to time out slow responses under the elevated load conditions seen during this incident. This eventually exhausted available threads and prevented the request routing layer from handling any other requests, resulting in customer-facing errors.\n\nThe affected services were scaled up and the internal maintenance job was canceled to reduce pressure, allowing all affected functionality to return to normal. Customers whose jobs failed during this window may rerun affected jobs. A small number of customers may still see workflows that appear to be running; this is actively being corrected and does not impact billing.\n\nWe thank you for your patience while our team worked on implementing a fix.\n\n## What Happened\n\n\\(all times UTC\\)\n\nAt 13:30 on July 2, 2026, as part of normal platform maintenance, our engineering team began a data deletion job, divided into several hundred individual maintenance tasks. At 14:40, unrelated to our platform maintenance, a significant number of customer project deletion requests were received and began executing.\n\nAt 15:12, the combined load from the maintenance tasks and the customer-driven projection deletions caused an internal data service to slow down, and this began cascading into our API layer. Because connections between the API layer and the workflows data service were not configured to time out slow responses under elevated load conditions, the API-handling components became overwhelmed, went unresponsive, and began failing their health checks. This caused our request routing layer to lose available upstream requests, resulting in customers seeing errors when attempting to access the UI, to log in via GitHub or Bitbucket OAuth, or to start pipelines.\n\nAt 15:16, our monitoring systems alerted and engineers were paged. The team investigated and confirmed the source of the elevated load. At 15:30 Engineers began to scale up the affected services and cancelled a long-running maintenance task to drain the load. The team noted signs of that the system was recovering around 16:12 and adjusted the status to monitoring at 16:24.\n\nAt 16:44, the team confirmed that all customer-facing services had recovered to normal operating levels. Background load from the deletion job drained by approximately 17:00. Following the incident, we discovered a small number of workflows continued to inaccurately report that they were in a running state. This should be corrected within the next few days. In all cases, customers will only be billed for actual compute time used.\n\n## Future Prevention and Process Improvement\n\nOur team is implementing the following improvements as a result of this incident:\n\n* After the incident was resolved we added timeout protections on connections between our API layer and internal data services, so that slow responses from a downstream service cannot exhaust API worker capacity.\n* We are actively investigating ways to enforce resource limits on background data tasks to prevent them from impacting customer-facing services.\n* We are improving observability and alerting on the affected data service so that resource pressure is detected earlier, before it reaches a level that impacts customers.",
-          "date": "2026-07-10T18:57:59.887Z",
-          "link": "https://stspg.io/n86hwbb1whpc",
-          "status": "postmortem",
-          "impact": "critical"
         }
       ],
       "components": [
@@ -856,7 +849,7 @@
         },
         {
           "name": "Pipelines & Workflows",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Docker Hub",
@@ -965,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-17T00:30:57.195Z",
+      "checked_at": "2026-07-17T00:40:55.700Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -1751,7 +1744,7 @@
         },
         {
           "name": "Medellín, Colombia - (MDE)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Islamabad, Pakistan - (ISB)",
@@ -1971,7 +1964,7 @@
         },
         {
           "name": "San José, Costa Rica - (SJO)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Data Loss Prevention (DLP)",
@@ -2872,7 +2865,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T00:30:57.196Z",
+      "checked_at": "2026-07-17T00:40:55.701Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3880,7 +3873,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T00:30:57.196Z",
+      "checked_at": "2026-07-17T00:40:55.701Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3980,7 +3973,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-17T00:30:57.196Z",
+      "checked_at": "2026-07-17T00:40:55.701Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4132,7 +4125,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-17T00:30:57.297Z",
+      "checked_at": "2026-07-17T00:40:55.789Z",
       "latest_incident": null,
       "recent_incidents": [
         {
