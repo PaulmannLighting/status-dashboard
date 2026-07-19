@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-19T18:50:55.916Z",
+  "updated_at": "2026-07-19T19:00:55.736Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T18:50:55.818Z",
+      "checked_at": "2026-07-19T19:00:55.651Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T18:50:55.818Z",
+      "checked_at": "2026-07-19T19:00:55.651Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T18:50:55.819Z",
+      "checked_at": "2026-07-19T19:00:55.652Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T18:50:55.819Z",
+      "checked_at": "2026-07-19T19:00:55.652Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T18:50:55.819Z",
+      "checked_at": "2026-07-19T19:00:55.652Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T18:50:55.819Z",
+      "checked_at": "2026-07-19T19:00:55.652Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T18:50:55.819Z",
+      "checked_at": "2026-07-19T19:00:55.652Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T18:50:55.819Z",
+      "checked_at": "2026-07-19T19:00:55.652Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-19T18:50:55.820Z",
+      "checked_at": "2026-07-19T19:00:55.653Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -1172,7 +1172,7 @@
         },
         {
           "name": "Beirut, Lebanon - (BEY)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Bandar Seri Begawan, Brunei - (BWN)",
@@ -1504,7 +1504,7 @@
         },
         {
           "name": "Nasiriyah, Iraq - (XNH)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Durham, NC, United States - (RDU)",
@@ -1768,7 +1768,7 @@
         },
         {
           "name": "Jakarta, Indonesia - (CGK)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Neuquén, Argentina - (NQN)",
@@ -1928,7 +1928,7 @@
         },
         {
           "name": "Kathmandu, Nepal - (KTM)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Palermo, Italy - (PMO)",
@@ -2865,7 +2865,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T18:50:55.821Z",
+      "checked_at": "2026-07-19T19:00:55.654Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3873,7 +3873,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T18:50:55.821Z",
+      "checked_at": "2026-07-19T19:00:55.654Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3973,7 +3973,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T18:50:55.822Z",
+      "checked_at": "2026-07-19T19:00:55.654Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4125,7 +4125,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-19T18:50:55.909Z",
+      "checked_at": "2026-07-19T19:00:55.727Z",
       "latest_incident": null,
       "recent_incidents": [
         {
