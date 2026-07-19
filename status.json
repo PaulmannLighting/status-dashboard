@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-19T15:30:55.895Z",
+  "updated_at": "2026-07-19T15:40:55.730Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T15:30:55.805Z",
+      "checked_at": "2026-07-19T15:40:55.620Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T15:30:55.805Z",
+      "checked_at": "2026-07-19T15:40:55.620Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T15:30:55.805Z",
+      "checked_at": "2026-07-19T15:40:55.620Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T15:30:55.805Z",
+      "checked_at": "2026-07-19T15:40:55.621Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T15:30:55.805Z",
+      "checked_at": "2026-07-19T15:40:55.621Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T15:30:55.806Z",
+      "checked_at": "2026-07-19T15:40:55.621Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T15:30:55.806Z",
+      "checked_at": "2026-07-19T15:40:55.621Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T15:30:55.806Z",
+      "checked_at": "2026-07-19T15:40:55.621Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-19T15:30:55.806Z",
+      "checked_at": "2026-07-19T15:40:55.622Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -2468,7 +2468,7 @@
         },
         {
           "name": "Yerevan, Armenia - (EVN)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Mirage",
@@ -2863,18 +2863,19 @@
     {
       "name": "DigitalOcean",
       "status_url": "https://status.digitalocean.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T15:30:55.807Z",
-      "latest_incident": {
-        "title": "Block Storage Volume NYC1, NYC3, SGP1, SYD1 and BLR1",
-        "body": "Our Engineering team has identified the root cause of the issue preventing volume attachments to Droplets in NYC1, NYC3, SGP1, SYD1, and BLR1 and has successfully implemented a fix. You should now be able to attach volumes to your Droplet(s) without encountering any further errors or issues.\n\nWe are actively monitoring the situation to ensure the fix remains effective and will provide another update once the issue has been fully resolved.",
-        "date": "2026-07-19T14:52:16.246Z",
-        "link": "https://stspg.io/wv68wmnz55ln",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-07-19T15:40:55.622Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Block Storage Volume NYC1, NYC3, SGP1, SYD1 and BLR1",
+          "body": "Our Engineering team has confirmed that the issue regarding volume attachment to Droplets in the NYC1, NYC3, SGP1, SYD1, and BLR1 regions has been fully resolved, and all services are now operating normally.\n\nIf you continue to experience any issues, please contact our Support team by opening a ticket. We apologize for any inconvenience caused.",
+          "date": "2026-07-19T15:32:39.578Z",
+          "link": "https://stspg.io/wv68wmnz55ln",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Networking in BLR1",
           "body": "Our engineering team has resolved the outbound network connectivity issue in the BLR1 region. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.",
@@ -2906,14 +2907,6 @@
           "link": "https://stspg.io/p8xctv4k5yjv",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Limited access to Deepseek V4 Pro model",
-          "body": "Our Engineering team has confirmed that the issue with the Deepseek V4 Pro model in Serverless Inference and Agent Platform has been fully resolved. The model is now operational, and users should be able to use it without experiencing any errors.\n\nIf you continue to experience any problems, please open a ticket with our Support team. We apologize for any inconvenience this may have caused and appreciate your patience.",
-          "date": "2026-07-05T00:53:19.389Z",
-          "link": "https://stspg.io/wwsc9zft1lxd",
-          "status": "resolved",
-          "impact": "major"
         }
       ],
       "components": [
@@ -3880,7 +3873,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-19T15:30:55.807Z",
+      "checked_at": "2026-07-19T15:40:55.623Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3980,7 +3973,7 @@
       "status_url": "https://status.openai.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-07-19T15:30:55.807Z",
+      "checked_at": "2026-07-19T15:40:55.623Z",
       "latest_incident": {
         "title": "Elevated errors affecting ChatGPT",
         "body": "We have applied the mitigation and are monitoring the recovery.",
@@ -4139,7 +4132,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-19T15:30:55.887Z",
+      "checked_at": "2026-07-19T15:40:55.722Z",
       "latest_incident": null,
       "recent_incidents": [
         {
