@@ -1,21 +1,29 @@
 {
-  "updated_at": "2026-07-20T15:30:56.006Z",
+  "updated_at": "2026-07-20T15:40:55.947Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-20T15:30:55.902Z",
+      "checked_at": "2026-07-20T15:40:55.839Z",
       "latest_incident": {
         "title": "Elevated errors on Haiku 4.5",
-        "body": "The issue has been identified and a fix is being implemented.",
-        "date": "2026-07-20T15:09:25.757Z",
+        "body": "A fix has been implemented and we are monitoring the results.",
+        "date": "2026-07-20T15:33:36.791Z",
         "link": "https://stspg.io/ths0tjh6ntg6",
-        "status": "identified",
+        "status": "monitoring",
         "impact": "minor"
       },
       "recent_incidents": [
+        {
+          "title": "Fable 5 requiring usage credits on Max plans",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-20T15:35:33.021Z",
+          "link": "https://stspg.io/rgq3dljydbcm",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated error rates for Opus 4.5",
           "body": "This incident has been resolved.",
@@ -45,14 +53,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-07-17T15:33:15.604Z",
           "link": "https://stspg.io/7sn47qvhg7b5",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Elevated errors on Sonnet 5 and Haiku 4.5",
-          "body": "This incident has been resolved.",
-          "date": "2026-07-17T12:21:30.321Z",
-          "link": "https://stspg.io/p0rgrvqnx02s",
           "status": "resolved",
           "impact": "minor"
         }
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T15:30:55.902Z",
+      "checked_at": "2026-07-20T15:40:55.839Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T15:30:55.902Z",
+      "checked_at": "2026-07-20T15:40:55.840Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T15:30:55.902Z",
+      "checked_at": "2026-07-20T15:40:55.840Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T15:30:55.902Z",
+      "checked_at": "2026-07-20T15:40:55.840Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T15:30:55.903Z",
+      "checked_at": "2026-07-20T15:40:55.840Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T15:30:55.903Z",
+      "checked_at": "2026-07-20T15:40:55.840Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-20T15:30:55.903Z",
+      "checked_at": "2026-07-20T15:40:55.840Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-20T15:30:55.903Z",
+      "checked_at": "2026-07-20T15:40:55.841Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -1159,7 +1159,7 @@
         },
         {
           "name": "Basra, Iraq - (BSR)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Christchurch, New Zealand - (CHC)",
@@ -2872,7 +2872,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T15:30:55.904Z",
+      "checked_at": "2026-07-20T15:40:55.841Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3880,7 +3880,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T15:30:55.904Z",
+      "checked_at": "2026-07-20T15:40:55.841Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3980,7 +3980,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T15:30:55.904Z",
+      "checked_at": "2026-07-20T15:40:55.841Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4132,7 +4132,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-20T15:30:55.979Z",
+      "checked_at": "2026-07-20T15:40:55.927Z",
       "latest_incident": null,
       "recent_incidents": [
         {
