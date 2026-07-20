@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-07-20T07:50:56.015Z",
+  "updated_at": "2026-07-20T08:00:56.184Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-20T07:50:55.928Z",
+      "checked_at": "2026-07-20T08:00:56.094Z",
       "latest_incident": {
-        "title": "Fable 5 requiring usage credits on Max plans",
-        "body": "Some Claude Code Max plan users were incorrectly prompted to use usage credits to access Fable 5, which is included in their plan. If you were affected, please restart Claude Code.",
-        "date": "2026-07-20T07:35:29.243Z",
-        "link": "https://stspg.io/rgq3dljydbcm",
-        "status": "monitoring",
+        "title": "Elevated error rates for Opus 4.5",
+        "body": "The issue has been identified and a fix is being implemented.",
+        "date": "2026-07-20T07:57:06.169Z",
+        "link": "https://stspg.io/lzrpkz4y2ry9",
+        "status": "identified",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -72,7 +72,7 @@
         },
         {
           "name": "Claude Code",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Cowork",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T07:50:55.928Z",
+      "checked_at": "2026-07-20T08:00:56.094Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T07:50:55.929Z",
+      "checked_at": "2026-07-20T08:00:56.094Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T07:50:55.929Z",
+      "checked_at": "2026-07-20T08:00:56.094Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T07:50:55.929Z",
+      "checked_at": "2026-07-20T08:00:56.094Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T07:50:55.929Z",
+      "checked_at": "2026-07-20T08:00:56.094Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T07:50:55.929Z",
+      "checked_at": "2026-07-20T08:00:56.095Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-20T07:50:55.929Z",
+      "checked_at": "2026-07-20T08:00:56.095Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-20T07:50:55.930Z",
+      "checked_at": "2026-07-20T08:00:56.096Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -1895,7 +1895,7 @@
         },
         {
           "name": "Nicosia, Cyprus - (LCA)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Kaohsiung City - (KHH)",
@@ -2872,7 +2872,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T07:50:55.931Z",
+      "checked_at": "2026-07-20T08:00:56.097Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3880,7 +3880,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T07:50:55.931Z",
+      "checked_at": "2026-07-20T08:00:56.097Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3980,7 +3980,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T07:50:55.931Z",
+      "checked_at": "2026-07-20T08:00:56.097Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4132,7 +4132,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-20T07:50:56.008Z",
+      "checked_at": "2026-07-20T08:00:56.176Z",
       "latest_incident": null,
       "recent_incidents": [
         {
