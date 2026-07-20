@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-20T00:40:55.775Z",
+  "updated_at": "2026-07-20T01:00:55.983Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:40:55.656Z",
+      "checked_at": "2026-07-20T01:00:55.858Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:40:55.657Z",
+      "checked_at": "2026-07-20T01:00:55.858Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:40:55.657Z",
+      "checked_at": "2026-07-20T01:00:55.858Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:40:55.657Z",
+      "checked_at": "2026-07-20T01:00:55.859Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:40:55.658Z",
+      "checked_at": "2026-07-20T01:00:55.859Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:40:55.658Z",
+      "checked_at": "2026-07-20T01:00:55.859Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:40:55.658Z",
+      "checked_at": "2026-07-20T01:00:55.859Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-20T00:40:55.658Z",
+      "checked_at": "2026-07-20T01:00:55.859Z",
       "latest_incident": {
         "title": "Errors with GitHub APIs delaying workflows",
         "body": "We have identified an issue with GitHub API requests that may cause some customers to see workflows stuck in a running state or workflows fail to start.\n\nGitHub has reported incidents on the APIs\n\nhttps://www.githubstatus.com/incidents/ph5nns5y4gxj\nhttps://www.githubstatus.com/incidents/8vfyvq16hzh9\n\nWe are monitoring the stability of GitHub APIs and will update this page as more information is available.",
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-20T00:40:55.659Z",
+      "checked_at": "2026-07-20T01:00:55.860Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -1123,7 +1123,7 @@
         },
         {
           "name": "Bangalore, India - (BLR)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Antananarivo, Madagascar - (TNR)",
@@ -2071,7 +2071,7 @@
         },
         {
           "name": "São Paulo, Brazil - (GRU)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Queretaro, MX, Mexico - (QRO)",
@@ -2872,7 +2872,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:40:55.660Z",
+      "checked_at": "2026-07-20T01:00:55.860Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3880,14 +3880,14 @@
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-20T00:40:55.660Z",
+      "checked_at": "2026-07-20T01:00:55.860Z",
       "latest_incident": {
-        "title": "Disruption with some GitHub services",
-        "body": "Some Git LFS operations, and loading files through the API  are failing. We are investigating.",
-        "date": "2026-07-20T00:26:10.695Z",
-        "link": "https://stspg.io/2n2g6kzg67mh",
-        "status": "monitoring",
-        "impact": "minor"
+        "title": "Incident with GitHub Actions",
+        "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
+        "date": "2026-07-20T00:52:40.285Z",
+        "link": "https://stspg.io/w8d77c7t94zf",
+        "status": "investigating",
+        "impact": "critical"
       },
       "recent_incidents": [
         {
@@ -3950,7 +3950,7 @@
         },
         {
           "name": "Issues",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Pull Requests",
@@ -3966,7 +3966,7 @@
         },
         {
           "name": "Pages",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Copilot",
@@ -3987,7 +3987,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-07-20T00:40:55.661Z",
+      "checked_at": "2026-07-20T01:00:55.860Z",
       "latest_incident": {
         "title": "Elevated errors for GitHub-dependent ChatGPT and Codex workflows",
         "body": "Users may experience failures or delays in ChatGPT and Codex workflows that depend on GitHub. This mostly should impact Codex web and code review for PRs on Github. This is related to an active GitHub API partial outage and degraded GitHub Actions. [https://www.githubstatus.com/incidents/8vfyvq16hzh9](https://www.githubstatus.com/incidents/8vfyvq16hzh9 \"https://www.githubstatus.com/incidents/8vfyvq16hzh9\")",
@@ -4146,7 +4146,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-20T00:40:55.765Z",
+      "checked_at": "2026-07-20T01:00:55.975Z",
       "latest_incident": null,
       "recent_incidents": [
         {
