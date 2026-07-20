@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-20T00:00:54.220Z",
+  "updated_at": "2026-07-20T00:20:55.777Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:00:54.131Z",
+      "checked_at": "2026-07-20T00:20:55.680Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:00:54.132Z",
+      "checked_at": "2026-07-20T00:20:55.681Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:00:54.132Z",
+      "checked_at": "2026-07-20T00:20:55.681Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:00:54.133Z",
+      "checked_at": "2026-07-20T00:20:55.681Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:00:54.133Z",
+      "checked_at": "2026-07-20T00:20:55.681Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:00:54.133Z",
+      "checked_at": "2026-07-20T00:20:55.681Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:00:54.133Z",
+      "checked_at": "2026-07-20T00:20:55.681Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -748,9 +748,9 @@
     {
       "name": "Circleci.com",
       "status_url": "https://status.circleci.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:00:54.134Z",
+      "status": "degraded",
+      "description": "Minor Service Outage",
+      "checked_at": "2026-07-20T00:20:55.682Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -885,7 +885,7 @@
         },
         {
           "name": "GitHub API Requests",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "mailgun SMTP",
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-20T00:00:54.135Z",
+      "checked_at": "2026-07-20T00:20:55.682Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -1088,7 +1088,7 @@
         },
         {
           "name": "Baghdad, Iraq - (BGW)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Asunción, Paraguay - (ASU)",
@@ -1112,7 +1112,7 @@
         },
         {
           "name": "Baku, Azerbaijan - (GYD)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Bangalore, India - (BLR)",
@@ -1172,7 +1172,7 @@
         },
         {
           "name": "Beirut, Lebanon - (BEY)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Bandar Seri Begawan, Brunei - (BWN)",
@@ -1300,7 +1300,7 @@
         },
         {
           "name": "Erbil, Iraq - (EBL)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Chandigarh, India - (IXC)",
@@ -1472,7 +1472,7 @@
         },
         {
           "name": "Dhaka, Bangladesh - (DAC)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Florianopolis, Brazil - (FLN)",
@@ -1504,7 +1504,7 @@
         },
         {
           "name": "Nasiriyah, Iraq - (XNH)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Durham, NC, United States - (RDU)",
@@ -1848,7 +1848,7 @@
         },
         {
           "name": "Moscow, Russia - (DME)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Johor Bahru, Malaysia - (JHB)",
@@ -1888,7 +1888,7 @@
         },
         {
           "name": "Nicosia, Cyprus - (LCA)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Kaohsiung City - (KHH)",
@@ -2865,7 +2865,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:00:54.137Z",
+      "checked_at": "2026-07-20T00:20:55.683Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3872,12 +3872,12 @@
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-07-20T00:00:54.137Z",
+      "description": "Minor Service Outage",
+      "checked_at": "2026-07-20T00:20:55.683Z",
       "latest_incident": {
         "title": "Incident with GitHub Actions",
-        "body": "We have identified the cause of failures in GitHub Actions and are working to restore service.",
-        "date": "2026-07-19T23:57:14.560Z",
+        "body": "Actions is experiencing degraded availability. We are continuing to investigate.",
+        "date": "2026-07-20T00:20:23.240Z",
         "link": "https://stspg.io/w8d77c7t94zf",
         "status": "investigating",
         "impact": "critical"
@@ -3939,7 +3939,7 @@
         },
         {
           "name": "API Requests",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Issues",
@@ -3980,7 +3980,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:00:54.137Z",
+      "checked_at": "2026-07-20T00:20:55.683Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4132,7 +4132,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-20T00:00:54.213Z",
+      "checked_at": "2026-07-20T00:20:55.767Z",
       "latest_incident": null,
       "recent_incidents": [
         {
