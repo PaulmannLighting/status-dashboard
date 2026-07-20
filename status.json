@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-20T03:20:56.062Z",
+  "updated_at": "2026-07-20T03:30:55.933Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T03:20:55.949Z",
+      "checked_at": "2026-07-20T03:30:55.847Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T03:20:55.949Z",
+      "checked_at": "2026-07-20T03:30:55.847Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T03:20:55.949Z",
+      "checked_at": "2026-07-20T03:30:55.847Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T03:20:55.949Z",
+      "checked_at": "2026-07-20T03:30:55.847Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T03:20:55.950Z",
+      "checked_at": "2026-07-20T03:30:55.847Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T03:20:55.950Z",
+      "checked_at": "2026-07-20T03:30:55.847Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T03:20:55.950Z",
+      "checked_at": "2026-07-20T03:30:55.847Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T03:20:55.950Z",
+      "checked_at": "2026-07-20T03:30:55.848Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-20T03:20:55.952Z",
+      "checked_at": "2026-07-20T03:30:55.848Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -2865,7 +2865,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T03:20:55.952Z",
+      "checked_at": "2026-07-20T03:30:55.849Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3873,11 +3873,11 @@
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-20T03:20:55.953Z",
+      "checked_at": "2026-07-20T03:30:55.849Z",
       "latest_incident": {
         "title": "Incident with GitHub Actions",
-        "body": "API Requests is operating normally.",
-        "date": "2026-07-20T03:03:45.986Z",
+        "body": "We’re seeing recovery across all impacted Actions runners. The team is continuing to monitor for global recovery.",
+        "date": "2026-07-20T03:27:10.160Z",
         "link": "https://stspg.io/w8d77c7t94zf",
         "status": "investigating",
         "impact": "critical"
@@ -3979,14 +3979,14 @@
       "name": "OpenAI",
       "status_url": "https://status.openai.com",
       "status": "degraded",
-      "description": "Partial System Degradation",
-      "checked_at": "2026-07-20T03:20:55.953Z",
+      "description": "All Systems Operational",
+      "checked_at": "2026-07-20T03:30:55.849Z",
       "latest_incident": {
         "title": "Elevated errors for GitHub-dependent ChatGPT and Codex workflows",
-        "body": "Users may experience failures or delays in ChatGPT and Codex workflows that depend on GitHub. This mostly should impact Codex web and code review for PRs on Github. This is related to an active GitHub API partial outage and degraded GitHub Actions. [https://www.githubstatus.com/incidents/8vfyvq16hzh9](https://www.githubstatus.com/incidents/8vfyvq16hzh9 \"https://www.githubstatus.com/incidents/8vfyvq16hzh9\")",
-        "date": "2026-07-20T02:52:24Z",
+        "body": "We are monitoring the recovery.",
+        "date": "2026-07-20T03:25:54Z",
         "link": "",
-        "status": "investigating",
+        "status": "monitoring",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -4126,7 +4126,7 @@
         },
         {
           "name": "Connectors/Apps",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "ChatGPT Atlas",
@@ -4139,7 +4139,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-20T03:20:56.055Z",
+      "checked_at": "2026-07-20T03:30:55.926Z",
       "latest_incident": null,
       "recent_incidents": [
         {
