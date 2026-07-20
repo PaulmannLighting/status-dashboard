@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-20T00:20:55.777Z",
+  "updated_at": "2026-07-20T00:40:55.775Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:20:55.680Z",
+      "checked_at": "2026-07-20T00:40:55.656Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:20:55.681Z",
+      "checked_at": "2026-07-20T00:40:55.657Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:20:55.681Z",
+      "checked_at": "2026-07-20T00:40:55.657Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:20:55.681Z",
+      "checked_at": "2026-07-20T00:40:55.657Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:20:55.681Z",
+      "checked_at": "2026-07-20T00:40:55.658Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:20:55.681Z",
+      "checked_at": "2026-07-20T00:40:55.658Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:20:55.681Z",
+      "checked_at": "2026-07-20T00:40:55.658Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,8 +750,15 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-20T00:20:55.682Z",
-      "latest_incident": null,
+      "checked_at": "2026-07-20T00:40:55.658Z",
+      "latest_incident": {
+        "title": "Errors with GitHub APIs delaying workflows",
+        "body": "We have identified an issue with GitHub API requests that may cause some customers to see workflows stuck in a running state or workflows fail to start.\n\nGitHub has reported incidents on the APIs\n\nhttps://www.githubstatus.com/incidents/ph5nns5y4gxj\nhttps://www.githubstatus.com/incidents/8vfyvq16hzh9\n\nWe are monitoring the stability of GitHub APIs and will update this page as more information is available.",
+        "date": "2026-07-20T00:35:59.132Z",
+        "link": "https://stspg.io/96ffdz58cxdr",
+        "status": "identified",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "Errors accessing CircleCI and delays starting pipelines and scheduled workflows",
@@ -849,7 +856,7 @@
         },
         {
           "name": "Pipelines & Workflows",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Docker Hub",
@@ -861,7 +868,7 @@
         },
         {
           "name": "GitHub Git Operations",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "CircleCI API",
@@ -958,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-20T00:20:55.682Z",
+      "checked_at": "2026-07-20T00:40:55.659Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -1472,7 +1479,7 @@
         },
         {
           "name": "Dhaka, Bangladesh - (DAC)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Florianopolis, Brazil - (FLN)",
@@ -1504,7 +1511,7 @@
         },
         {
           "name": "Nasiriyah, Iraq - (XNH)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Durham, NC, United States - (RDU)",
@@ -1544,7 +1551,7 @@
         },
         {
           "name": "Riyadh, Saudi Arabia - (RUH)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Bring Your Own IP (BYOIP)",
@@ -1592,7 +1599,7 @@
         },
         {
           "name": "Oran, Algeria - (ORN)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Tel Aviv, Israel - (TLV)",
@@ -2865,7 +2872,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:20:55.683Z",
+      "checked_at": "2026-07-20T00:40:55.660Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3873,14 +3880,14 @@
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-20T00:20:55.683Z",
+      "checked_at": "2026-07-20T00:40:55.660Z",
       "latest_incident": {
-        "title": "Incident with GitHub Actions",
-        "body": "Actions is experiencing degraded availability. We are continuing to investigate.",
-        "date": "2026-07-20T00:20:23.240Z",
-        "link": "https://stspg.io/w8d77c7t94zf",
-        "status": "investigating",
-        "impact": "critical"
+        "title": "Disruption with some GitHub services",
+        "body": "Some Git LFS operations, and loading files through the API  are failing. We are investigating.",
+        "date": "2026-07-20T00:26:10.695Z",
+        "link": "https://stspg.io/2n2g6kzg67mh",
+        "status": "monitoring",
+        "impact": "minor"
       },
       "recent_incidents": [
         {
@@ -3978,10 +3985,17 @@
     {
       "name": "OpenAI",
       "status_url": "https://status.openai.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-07-20T00:20:55.683Z",
-      "latest_incident": null,
+      "status": "degraded",
+      "description": "Partial System Degradation",
+      "checked_at": "2026-07-20T00:40:55.661Z",
+      "latest_incident": {
+        "title": "Elevated errors for GitHub-dependent ChatGPT and Codex workflows",
+        "body": "Users may experience failures or delays in ChatGPT and Codex workflows that depend on GitHub. This mostly should impact Codex web and code review for PRs on Github. This is related to an active GitHub API partial outage and degraded GitHub Actions. [https://www.githubstatus.com/incidents/8vfyvq16hzh9](https://www.githubstatus.com/incidents/8vfyvq16hzh9 \"https://www.githubstatus.com/incidents/8vfyvq16hzh9\")",
+        "date": "2026-07-20T00:39:46Z",
+        "link": "",
+        "status": "investigating",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "Elevated errors affecting ChatGPT",
@@ -4119,7 +4133,7 @@
         },
         {
           "name": "Connectors/Apps",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "ChatGPT Atlas",
@@ -4132,7 +4146,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-20T00:20:55.767Z",
+      "checked_at": "2026-07-20T00:40:55.765Z",
       "latest_incident": null,
       "recent_incidents": [
         {
