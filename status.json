@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-21T11:50:55.767Z",
+  "updated_at": "2026-07-21T12:00:58.014Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T11:50:55.648Z",
+      "checked_at": "2026-07-21T12:00:57.906Z",
       "latest_incident": {
         "title": "Elevated errors across Fable 5",
         "body": "A fix has been implemented and we are monitoring the results.",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T11:50:55.648Z",
+      "checked_at": "2026-07-21T12:00:57.907Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-21T11:50:55.648Z",
+      "checked_at": "2026-07-21T12:00:57.907Z",
       "latest_incident": {
         "title": "Degraded performance of Jira Automation rules",
         "body": "The team has identified a root cause and after initial testing, is now enacting scaling changes to help to prevent these rule execution delays. We'll monitor performance over the next 24 hours and provide an update at that time or sooner if we can confirm the improvement is in place.",
@@ -364,7 +364,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T11:50:55.648Z",
+      "checked_at": "2026-07-21T12:00:57.907Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -476,7 +476,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T11:50:55.648Z",
+      "checked_at": "2026-07-21T12:00:57.907Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -592,7 +592,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T11:50:55.649Z",
+      "checked_at": "2026-07-21T12:00:57.908Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -708,7 +708,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T11:50:55.649Z",
+      "checked_at": "2026-07-21T12:00:57.908Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -764,7 +764,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T11:50:55.649Z",
+      "checked_at": "2026-07-21T12:00:57.908Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -972,7 +972,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-21T11:50:55.650Z",
+      "checked_at": "2026-07-21T12:00:57.910Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -2879,7 +2879,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T11:50:55.650Z",
+      "checked_at": "2026-07-21T12:00:57.911Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3885,18 +3885,19 @@
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "outage",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T11:50:55.650Z",
-      "latest_incident": {
-        "title": "Some SSH connections using deploy keys are failing",
-        "body": "We have identified a recent code change as a potential cause of the SSH authentication failures affecting deploy key connections. Our engineering team is rolling back this change. Customers using deploy keys for SSH access to repositories may continue to experience intermittent connection failures until the fix is deployed.",
-        "date": "2026-07-21T11:46:47.091Z",
-        "link": "https://stspg.io/jczxclgm9znm",
-        "status": "investigating",
-        "impact": "critical"
-      },
+      "checked_at": "2026-07-21T12:00:57.911Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Some SSH connections using deploy keys are failing",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-07-21T11:57:01.311Z",
+          "link": "https://stspg.io/jczxclgm9znm",
+          "status": "resolved",
+          "impact": "critical"
+        },
         {
           "title": "Disruption with GPT 5.3 Codex",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -3928,14 +3929,6 @@
           "link": "https://stspg.io/pzvjh0wyg401",
           "status": "resolved",
           "impact": "major"
-        },
-        {
-          "title": "Claude Fable 5 experiencing degraded performance",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
-          "date": "2026-07-16T22:04:49.503Z",
-          "link": "https://stspg.io/vgv1m8xfnz3z",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -3994,7 +3987,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-07-21T11:50:55.650Z",
+      "checked_at": "2026-07-21T12:00:57.911Z",
       "latest_incident": {
         "title": "Image generation unavailable for some ChatGPT users",
         "body": "We have applied the mitigation and are monitoring the recovery.",
@@ -4153,7 +4146,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-21T11:50:55.749Z",
+      "checked_at": "2026-07-21T12:00:58.004Z",
       "latest_incident": null,
       "recent_incidents": [
         {
