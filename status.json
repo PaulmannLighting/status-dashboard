@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-07-21T12:00:58.014Z",
+  "updated_at": "2026-07-21T12:10:55.932Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T12:00:57.906Z",
-      "latest_incident": {
-        "title": "Elevated errors across Fable 5",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-07-21T11:47:39.013Z",
-        "link": "https://stspg.io/cqjf2860m4yy",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-07-21T12:10:55.833Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Elevated errors across Fable 5",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-21T12:07:32.039Z",
+          "link": "https://stspg.io/cqjf2860m4yy",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated errors across models",
           "body": "This incident has been resolved.",
@@ -45,14 +46,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-07-20T15:41:03.604Z",
           "link": "https://stspg.io/ths0tjh6ntg6",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Fable 5 requiring usage credits on Max plans",
-          "body": "This incident has been resolved.",
-          "date": "2026-07-20T15:35:33.021Z",
-          "link": "https://stspg.io/rgq3dljydbcm",
           "status": "resolved",
           "impact": "minor"
         }
@@ -89,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T12:00:57.907Z",
+      "checked_at": "2026-07-21T12:10:55.834Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-21T12:00:57.907Z",
+      "checked_at": "2026-07-21T12:10:55.834Z",
       "latest_incident": {
         "title": "Degraded performance of Jira Automation rules",
         "body": "The team has identified a root cause and after initial testing, is now enacting scaling changes to help to prevent these rule execution delays. We'll monitor performance over the next 24 hours and provide an update at that time or sooner if we can confirm the improvement is in place.",
@@ -364,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T12:00:57.907Z",
+      "checked_at": "2026-07-21T12:10:55.834Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -476,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T12:00:57.907Z",
+      "checked_at": "2026-07-21T12:10:55.834Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -592,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T12:00:57.908Z",
+      "checked_at": "2026-07-21T12:10:55.835Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -708,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T12:00:57.908Z",
+      "checked_at": "2026-07-21T12:10:55.835Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -764,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T12:00:57.908Z",
+      "checked_at": "2026-07-21T12:10:55.835Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -972,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-21T12:00:57.910Z",
+      "checked_at": "2026-07-21T12:10:55.836Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -2879,7 +2872,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T12:00:57.911Z",
+      "checked_at": "2026-07-21T12:10:55.837Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3887,7 +3880,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T12:00:57.911Z",
+      "checked_at": "2026-07-21T12:10:55.837Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3987,7 +3980,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-07-21T12:00:57.911Z",
+      "checked_at": "2026-07-21T12:10:55.837Z",
       "latest_incident": {
         "title": "Image generation unavailable for some ChatGPT users",
         "body": "We have applied the mitigation and are monitoring the recovery.",
@@ -4146,7 +4139,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-21T12:00:58.004Z",
+      "checked_at": "2026-07-21T12:10:55.925Z",
       "latest_incident": null,
       "recent_incidents": [
         {
