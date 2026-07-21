@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-07-21T15:30:55.755Z",
+  "updated_at": "2026-07-21T15:40:55.803Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-07-21T15:30:55.645Z",
+      "status": "outage",
+      "description": "Partial System Outage",
+      "checked_at": "2026-07-21T15:40:55.711Z",
       "latest_incident": {
-        "title": "Elevated errors on Haiku 4.5",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-07-21T15:30:16.227Z",
-        "link": "https://stspg.io/zbk8jlprqymy",
-        "status": "monitoring",
-        "impact": "minor"
+        "title": "Elevated errors on several models",
+        "body": "We are currently investigating this issue.",
+        "date": "2026-07-21T15:35:04.165Z",
+        "link": "https://stspg.io/74sqh6d7f9vq",
+        "status": "investigating",
+        "impact": "critical"
       },
       "recent_incidents": [
         {
@@ -60,7 +60,7 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "degraded"
+          "status": "outage"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -68,15 +68,15 @@
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "degraded"
+          "status": "outage"
         },
         {
           "name": "Claude Code",
-          "status": "degraded"
+          "status": "outage"
         },
         {
           "name": "Claude Cowork",
-          "status": "degraded"
+          "status": "outage"
         },
         {
           "name": "Claude for Government",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T15:30:55.646Z",
+      "checked_at": "2026-07-21T15:40:55.711Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-21T15:30:55.646Z",
+      "checked_at": "2026-07-21T15:40:55.712Z",
       "latest_incident": {
         "title": "Degraded performance of Jira Automation rules",
         "body": "The team has identified a root cause and after initial testing, is now enacting scaling changes to help to prevent these rule execution delays. We'll monitor performance over the next 24 hours and provide an update at that time or sooner if we can confirm the improvement is in place.",
@@ -364,7 +364,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T15:30:55.646Z",
+      "checked_at": "2026-07-21T15:40:55.712Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -476,7 +476,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T15:30:55.647Z",
+      "checked_at": "2026-07-21T15:40:55.712Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -592,7 +592,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T15:30:55.647Z",
+      "checked_at": "2026-07-21T15:40:55.712Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -708,7 +708,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T15:30:55.647Z",
+      "checked_at": "2026-07-21T15:40:55.712Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -762,9 +762,9 @@
     {
       "name": "Circleci.com",
       "status_url": "https://status.circleci.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-07-21T15:30:55.647Z",
+      "status": "outage",
+      "description": "Partial System Outage",
+      "checked_at": "2026-07-21T15:40:55.712Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -959,7 +959,7 @@
         },
         {
           "name": "Anthropic api.anthropic.com",
-          "status": "degraded"
+          "status": "outage"
         },
         {
           "name": "packagecloud.io",
@@ -972,7 +972,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-21T15:30:55.648Z",
+      "checked_at": "2026-07-21T15:40:55.713Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -1302,7 +1302,7 @@
         },
         {
           "name": "Charlotte, NC, United States - (CLT)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Apps Marketplace",
@@ -2875,7 +2875,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T15:30:55.649Z",
+      "checked_at": "2026-07-21T15:40:55.713Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3883,7 +3883,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T15:30:55.649Z",
+      "checked_at": "2026-07-21T15:40:55.713Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3983,7 +3983,7 @@
       "status_url": "https://status.openai.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-07-21T15:30:55.649Z",
+      "checked_at": "2026-07-21T15:40:55.714Z",
       "latest_incident": {
         "title": "Image generation unavailable in ChatGPT",
         "body": "We have applied the mitigation and are monitoring the recovery.",
@@ -4142,7 +4142,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-21T15:30:55.744Z",
+      "checked_at": "2026-07-21T15:40:55.794Z",
       "latest_incident": null,
       "recent_incidents": [
         {
