@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-21T21:30:56.160Z",
+  "updated_at": "2026-07-21T21:40:55.754Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T21:30:56.031Z",
+      "checked_at": "2026-07-21T21:40:55.659Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T21:30:56.032Z",
+      "checked_at": "2026-07-21T21:40:55.659Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-21T21:30:56.032Z",
+      "checked_at": "2026-07-21T21:40:55.659Z",
       "latest_incident": {
         "title": "Degraded performance of Jira Automation rules",
         "body": "The team has identified a root cause and after initial testing, is now enacting scaling changes to help to prevent these rule execution delays. We'll monitor performance over the next 24 hours and provide an update at that time or sooner if we can confirm the improvement is in place.",
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T21:30:56.032Z",
+      "checked_at": "2026-07-21T21:40:55.660Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T21:30:56.032Z",
+      "checked_at": "2026-07-21T21:40:55.660Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T21:30:56.033Z",
+      "checked_at": "2026-07-21T21:40:55.660Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T21:30:56.033Z",
+      "checked_at": "2026-07-21T21:40:55.660Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T21:30:56.033Z",
+      "checked_at": "2026-07-21T21:40:55.661Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-21T21:30:56.033Z",
+      "checked_at": "2026-07-21T21:40:55.662Z",
       "latest_incident": {
         "title": "Newly entitled R2 accounts are seeing delays when trying to access the S3-compatible API",
         "body": "A fix has been implemented and we are monitoring the results.",
@@ -1127,7 +1127,7 @@
         },
         {
           "name": "Antananarivo, Madagascar - (TNR)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Canberra, ACT, Australia - (CBR)",
@@ -1215,7 +1215,7 @@
         },
         {
           "name": "Dammam, Saudi Arabia - (DMM)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Bratislava, Slovakia   - (BTS)",
@@ -1243,7 +1243,7 @@
         },
         {
           "name": "Dar Es Salaam, Tanzania - (DAR)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Brasilia, Brazil - (BSB)",
@@ -1559,7 +1559,7 @@
         },
         {
           "name": "Nairobi, Kenya - (NBO)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Goiânia, Brazil - (GYN)",
@@ -1827,7 +1827,7 @@
         },
         {
           "name": "Kampala, Uganda - (EBB)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Cloud Connector",
@@ -2872,7 +2872,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T21:30:56.034Z",
+      "checked_at": "2026-07-21T21:40:55.663Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3880,7 +3880,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T21:30:56.034Z",
+      "checked_at": "2026-07-21T21:40:55.663Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3901,7 +3901,7 @@
         },
         {
           "title": "Incident with GitHub Actions",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "body": "Between July 19, 2026, at 23:05 UTC and July 20, 2026, at 03:55 UTC, Actions self-hosted and larger runners were unable to connect to GitHub. During this period, Actions jobs were delayed or failed when trying to acquire a runner. Jobs using standard and Mac hosted runners were not affected. Reconnection traffic from affected runners also increased load on GitHub APIs, resulting in 3-4 seconds of additional average request latency and elevated 5xx error rates. <br /><br />The incident was caused by a certificate lifecycle management failure in a subset of internal services, resulting in an SSL certificate expiration that disrupted runner connectivity. We restored service by rotating the affected certificate. Recovery began at 02:45 UTC. By 03:55 UTC, queued workflow backlog had been processed and workflow delay rates returned to normal.<br /><br />To prevent recurrence, we are strengthening certificate renewal automation, adding fallback expiry monitoring and alerting, and improving circuit-breaker protections during runner API disruptions to reduce the risk of cascading impact to other APIs.",
           "date": "2026-07-20T04:44:03.085Z",
           "link": "https://stspg.io/w8d77c7t94zf",
           "status": "resolved",
@@ -3980,7 +3980,7 @@
       "status_url": "https://status.openai.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-07-21T21:30:56.035Z",
+      "checked_at": "2026-07-21T21:40:55.663Z",
       "latest_incident": {
         "title": "Elevated errors for API image generation",
         "body": "We have applied mitigations and are seeing error rates return to normal levels. We are monitoring the recovery.",
@@ -4139,7 +4139,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-21T21:30:56.150Z",
+      "checked_at": "2026-07-21T21:40:55.746Z",
       "latest_incident": null,
       "recent_incidents": [
         {
