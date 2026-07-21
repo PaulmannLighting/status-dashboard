@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-21T23:10:55.825Z",
+  "updated_at": "2026-07-21T23:20:55.695Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T23:10:55.722Z",
+      "checked_at": "2026-07-21T23:20:55.596Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T23:10:55.722Z",
+      "checked_at": "2026-07-21T23:20:55.596Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-21T23:10:55.723Z",
+      "checked_at": "2026-07-21T23:20:55.596Z",
       "latest_incident": {
         "title": "Degraded performance of Jira Automation rules",
         "body": "The team has identified a root cause and after initial testing, is now enacting scaling changes to help to prevent these rule execution delays. We'll monitor performance over the next 24 hours and provide an update at that time or sooner if we can confirm the improvement is in place.",
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T23:10:55.723Z",
+      "checked_at": "2026-07-21T23:20:55.596Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T23:10:55.723Z",
+      "checked_at": "2026-07-21T23:20:55.597Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T23:10:55.723Z",
+      "checked_at": "2026-07-21T23:20:55.597Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T23:10:55.723Z",
+      "checked_at": "2026-07-21T23:20:55.597Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T23:10:55.723Z",
+      "checked_at": "2026-07-21T23:20:55.597Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-21T23:10:55.724Z",
+      "checked_at": "2026-07-21T23:20:55.597Z",
       "latest_incident": {
         "title": "Newly entitled R2 accounts are seeing delays when trying to access the S3-compatible API",
         "body": "A fix has been implemented and we are monitoring the results.",
@@ -2872,7 +2872,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T23:10:55.725Z",
+      "checked_at": "2026-07-21T23:20:55.598Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3880,7 +3880,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-21T23:10:55.725Z",
+      "checked_at": "2026-07-21T23:20:55.598Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3980,7 +3980,7 @@
       "status_url": "https://status.openai.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-07-21T23:10:55.725Z",
+      "checked_at": "2026-07-21T23:20:55.598Z",
       "latest_incident": {
         "title": "Image generation unavailable in ChatGPT",
         "body": "We have applied the mitigation and are monitoring the recovery.",
@@ -4139,7 +4139,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-21T23:10:55.813Z",
+      "checked_at": "2026-07-21T23:20:55.683Z",
       "latest_incident": null,
       "recent_incidents": [
         {
