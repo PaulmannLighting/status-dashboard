@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-07-22T16:10:56.044Z",
+  "updated_at": "2026-07-22T16:20:55.769Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-07-22T16:10:55.939Z",
-      "latest_incident": {
-        "title": "Elevated error rates for Sonnet 5",
-        "body": "The issue has been identified and a fix is being implemented.",
-        "date": "2026-07-22T15:36:57.934Z",
-        "link": "https://stspg.io/gsh7gl1d7sbq",
-        "status": "identified",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-07-22T16:20:55.648Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Elevated error rates for Sonnet 5",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-22T16:12:32.364Z",
+          "link": "https://stspg.io/gsh7gl1d7sbq",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated errors on Opus 4.8 and Haiku 4.5",
           "body": "This incident has been resolved.",
@@ -47,36 +48,28 @@
           "link": "https://stspg.io/4lm8kwq5bpfy",
           "status": "resolved",
           "impact": "critical"
-        },
-        {
-          "title": "Elevated errors on Haiku 4.5",
-          "body": "This incident has been resolved.",
-          "date": "2026-07-21T16:38:26.703Z",
-          "link": "https://stspg.io/zbk8jlprqymy",
-          "status": "resolved",
-          "impact": "major"
         }
       ],
       "components": [
         {
           "name": "claude.ai",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Console (platform.claude.com)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Code",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Cowork",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude for Government",
@@ -89,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T16:10:55.939Z",
+      "checked_at": "2026-07-22T16:20:55.649Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T16:10:55.939Z",
+      "checked_at": "2026-07-22T16:20:55.649Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T16:10:55.940Z",
+      "checked_at": "2026-07-22T16:20:55.649Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T16:10:55.940Z",
+      "checked_at": "2026-07-22T16:20:55.649Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T16:10:55.940Z",
+      "checked_at": "2026-07-22T16:20:55.649Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T16:10:55.940Z",
+      "checked_at": "2026-07-22T16:20:55.649Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -755,9 +748,9 @@
     {
       "name": "Circleci.com",
       "status_url": "https://status.circleci.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-07-22T16:10:55.940Z",
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-07-22T16:20:55.649Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -952,7 +945,7 @@
         },
         {
           "name": "Anthropic api.anthropic.com",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "packagecloud.io",
@@ -965,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-22T16:10:55.941Z",
+      "checked_at": "2026-07-22T16:20:55.650Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -2071,7 +2064,7 @@
         },
         {
           "name": "São Paulo, Brazil - (GRU)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Queretaro, MX, Mexico - (QRO)",
@@ -2872,7 +2865,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T16:10:55.942Z",
+      "checked_at": "2026-07-22T16:20:55.651Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3880,7 +3873,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T16:10:55.942Z",
+      "checked_at": "2026-07-22T16:20:55.651Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3980,7 +3973,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T16:10:55.943Z",
+      "checked_at": "2026-07-22T16:20:55.651Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4132,7 +4125,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-22T16:10:56.036Z",
+      "checked_at": "2026-07-22T16:20:55.756Z",
       "latest_incident": null,
       "recent_incidents": [
         {
