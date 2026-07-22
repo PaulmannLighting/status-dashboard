@@ -1,13 +1,20 @@
 {
-  "updated_at": "2026-07-22T17:20:56.102Z",
+  "updated_at": "2026-07-22T17:31:09.126Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-07-22T17:20:55.951Z",
-      "latest_incident": null,
+      "status": "degraded",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-07-22T17:31:09.014Z",
+      "latest_incident": {
+        "title": "Service disruption on Claude Services",
+        "body": "The issue has been identified and a fix is being implemented.",
+        "date": "2026-07-22T17:28:16.730Z",
+        "link": "https://stspg.io/3c161l5nt3kz",
+        "status": "identified",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "Elevated error rates for Sonnet 5",
@@ -53,7 +60,7 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -69,7 +76,7 @@
         },
         {
           "name": "Claude Cowork",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude for Government",
@@ -82,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T17:20:55.952Z",
+      "checked_at": "2026-07-22T17:31:09.014Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T17:20:55.952Z",
+      "checked_at": "2026-07-22T17:31:09.014Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T17:20:55.952Z",
+      "checked_at": "2026-07-22T17:31:09.015Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T17:20:55.952Z",
+      "checked_at": "2026-07-22T17:31:09.015Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T17:20:55.953Z",
+      "checked_at": "2026-07-22T17:31:09.015Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T17:20:55.953Z",
+      "checked_at": "2026-07-22T17:31:09.015Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T17:20:55.953Z",
+      "checked_at": "2026-07-22T17:31:09.015Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-22T17:20:55.954Z",
+      "checked_at": "2026-07-22T17:31:09.016Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -2064,7 +2071,7 @@
         },
         {
           "name": "São Paulo, Brazil - (GRU)",
-          "status": "degraded"
+          "status": "maintenance"
         },
         {
           "name": "Queretaro, MX, Mexico - (QRO)",
@@ -2128,7 +2135,7 @@
         },
         {
           "name": "Tegucigalpa, Honduras - (TGU)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Durable Objects",
@@ -2865,7 +2872,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-22T17:20:55.956Z",
+      "checked_at": "2026-07-22T17:31:09.017Z",
       "latest_incident": {
         "title": "Gradient AI Serverless Inference Requests Timing Out for qwen3.5-397b-a17b",
         "body": "We are currently investigating this issue.",
@@ -3880,7 +3887,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T17:20:55.956Z",
+      "checked_at": "2026-07-22T17:31:09.017Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3980,7 +3987,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T17:20:55.956Z",
+      "checked_at": "2026-07-22T17:31:09.017Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4132,7 +4139,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-22T17:20:56.093Z",
+      "checked_at": "2026-07-22T17:31:09.119Z",
       "latest_incident": null,
       "recent_incidents": [
         {
