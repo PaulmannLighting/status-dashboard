@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-22T21:50:55.897Z",
+  "updated_at": "2026-07-22T22:00:58.366Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T21:50:55.780Z",
+      "checked_at": "2026-07-22T22:00:58.276Z",
       "latest_incident": {
         "title": "Microsoft Office add-in availability",
         "body": "Users who installed the following add-ins may experience issues accessing the add-in functionality: Claude by Anthropic for PowerPoint, Claude by Anthropic for Word, and Claude by Anthropic for Excel. \n\nTo regain immediate access to Claude for Microsoft 365, install the add-in here: https://marketplace.microsoft.com/en-us/product/office/wa200010725",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T21:50:55.781Z",
+      "checked_at": "2026-07-22T22:00:58.276Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T21:50:55.781Z",
+      "checked_at": "2026-07-22T22:00:58.276Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T21:50:55.781Z",
+      "checked_at": "2026-07-22T22:00:58.276Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T21:50:55.782Z",
+      "checked_at": "2026-07-22T22:00:58.277Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T21:50:55.782Z",
+      "checked_at": "2026-07-22T22:00:58.277Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T21:50:55.782Z",
+      "checked_at": "2026-07-22T22:00:58.277Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-22T21:50:55.782Z",
+      "checked_at": "2026-07-22T22:00:58.277Z",
       "latest_incident": {
         "title": "Delays in starting  jobs using the gen3 resource class",
         "body": "We are continuing to investigate elevated wait times affecting customers using gen3 machine executors. Affected jobs may take longer than usual to start. We will provide another update as soon as we have more information to share.",
@@ -972,7 +972,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-22T21:50:55.783Z",
+      "checked_at": "2026-07-22T22:00:58.278Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -2879,7 +2879,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T21:50:55.784Z",
+      "checked_at": "2026-07-22T22:00:58.278Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3887,7 +3887,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-22T21:50:55.784Z",
+      "checked_at": "2026-07-22T22:00:58.279Z",
       "latest_incident": {
         "title": "Disruption with actions hosted runners",
         "body": "Approximately 3% of GitHub Actions runs on GitHub-hosted runners are experiencing run start delays exceeding 5 minutes. A small portion of these runs may fail after extended delays. We have identified the cause and are working on a mitigation.",
@@ -3994,7 +3994,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T21:50:55.784Z",
+      "checked_at": "2026-07-22T22:00:58.279Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4146,7 +4146,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-22T21:50:55.890Z",
+      "checked_at": "2026-07-22T22:00:58.357Z",
       "latest_incident": null,
       "recent_incidents": [
         {
