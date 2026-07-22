@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-07-22T09:00:56.231Z",
+  "updated_at": "2026-07-22T09:10:56.138Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T09:00:56.120Z",
-      "latest_incident": {
-        "title": "Elevated errors for Claude Opus 4.1",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-07-22T08:45:27.071Z",
-        "link": "https://stspg.io/2zfvlkjpv6r6",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-07-22T09:10:56.045Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Elevated errors for Claude Opus 4.1",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-22T09:00:25.206Z",
+          "link": "https://stspg.io/2zfvlkjpv6r6",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated errors on several models",
           "body": "From 8:28am PT / 15:28 UTC through 9:26am PT / 16:26 UTC users experienced elevated errors on requests to multiple Claude models. This issue has been resolved.",
@@ -45,14 +46,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-07-21T12:07:32.039Z",
           "link": "https://stspg.io/cqjf2860m4yy",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Elevated errors across models",
-          "body": "This incident has been resolved.",
-          "date": "2026-07-21T11:18:50.485Z",
-          "link": "https://stspg.io/lmgkc6zqpgsz",
           "status": "resolved",
           "impact": "minor"
         }
@@ -89,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T09:00:56.121Z",
+      "checked_at": "2026-07-22T09:10:56.045Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T09:00:56.121Z",
+      "checked_at": "2026-07-22T09:10:56.045Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T09:00:56.121Z",
+      "checked_at": "2026-07-22T09:10:56.045Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T09:00:56.121Z",
+      "checked_at": "2026-07-22T09:10:56.046Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T09:00:56.122Z",
+      "checked_at": "2026-07-22T09:10:56.046Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T09:00:56.122Z",
+      "checked_at": "2026-07-22T09:10:56.046Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T09:00:56.122Z",
+      "checked_at": "2026-07-22T09:10:56.046Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-22T09:00:56.123Z",
+      "checked_at": "2026-07-22T09:10:56.048Z",
       "latest_incident": {
         "title": "Increase in errors from R2 in ENAM",
         "body": "Cloudflare is aware of, and investigating an issue with an increased number of errors from R2 in Eastern North America. Further detail will be provided as more information becomes available.",
@@ -1795,7 +1788,7 @@
         },
         {
           "name": "Panama City, Panama - (PTY)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Mexico City, Mexico - (MEX)",
@@ -2872,7 +2865,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T09:00:56.124Z",
+      "checked_at": "2026-07-22T09:10:56.048Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3880,7 +3873,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-22T09:00:56.124Z",
+      "checked_at": "2026-07-22T09:10:56.049Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3980,7 +3973,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-07-22T09:00:56.124Z",
+      "checked_at": "2026-07-22T09:10:56.049Z",
       "latest_incident": {
         "title": "Elevated Errors Affecting File Uploads and Image Generation",
         "body": "We are investigating the issue for the listed services.",
@@ -4139,7 +4132,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-22T09:00:56.220Z",
+      "checked_at": "2026-07-22T09:10:56.129Z",
       "latest_incident": null,
       "recent_incidents": [
         {
