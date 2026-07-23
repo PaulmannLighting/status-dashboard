@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-23T01:20:56.732Z",
+  "updated_at": "2026-07-23T01:30:55.973Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-23T01:20:56.644Z",
+      "checked_at": "2026-07-23T01:30:55.815Z",
       "latest_incident": {
         "title": "Microsoft Office add-in availability",
         "body": "Users who installed the following add-ins may experience issues accessing the add-in functionality: Claude by Anthropic for PowerPoint, Claude by Anthropic for Word, and Claude by Anthropic for Excel. \n\nTo regain immediate access to Claude for Microsoft 365, install the add-in here: https://marketplace.microsoft.com/en-us/product/office/wa200010725",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-23T01:20:56.645Z",
+      "checked_at": "2026-07-23T01:30:55.815Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-23T01:20:56.645Z",
+      "checked_at": "2026-07-23T01:30:55.815Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-23T01:20:56.645Z",
+      "checked_at": "2026-07-23T01:30:55.816Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-23T01:20:56.645Z",
+      "checked_at": "2026-07-23T01:30:55.816Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-23T01:20:56.645Z",
+      "checked_at": "2026-07-23T01:30:55.816Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-23T01:20:56.645Z",
+      "checked_at": "2026-07-23T01:30:55.816Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-23T01:20:56.645Z",
+      "checked_at": "2026-07-23T01:30:55.817Z",
       "latest_incident": {
         "title": "Delays in starting  jobs using the gen3 resource class",
         "body": "We have identified the issue and are working with our provider to resolve the availability of gen 3 resources. Gen 1 and Gen 2 are both fully operational.",
@@ -972,7 +972,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-23T01:20:56.646Z",
+      "checked_at": "2026-07-23T01:30:55.818Z",
       "latest_incident": {
         "title": "Workers AI experiencing degraded availability in some models",
         "body": "We are continuing to investigate this issue.",
@@ -1314,7 +1314,7 @@
         },
         {
           "name": "Erbil, Iraq - (EBL)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Chandigarh, India - (IXC)",
@@ -1506,7 +1506,7 @@
         },
         {
           "name": "Gothenburg, Sweden - (GOT)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Maputo, Mozambique - (MPM)",
@@ -1526,7 +1526,7 @@
         },
         {
           "name": "Mombasa, Kenya - (MBA)",
-          "status": "degraded"
+          "status": "maintenance"
         },
         {
           "name": "Hamburg, Germany - (HAM)",
@@ -1566,7 +1566,7 @@
         },
         {
           "name": "Nairobi, Kenya - (NBO)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Goiânia, Brazil - (GYN)",
@@ -1690,7 +1690,7 @@
         },
         {
           "name": "Tunis, Tunisia - (TUN)",
-          "status": "degraded"
+          "status": "maintenance"
         },
         {
           "name": "Juazeiro do Norte, Brazil - (JDO)",
@@ -1902,7 +1902,7 @@
         },
         {
           "name": "Nicosia, Cyprus - (LCA)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Kaohsiung City - (KHH)",
@@ -2162,7 +2162,7 @@
         },
         {
           "name": "San Antonio, TX, United States - (SAT)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Manila, Philippines - (MNL)",
@@ -2879,7 +2879,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-23T01:20:56.646Z",
+      "checked_at": "2026-07-23T01:30:55.819Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3887,7 +3887,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-23T01:20:56.646Z",
+      "checked_at": "2026-07-23T01:30:55.819Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3987,7 +3987,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-23T01:20:56.647Z",
+      "checked_at": "2026-07-23T01:30:55.820Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4139,7 +4139,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-23T01:20:56.725Z",
+      "checked_at": "2026-07-23T01:30:55.919Z",
       "latest_incident": null,
       "recent_incidents": [
         {
