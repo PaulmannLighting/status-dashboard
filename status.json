@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-24T19:20:55.906Z",
+  "updated_at": "2026-07-24T19:30:56.211Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T19:20:55.804Z",
+      "checked_at": "2026-07-24T19:30:56.093Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "maintenance",
       "description": "Service Under Maintenance",
-      "checked_at": "2026-07-24T19:20:55.804Z",
+      "checked_at": "2026-07-24T19:30:56.094Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T19:20:55.804Z",
+      "checked_at": "2026-07-24T19:30:56.094Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T19:20:55.804Z",
+      "checked_at": "2026-07-24T19:30:56.094Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T19:20:55.805Z",
+      "checked_at": "2026-07-24T19:30:56.095Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-24T19:20:55.805Z",
+      "checked_at": "2026-07-24T19:30:56.095Z",
       "latest_incident": {
         "title": "Experiencing an elevated error rate for product and offer submissions for Kaufland",
         "body": "We are currently experiencing an elevated error rate for product and offer submissions through our Kaufland integration. We are actively investigating the issue and are in direct contact with the Kaufland team to find a resolution.\n\nNote: Order processing remains fully unaffected. We will provide another update as soon as we have more information.",
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T19:20:55.805Z",
+      "checked_at": "2026-07-24T19:30:56.095Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T19:20:55.805Z",
+      "checked_at": "2026-07-24T19:30:56.095Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,16 +965,17 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-24T19:20:55.806Z",
-      "latest_incident": {
-        "title": "Email Delivery Delays",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-07-24T18:51:34.935Z",
-        "link": "https://stspg.io/0430y7g5390w",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-07-24T19:30:56.097Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Email Delivery Delays",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-24T19:28:02.381Z",
+          "link": "https://stspg.io/0430y7g5390w",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Increase errors for R2 buckets hosted in APAC region",
           "body": "This incident has been resolved.",
@@ -1006,14 +1007,6 @@
           "link": "https://stspg.io/tnn9ddjnj342",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Network Performance Issues in Frankfurt (FRA)",
-          "body": "Cloudflare experienced issues with network performance in Frankfurt (FRA) between 08:45 to 09:00 UTC.  \nThis has now recovered.",
-          "date": "2026-07-24T08:45:00.000Z",
-          "link": "https://stspg.io/12fvqnp5t02h",
-          "status": "resolved",
-          "impact": "none"
         }
       ],
       "components": [
@@ -2868,7 +2861,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T19:20:55.807Z",
+      "checked_at": "2026-07-24T19:30:56.097Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3876,7 +3869,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T19:20:55.807Z",
+      "checked_at": "2026-07-24T19:30:56.098Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3976,7 +3969,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T19:20:55.807Z",
+      "checked_at": "2026-07-24T19:30:56.098Z",
       "latest_incident": {
         "title": "Elevated Error Rates",
         "body": "We have applied the mitigation and are monitoring the recovery.",
@@ -4135,7 +4128,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-24T19:20:55.898Z",
+      "checked_at": "2026-07-24T19:30:56.193Z",
       "latest_incident": null,
       "recent_incidents": [
         {
