@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-24T18:50:55.935Z",
+  "updated_at": "2026-07-24T19:00:55.965Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T18:50:55.816Z",
+      "checked_at": "2026-07-24T19:00:55.865Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T18:50:55.817Z",
+      "checked_at": "2026-07-24T19:00:55.866Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T18:50:55.817Z",
+      "checked_at": "2026-07-24T19:00:55.866Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T18:50:55.817Z",
+      "checked_at": "2026-07-24T19:00:55.866Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T18:50:55.817Z",
+      "checked_at": "2026-07-24T19:00:55.866Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-24T18:50:55.817Z",
+      "checked_at": "2026-07-24T19:00:55.866Z",
       "latest_incident": {
         "title": "Experiencing an elevated error rate for product and offer submissions for Kaufland",
         "body": "We are currently experiencing an elevated error rate for product and offer submissions through our Kaufland integration. We are actively investigating the issue and are in direct contact with the Kaufland team to find a resolution.\n\nNote: Order processing remains fully unaffected. We will provide another update as soon as we have more information.",
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T18:50:55.818Z",
+      "checked_at": "2026-07-24T19:00:55.867Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T18:50:55.818Z",
+      "checked_at": "2026-07-24T19:00:55.867Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-24T18:50:55.819Z",
+      "checked_at": "2026-07-24T19:00:55.868Z",
       "latest_incident": {
         "title": "Increase errors for R2 buckets hosted in APAC region",
         "body": "Customers with R2 buckets in the APAC region may see elevated error rates.",
@@ -2868,7 +2868,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T18:50:55.820Z",
+      "checked_at": "2026-07-24T19:00:55.869Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3876,7 +3876,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T18:50:55.820Z",
+      "checked_at": "2026-07-24T19:00:55.869Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3976,7 +3976,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-24T18:50:55.820Z",
+      "checked_at": "2026-07-24T19:00:55.869Z",
       "latest_incident": {
         "title": "Elevated Error Rates",
         "body": "We have applied the mitigation and are monitoring the recovery.",
@@ -4135,7 +4135,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-24T18:50:55.925Z",
+      "checked_at": "2026-07-24T19:00:55.957Z",
       "latest_incident": null,
       "recent_incidents": [
         {
