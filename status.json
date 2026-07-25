@@ -1,14 +1,22 @@
 {
-  "updated_at": "2026-07-25T18:10:55.841Z",
+  "updated_at": "2026-07-25T18:20:55.981Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-25T18:10:55.752Z",
+      "checked_at": "2026-07-25T18:20:55.863Z",
       "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Sonnet 4.6 and Sonnet 5 errors elevated",
+          "body": "For approximately 10 minutes, error rates on Sonnet 4.6 and 5 were elevated. Service returned to normal at approximately 11:07a PDT.",
+          "date": "2026-07-25T18:13:01.000Z",
+          "link": "https://stspg.io/ty4xl4702q4r",
+          "status": "resolved",
+          "impact": "none"
+        },
         {
           "title": "Microsoft Office add-in availability",
           "body": "This issue has been resolved.",
@@ -38,14 +46,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-07-22T17:45:37.482Z",
           "link": "https://stspg.io/3c161l5nt3kz",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Elevated error rates for Sonnet 5",
-          "body": "This incident has been resolved.",
-          "date": "2026-07-22T16:12:32.364Z",
-          "link": "https://stspg.io/gsh7gl1d7sbq",
           "status": "resolved",
           "impact": "minor"
         }
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-25T18:10:55.753Z",
+      "checked_at": "2026-07-25T18:20:55.863Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-25T18:10:55.753Z",
+      "checked_at": "2026-07-25T18:20:55.863Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-25T18:10:55.753Z",
+      "checked_at": "2026-07-25T18:20:55.864Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-25T18:10:55.754Z",
+      "checked_at": "2026-07-25T18:20:55.864Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-25T18:10:55.754Z",
+      "checked_at": "2026-07-25T18:20:55.865Z",
       "latest_incident": {
         "title": "Experiencing an elevated error rate for product and offer submissions for Kaufland",
         "body": "We are currently experiencing an elevated error rate for product and offer submissions through our Kaufland integration. We are actively investigating the issue and are in direct contact with the Kaufland team to find a resolution.\n\nNote: Order processing remains fully unaffected. We will provide another update as soon as we have more information.",
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-25T18:10:55.754Z",
+      "checked_at": "2026-07-25T18:20:55.865Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-25T18:10:55.754Z",
+      "checked_at": "2026-07-25T18:20:55.865Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-25T18:10:55.755Z",
+      "checked_at": "2026-07-25T18:20:55.866Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2861,7 +2861,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-25T18:10:55.757Z",
+      "checked_at": "2026-07-25T18:20:55.867Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3869,7 +3869,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-25T18:10:55.757Z",
+      "checked_at": "2026-07-25T18:20:55.868Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3969,7 +3969,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-25T18:10:55.757Z",
+      "checked_at": "2026-07-25T18:20:55.868Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4121,7 +4121,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-25T18:10:55.834Z",
+      "checked_at": "2026-07-25T18:20:55.973Z",
       "latest_incident": null,
       "recent_incidents": [
         {
