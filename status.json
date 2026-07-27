@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-07-27T12:30:56.058Z",
+  "updated_at": "2026-07-27T12:40:56.031Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-07-27T12:30:55.958Z",
-      "latest_incident": {
-        "title": "Elevated errors on Claude Opus 5",
-        "body": "We are currently investigating this issue.",
-        "date": "2026-07-27T11:27:38.236Z",
-        "link": "https://stspg.io/wlr90hdngtwn",
-        "status": "investigating",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-07-27T12:40:55.904Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Elevated errors on Claude Opus 5",
+          "body": "As of 4:47 PST / 11:47 UTC the errors have returned to baseline.",
+          "date": "2026-07-27T12:30:22.946Z",
+          "link": "https://stspg.io/wlr90hdngtwn",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated errors on Claude Opus 5",
           "body": "As of 2:03 PST / 9:03 UTC the errors have returned to baseline.",
@@ -47,20 +48,12 @@
           "link": "https://stspg.io/zkm687kx885m",
           "status": "resolved",
           "impact": "major"
-        },
-        {
-          "title": "Sonnet 4.6 and Sonnet 5 errors elevated",
-          "body": "For approximately 10 minutes, error rates on Sonnet 4.6 and 5 were elevated. Service returned to normal at approximately 11:07a PDT.",
-          "date": "2026-07-25T18:13:01.000Z",
-          "link": "https://stspg.io/ty4xl4702q4r",
-          "status": "resolved",
-          "impact": "none"
         }
       ],
       "components": [
         {
           "name": "claude.ai",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -68,15 +61,15 @@
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Code",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Cowork",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude for Government",
@@ -89,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-27T12:30:55.958Z",
+      "checked_at": "2026-07-27T12:40:55.905Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-27T12:30:55.959Z",
+      "checked_at": "2026-07-27T12:40:55.905Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-27T12:30:55.959Z",
+      "checked_at": "2026-07-27T12:40:55.905Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-27T12:30:55.959Z",
+      "checked_at": "2026-07-27T12:40:55.905Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-27T12:30:55.959Z",
+      "checked_at": "2026-07-27T12:40:55.906Z",
       "latest_incident": {
         "title": "Experiencing an elevated error rate for product and offer submissions for Kaufland",
         "body": "We have identified the cause of the errors and rolled out changes to mitigate the issue. Error rates are currently still elevated while we validate the effectiveness of these changes with Kaufland. Performance will remain degraded in the meantime. We are continuing to monitor the situation closely.",
@@ -708,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-27T12:30:55.959Z",
+      "checked_at": "2026-07-27T12:40:55.906Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -764,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-27T12:30:55.959Z",
+      "checked_at": "2026-07-27T12:40:55.906Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -972,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-27T12:30:55.960Z",
+      "checked_at": "2026-07-27T12:40:55.907Z",
       "latest_incident": {
         "title": "Issues with Snippets API",
         "body": "The issue has been identified and a fix is being implemented.",
@@ -2875,7 +2868,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-27T12:30:55.960Z",
+      "checked_at": "2026-07-27T12:40:55.908Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3883,7 +3876,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-27T12:30:55.961Z",
+      "checked_at": "2026-07-27T12:40:55.908Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3983,7 +3976,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-27T12:30:55.961Z",
+      "checked_at": "2026-07-27T12:40:55.908Z",
       "latest_incident": {
         "title": "Elevated errors affecting ChatGPT conversations",
         "body": "Mitigation has been implemented, and we are monitoring the recovery of ChatGPT conversations.",
@@ -4142,7 +4135,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-27T12:30:56.047Z",
+      "checked_at": "2026-07-27T12:40:56.023Z",
       "latest_incident": null,
       "recent_incidents": [
         {
