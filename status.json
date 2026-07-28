@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-28T15:20:55.993Z",
+  "updated_at": "2026-07-28T15:30:56.060Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-28T15:20:55.850Z",
+      "checked_at": "2026-07-28T15:30:55.956Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-28T15:20:55.850Z",
+      "checked_at": "2026-07-28T15:30:55.956Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-28T15:20:55.850Z",
+      "checked_at": "2026-07-28T15:30:55.957Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-28T15:20:55.850Z",
+      "checked_at": "2026-07-28T15:30:55.957Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "maintenance",
       "description": "Service Under Maintenance",
-      "checked_at": "2026-07-28T15:20:55.851Z",
+      "checked_at": "2026-07-28T15:30:55.957Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-28T15:20:55.851Z",
+      "checked_at": "2026-07-28T15:30:55.957Z",
       "latest_incident": {
         "title": "Experiencing an elevated error rate for product and offer submissions for Kaufland",
         "body": "We have identified the cause of the errors and rolled out changes to mitigate the issue. Error rates are currently still elevated while we validate the effectiveness of these changes with Kaufland. Performance will remain degraded in the meantime. We are continuing to monitor the situation closely.",
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-28T15:20:55.851Z",
+      "checked_at": "2026-07-28T15:30:55.957Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-28T15:20:55.852Z",
+      "checked_at": "2026-07-28T15:30:55.957Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-28T15:20:55.853Z",
+      "checked_at": "2026-07-28T15:30:55.958Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2855,18 +2855,19 @@
     {
       "name": "DigitalOcean",
       "status_url": "https://status.digitalocean.com",
-      "status": "outage",
-      "description": "Minor Service Outage",
-      "checked_at": "2026-07-28T15:20:55.854Z",
-      "latest_incident": {
-        "title": "Agent Platform Requests Returning HTTP 500 Errors",
-        "body": "The issue has been identified and a fix is being implemented.",
-        "date": "2026-07-27T19:44:00.102Z",
-        "link": "https://stspg.io/54mh0lzk9733",
-        "status": "identified",
-        "impact": "major"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-07-28T15:30:55.959Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Agent Platform Requests Returning HTTP 500 Errors",
+          "body": "This incident has been resolved.",
+          "date": "2026-07-28T15:24:28.800Z",
+          "link": "https://stspg.io/54mh0lzk9733",
+          "status": "resolved",
+          "impact": "major"
+        },
         {
           "title": "Network Connectivity from India to NYC",
           "body": "Between 07:46  UTC & 10:24 UTC today, some users in India accessing resources in the NYC region may have experienced connectivity issues. The impact was limited to users using Airtel as their ISP.\n\nOur investigation determined that the issue was caused by an internal network issue within Airtel and was not related to DigitalOcean network. The connectivity issue now appears to be resolved, and users should no longer experience problems accessing their resources.\n\nWe apologize for any inconvenience this may have caused. However, if you continue to experience any connectivity issues, please don't hesitate to open a support ticket for further investigation; we'll be happy to assist you further.",
@@ -2896,14 +2897,6 @@
           "body": "Our Engineering team has confirmed that the issue regarding volume attachment to Droplets in the NYC1, NYC3, SGP1, SYD1, and BLR1 regions has been fully resolved, and all services are now operating normally.\n\nIf you continue to experience any issues, please contact our Support team by opening a ticket. We apologize for any inconvenience caused.",
           "date": "2026-07-19T15:32:39.578Z",
           "link": "https://stspg.io/wv68wmnz55ln",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Networking in BLR1",
-          "body": "Our engineering team has resolved the outbound network connectivity issue in the BLR1 region. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.",
-          "date": "2026-07-19T09:52:00.733Z",
-          "link": "https://stspg.io/8yc90q76srsl",
           "status": "resolved",
           "impact": "minor"
         }
@@ -2975,7 +2968,7 @@
         },
         {
           "name": "Agent Runtime",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "ATL1",
@@ -3872,7 +3865,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-28T15:20:55.854Z",
+      "checked_at": "2026-07-28T15:30:55.960Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3972,7 +3965,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-28T15:20:55.854Z",
+      "checked_at": "2026-07-28T15:30:55.960Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4124,7 +4117,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-28T15:20:55.985Z",
+      "checked_at": "2026-07-28T15:30:56.051Z",
       "latest_incident": null,
       "recent_incidents": [
         {
