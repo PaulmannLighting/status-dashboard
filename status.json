@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-07-29T22:30:55.864Z",
+  "updated_at": "2026-07-29T22:40:56.049Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "outage",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-29T22:30:55.770Z",
-      "latest_incident": {
-        "title": "Elevated errors across all models",
-        "body": "From 12:45 PT / 19:45 UTC through to 1:26 PT / 21:26 UTC, we saw elevated rates of errors across Claude models. We have seen recovery in success rates across all models and are monitoring closely to ensure no further issues.",
-        "date": "2026-07-29T22:20:16.308Z",
-        "link": "https://stspg.io/p7pqqb00414c",
-        "status": "monitoring",
-        "impact": "critical"
-      },
+      "checked_at": "2026-07-29T22:40:55.970Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Elevated errors across all models",
+          "body": "This issue has been resolved.",
+          "date": "2026-07-29T22:36:20.701Z",
+          "link": "https://stspg.io/p7pqqb00414c",
+          "status": "resolved",
+          "impact": "critical"
+        },
         {
           "title": "Elevated errors on Claude Opus 5 and Haiku 4.5",
           "body": "As of 7:34 PST / 14:34 UTC the errors have returned to baseline.",
@@ -45,14 +46,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-07-26T10:44:14.944Z",
           "link": "https://stspg.io/jrz1yk46f9xp",
-          "status": "resolved",
-          "impact": "major"
-        },
-        {
-          "title": "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
-          "body": "This incident has been resolved.",
-          "date": "2026-07-25T22:08:41.677Z",
-          "link": "https://stspg.io/9w9f5y5k2vwx",
           "status": "resolved",
           "impact": "major"
         }
@@ -89,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-29T22:30:55.770Z",
+      "checked_at": "2026-07-29T22:40:55.970Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-29T22:30:55.770Z",
+      "checked_at": "2026-07-29T22:40:55.970Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-29T22:30:55.770Z",
+      "checked_at": "2026-07-29T22:40:55.971Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-29T22:30:55.771Z",
+      "checked_at": "2026-07-29T22:40:55.971Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-29T22:30:55.771Z",
+      "checked_at": "2026-07-29T22:40:55.971Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-29T22:30:55.771Z",
+      "checked_at": "2026-07-29T22:40:55.971Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-29T22:30:55.771Z",
+      "checked_at": "2026-07-29T22:40:55.971Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-29T22:30:55.772Z",
+      "checked_at": "2026-07-29T22:40:55.972Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2865,7 +2858,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-29T22:30:55.772Z",
+      "checked_at": "2026-07-29T22:40:55.972Z",
       "latest_incident": {
         "title": "Response Degradation Impacting Kimi-K3",
         "body": "Our Engineering team is investigating reports of empty or broken responses impacting Kimi-K3.\nAt this point, users may experience degraded response quality, specifically empty or broken outputs (including repeated characters), when querying the Kimi-K3 service.\nWe apologize for the inconvenience and will share an update once we have more information.",
@@ -3880,7 +3873,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-29T22:30:55.772Z",
+      "checked_at": "2026-07-29T22:40:55.973Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3980,7 +3973,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-29T22:30:55.772Z",
+      "checked_at": "2026-07-29T22:40:55.973Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4132,7 +4125,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-29T22:30:55.854Z",
+      "checked_at": "2026-07-29T22:40:56.041Z",
       "latest_incident": null,
       "recent_incidents": [
         {
