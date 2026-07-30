@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-30T09:50:58.215Z",
+  "updated_at": "2026-07-30T10:00:57.734Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-30T09:50:58.099Z",
+      "checked_at": "2026-07-30T10:00:57.626Z",
       "latest_incident": {
         "title": "Elevated errors across many models",
         "body": "As of 01:33 PT / 08:33 UTC we are back to errors across all models.",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-30T09:50:58.100Z",
+      "checked_at": "2026-07-30T10:00:57.627Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-30T09:50:58.100Z",
+      "checked_at": "2026-07-30T10:00:57.627Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-30T09:50:58.100Z",
+      "checked_at": "2026-07-30T10:00:57.627Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-30T09:50:58.100Z",
+      "checked_at": "2026-07-30T10:00:57.628Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-30T09:50:58.100Z",
+      "checked_at": "2026-07-30T10:00:57.628Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-30T09:50:58.101Z",
+      "checked_at": "2026-07-30T10:00:57.628Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-30T09:50:58.101Z",
+      "checked_at": "2026-07-30T10:00:57.628Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-07-30T09:50:58.102Z",
+      "checked_at": "2026-07-30T10:00:57.630Z",
       "latest_incident": {
         "title": "Possible Network Congestion in North America region",
         "body": "We are continuing to monitor for any further issues.",
@@ -2872,7 +2872,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-30T09:50:58.103Z",
+      "checked_at": "2026-07-30T10:00:57.631Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3880,9 +3880,9 @@
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-07-30T09:50:58.103Z",
+      "checked_at": "2026-07-30T10:00:57.631Z",
       "latest_incident": {
-        "title": "Copilot model Anthropic Fable experiencing elevated errors",
+        "title": "Copilot model Claude Fable 5 experiencing elevated errors",
         "body": "We are experiencing degraded availability for the Claude Fable 5 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.",
         "date": "2026-07-30T09:17:26.637Z",
         "link": "https://stspg.io/45g8r57kv3n9",
@@ -3987,7 +3987,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-07-30T09:50:58.103Z",
+      "checked_at": "2026-07-30T10:00:57.631Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4139,7 +4139,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-07-30T09:50:58.205Z",
+      "checked_at": "2026-07-30T10:00:57.723Z",
       "latest_incident": null,
       "recent_incidents": [
         {
