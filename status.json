@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-03T17:00:55.940Z",
+  "updated_at": "2026-08-03T17:11:13.579Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-03T17:00:55.843Z",
+      "checked_at": "2026-08-03T17:11:13.482Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-03T17:00:55.844Z",
+      "checked_at": "2026-08-03T17:11:13.483Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-03T17:00:55.844Z",
+      "checked_at": "2026-08-03T17:11:13.483Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-03T17:00:55.844Z",
+      "checked_at": "2026-08-03T17:11:13.484Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "maintenance",
       "description": "Service Under Maintenance",
-      "checked_at": "2026-08-03T17:00:55.844Z",
+      "checked_at": "2026-08-03T17:11:13.484Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-03T17:00:55.844Z",
+      "checked_at": "2026-08-03T17:11:13.485Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-03T17:00:55.844Z",
+      "checked_at": "2026-08-03T17:11:13.485Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-03T17:00:55.844Z",
+      "checked_at": "2026-08-03T17:11:13.486Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-03T17:00:55.845Z",
+      "checked_at": "2026-08-03T17:11:13.489Z",
       "latest_incident": {
         "title": "Cloudflare Workers Runtime API issues",
         "body": "Workers runtime: Temporal global exposed with an incorrect clock\n\nSince 2026-07-30, the Workers runtime has exposed a global Temporal object that was not intended to be available. Its clock is wrong: Temporal.Now reports 1970-01-01 rather than the current time. Date and Date.now() are unaffected and report the correct time.\n\nThis can affect Workers that install a Temporal polyfill only when no native Temporal is detected. On those Workers, the polyfill stopped being installed and time-dependent logic began computing against 1970 — for example, tokens minted with an issue time of 0 and an expiry in 1970, incorrect TTLs, or incorrect date arithmetic. No error is raised when this happens.",
@@ -2869,7 +2869,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-03T17:00:55.846Z",
+      "checked_at": "2026-08-03T17:11:13.491Z",
       "latest_incident": {
         "title": "Cloud Control Panel Access",
         "body": "We have implemented mitigation for the issue causing some customers to experience intermittent errors when accessing the DigitalOcean Cloud Control Panel. We are seeing recovery and are monitoring the service closely. We will provide another update once we have confirmed the issue is fully resolved",
@@ -3884,7 +3884,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-03T17:00:55.846Z",
+      "checked_at": "2026-08-03T17:11:13.491Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3984,7 +3984,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-03T17:00:55.846Z",
+      "checked_at": "2026-08-03T17:11:13.492Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4136,7 +4136,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-03T17:00:55.933Z",
+      "checked_at": "2026-08-03T17:11:13.572Z",
       "latest_incident": null,
       "recent_incidents": [
         {
