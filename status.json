@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-04T21:31:09.539Z",
+  "updated_at": "2026-08-04T21:40:56.222Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T21:31:09.424Z",
+      "checked_at": "2026-08-04T21:40:56.106Z",
       "latest_incident": {
         "title": "Elevated errors across many models",
         "body": "We have identified an issue which resulted in some users experiencing issues when attempting to log into Anthropic services, including Claude.ai and Claude Code via oAuth. Additionally, some users saw errors when making requests to models. At this time, we have seen success rates recover and are monitoring closely to ensure there are no further issues.",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T21:31:09.425Z",
+      "checked_at": "2026-08-04T21:40:56.107Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T21:31:09.425Z",
+      "checked_at": "2026-08-04T21:40:56.107Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T21:31:09.426Z",
+      "checked_at": "2026-08-04T21:40:56.107Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T21:31:09.426Z",
+      "checked_at": "2026-08-04T21:40:56.107Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T21:31:09.427Z",
+      "checked_at": "2026-08-04T21:40:56.107Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T21:31:09.427Z",
+      "checked_at": "2026-08-04T21:40:56.107Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-04T21:31:09.427Z",
+      "checked_at": "2026-08-04T21:40:56.108Z",
       "latest_incident": {
         "title": "Increased Job Queue Times: Windows, Android, and GPU",
         "body": "Queue times for both Android and Windows jobs, which had been recovering, have started to rise again. This continues to be related to capacity constraints with our third-party infrastructure provider. We'll continue to monitor and provide updates at least every 30 minutes. We appreciate your patience.",
@@ -972,7 +972,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-04T21:31:09.429Z",
+      "checked_at": "2026-08-04T21:40:56.108Z",
       "latest_incident": {
         "title": "Elevated R2 error rates and latency",
         "body": "Cloudflare is aware of, and investigating an issue with elevated R2 error rates and latency for R2 buckets located in Oceania",
@@ -2887,7 +2887,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-04T21:31:09.431Z",
+      "checked_at": "2026-08-04T21:40:56.109Z",
       "latest_incident": {
         "title": "Spaces Cold Storage Billing",
         "body": "Our Engineering team has implemented a fix for the issue affecting Spaces Cold Storage billing and is currently monitoring the situation. Customers with cold storage buckets should no longer see incorrect values reflected in their daily usage and current invoices. We will post an update as soon as the issue is fully resolved.",
@@ -3902,7 +3902,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T21:31:09.432Z",
+      "checked_at": "2026-08-04T21:40:56.109Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4002,7 +4002,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T21:31:09.432Z",
+      "checked_at": "2026-08-04T21:40:56.109Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4154,7 +4154,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-04T21:31:09.527Z",
+      "checked_at": "2026-08-04T21:40:56.214Z",
       "latest_incident": null,
       "recent_incidents": [
         {
