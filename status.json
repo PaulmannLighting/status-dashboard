@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-04T16:30:56.024Z",
+  "updated_at": "2026-08-04T16:40:58.154Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T16:30:55.917Z",
+      "checked_at": "2026-08-04T16:40:58.012Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T16:30:55.917Z",
+      "checked_at": "2026-08-04T16:40:58.013Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T16:30:55.917Z",
+      "checked_at": "2026-08-04T16:40:58.013Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T16:30:55.917Z",
+      "checked_at": "2026-08-04T16:40:58.014Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T16:30:55.917Z",
+      "checked_at": "2026-08-04T16:40:58.014Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T16:30:55.918Z",
+      "checked_at": "2026-08-04T16:40:58.015Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T16:30:55.918Z",
+      "checked_at": "2026-08-04T16:40:58.015Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T16:30:55.918Z",
+      "checked_at": "2026-08-04T16:40:58.015Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-04T16:30:55.918Z",
+      "checked_at": "2026-08-04T16:40:58.017Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2866,7 +2866,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-04T16:30:55.919Z",
+      "checked_at": "2026-08-04T16:40:58.019Z",
       "latest_incident": {
         "title": "Spaces Cold Storage Billing",
         "body": "Our Engineering team is investigating an issue affecting Spaces Cold Storage billing. During this time, customers with cold storage buckets may see incorrect values reflected in their daily usage and current invoices.\n\nWe apologize for the inconvenience and are actively working to resolve the issue. We will provide an update as soon as more information becomes available.",
@@ -3881,7 +3881,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T16:30:55.919Z",
+      "checked_at": "2026-08-04T16:40:58.019Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3910,7 +3910,7 @@
         },
         {
           "title": "Copilot model Claude Fable 5 experiencing elevated errors",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "body": "On July 30, 2026, the Claude Fable 5 model in GitHub Copilot experienced degraded availability for approximately 73 minutes, from 08:33 to 09:46 UTC. During this time, requests to Claude Fable 5 in Copilot chat and IDE surfaces frequently failed or timed out. This was caused by an issue with an upstream model provider. Other Copilot models were not affected, and users could continue working by selecting another model or 'Auto'. Availability for Claude Fable 5 fully recovered once the provider resolved their outage at 09:46 UTC, and we confirmed resolution at 10:12 UTC.",
           "date": "2026-07-30T10:12:15.489Z",
           "link": "https://stspg.io/45g8r57kv3n9",
           "status": "resolved",
@@ -3981,7 +3981,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-04T16:30:55.919Z",
+      "checked_at": "2026-08-04T16:40:58.019Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4133,7 +4133,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-04T16:30:56.015Z",
+      "checked_at": "2026-08-04T16:40:58.147Z",
       "latest_incident": null,
       "recent_incidents": [
         {
