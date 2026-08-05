@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-05T13:50:55.835Z",
+  "updated_at": "2026-08-05T14:00:55.881Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "degraded",
-      "description": "All Systems Operational",
-      "checked_at": "2026-08-05T13:50:55.736Z",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-08-05T14:00:55.776Z",
       "latest_incident": {
-        "title": "Degraded performance of multiple models",
-        "body": "A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery.",
-        "date": "2026-08-05T13:08:34.240Z",
-        "link": "https://stspg.io/s2ysk4zxbyy3",
-        "status": "monitoring",
+        "title": "Degraded performance for Claude Opus 5",
+        "body": "We have identified the cause of elevated errors on requests to Claude Opus 5 and are working on a fix. We will provide an update as soon as possible.",
+        "date": "2026-08-05T13:51:30.433Z",
+        "link": "https://stspg.io/m7w8kkf4tlqg",
+        "status": "identified",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -60,7 +60,7 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -68,15 +68,15 @@
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Code",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Cowork",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude for Government",
@@ -87,9 +87,9 @@
     {
       "name": "Asana",
       "status_url": "https://status.asana.com",
-      "status": "degraded",
-      "description": "Minor Service Outage",
-      "checked_at": "2026-08-05T13:50:55.736Z",
+      "status": "outage",
+      "description": "Partial System Outage",
+      "checked_at": "2026-08-05T14:00:55.777Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -180,7 +180,7 @@
         },
         {
           "name": "Mobile",
-          "status": "degraded"
+          "status": "outage"
         },
         {
           "name": "Mobile",
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-05T13:50:55.736Z",
+      "checked_at": "2026-08-05T14:00:55.777Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-05T13:50:55.737Z",
+      "checked_at": "2026-08-05T14:00:55.777Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "maintenance",
       "description": "Service Under Maintenance",
-      "checked_at": "2026-08-05T13:50:55.737Z",
+      "checked_at": "2026-08-05T14:00:55.777Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-05T13:50:55.737Z",
+      "checked_at": "2026-08-05T14:00:55.777Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-05T13:50:55.737Z",
+      "checked_at": "2026-08-05T14:00:55.777Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -755,9 +755,9 @@
     {
       "name": "Circleci.com",
       "status_url": "https://status.circleci.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-08-05T13:50:55.737Z",
+      "status": "degraded",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-08-05T14:00:55.778Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -952,7 +952,7 @@
         },
         {
           "name": "Anthropic api.anthropic.com",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "packagecloud.io",
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-05T13:50:55.738Z",
+      "checked_at": "2026-08-05T14:00:55.779Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2869,7 +2869,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-05T13:50:55.739Z",
+      "checked_at": "2026-08-05T14:00:55.779Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3877,7 +3877,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-05T13:50:55.739Z",
+      "checked_at": "2026-08-05T14:00:55.779Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3977,7 +3977,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-05T13:50:55.739Z",
+      "checked_at": "2026-08-05T14:00:55.780Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4129,7 +4129,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-05T13:50:55.828Z",
+      "checked_at": "2026-08-05T14:00:55.873Z",
       "latest_incident": null,
       "recent_incidents": [
         {
