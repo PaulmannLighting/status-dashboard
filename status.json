@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-06T05:40:55.964Z",
+  "updated_at": "2026-08-06T05:50:55.971Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T05:40:55.852Z",
+      "checked_at": "2026-08-06T05:50:55.872Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T05:40:55.853Z",
+      "checked_at": "2026-08-06T05:50:55.872Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T05:40:55.853Z",
+      "checked_at": "2026-08-06T05:50:55.872Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T05:40:55.853Z",
+      "checked_at": "2026-08-06T05:50:55.872Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "maintenance",
       "description": "Service Under Maintenance",
-      "checked_at": "2026-08-06T05:40:55.853Z",
+      "checked_at": "2026-08-06T05:50:55.873Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T05:40:55.853Z",
+      "checked_at": "2026-08-06T05:50:55.873Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T05:40:55.853Z",
+      "checked_at": "2026-08-06T05:50:55.873Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T05:40:55.853Z",
+      "checked_at": "2026-08-06T05:50:55.873Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-06T05:40:55.854Z",
+      "checked_at": "2026-08-06T05:50:55.874Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2862,7 +2862,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T05:40:55.855Z",
+      "checked_at": "2026-08-06T05:50:55.875Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3870,7 +3870,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T05:40:55.855Z",
+      "checked_at": "2026-08-06T05:50:55.875Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3970,7 +3970,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T05:40:55.855Z",
+      "checked_at": "2026-08-06T05:50:55.875Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4122,7 +4122,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-06T05:40:55.954Z",
+      "checked_at": "2026-08-06T05:50:55.964Z",
       "latest_incident": null,
       "recent_incidents": [
         {
