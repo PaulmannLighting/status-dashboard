@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-06T14:30:55.889Z",
+  "updated_at": "2026-08-06T14:40:56.079Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T14:30:55.780Z",
+      "checked_at": "2026-08-06T14:40:55.979Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T14:30:55.780Z",
+      "checked_at": "2026-08-06T14:40:55.980Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T14:30:55.780Z",
+      "checked_at": "2026-08-06T14:40:55.980Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T14:30:55.781Z",
+      "checked_at": "2026-08-06T14:40:55.980Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T14:30:55.781Z",
+      "checked_at": "2026-08-06T14:40:55.980Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T14:30:55.781Z",
+      "checked_at": "2026-08-06T14:40:55.981Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T14:30:55.781Z",
+      "checked_at": "2026-08-06T14:40:55.981Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-06T14:30:55.781Z",
+      "checked_at": "2026-08-06T14:40:55.981Z",
       "latest_incident": {
         "title": "Usage API data delayed for 8/5",
         "body": "Usage API data is delayed for 8/5/2026. All prior data remains available. We are investigating. Thank you for your patience.",
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-06T14:30:55.782Z",
+      "checked_at": "2026-08-06T14:40:55.982Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2873,7 +2873,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T14:30:55.783Z",
+      "checked_at": "2026-08-06T14:40:55.982Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3881,12 +3881,12 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T14:30:55.783Z",
+      "checked_at": "2026-08-06T14:40:55.983Z",
       "latest_incident": null,
       "recent_incidents": [
         {
           "title": "Some Copilot Cloud Agent jobs not starting",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "body": "On August 5, 2026, between 11:02 and 11:54 UTC, the GitHub Copilot cloud agent service was degraded and new cloud agent jobs were delayed from starting. During this period 100% of newly submitted agent jobs were affected. The incident was limited to delay of cloud agent jobs. No jobs were lost and the queued backlog was processed by 13:00 UTC. This was due to an internal rate limit used to protect service availability that was enabled more broadly than intended delaying more traffic than expected. <br /> <br />The service recovered when the rate limit window expired. We then tuned the control so it no longer affected unrelated coding agent traffic. <br /> <br />We are working to improve the control's scoping and our monitoring and alerting to reduce our time to detection and mitigation of similar issues in the future.",
           "date": "2026-08-05T13:00:25.857Z",
           "link": "https://stspg.io/kxdh3hfxm3zl",
           "status": "resolved",
@@ -3981,7 +3981,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T14:30:55.783Z",
+      "checked_at": "2026-08-06T14:40:55.983Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4133,7 +4133,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-06T14:30:55.879Z",
+      "checked_at": "2026-08-06T14:40:56.070Z",
       "latest_incident": null,
       "recent_incidents": [
         {
