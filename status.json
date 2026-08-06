@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-06T16:30:56.060Z",
+  "updated_at": "2026-08-06T16:40:56.134Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T16:30:55.957Z",
+      "checked_at": "2026-08-06T16:40:55.984Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T16:30:55.957Z",
+      "checked_at": "2026-08-06T16:40:55.984Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T16:30:55.958Z",
+      "checked_at": "2026-08-06T16:40:55.985Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T16:30:55.958Z",
+      "checked_at": "2026-08-06T16:40:55.985Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T16:30:55.958Z",
+      "checked_at": "2026-08-06T16:40:55.985Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T16:30:55.958Z",
+      "checked_at": "2026-08-06T16:40:55.985Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T16:30:55.958Z",
+      "checked_at": "2026-08-06T16:40:55.985Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-06T16:30:55.958Z",
+      "checked_at": "2026-08-06T16:40:55.985Z",
       "latest_incident": {
         "title": "Usage API data delayed for 8/5",
         "body": "The issue has been identified and a fix is in progress.",
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-06T16:30:55.959Z",
+      "checked_at": "2026-08-06T16:40:55.986Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2873,9 +2873,17 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T16:30:55.960Z",
+      "checked_at": "2026-08-06T16:40:55.987Z",
       "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Multiple Services Availability",
+          "body": "Between Aug 6, 06:42 UTC and 09:08 UTC, customers experienced failures with write operations across multiple DigitalOcean services, including Managed Databases, DOKS, Cloud Firewalls, DNS, Spaces, Block Storage Volumes, and event processing.\n\nCustomers attempting to update Cloud Firewall rules, modify DNS records, manage object storage operations, provision or scale DOKS clusters and node pools, and make other infrastructure configuration changes experienced failures. These operations returned errors, preventing customers from managing their resources. Additionally, event processing was delayed or failed during this window, which may have impacted the timeliness of resource status updates and notifications.\n\nThe services have recovered and are now operating normally. Customers should no longer experience issues with write operations, configuration changes, or event processing.\n\nWe apologize for any inconvenience this may have caused. If you continue to experience issues with any of these services, please don't hesitate to open a support ticket. Our team will be happy to assist you.",
+          "date": "2026-08-06T16:33:14.860Z",
+          "link": "https://stspg.io/zscj6w048lfx",
+          "status": "resolved",
+          "impact": "none"
+        },
         {
           "title": "Spaces Cold Storage Billing",
           "body": "As of 21:06 UTC, our Engineering team has resolved the issue affecting Spaces Cold Storage billing. An error in our billing processing system caused incorrect values to be reflected in daily usage and current invoices for customers with cold storage buckets.\n\nOur team identified and corrected an issue with the billing data sync, ensuring accurate usage reporting. If you continue to experience any issues, please open a ticket with our Support team. We apologize for any inconvenience this may have caused.",
@@ -2907,14 +2915,6 @@
           "link": "https://stspg.io/54mh0lzk9733",
           "status": "resolved",
           "impact": "major"
-        },
-        {
-          "title": "Network Connectivity from India to NYC",
-          "body": "Between 07:46  UTC & 10:24 UTC today, some users in India accessing resources in the NYC region may have experienced connectivity issues. The impact was limited to users using Airtel as their ISP.\n\nOur investigation determined that the issue was caused by an internal network issue within Airtel and was not related to DigitalOcean network. The connectivity issue now appears to be resolved, and users should no longer experience problems accessing their resources.\n\nWe apologize for any inconvenience this may have caused. However, if you continue to experience any connectivity issues, please don't hesitate to open a support ticket for further investigation; we'll be happy to assist you further.",
-          "date": "2026-07-24T12:42:25.955Z",
-          "link": "https://stspg.io/y9g7qgc9qs6m",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -3880,12 +3880,12 @@
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
-      "description": "Minor Service Outage",
-      "checked_at": "2026-08-06T16:30:55.960Z",
+      "description": "Partial System Outage",
+      "checked_at": "2026-08-06T16:40:55.987Z",
       "latest_incident": {
         "title": "Incident with Actions",
-        "body": "We are continuing to work on the issue affecting GitHub Actions. <br /><br />Some workflow runs are still delayed or failing to complete, and some requests to the Actions API are returning errors. <br /><br />Customers running migrations with GitHub Enterprise Importer may also see failures. <br /><br />Engineers are actively working towards full recovery.",
-        "date": "2026-08-06T16:27:47.096Z",
+        "body": "Actions and Pages are experiencing degraded availability. We are continuing to investigate.",
+        "date": "2026-08-06T16:33:31.419Z",
         "link": "https://stspg.io/rcz3fcm83sff",
         "status": "investigating",
         "impact": "critical"
@@ -3959,7 +3959,7 @@
         },
         {
           "name": "Actions",
-          "status": "degraded"
+          "status": "outage"
         },
         {
           "name": "Packages",
@@ -3967,7 +3967,7 @@
         },
         {
           "name": "Pages",
-          "status": "degraded"
+          "status": "outage"
         },
         {
           "name": "Copilot",
@@ -3988,7 +3988,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T16:30:55.960Z",
+      "checked_at": "2026-08-06T16:40:55.987Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4140,7 +4140,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-06T16:30:56.050Z",
+      "checked_at": "2026-08-06T16:40:56.114Z",
       "latest_incident": null,
       "recent_incidents": [
         {
