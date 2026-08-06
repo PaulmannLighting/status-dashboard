@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-06T21:20:56.276Z",
+  "updated_at": "2026-08-06T21:31:05.698Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T21:20:56.152Z",
+      "checked_at": "2026-08-06T21:31:05.592Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T21:20:56.152Z",
+      "checked_at": "2026-08-06T21:31:05.593Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T21:20:56.152Z",
+      "checked_at": "2026-08-06T21:31:05.593Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T21:20:56.153Z",
+      "checked_at": "2026-08-06T21:31:05.593Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T21:20:56.153Z",
+      "checked_at": "2026-08-06T21:31:05.593Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T21:20:56.153Z",
+      "checked_at": "2026-08-06T21:31:05.593Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T21:20:56.153Z",
+      "checked_at": "2026-08-06T21:31:05.593Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T21:20:56.153Z",
+      "checked_at": "2026-08-06T21:31:05.594Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-06T21:20:56.154Z",
+      "checked_at": "2026-08-06T21:31:05.594Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2866,7 +2866,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T21:20:56.155Z",
+      "checked_at": "2026-08-06T21:31:05.595Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3874,7 +3874,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-08-06T21:20:56.155Z",
+      "checked_at": "2026-08-06T21:31:05.595Z",
       "latest_incident": {
         "title": "Incident with Actions",
         "body": "We are continuing to work on an issue affecting GitHub Actions. Webhook triggers are currently throttled to help with recovery and and we are processing approximately 15% of webhooks, so many events such as pushes and pull requests are not triggering workflow runs. Of jobs queued, approximately 65% are succeeding, improved from a low of 30 to 40% earlier in this incident.<br /><br />We have narrowed the remaining impact to runners that are stuck retrying jobs that are no longer available. Both GitHub-hosted and self-hosted runners are affected, and we are working to recover them.<br /><br />Copilot code review, Copilot coding agent, and migrations using GitHub Enterprise Importer may also be affected.",
@@ -3981,7 +3981,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T21:20:56.156Z",
+      "checked_at": "2026-08-06T21:31:05.595Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4133,7 +4133,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-06T21:20:56.268Z",
+      "checked_at": "2026-08-06T21:31:05.690Z",
       "latest_incident": null,
       "recent_incidents": [
         {
