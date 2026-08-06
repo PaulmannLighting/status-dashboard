@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-06T17:20:56.161Z",
+  "updated_at": "2026-08-06T17:30:55.937Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T17:20:56.071Z",
+      "checked_at": "2026-08-06T17:30:55.806Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,9 +82,17 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T17:20:56.072Z",
+      "checked_at": "2026-08-06T17:30:55.807Z",
       "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Webhooks and event streams partial data loss",
+          "body": "From 2026-08-04 15:25 UTC until 2026-08-06 03:51 UTC, Asana failed to send some events to registered webhooks and to return them in the event streams API. Apps which rely on this should refetch the underlying data from the Asana API. Existing webhooks and event streams will continue to function, but events from the incident window will not be sent.\n\nMost events with type `task` and action `changed` were dropped during this period. Other events are not affected.\n\nThe root cause of the incident was traced to a code change which unintentionally dropped change events for most fields on the task type, and the change was reverted.",
+          "date": "2026-08-04T15:30:00.000Z",
+          "link": "https://stspg.io/3szrr5cymtdf",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Errors loading the Asana web app for some users in US",
           "body": "**Incident**: A configuration change inadvertently removed a critical resource required by one of our services. While existing infrastructure continued to operate normally, newly scaled infrastructure could not become ready. As morning traffic increased, there was a growing gap between incoming requests and our system's capacity to handle them, resulting in service degradation. We resolved the issue by manually restoring the missing resource and correcting the configuration change that caused its removal.\n\n‌\n\n**Impact**: For approximately 1.5 hours, a subset of customers experienced a full outage of our web application and desktop applications. During this time, affected users were unable to access Asana. No customer data was lost.\n\n‌\n\n**Moving forward**: We are implementing additional safeguards in our configuration management process to prevent critical resources from being inadvertently removed. We are also enhancing our monitoring systems to detect degradation earlier, before it impacts customer access.\n\n‌\n\nOur metric considers a weighted average of uptime experienced by users at each data center. The number of minutes of downtime shown reflects this weighted average.",
@@ -114,14 +122,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-03-26T18:34:04.027Z",
           "link": "https://stspg.io/74xk62813f57",
-          "status": "resolved",
-          "impact": "none"
-        },
-        {
-          "title": "AWS UAE issues might affect the ME region",
-          "body": "This incident has been resolved.",
-          "date": "2026-03-15T05:58:54.480Z",
-          "link": "https://stspg.io/7j5m5fmps74c",
           "status": "resolved",
           "impact": "none"
         }
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T17:20:56.072Z",
+      "checked_at": "2026-08-06T17:30:55.807Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T17:20:56.072Z",
+      "checked_at": "2026-08-06T17:30:55.807Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T17:20:56.072Z",
+      "checked_at": "2026-08-06T17:30:55.807Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T17:20:56.072Z",
+      "checked_at": "2026-08-06T17:30:55.807Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T17:20:56.073Z",
+      "checked_at": "2026-08-06T17:30:55.807Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-06T17:20:56.073Z",
+      "checked_at": "2026-08-06T17:30:55.808Z",
       "latest_incident": {
         "title": "Usage API data delayed for 8/5",
         "body": "The issue has been identified and a fix is in progress.",
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-06T17:20:56.074Z",
+      "checked_at": "2026-08-06T17:30:55.809Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2873,7 +2873,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T17:20:56.075Z",
+      "checked_at": "2026-08-06T17:30:55.809Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3881,7 +3881,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-08-06T17:20:56.075Z",
+      "checked_at": "2026-08-06T17:30:55.809Z",
       "latest_incident": {
         "title": "Incident with Actions",
         "body": "We are continuing to work on the issue affecting GitHub Actions. <br /><br />Workflow runs are still failing or delayed in starting, and some queued jobs may time out. <br /><br />Some requests to the Actions API are returning errors. Customers running migrations with GitHub Enterprise Importer may see failures. <br /><br />Our engineers have applied several mitigations and are rolling out a further fix now.",
@@ -3988,7 +3988,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-06T17:20:56.075Z",
+      "checked_at": "2026-08-06T17:30:55.810Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4140,7 +4140,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-06T17:20:56.153Z",
+      "checked_at": "2026-08-06T17:30:55.912Z",
       "latest_incident": null,
       "recent_incidents": [
         {
