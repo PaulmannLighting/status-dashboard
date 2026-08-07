@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-07T01:40:58.854Z",
+  "updated_at": "2026-08-07T01:50:56.386Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T01:40:58.733Z",
+      "checked_at": "2026-08-07T01:50:56.246Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T01:40:58.733Z",
+      "checked_at": "2026-08-07T01:50:56.246Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -252,18 +252,19 @@
     {
       "name": "Atlassian - JIRA",
       "status_url": "https://jira-software.status.atlassian.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T01:40:58.733Z",
-      "latest_incident": {
-        "title": "Degraded performance of JIRA",
-        "body": "The performance degradation of JIRA has been resolved, and services are now operating normally for all affected customers. We'll continue to monitor performance closely to confirm stability.",
-        "date": "2026-08-07T01:39:43.437Z",
-        "link": "https://stspg.io/d7xrb3fk7f4x",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-08-07T01:50:56.247Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Degraded performance of JIRA",
+          "body": "On August 7, 2026, JIRA, JWM, and JSM users may have experienced performance degradation when viewing issues and boards. The issue has now been resolved, and the service is operating normally for all affected customers.",
+          "date": "2026-08-07T01:46:47.707Z",
+          "link": "https://stspg.io/d7xrb3fk7f4x",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Degraded performance of Jira Automation rules",
           "body": "Our team has been able to validate that all rule executions are performing normally and this issue is now resolved.",
@@ -294,14 +295,6 @@
           "date": "2026-07-17T16:59:37.910Z",
           "link": "https://stspg.io/pq70b51nz09v",
           "status": "postmortem",
-          "impact": "major"
-        },
-        {
-          "title": "Jira : Incoming emails partial outage",
-          "body": "Our team has proactively reached out to all impacted organizations providing the below instructions to re-authorize their Microsoft mail server. If you are still experiencing this issue, please attempt to complete the re-authorization as advised below.\n\nIf further issues still occur that you believe to be related to this incident, please reach out to Atlassian support for further assistance.",
-          "date": "2026-06-26T05:13:01.620Z",
-          "link": "https://stspg.io/kpj5zywxxynh",
-          "status": "resolved",
           "impact": "major"
         }
       ],
@@ -357,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T01:40:58.733Z",
+      "checked_at": "2026-08-07T01:50:56.247Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T01:40:58.734Z",
+      "checked_at": "2026-08-07T01:50:56.247Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T01:40:58.734Z",
+      "checked_at": "2026-08-07T01:50:56.247Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T01:40:58.734Z",
+      "checked_at": "2026-08-07T01:50:56.247Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T01:40:58.734Z",
+      "checked_at": "2026-08-07T01:50:56.248Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-07T01:40:58.734Z",
+      "checked_at": "2026-08-07T01:50:56.249Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2873,7 +2866,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T01:40:58.735Z",
+      "checked_at": "2026-08-07T01:50:56.250Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3881,7 +3874,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T01:40:58.735Z",
+      "checked_at": "2026-08-07T01:50:56.251Z",
       "latest_incident": {
         "title": "Incident with Actions",
         "body": "We’re investigating reports that some Actions Runner Controller runners are taking longer than expected to recover. We’ll provide an update as our investigation progresses.",
@@ -3988,7 +3981,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T01:40:58.735Z",
+      "checked_at": "2026-08-07T01:50:56.251Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4140,7 +4133,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-07T01:40:58.844Z",
+      "checked_at": "2026-08-07T01:50:56.379Z",
       "latest_incident": null,
       "recent_incidents": [
         {
