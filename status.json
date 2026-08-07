@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-07T11:30:56.016Z",
+  "updated_at": "2026-08-07T11:40:56.123Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T11:30:55.918Z",
+      "checked_at": "2026-08-07T11:40:56.022Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T11:30:55.918Z",
+      "checked_at": "2026-08-07T11:40:56.022Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -252,10 +252,17 @@
     {
       "name": "Atlassian - JIRA",
       "status_url": "https://jira-software.status.atlassian.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-08-07T11:30:55.919Z",
-      "latest_incident": null,
+      "status": "outage",
+      "description": "Partial System Outage",
+      "checked_at": "2026-08-07T11:40:56.023Z",
+      "latest_incident": {
+        "title": "Performance and access related issues with Jira",
+        "body": "We are investigating issues affecting your services.\n\nWe are actively working to identify the cause and resolve the issue. We will provide further updates within one hour.",
+        "date": "2026-08-07T11:30:55.327Z",
+        "link": "https://stspg.io/n736m77txn89",
+        "status": "investigating",
+        "impact": "critical"
+      },
       "recent_incidents": [
         {
           "title": "Degraded performance of JIRA",
@@ -301,7 +308,7 @@
       "components": [
         {
           "name": "Viewing content",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Create and edit",
@@ -350,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T11:30:55.919Z",
+      "checked_at": "2026-08-07T11:40:56.023Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T11:30:55.919Z",
+      "checked_at": "2026-08-07T11:40:56.023Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T11:30:55.919Z",
+      "checked_at": "2026-08-07T11:40:56.024Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-08-07T11:30:55.919Z",
+      "checked_at": "2026-08-07T11:40:56.024Z",
       "latest_incident": {
         "title": "Disruption affecting all task processing",
         "body": "A fix has been implemented and tasks are starting up again to catch up. We're monitoring actively.",
@@ -757,7 +764,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T11:30:55.919Z",
+      "checked_at": "2026-08-07T11:40:56.024Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +972,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-07T11:30:55.920Z",
+      "checked_at": "2026-08-07T11:40:56.025Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2873,7 +2880,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T11:30:55.921Z",
+      "checked_at": "2026-08-07T11:40:56.025Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3881,7 +3888,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T11:30:55.921Z",
+      "checked_at": "2026-08-07T11:40:56.025Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3981,7 +3988,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-07T11:30:55.921Z",
+      "checked_at": "2026-08-07T11:40:56.026Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4133,7 +4140,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-07T11:30:56.007Z",
+      "checked_at": "2026-08-07T11:40:56.115Z",
       "latest_incident": null,
       "recent_incidents": [
         {
