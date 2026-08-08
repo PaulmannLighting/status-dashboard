@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-08T17:10:58.151Z",
+  "updated_at": "2026-08-08T17:20:55.901Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-08T17:10:58.042Z",
+      "checked_at": "2026-08-08T17:20:55.795Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-08T17:10:58.043Z",
+      "checked_at": "2026-08-08T17:20:55.796Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-08T17:10:58.043Z",
+      "checked_at": "2026-08-08T17:20:55.796Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-08T17:10:58.043Z",
+      "checked_at": "2026-08-08T17:20:55.796Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-08T17:10:58.043Z",
+      "checked_at": "2026-08-08T17:20:55.796Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-08T17:10:58.044Z",
+      "checked_at": "2026-08-08T17:20:55.797Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-08T17:10:58.044Z",
+      "checked_at": "2026-08-08T17:20:55.797Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-08T17:10:58.044Z",
+      "checked_at": "2026-08-08T17:20:55.797Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,16 +958,24 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-08T17:10:58.045Z",
+      "checked_at": "2026-08-08T17:20:55.798Z",
       "latest_incident": {
-        "title": "Connectivity issues affecting access to some website from certain networks in Egypt",
-        "body": "Cloudflare has identified a connectivity issue affecting access to some websites from certain networks in Egypt. We are working with external parties to restore network availability. More updates will follow.",
-        "date": "2026-08-08T15:52:21.000Z",
-        "link": "https://stspg.io/lmyfqmhp6xn4",
+        "title": "R2 Availability Issues",
+        "body": "We are continuing to restore availability for impacted R2 buckets in ENAM. Recovery is progressing well, and we will provide status updates as they becomes available",
+        "date": "2026-08-08T10:52:56.048Z",
+        "link": "https://stspg.io/f1bfmypj1dnh",
         "status": "identified",
         "impact": "minor"
       },
       "recent_incidents": [
+        {
+          "title": "Connectivity issues affecting access to some website from certain networks in Egypt",
+          "body": "Cloudflare’s investigation has determined that Cloudflare services are operating normally. The observed connectivity issue is outside Cloudflare’s network, and we have contacted the relevant external network provider.",
+          "date": "2026-08-08T17:19:49.419Z",
+          "link": "https://stspg.io/lmyfqmhp6xn4",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Worker's Observarbility Issues",
           "body": "This incident has been resolved.",
@@ -997,14 +1005,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-08-05T16:20:40.045Z",
           "link": "https://stspg.io/0bwyqk3cyl91",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Cloudflare Workers and Pages Assets Uploads issues",
-          "body": "This incident has been resolved.",
-          "date": "2026-08-05T08:42:17.010Z",
-          "link": "https://stspg.io/jkgwlm2szdhg",
           "status": "resolved",
           "impact": "minor"
         }
@@ -2480,7 +2480,7 @@
         },
         {
           "name": "Network",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Notifications",
@@ -2873,7 +2873,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-08T17:10:58.046Z",
+      "checked_at": "2026-08-08T17:20:55.798Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3881,7 +3881,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-08T17:10:58.046Z",
+      "checked_at": "2026-08-08T17:20:55.798Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3981,7 +3981,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-08T17:10:58.046Z",
+      "checked_at": "2026-08-08T17:20:55.798Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4133,7 +4133,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-08T17:10:58.144Z",
+      "checked_at": "2026-08-08T17:20:55.892Z",
       "latest_incident": null,
       "recent_incidents": [
         {
