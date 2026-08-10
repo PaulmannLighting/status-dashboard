@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-10T11:30:56.090Z",
+  "updated_at": "2026-08-10T11:40:56.108Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T11:30:55.965Z",
+      "checked_at": "2026-08-10T11:40:55.975Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T11:30:55.966Z",
+      "checked_at": "2026-08-10T11:40:55.975Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T11:30:55.966Z",
+      "checked_at": "2026-08-10T11:40:55.975Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T11:30:55.966Z",
+      "checked_at": "2026-08-10T11:40:55.976Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T11:30:55.967Z",
+      "checked_at": "2026-08-10T11:40:55.976Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T11:30:55.967Z",
+      "checked_at": "2026-08-10T11:40:55.976Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T11:30:55.967Z",
+      "checked_at": "2026-08-10T11:40:55.976Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T11:30:55.967Z",
+      "checked_at": "2026-08-10T11:40:55.977Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-10T11:30:55.968Z",
+      "checked_at": "2026-08-10T11:40:55.978Z",
       "latest_incident": {
         "title": "Issues with 1.1.1.1 public resolver in Tel Aviv (TLV)",
         "body": "Cloudflare is aware of, and investigating, an issue which potentially impacts multiple users in Tel Aviv that use 1.1.1.1 public resolver. Further detail will be provided as more information becomes available.",
@@ -968,6 +968,14 @@
         "impact": "minor"
       },
       "recent_incidents": [
+        {
+          "title": "Cloudflare Realtimekit API had reduced availability",
+          "body": "Cloudflare became aware of a brief period of reduced availability of the Realtimekit API, between the times 11:07 UTC and 11:13 UTC.  This issue has recovered, and no further impact expected.",
+          "date": "2026-08-10T11:07:00.000Z",
+          "link": "https://stspg.io/9bcq899tfsny",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "R2 Availability Issues",
           "body": "Availability has now been fully restored for all impacted R2 buckets, including the remaining objects uploaded through multipart uploads in ENAM.",
@@ -997,14 +1005,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-08-07T17:42:14.668Z",
           "link": "https://stspg.io/rbdqkkfkyb6d",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Network Performance Issues in Chicago (ORD)",
-          "body": "This incident has been resolved.",
-          "date": "2026-08-07T14:03:40.704Z",
-          "link": "https://stspg.io/3plfwsnk8vg0",
           "status": "resolved",
           "impact": "minor"
         }
@@ -2873,7 +2873,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T11:30:55.969Z",
+      "checked_at": "2026-08-10T11:40:55.980Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3881,7 +3881,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T11:30:55.970Z",
+      "checked_at": "2026-08-10T11:40:55.980Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3981,7 +3981,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T11:30:55.970Z",
+      "checked_at": "2026-08-10T11:40:55.980Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4133,7 +4133,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-10T11:30:56.084Z",
+      "checked_at": "2026-08-10T11:40:56.101Z",
       "latest_incident": null,
       "recent_incidents": [
         {
