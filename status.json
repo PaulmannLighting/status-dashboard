@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-10T21:50:55.970Z",
+  "updated_at": "2026-08-10T22:00:58.334Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T21:50:55.864Z",
+      "checked_at": "2026-08-10T22:00:58.220Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T21:50:55.865Z",
+      "checked_at": "2026-08-10T22:00:58.221Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T21:50:55.865Z",
+      "checked_at": "2026-08-10T22:00:58.221Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T21:50:55.865Z",
+      "checked_at": "2026-08-10T22:00:58.221Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T21:50:55.865Z",
+      "checked_at": "2026-08-10T22:00:58.221Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T21:50:55.866Z",
+      "checked_at": "2026-08-10T22:00:58.221Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T21:50:55.866Z",
+      "checked_at": "2026-08-10T22:00:58.221Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T21:50:55.866Z",
+      "checked_at": "2026-08-10T22:00:58.222Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-10T21:50:55.867Z",
+      "checked_at": "2026-08-10T22:00:58.222Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2866,7 +2866,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T21:50:55.868Z",
+      "checked_at": "2026-08-10T22:00:58.222Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3872,18 +3872,19 @@
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T21:50:55.868Z",
-      "latest_incident": {
-        "title": "Disruption with Copilot for access to some models",
-        "body": "The issue has been mitigated across all affected environments. We are currently deploying on a fix to prevent reoccurrence. We will provide another update once the fix has been deployed.",
-        "date": "2026-08-10T21:19:06.324Z",
-        "link": "https://stspg.io/4x5bd0ghzy0x",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-08-10T22:00:58.223Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Disruption with Copilot for access to some models",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-08-10T21:50:43.756Z",
+          "link": "https://stspg.io/4x5bd0ghzy0x",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Disruption with creation of fine grained personal access tokens",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -3913,14 +3914,6 @@
           "body": "On August 5, 2026, between 11:02 and 11:54 UTC, the GitHub Copilot cloud agent service was degraded and new cloud agent jobs were delayed from starting. During this period 100% of newly submitted agent jobs were affected. The incident was limited to delay of cloud agent jobs. No jobs were lost and the queued backlog was processed by 13:00 UTC. This was due to an internal rate limit used to protect service availability that was enabled more broadly than intended delaying more traffic than expected. <br /> <br />The service recovered when the rate limit window expired. We then tuned the control so it no longer affected unrelated coding agent traffic. <br /> <br />We are working to improve the control's scoping and our monitoring and alerting to reduce our time to detection and mitigation of similar issues in the future.",
           "date": "2026-08-05T13:00:25.857Z",
           "link": "https://stspg.io/kxdh3hfxm3zl",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Incident with Copilot",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
-          "date": "2026-08-03T11:25:12.371Z",
-          "link": "https://stspg.io/y3tm8v1gmn85",
           "status": "resolved",
           "impact": "minor"
         }
@@ -3981,7 +3974,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-08-10T21:50:55.868Z",
+      "checked_at": "2026-08-10T22:00:58.223Z",
       "latest_incident": {
         "title": "Increased error rates",
         "body": "We have applied the mitigation and are monitoring the recovery.",
@@ -4140,7 +4133,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-10T21:50:55.961Z",
+      "checked_at": "2026-08-10T22:00:58.327Z",
       "latest_incident": null,
       "recent_incidents": [
         {
