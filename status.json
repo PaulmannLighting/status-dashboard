@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-10T12:10:57.184Z",
+  "updated_at": "2026-08-10T12:20:56.033Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T12:10:57.062Z",
+      "checked_at": "2026-08-10T12:20:55.891Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T12:10:57.062Z",
+      "checked_at": "2026-08-10T12:20:55.892Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T12:10:57.062Z",
+      "checked_at": "2026-08-10T12:20:55.892Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T12:10:57.063Z",
+      "checked_at": "2026-08-10T12:20:55.892Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T12:10:57.063Z",
+      "checked_at": "2026-08-10T12:20:55.892Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T12:10:57.063Z",
+      "checked_at": "2026-08-10T12:20:55.893Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T12:10:57.063Z",
+      "checked_at": "2026-08-10T12:20:55.893Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T12:10:57.063Z",
+      "checked_at": "2026-08-10T12:20:55.893Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,16 +958,17 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-10T12:10:57.065Z",
-      "latest_incident": {
-        "title": "Issues with 1.1.1.1 public resolver in Tel Aviv (TLV)",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-08-10T12:03:13.924Z",
-        "link": "https://stspg.io/ylw7b8q7xzjn",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-08-10T12:20:55.895Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Issues with 1.1.1.1 public resolver in Tel Aviv (TLV)",
+          "body": "This incident has been resolved.",
+          "date": "2026-08-10T12:19:06.029Z",
+          "link": "https://stspg.io/ylw7b8q7xzjn",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Cloudflare Realtimekit API had reduced availability",
           "body": "Cloudflare became aware of a brief period of reduced availability of the Realtimekit API, between the times 11:07 UTC and 11:13 UTC.  This issue has recovered, and no further impact expected.",
@@ -997,14 +998,6 @@
           "body": "Cloudflare’s investigation has determined that Cloudflare services are operating normally. The observed connectivity issue is outside Cloudflare’s network, and we have contacted the relevant external network provider.",
           "date": "2026-08-08T17:19:49.419Z",
           "link": "https://stspg.io/lmyfqmhp6xn4",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Worker's Observarbility Issues",
-          "body": "This incident has been resolved.",
-          "date": "2026-08-07T17:42:14.668Z",
-          "link": "https://stspg.io/rbdqkkfkyb6d",
           "status": "resolved",
           "impact": "minor"
         }
@@ -2540,7 +2533,7 @@
         },
         {
           "name": "Recursive DNS",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Kochi, India - (COK)",
@@ -2873,7 +2866,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T12:10:57.066Z",
+      "checked_at": "2026-08-10T12:20:55.896Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3881,7 +3874,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T12:10:57.066Z",
+      "checked_at": "2026-08-10T12:20:55.896Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3981,7 +3974,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T12:10:57.066Z",
+      "checked_at": "2026-08-10T12:20:55.896Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4133,7 +4126,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-10T12:10:57.175Z",
+      "checked_at": "2026-08-10T12:20:56.025Z",
       "latest_incident": null,
       "recent_incidents": [
         {
