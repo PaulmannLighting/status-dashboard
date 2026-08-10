@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-10T08:00:56.147Z",
+  "updated_at": "2026-08-10T08:10:56.516Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T08:00:56.039Z",
+      "checked_at": "2026-08-10T08:10:56.403Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T08:00:56.040Z",
+      "checked_at": "2026-08-10T08:10:56.403Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T08:00:56.040Z",
+      "checked_at": "2026-08-10T08:10:56.403Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T08:00:56.040Z",
+      "checked_at": "2026-08-10T08:10:56.403Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T08:00:56.040Z",
+      "checked_at": "2026-08-10T08:10:56.404Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T08:00:56.041Z",
+      "checked_at": "2026-08-10T08:10:56.404Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T08:00:56.041Z",
+      "checked_at": "2026-08-10T08:10:56.404Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T08:00:56.041Z",
+      "checked_at": "2026-08-10T08:10:56.404Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-10T08:00:56.042Z",
+      "checked_at": "2026-08-10T08:10:56.405Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2866,7 +2866,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T08:00:56.043Z",
+      "checked_at": "2026-08-10T08:10:56.406Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3874,7 +3874,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-10T08:00:56.043Z",
+      "checked_at": "2026-08-10T08:10:56.406Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3972,18 +3972,19 @@
     {
       "name": "OpenAI",
       "status_url": "https://status.openai.com",
-      "status": "degraded",
-      "description": "Partial System Degradation",
-      "checked_at": "2026-08-10T08:00:56.043Z",
-      "latest_incident": {
-        "title": "Increased errors for some ChatGPT users",
-        "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
-        "date": "2026-08-10T07:21:42Z",
-        "link": "",
-        "status": "identified",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-08-10T08:10:56.407Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Increased errors for some ChatGPT users",
+          "body": "All impacted services have now fully recovered.",
+          "date": "2026-08-10T08:09:19Z",
+          "link": "",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated errors with image generation",
           "body": "All impacted services have now fully recovered.",
@@ -4015,14 +4016,6 @@
           "link": "",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Enterprise & Education Chat Errors",
-          "body": "This is now resolved.",
-          "date": "2026-07-31T09:28:52Z",
-          "link": "",
-          "status": "resolved",
-          "impact": "none"
         }
       ],
       "components": [
@@ -4036,7 +4029,7 @@
         },
         {
           "name": "Conversations",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Responses",
@@ -4133,7 +4126,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-10T08:00:56.138Z",
+      "checked_at": "2026-08-10T08:10:56.508Z",
       "latest_incident": null,
       "recent_incidents": [
         {
