@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-11T04:11:03.642Z",
+  "updated_at": "2026-08-11T04:20:56.212Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-11T04:11:01.713Z",
+      "checked_at": "2026-08-11T04:20:56.096Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-11T04:11:01.713Z",
+      "checked_at": "2026-08-11T04:20:56.097Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-11T04:11:01.713Z",
+      "checked_at": "2026-08-11T04:20:56.097Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-11T04:11:01.714Z",
+      "checked_at": "2026-08-11T04:20:56.097Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-11T04:11:01.714Z",
+      "checked_at": "2026-08-11T04:20:56.097Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-11T04:11:01.714Z",
+      "checked_at": "2026-08-11T04:20:56.097Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-11T04:11:01.714Z",
+      "checked_at": "2026-08-11T04:20:56.097Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-11T04:11:01.714Z",
+      "checked_at": "2026-08-11T04:20:56.098Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,9 +958,17 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-11T04:11:01.715Z",
+      "checked_at": "2026-08-11T04:20:56.098Z",
       "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Retro - Increased HTTP 5xx Errors in Singapore",
+          "body": "Cloudflare observed an increased level of HTTP 5xx errors in Singapore from 03:30 AM - 04:00 AM UTC. \n\nThe issue is currently resolved.",
+          "date": "2026-08-11T03:30:00.000Z",
+          "link": "https://stspg.io/6rzvfc6tf0qg",
+          "status": "resolved",
+          "impact": "none"
+        },
         {
           "title": "Issues with 1.1.1.1 public resolver in Tel Aviv (TLV)",
           "body": "This incident has been resolved.",
@@ -990,14 +998,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-08-08T19:45:07.764Z",
           "link": "https://stspg.io/k1vk98lctqtm",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Connectivity issues affecting access to some website from certain networks in Egypt",
-          "body": "Cloudflare’s investigation has determined that Cloudflare services are operating normally. The observed connectivity issue is outside Cloudflare’s network, and we have contacted the relevant external network provider.",
-          "date": "2026-08-08T17:19:49.419Z",
-          "link": "https://stspg.io/lmyfqmhp6xn4",
           "status": "resolved",
           "impact": "minor"
         }
@@ -2866,7 +2866,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-11T04:11:01.716Z",
+      "checked_at": "2026-08-11T04:20:56.099Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3874,7 +3874,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-11T04:11:01.716Z",
+      "checked_at": "2026-08-11T04:20:56.099Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3974,7 +3974,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-11T04:11:01.716Z",
+      "checked_at": "2026-08-11T04:20:56.099Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4126,7 +4126,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-11T04:11:03.634Z",
+      "checked_at": "2026-08-11T04:20:56.193Z",
       "latest_incident": null,
       "recent_incidents": [
         {
