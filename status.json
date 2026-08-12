@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-12T16:40:56.618Z",
+  "updated_at": "2026-08-12T16:50:56.878Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-12T16:40:56.518Z",
+      "checked_at": "2026-08-12T16:50:56.735Z",
       "latest_incident": {
         "title": "Degraded performance for multiple models",
         "body": "We have identified an issue which resulted in errors across multiple models. At this time, errors are primarily impacting Claude Fable 5 and we are working to fully resolve these issues.",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:40:56.519Z",
+      "checked_at": "2026-08-12T16:50:56.735Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:40:56.519Z",
+      "checked_at": "2026-08-12T16:50:56.735Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:40:56.519Z",
+      "checked_at": "2026-08-12T16:50:56.736Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:40:56.520Z",
+      "checked_at": "2026-08-12T16:50:56.736Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:40:56.520Z",
+      "checked_at": "2026-08-12T16:50:56.736Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:40:56.520Z",
+      "checked_at": "2026-08-12T16:50:56.736Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,16 +757,17 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-12T16:40:56.520Z",
-      "latest_incident": {
-        "title": "GitHub service degradation may impact customers using GitHub",
-        "body": "GitHub is currently experiencing a service degradation (https://www.githubstatus.com/incidents/76t89hbfb09h). Customers who use GitHub as their VCS may experience impact to their CircleCI platform experience as a result, impacting checkout and workflows.\n\nWe will provide another update as we have more information to share.  Thank you for your patience.",
-        "date": "2026-08-12T16:33:41.250Z",
-        "link": "https://stspg.io/5n5fpq53kkhh",
-        "status": "identified",
-        "impact": "minor"
-      },
+      "checked_at": "2026-08-12T16:50:56.736Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "GitHub service degradation may impact customers using GitHub",
+          "body": "The issue impacting customers who use GitHub as their VCS while GitHub was undergoing a service degradation (https://www.githubstatus.com/incidents/76t89hbfb09h) has now been resolved.  GitHub has resolved the underlying issue and the affected functionality has returned to normal. \n\nWe thank you for your patience.",
+          "date": "2026-08-12T16:43:37.854Z",
+          "link": "https://stspg.io/5n5fpq53kkhh",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Delayed pipeline updates and pipeline processing failures",
           "body": "Between 13:50 UTC and approximately 17:30 UTC on August 11, 2026, some customers experienced delays of up to an hour in pipeline status updates and in notification delivery. \n\nBetween 16:40 UTC and 17:00 UTC within that same window, a small number of customers also saw newly created pipelines fail to process, appearing in an errored state in the UI and API. \n\nThe issue has been resolved and all affected functionality has returned to normal. Customers whose pipelines errored during that window can retrigger them. \n\nWe thank you for your patience while our team worked on implementing a fix.",
@@ -796,14 +797,6 @@
           "body": "Queue times for Android and Windows jobs have reduced significantly over the last hour. You may still notice brief, isolated queuing at times, but this is no longer at incident-level impact. This was related to capacity constraints with a third-party infrastructure provider. We thank you for your patience while we monitored the situation. If you have any issues, please reach out to our Support team.",
           "date": "2026-08-04T23:40:23.795Z",
           "link": "https://stspg.io/525771jb0gj4",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "GitHub service degradation may impact customers using GitHub",
-          "body": "The issue impacting customers who use GitHub as their VCS while GitHub was undergoing a service degradation (https://www.githubstatus.com/incidents/yjysg0xrl67m) has now been resolved.  GitHub has resolved the underlying issue and the affected functionality has returned to normal. \n\nWe thank you for your patience.",
-          "date": "2026-07-24T17:41:31.000Z",
-          "link": "https://stspg.io/8pvsx88khry9",
           "status": "resolved",
           "impact": "minor"
         }
@@ -863,7 +856,7 @@
         },
         {
           "name": "Pipelines & Workflows",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Docker Hub",
@@ -972,13 +965,13 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-08-12T16:40:56.521Z",
+      "checked_at": "2026-08-12T16:50:56.738Z",
       "latest_incident": {
         "title": "Email Security delivery impacted by Spamhaus listing",
-        "body": "We are continuing to investigate this issue.\n\nCustomers using O365 will be impacted only if they have not completed the required setup. Please check your setup and ensure the connector includes all egress IPs:\n\nhttps://developers.cloudflare.com/cloudflare-one/email-security/setup/pre-delivery-deployment/prerequisites/m365-email-security-mx/#2-configure-enhanced-filtering",
-        "date": "2026-08-12T16:30:55.585Z",
+        "body": "All IPs previously listed by Spamhaus are now clean. Monitoring the propagation of that change to downstream systems.",
+        "date": "2026-08-12T16:48:03.271Z",
         "link": "https://www.cloudflarestatus.com/incidents/fdyjr0t87mrb",
-        "status": "investigating",
+        "status": "monitoring",
         "impact": "major"
       },
       "recent_incidents": [
@@ -2899,7 +2892,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:40:56.522Z",
+      "checked_at": "2026-08-12T16:50:56.739Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3905,18 +3898,19 @@
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:40:56.522Z",
-      "latest_incident": {
-        "title": "Incident with Pull Requests and Issues",
-        "body": "We identified the source of errors affecting Pull Requests, Issues, and Search on GitHub.com and have applied a mitigation. A database index hint was referencing an index that had been removed by a recent migration, causing query failures for some users. We disabled the problematic configuration and are seeing recovery across affected services. We are continuing to monitor to confirm full resolution.",
-        "date": "2026-08-12T16:38:38.345Z",
-        "link": "https://stspg.io/ssd9z8l2g46v",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-08-12T16:50:56.739Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Incident with Pull Requests and Issues",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-08-12T16:41:18.768Z",
+          "link": "https://stspg.io/ssd9z8l2g46v",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Incident with GraphQL API Requests",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -3948,14 +3942,6 @@
           "link": "https://stspg.io/rcz3fcm83sff",
           "status": "resolved",
           "impact": "critical"
-        },
-        {
-          "title": "Incident with Pages - Deployment Lag",
-          "body": "On August 6, 2026, at 07:00 UTC, a configuration change inadvertently reduced the capacity of the service that processes GitHub Pages deployments. As traffic increased over the following hours, latency in the deployment pipeline progressively increased. <br /><br />At 12:09 UTC, latency crossed the alerting threshold and the team began investigating. We reverted the invalid configuration and applied additional mitigations, including reducing status deployment processing to lower the load on our Redis cluster. Latency returned to normal levels at 15:40 UTC. <br /><br />Customer impact occurred from 11:34 to 15:32 UTC. During this period, we failed to process approximately 128,000 deployments. <br /><br />We have updated our alerts to detect elevated processing latency sooner and to notify us immediately when latency causes deployment processing failures. We've confirmed this incident was not fully captured by our availability metrics. In the coming days, we'll update how GitHub Pages availability is measured so incidents like this are accurately reflected going forward.",
-          "date": "2026-08-06T16:22:59.638Z",
-          "link": "https://stspg.io/b0n00sx9z3ht",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -4014,7 +4000,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:40:56.522Z",
+      "checked_at": "2026-08-12T16:50:56.739Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4166,7 +4152,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-12T16:40:56.607Z",
+      "checked_at": "2026-08-12T16:50:56.868Z",
       "latest_incident": null,
       "recent_incidents": [
         {
