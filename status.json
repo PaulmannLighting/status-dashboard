@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-12T22:50:56.498Z",
+  "updated_at": "2026-08-12T23:00:56.270Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:50:56.349Z",
+      "checked_at": "2026-08-12T23:00:56.146Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:50:56.350Z",
+      "checked_at": "2026-08-12T23:00:56.147Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:50:56.350Z",
+      "checked_at": "2026-08-12T23:00:56.147Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:50:56.351Z",
+      "checked_at": "2026-08-12T23:00:56.147Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:50:56.351Z",
+      "checked_at": "2026-08-12T23:00:56.148Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -578,7 +578,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:50:56.351Z",
+      "checked_at": "2026-08-12T23:00:56.148Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -694,7 +694,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:50:56.351Z",
+      "checked_at": "2026-08-12T23:00:56.148Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -750,7 +750,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:50:56.352Z",
+      "checked_at": "2026-08-12T23:00:56.148Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -958,7 +958,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-12T22:50:56.353Z",
+      "checked_at": "2026-08-12T23:00:56.149Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2878,7 +2878,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:50:56.354Z",
+      "checked_at": "2026-08-12T23:00:56.149Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3884,18 +3884,19 @@
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "outage",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:50:56.354Z",
-      "latest_incident": {
-        "title": "Disruption with Login and Release Asset downloads",
-        "body": "We have identified the root cause and are working on mitigation. Errors on the login page and downloading release assets have decreased, but we are not fully mitigated. We will continue to provide updates.",
-        "date": "2026-08-12T22:22:11.444Z",
-        "link": "https://stspg.io/xp36nwz4rrh1",
-        "status": "investigating",
-        "impact": "major"
-      },
+      "checked_at": "2026-08-12T23:00:56.149Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Disruption with Login and Release Asset downloads",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "date": "2026-08-12T22:56:39.025Z",
+          "link": "https://stspg.io/xp36nwz4rrh1",
+          "status": "resolved",
+          "impact": "major"
+        },
         {
           "title": "Incident with Pull Requests and Issues",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -3927,14 +3928,6 @@
           "link": "https://stspg.io/tjf46x5zq25c",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Incident with Actions",
-          "body": "On August 6, 2026, between 15:05 UTC and 00:14 UTC on August 7, GitHub Actions experienced degraded availability. During the incident, workflow runs failed or remained queued for an extended period of time. Customers using both GitHub-hosted and self-hosted runners were affected. At peak, 71% of workflow runs experienced infrastructure failures and 75% of the remaining workflow runs were delayed by more than 5 minutes. <br /><br />The incident was triggered by a routine deployment to an internal Actions service responsible for processing events and generating Actions jobs. The deployment exposed an existing capacity and concurrency weakness. As pods were replaced during the deployment, remaining capacity became saturated, causing services to crash and triggering a cascading impact across multiple clusters and downstream services. <br /><br />These services recovered at 17:00 after expanding capacity, throttling incoming webhook-triggered work to allow the system to recover, and increasing processing capacity for the backlog of affected events. <br /><br />As the incident progressed, a backlog of work accumulated across the systems responsible for assigning jobs to runners. Due to a latent bug in one of the services responsible for job assignment, runners were getting assigned jobs that were no longer valid and then getting stuck retrying those jobs, preventing them from picking up valid work. <br /><br />This second stage of impact was mitigated by deploying changes to prevent runners from repeatedly attempting to acquire invalid jobs. These mitigations allowed the accumulated queues to drain and Actions to recover to normal operation. <br /><br />Some Actions Runner Controller (ARC) runners remained stuck after the incident. A mitigation deployed during the incident inadvertently affected these runners, causing some to remain offline until they were manually recovered. We subsequently rolled back the change and are adding automatic recovery in upcoming Runner and ARC releases. <br /><br />Some jobs created during the incident were also left stuck unable to be retried or canceled.  CLI and UI solutions for customers to address these were shared at https://github.com/orgs/community/discussions/204152#discussioncomment-17946043. <br /><br />To prevent recurrence, we are making improvements to deployment and capacity safeguards for the affected services, strengthening monitoring for the conditions that preceded the incident, improving the resiliency and recovery of queued work and runner assignment, and adding automatic recovery for self-hosted runners affected by similar failure conditions. We are also making additional improvements to reduce the risk of cascading failures and accelerate recovery during large-scale Actions disruptions.",
-          "date": "2026-08-07T02:04:44.460Z",
-          "link": "https://stspg.io/rcz3fcm83sff",
-          "status": "resolved",
-          "impact": "critical"
         }
       ],
       "components": [
@@ -3993,7 +3986,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:50:56.354Z",
+      "checked_at": "2026-08-12T23:00:56.150Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4145,7 +4138,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-12T22:50:56.489Z",
+      "checked_at": "2026-08-12T23:00:56.262Z",
       "latest_incident": null,
       "recent_incidents": [
         {
