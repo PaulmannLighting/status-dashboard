@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-12T16:20:56.370Z",
+  "updated_at": "2026-08-12T16:30:56.389Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-12T16:20:56.238Z",
+      "checked_at": "2026-08-12T16:30:56.203Z",
       "latest_incident": {
         "title": "Degraded performance for multiple models",
         "body": "We have identified an issue which resulted in errors across multiple models. At this time, errors are primarily impacting Claude Fable 5 and we are working to fully resolve these issues.",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:20:56.239Z",
+      "checked_at": "2026-08-12T16:30:56.204Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:20:56.239Z",
+      "checked_at": "2026-08-12T16:30:56.205Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:20:56.239Z",
+      "checked_at": "2026-08-12T16:30:56.205Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:20:56.240Z",
+      "checked_at": "2026-08-12T16:30:56.206Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:20:56.240Z",
+      "checked_at": "2026-08-12T16:30:56.206Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:20:56.240Z",
+      "checked_at": "2026-08-12T16:30:56.206Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-12T16:20:56.240Z",
+      "checked_at": "2026-08-12T16:30:56.206Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -884,7 +884,7 @@
         },
         {
           "name": "GitHub Pull Requests",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Artifacts",
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-08-12T16:20:56.241Z",
+      "checked_at": "2026-08-12T16:30:56.208Z",
       "latest_incident": {
         "title": "Email Security delivery impacted by Spamhaus listing",
         "body": "We are continuing to investigate this issue.",
@@ -2892,7 +2892,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:20:56.242Z",
+      "checked_at": "2026-08-12T16:30:56.210Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3900,11 +3900,11 @@
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-12T16:20:56.242Z",
+      "checked_at": "2026-08-12T16:30:56.210Z",
       "latest_incident": {
         "title": "Incident with Pull Requests and Issues",
-        "body": "We are investigating reports of degraded performance for Issues and Pull Requests",
-        "date": "2026-08-12T16:16:18.105Z",
+        "body": "We are investigating reports of errors affecting Pull Requests and Issues on GitHub.com. Some users may encounter 500 errors when loading pull request and issue pages. Our engineering teams are actively investigating the root cause, which appears to be related to a database infrastructure issue. We will provide an update as soon as we have more information.",
+        "date": "2026-08-12T16:24:30.991Z",
         "link": "https://stspg.io/ssd9z8l2g46v",
         "status": "investigating",
         "impact": "minor"
@@ -4007,7 +4007,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T16:20:56.242Z",
+      "checked_at": "2026-08-12T16:30:56.210Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4159,7 +4159,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-12T16:20:56.361Z",
+      "checked_at": "2026-08-12T16:30:56.381Z",
       "latest_incident": null,
       "recent_incidents": [
         {
