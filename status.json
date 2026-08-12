@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-12T22:01:06.538Z",
+  "updated_at": "2026-08-12T22:11:00.165Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:01:02.243Z",
+      "checked_at": "2026-08-12T22:11:00.006Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:01:02.244Z",
+      "checked_at": "2026-08-12T22:11:00.007Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:01:02.244Z",
+      "checked_at": "2026-08-12T22:11:00.007Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,11 +350,11 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-12T22:01:02.244Z",
+      "checked_at": "2026-08-12T22:11:00.007Z",
       "latest_incident": {
         "title": "Confluence intermittent errors",
-        "body": "Impact\n\nSome Confluence Cloud users visiting public links saw a Something went wrong error page. The issue affected anonymous access paths for public links, and some related Confluence areas could also show the same error message.\n\nCurrent Status\n\nA problematic recent change was identified and a revert was prepared. The team is using the revert path to restore the affected experience while checking that service returns to normal.\n\nNext Steps\n\nThe incident team is completing the revert and monitoring the affected experience. Further updates will be sent in 60 minutes, or sooner if there is a material change.",
-        "date": "2026-08-12T20:11:34.250Z",
+        "body": "Some Confluence Cloud users visiting public links saw a Something went wrong error page. The issue affected anonymous access paths for public links, and some related Confluence areas could also show the same error message.",
+        "date": "2026-08-12T20:11:34.000Z",
         "link": "https://stspg.io/dynwn3553xy4",
         "status": "identified",
         "impact": "minor"
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:01:02.245Z",
+      "checked_at": "2026-08-12T22:11:00.008Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:01:02.245Z",
+      "checked_at": "2026-08-12T22:11:00.008Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:01:02.245Z",
+      "checked_at": "2026-08-12T22:11:00.008Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:01:02.245Z",
+      "checked_at": "2026-08-12T22:11:00.008Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -965,7 +965,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-12T22:01:02.246Z",
+      "checked_at": "2026-08-12T22:11:00.010Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2885,7 +2885,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:01:02.247Z",
+      "checked_at": "2026-08-12T22:11:00.011Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3893,7 +3893,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:01:02.247Z",
+      "checked_at": "2026-08-12T22:11:00.011Z",
       "latest_incident": {
         "title": "Disruption with Login and Release Asset downloads",
         "body": "We are investigating issues with Login and when downloading Release Assets. We will continue to keep users updated on progress towards mitigation.",
@@ -4000,7 +4000,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-12T22:01:02.247Z",
+      "checked_at": "2026-08-12T22:11:00.011Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4152,7 +4152,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-12T22:01:06.531Z",
+      "checked_at": "2026-08-12T22:11:00.155Z",
       "latest_incident": null,
       "recent_incidents": [
         {
