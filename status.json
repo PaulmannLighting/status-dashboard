@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-13T14:50:56.283Z",
+  "updated_at": "2026-08-13T15:00:58.114Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-13T14:50:56.135Z",
+      "checked_at": "2026-08-13T15:00:57.989Z",
       "latest_incident": {
         "title": "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
         "body": "We are investigating elevated errors on requests to Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5. We will provide an update as soon as possible.",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-13T14:50:56.135Z",
+      "checked_at": "2026-08-13T15:00:57.989Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-13T14:50:56.135Z",
+      "checked_at": "2026-08-13T15:00:57.990Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-13T14:50:56.136Z",
+      "checked_at": "2026-08-13T15:00:57.990Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-13T14:50:56.136Z",
+      "checked_at": "2026-08-13T15:00:57.990Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -585,7 +585,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-13T14:50:56.136Z",
+      "checked_at": "2026-08-13T15:00:57.990Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -701,7 +701,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-13T14:50:56.136Z",
+      "checked_at": "2026-08-13T15:00:57.990Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -757,7 +757,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-13T14:50:56.137Z",
+      "checked_at": "2026-08-13T15:00:57.990Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -900,7 +900,7 @@
         },
         {
           "name": "GitHub Packages",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Runner",
@@ -965,8 +965,15 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-13T14:50:56.138Z",
-      "latest_incident": null,
+      "checked_at": "2026-08-13T15:00:57.991Z",
+      "latest_incident": {
+        "title": "Cloudflare Workers AI errors with Specific models",
+        "body": "Cloudflare is aware of, and investigating, an increased amount of errors with @cf/meta/m2m100-1.2b and @cf/myshell-ai/melotts. \nWe are working to mitigate this problem. More updates to follow shortly.",
+        "date": "2026-08-13T15:00:29.456Z",
+        "link": "https://www.cloudflarestatus.com/incidents/h79v9rn8h6ml",
+        "status": "investigating",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "Email Security delivery impacted by Spamhaus listing",
@@ -2684,7 +2691,7 @@
         },
         {
           "name": "Workers AI",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Workers Assets",
@@ -2885,9 +2892,17 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-13T14:50:56.139Z",
+      "checked_at": "2026-08-13T15:00:57.992Z",
       "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Volume Attach/Detach events in FRA1",
+          "body": "Between Aug 13, 09:50 UTC  and 14:30 UTC, customers in the FRA1 region experienced an issue affecting Block Storage Volumes attachment and detachment operations on Droplets and Managed Kubernetes clusters.\n\nDuring this window, customers may have encountered delays or been unable to attach and detach Block Storage Volumes from their resources.\n\nBlock Storage Volumes attachment and detachment operations now appear to be functioning normally, and customers should no longer experience issues with these operations. For Managed Kubernetes clusters specifically, some residual cleanup of affected volume attachments may still be needed, and our team is actively working through this.\n\nWe apologize for any inconvenience this may have caused. If you continue to experience issues with Block Storage Volumes operations, please don't hesitate to open a support ticket for further investigation. Our team will be happy to assist you.",
+          "date": "2026-08-13T14:59:44.895Z",
+          "link": "https://stspg.io/yldnj7859gcp",
+          "status": "resolved",
+          "impact": "none"
+        },
         {
           "title": "Account Registration, Droplets, and Related Services",
           "body": "Our Engineering team confirms the full resolution of the issue affecting all impacted services, including new account registration, Droplet Creation, Reserved IPs, Automated Backups and Snapshots, Droplet Autoscale, DOKS clusters, GenAI services, the Droplet Console, and Database cluster creation.\n\nWe apologize for the inconvenience. If you continue to experience any issues, please open a support ticket from within your account.",
@@ -2917,14 +2932,6 @@
           "body": "As of 21:06 UTC, our Engineering team has resolved the issue affecting Spaces Cold Storage billing. An error in our billing processing system caused incorrect values to be reflected in daily usage and current invoices for customers with cold storage buckets.\n\nOur team identified and corrected an issue with the billing data sync, ensuring accurate usage reporting. If you continue to experience any issues, please open a ticket with our Support team. We apologize for any inconvenience this may have caused.",
           "date": "2026-08-04T21:42:43.197Z",
           "link": "https://stspg.io/qb6zv0kdjy50",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Cloud Control Panel Access",
-          "body": "Between 09:36 and 13:30 UTC on August 3, some customers experienced intermittent errors while accessing the DigitalOcean Cloud Control Panel. We renewed the affected internal certificates and restored access. The issue is resolved, and the Cloud Control Panel is operating normally. We apologize for the disruption.",
-          "date": "2026-08-03T17:59:42.943Z",
-          "link": "https://stspg.io/045lx5xqfdns",
           "status": "resolved",
           "impact": "minor"
         }
@@ -3893,12 +3900,12 @@
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-13T14:50:56.140Z",
+      "checked_at": "2026-08-13T15:00:57.992Z",
       "latest_incident": {
-        "title": "Errors with the Fable 5 Model in Copilot",
-        "body": "We are experiencing degraded availability for the Fable 5 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.",
-        "date": "2026-08-13T14:50:10.040Z",
-        "link": "https://stspg.io/8htrnxk0q09v",
+        "title": "Incident with Webhooks",
+        "body": "We are currently investigating a brief degradation of service for Git operations (specifically pushes), issues, pull requests, package registry, and webhooks between 14:32 and 14:46 UTC. We have identified the source of the degradation and are investigating mitigation strategies to prevent recurrence.",
+        "date": "2026-08-13T14:58:49.294Z",
+        "link": "https://stspg.io/f0cgtdc0kqxg",
         "status": "investigating",
         "impact": "minor"
       },
@@ -3975,7 +3982,7 @@
         },
         {
           "name": "Packages",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Pages",
@@ -4000,7 +4007,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-13T14:50:56.140Z",
+      "checked_at": "2026-08-13T15:00:57.992Z",
       "latest_incident": {
         "title": "Error while creating custom RBAC roles for Enterprise users",
         "body": "We are still implementing the mitigation.",
@@ -4159,7 +4166,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-13T14:50:56.275Z",
+      "checked_at": "2026-08-13T15:00:58.101Z",
       "latest_incident": null,
       "recent_incidents": [
         {
