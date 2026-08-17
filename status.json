@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-17T12:20:56.178Z",
+  "updated_at": "2026-08-17T12:30:56.116Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T12:20:56.064Z",
+      "checked_at": "2026-08-17T12:30:56.003Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T12:20:56.065Z",
+      "checked_at": "2026-08-17T12:30:56.004Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T12:20:56.065Z",
+      "checked_at": "2026-08-17T12:30:56.004Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T12:20:56.065Z",
+      "checked_at": "2026-08-17T12:30:56.004Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T12:20:56.066Z",
+      "checked_at": "2026-08-17T12:30:56.005Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T12:20:56.066Z",
+      "checked_at": "2026-08-17T12:30:56.005Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T12:20:56.066Z",
+      "checked_at": "2026-08-17T12:30:56.005Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T12:20:56.066Z",
+      "checked_at": "2026-08-17T12:30:56.005Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,16 +962,17 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-17T12:20:56.067Z",
-      "latest_incident": {
-        "title": "Cloudflare Lists Bulk Actions failing",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-08-17T12:18:44.166Z",
-        "link": "https://www.cloudflarestatus.com/incidents/2hxsrlmxlf5h",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-08-17T12:30:56.006Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Cloudflare Lists Bulk Actions failing",
+          "body": "This incident has been resolved.",
+          "date": "2026-08-17T12:29:28.738Z",
+          "link": "https://www.cloudflarestatus.com/incidents/2hxsrlmxlf5h",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Increased Errors for Durable Objects",
           "body": "This incident has been resolved.",
@@ -1001,14 +1002,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-08-14T05:37:17.996Z",
           "link": "https://www.cloudflarestatus.com/incidents/jb87g814jw6z",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Network Performance Issues in Querétaro, Mexico",
-          "body": "This incident has been resolved.",
-          "date": "2026-08-14T03:11:23.875Z",
-          "link": "https://www.cloudflarestatus.com/incidents/nx4k855cdhpv",
           "status": "resolved",
           "impact": "minor"
         }
@@ -2889,7 +2882,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T12:20:56.068Z",
+      "checked_at": "2026-08-17T12:30:56.006Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3897,7 +3890,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T12:20:56.068Z",
+      "checked_at": "2026-08-17T12:30:56.007Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3997,7 +3990,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T12:20:56.069Z",
+      "checked_at": "2026-08-17T12:30:56.007Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4149,7 +4142,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-17T12:20:56.169Z",
+      "checked_at": "2026-08-17T12:30:56.107Z",
       "latest_incident": null,
       "recent_incidents": [
         {
