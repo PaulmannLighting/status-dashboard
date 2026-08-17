@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-17T07:40:56.898Z",
+  "updated_at": "2026-08-17T07:50:56.078Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T07:40:56.798Z",
+      "checked_at": "2026-08-17T07:50:55.982Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T07:40:56.799Z",
+      "checked_at": "2026-08-17T07:50:55.983Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T07:40:56.799Z",
+      "checked_at": "2026-08-17T07:50:55.983Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T07:40:56.799Z",
+      "checked_at": "2026-08-17T07:50:55.983Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T07:40:56.799Z",
+      "checked_at": "2026-08-17T07:50:55.986Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T07:40:56.800Z",
+      "checked_at": "2026-08-17T07:50:55.986Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T07:40:56.800Z",
+      "checked_at": "2026-08-17T07:50:55.986Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T07:40:56.800Z",
+      "checked_at": "2026-08-17T07:50:55.986Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,8 +962,15 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-17T07:40:56.801Z",
-      "latest_incident": null,
+      "checked_at": "2026-08-17T07:50:55.988Z",
+      "latest_incident": {
+        "title": "Increased Errors for Durable Objects",
+        "body": "Cloudflare is investigating issues causing an increase of errors for Durable Objects and downstream services in Singapore. We are working to analyse and mitigate this problem. More updates to follow shortly.",
+        "date": "2026-08-17T07:47:04.804Z",
+        "link": "https://www.cloudflarestatus.com/incidents/w1d9976ls02m",
+        "status": "investigating",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "Durable Objects and Cloudflare Workflows availability drop",
@@ -2129,7 +2136,7 @@
         },
         {
           "name": "Durable Objects",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Email Routing",
@@ -2357,7 +2364,7 @@
         },
         {
           "name": "Singapore, Singapore - (SIN)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Winnipeg, MB, Canada - (YWG)",
@@ -2882,7 +2889,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T07:40:56.802Z",
+      "checked_at": "2026-08-17T07:50:55.989Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3890,7 +3897,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T07:40:56.802Z",
+      "checked_at": "2026-08-17T07:50:55.989Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3990,7 +3997,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T07:40:56.802Z",
+      "checked_at": "2026-08-17T07:50:55.989Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4142,7 +4149,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-17T07:40:56.891Z",
+      "checked_at": "2026-08-17T07:50:56.069Z",
       "latest_incident": null,
       "recent_incidents": [
         {
