@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-17T21:30:56.423Z",
+  "updated_at": "2026-08-17T21:40:56.317Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T21:30:56.331Z",
+      "checked_at": "2026-08-17T21:40:56.179Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T21:30:56.331Z",
+      "checked_at": "2026-08-17T21:40:56.180Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T21:30:56.332Z",
+      "checked_at": "2026-08-17T21:40:56.180Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T21:30:56.332Z",
+      "checked_at": "2026-08-17T21:40:56.180Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T21:30:56.332Z",
+      "checked_at": "2026-08-17T21:40:56.181Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T21:30:56.333Z",
+      "checked_at": "2026-08-17T21:40:56.181Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T21:30:56.333Z",
+      "checked_at": "2026-08-17T21:40:56.181Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -752,18 +752,19 @@
     {
       "name": "Circleci.com",
       "status_url": "https://status.circleci.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-08-17T21:30:56.333Z",
-      "latest_incident": {
-        "title": "Insight data is currently delayed",
-        "body": "The cause of the issue has been identified and we are at work fixing it.",
-        "date": "2026-08-17T21:06:09.852Z",
-        "link": "https://stspg.io/gwc69d86r5sy",
-        "status": "identified",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-08-17T21:40:56.181Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Insight data is currently delayed",
+          "body": "Insights data is good once more. Thank you for your patience.",
+          "date": "2026-08-17T21:37:03.148Z",
+          "link": "https://stspg.io/gwc69d86r5sy",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "GitHub Incidents impacting CircleCI functionality",
           "body": "GitHub's APIs appear to be operating normally.",
@@ -793,14 +794,6 @@
           "body": "Between 13:50 UTC and approximately 17:30 UTC on August 11, 2026, some customers experienced delays of up to an hour in pipeline status updates and in notification delivery. \n\nBetween 16:40 UTC and 17:00 UTC within that same window, a small number of customers also saw newly created pipelines fail to process, appearing in an errored state in the UI and API. \n\nThe issue has been resolved and all affected functionality has returned to normal. Customers whose pipelines errored during that window can retrigger them. \n\nWe thank you for your patience while our team worked on implementing a fix.",
           "date": "2026-08-11T18:00:00.000Z",
           "link": "https://stspg.io/b811tvs48x2k",
-          "status": "resolved",
-          "impact": "none"
-        },
-        {
-          "title": "Usage API data delayed for 8/5",
-          "body": "The Usage API issue has been resolved. Data has been loaded for yesterday, 8/5/2026. We appreciate your patience.",
-          "date": "2026-08-06T19:54:25.375Z",
-          "link": "https://stspg.io/kntq9cf4jgpk",
           "status": "resolved",
           "impact": "none"
         }
@@ -928,7 +921,7 @@
         },
         {
           "name": "CircleCI Insights",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "GitLab",
@@ -969,7 +962,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-17T21:30:56.334Z",
+      "checked_at": "2026-08-17T21:40:56.182Z",
       "latest_incident": {
         "title": "Lists Service Degraded",
         "body": "Changes to URL Lists will experience delays before taking effect. Rulesets that contain lists may result in errors when editing them. Existing Lists continue to function normally.",
@@ -2896,7 +2889,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T21:30:56.335Z",
+      "checked_at": "2026-08-17T21:40:56.183Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3904,7 +3897,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T21:30:56.335Z",
+      "checked_at": "2026-08-17T21:40:56.183Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4004,7 +3997,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T21:30:56.335Z",
+      "checked_at": "2026-08-17T21:40:56.183Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4156,7 +4149,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-17T21:30:56.414Z",
+      "checked_at": "2026-08-17T21:40:56.308Z",
       "latest_incident": null,
       "recent_incidents": [
         {
