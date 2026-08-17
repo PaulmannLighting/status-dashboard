@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-17T16:20:56.139Z",
+  "updated_at": "2026-08-17T16:30:56.340Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T16:20:56.032Z",
+      "checked_at": "2026-08-17T16:30:56.214Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T16:20:56.032Z",
+      "checked_at": "2026-08-17T16:30:56.214Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T16:20:56.033Z",
+      "checked_at": "2026-08-17T16:30:56.214Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T16:20:56.033Z",
+      "checked_at": "2026-08-17T16:30:56.214Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T16:20:56.033Z",
+      "checked_at": "2026-08-17T16:30:56.215Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T16:20:56.033Z",
+      "checked_at": "2026-08-17T16:30:56.215Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T16:20:56.034Z",
+      "checked_at": "2026-08-17T16:30:56.215Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,13 +754,13 @@
       "status_url": "https://status.circleci.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-08-17T16:20:56.034Z",
+      "checked_at": "2026-08-17T16:30:56.215Z",
       "latest_incident": {
         "title": "GitHub Incidents impacting CircleCI functionality",
-        "body": "We are continuing to see high error rates on GitHub's APIs and reduced webhook traffic. Customers using GitHub as their VCS may experience impact to their CircleCI platform experience as a result. This is directly linked to the incident GitHub is experiencing: https://www.githubstatus.com/incidents/zkxwbgr0cnmx\n\nWe will provide updates as more information becomes available.",
-        "date": "2026-08-17T15:49:39.558Z",
+        "body": "We have started to observe improved stability in GitHub APIs. We will continue to monitor as they recover.",
+        "date": "2026-08-17T16:22:24.867Z",
         "link": "https://stspg.io/mk4lvmlx939f",
-        "status": "identified",
+        "status": "monitoring",
         "impact": "major"
       },
       "recent_incidents": [
@@ -969,7 +969,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-17T16:20:56.035Z",
+      "checked_at": "2026-08-17T16:30:56.216Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2889,7 +2889,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T16:20:56.036Z",
+      "checked_at": "2026-08-17T16:30:56.217Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3897,7 +3897,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-08-17T16:20:56.036Z",
+      "checked_at": "2026-08-17T16:30:56.217Z",
       "latest_incident": {
         "title": "Incident with GitHub.com",
         "body": "We are experiencing high error rates around 20% for web experiences and api traffic. Archive downloads and raw repository content downloads are experiencing an approximate 50% error rate. SAML and OIDC authentication, SCIM, and Team Sync are also impacted. We are still working to identify the root cause and will continue to post updates as we learn more and perform mitigation.",
@@ -4004,7 +4004,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-17T16:20:56.036Z",
+      "checked_at": "2026-08-17T16:30:56.217Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4156,7 +4156,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-17T16:20:56.131Z",
+      "checked_at": "2026-08-17T16:30:56.327Z",
       "latest_incident": null,
       "recent_incidents": [
         {
