@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-18T19:30:56.317Z",
+  "updated_at": "2026-08-18T19:40:59.658Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T19:30:56.204Z",
+      "checked_at": "2026-08-18T19:40:59.535Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T19:30:56.204Z",
+      "checked_at": "2026-08-18T19:40:59.535Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T19:30:56.204Z",
+      "checked_at": "2026-08-18T19:40:59.536Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T19:30:56.204Z",
+      "checked_at": "2026-08-18T19:40:59.536Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T19:30:56.205Z",
+      "checked_at": "2026-08-18T19:40:59.536Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T19:30:56.205Z",
+      "checked_at": "2026-08-18T19:40:59.536Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T19:30:56.205Z",
+      "checked_at": "2026-08-18T19:40:59.536Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T19:30:56.205Z",
+      "checked_at": "2026-08-18T19:40:59.536Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,7 +962,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-18T19:30:56.206Z",
+      "checked_at": "2026-08-18T19:40:59.537Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2882,7 +2882,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T19:30:56.207Z",
+      "checked_at": "2026-08-18T19:40:59.538Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3890,7 +3890,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T19:30:56.207Z",
+      "checked_at": "2026-08-18T19:40:59.538Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3988,18 +3988,19 @@
     {
       "name": "OpenAI",
       "status_url": "https://status.openai.com",
-      "status": "degraded",
-      "description": "Partial System Degradation",
-      "checked_at": "2026-08-18T19:30:56.207Z",
-      "latest_incident": {
-        "title": "Elevated errors deploying Sites",
-        "body": "We have implemented a mitigation for the issue affecting site deployments and are monitoring the results.",
-        "date": "2026-08-18T19:26:38Z",
-        "link": "",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-08-18T19:40:59.538Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Elevated errors deploying Sites",
+          "body": "The issue affecting site deployments has been resolved.",
+          "date": "2026-08-18T19:37:24Z",
+          "link": "",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated errors in ChatGPT conversations for Free users",
           "body": "All impacted services have now fully recovered.",
@@ -4028,14 +4029,6 @@
           "title": "Users unable to login to ads manager",
           "body": "All impacted services have now fully recovered.",
           "date": "2026-08-11T17:28:04Z",
-          "link": "",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Increased error rates",
-          "body": "All impacted services have now fully recovered.",
-          "date": "2026-08-11T15:01:38Z",
           "link": "",
           "status": "resolved",
           "impact": "minor"
@@ -4149,7 +4142,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-18T19:30:56.307Z",
+      "checked_at": "2026-08-18T19:40:59.646Z",
       "latest_incident": null,
       "recent_incidents": [
         {
