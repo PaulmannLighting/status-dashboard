@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-18T10:20:56.202Z",
+  "updated_at": "2026-08-18T10:30:56.149Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T10:20:56.086Z",
+      "checked_at": "2026-08-18T10:30:56.028Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T10:20:56.086Z",
+      "checked_at": "2026-08-18T10:30:56.028Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T10:20:56.087Z",
+      "checked_at": "2026-08-18T10:30:56.028Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T10:20:56.087Z",
+      "checked_at": "2026-08-18T10:30:56.028Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T10:20:56.087Z",
+      "checked_at": "2026-08-18T10:30:56.029Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T10:20:56.087Z",
+      "checked_at": "2026-08-18T10:30:56.029Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T10:20:56.088Z",
+      "checked_at": "2026-08-18T10:30:56.029Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T10:20:56.088Z",
+      "checked_at": "2026-08-18T10:30:56.029Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,7 +962,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-18T10:20:56.089Z",
+      "checked_at": "2026-08-18T10:30:56.030Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2882,7 +2882,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T10:20:56.091Z",
+      "checked_at": "2026-08-18T10:30:56.031Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3888,18 +3888,26 @@
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "outage",
+      "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T10:20:56.091Z",
+      "checked_at": "2026-08-18T10:30:56.031Z",
       "latest_incident": {
-        "title": "Incident with Actions",
-        "body": "We are investigating reports of impacted performance for some GitHub services.",
-        "date": "2026-08-18T09:36:40.354Z",
-        "link": "https://stspg.io/q3ck88mqw08z",
-        "status": "investigating",
-        "impact": "major"
+        "title": "Intermittent failures in runner group and runner-related permissions pages",
+        "body": "We are investigating reports of failure to load runner groups and runner-related permissions for customers using larger runners.",
+        "date": "2026-08-18T07:40:42.206Z",
+        "link": "https://stspg.io/98zqb1k9jh0x",
+        "status": "monitoring",
+        "impact": "minor"
       },
       "recent_incidents": [
+        {
+          "title": "Incident with Actions",
+          "body": "This incident has been resolved.",
+          "date": "2026-08-18T10:23:23.437Z",
+          "link": "https://stspg.io/q3ck88mqw08z",
+          "status": "resolved",
+          "impact": "major"
+        },
         {
           "title": "Incident with GitHub.com",
           "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
@@ -3931,14 +3939,6 @@
           "link": "https://stspg.io/f0cgtdc0kqxg",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Disruption with Login and Release Asset downloads",
-          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
-          "date": "2026-08-12T22:56:39.025Z",
-          "link": "https://stspg.io/xp36nwz4rrh1",
-          "status": "resolved",
-          "impact": "major"
         }
       ],
       "components": [
@@ -3997,7 +3997,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-18T10:20:56.091Z",
+      "checked_at": "2026-08-18T10:30:56.031Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4149,7 +4149,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-18T10:20:56.194Z",
+      "checked_at": "2026-08-18T10:30:56.137Z",
       "latest_incident": null,
       "recent_incidents": [
         {
