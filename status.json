@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-19T10:30:54.370Z",
+  "updated_at": "2026-08-19T10:40:56.828Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-08-19T10:30:54.243Z",
+      "description": "All Systems Operational",
+      "checked_at": "2026-08-19T10:40:56.727Z",
       "latest_incident": {
         "title": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
-        "body": "We have identified the cause of elevated errors on requests to Claude Opus 5 and Claude Haiku 4.5 and are working on a fix. We will provide an update as soon as possible.",
-        "date": "2026-08-19T09:42:37.541Z",
+        "body": "A fix has been implemented and we are monitoring the results.",
+        "date": "2026-08-19T10:33:56.680Z",
         "link": "https://stspg.io/zg9tfmjj1th2",
-        "status": "identified",
+        "status": "monitoring",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -60,7 +60,7 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -68,15 +68,15 @@
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Code",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Cowork",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude for Government",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T10:30:54.244Z",
+      "checked_at": "2026-08-19T10:40:56.727Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T10:30:54.245Z",
+      "checked_at": "2026-08-19T10:40:56.727Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T10:30:54.245Z",
+      "checked_at": "2026-08-19T10:40:56.727Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T10:30:54.245Z",
+      "checked_at": "2026-08-19T10:40:56.728Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -589,7 +589,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T10:30:54.246Z",
+      "checked_at": "2026-08-19T10:40:56.728Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -705,7 +705,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T10:30:54.246Z",
+      "checked_at": "2026-08-19T10:40:56.728Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -759,9 +759,9 @@
     {
       "name": "Circleci.com",
       "status_url": "https://status.circleci.com",
-      "status": "degraded",
-      "description": "Partially Degraded Service",
-      "checked_at": "2026-08-19T10:30:54.246Z",
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-08-19T10:40:56.728Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -956,7 +956,7 @@
         },
         {
           "name": "Anthropic api.anthropic.com",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "packagecloud.io",
@@ -969,7 +969,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-19T10:30:54.248Z",
+      "checked_at": "2026-08-19T10:40:56.728Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2889,7 +2889,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T10:30:54.249Z",
+      "checked_at": "2026-08-19T10:40:56.729Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3897,7 +3897,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T10:30:54.249Z",
+      "checked_at": "2026-08-19T10:40:56.729Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3997,7 +3997,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T10:30:54.249Z",
+      "checked_at": "2026-08-19T10:40:56.729Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4149,7 +4149,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-19T10:30:54.360Z",
+      "checked_at": "2026-08-19T10:40:56.819Z",
       "latest_incident": null,
       "recent_incidents": [
         {
