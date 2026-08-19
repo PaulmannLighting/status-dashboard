@@ -1,21 +1,22 @@
 {
-  "updated_at": "2026-08-19T11:00:56.363Z",
+  "updated_at": "2026-08-19T11:10:58.128Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "degraded",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T11:00:56.235Z",
-      "latest_incident": {
-        "title": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-08-19T10:33:56.680Z",
-        "link": "https://stspg.io/zg9tfmjj1th2",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-08-19T11:10:58.035Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
+          "body": "This incident has been resolved.",
+          "date": "2026-08-19T11:02:18.264Z",
+          "link": "https://stspg.io/zg9tfmjj1th2",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Degraded performance for multiple models",
           "body": "The issue affecting Claude Opus 5 has been resolved. Impact occurred from 16:11 to 18:23 UTC.",
@@ -45,14 +46,6 @@
           "body": "The issue affecting Claude services has been resolved. Impact occurred from 20:00 Aug 14, 2026 to 00:11 Aug 15 , 2026 UTC.",
           "date": "2026-08-15T00:27:36.893Z",
           "link": "https://stspg.io/vpnnwf2vhdv4",
-          "status": "resolved",
-          "impact": "major"
-        },
-        {
-          "title": "Service disruption on Claude services",
-          "body": "The issue affecting the Claude API, Claude Code, and Claude Cowork has been resolved. Impact occurred from 20:14 to 20:38 UTC.",
-          "date": "2026-08-14T21:58:12.691Z",
-          "link": "https://stspg.io/wlcwm73lh5vb",
           "status": "resolved",
           "impact": "major"
         }
@@ -89,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T11:00:56.235Z",
+      "checked_at": "2026-08-19T11:10:58.035Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T11:00:56.235Z",
+      "checked_at": "2026-08-19T11:10:58.035Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T11:00:56.235Z",
+      "checked_at": "2026-08-19T11:10:58.035Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T11:00:56.235Z",
+      "checked_at": "2026-08-19T11:10:58.035Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -589,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T11:00:56.236Z",
+      "checked_at": "2026-08-19T11:10:58.036Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -705,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T11:00:56.236Z",
+      "checked_at": "2026-08-19T11:10:58.036Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -761,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T11:00:56.236Z",
+      "checked_at": "2026-08-19T11:10:58.036Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -969,7 +962,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-19T11:00:56.236Z",
+      "checked_at": "2026-08-19T11:10:58.037Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2887,10 +2880,17 @@
     {
       "name": "DigitalOcean",
       "status_url": "https://status.digitalocean.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-08-19T11:00:56.237Z",
-      "latest_incident": null,
+      "status": "degraded",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-08-19T11:10:58.037Z",
+      "latest_incident": {
+        "title": "Degraded Performance in MKC1",
+        "body": "Our Engineering team is currently investigating an issue in the MKC1 region affecting multiple racks and nodes.\n\nDuring this time, customers may experience disruptions to GPU workloads, and Kubernetes (DOKS) worker nodes may enter a NotReady state.\n\nOur team is actively working to restore connectivity and bring impacted nodes back online. If you continue to experience issues, please open a support ticket from within your account.",
+        "date": "2026-08-19T11:10:06.450Z",
+        "link": "https://stspg.io/gdzqj0v18x0r",
+        "status": "investigating",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "Volume Attach/Detach events in FRA1",
@@ -3144,7 +3144,7 @@
         },
         {
           "name": "MKC1",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "RIC1",
@@ -3408,7 +3408,7 @@
         },
         {
           "name": "MKC1",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "MKC1",
@@ -3897,7 +3897,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T11:00:56.237Z",
+      "checked_at": "2026-08-19T11:10:58.038Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3997,7 +3997,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-19T11:00:56.237Z",
+      "checked_at": "2026-08-19T11:10:58.038Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4149,7 +4149,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-19T11:00:56.354Z",
+      "checked_at": "2026-08-19T11:10:58.120Z",
       "latest_incident": null,
       "recent_incidents": [
         {
