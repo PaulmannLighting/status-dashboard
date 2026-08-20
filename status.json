@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-20T20:20:56.144Z",
+  "updated_at": "2026-08-20T20:30:56.095Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T20:20:56.040Z",
+      "checked_at": "2026-08-20T20:30:56.005Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T20:20:56.040Z",
+      "checked_at": "2026-08-20T20:30:56.005Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T20:20:56.041Z",
+      "checked_at": "2026-08-20T20:30:56.005Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T20:20:56.041Z",
+      "checked_at": "2026-08-20T20:30:56.005Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T20:20:56.041Z",
+      "checked_at": "2026-08-20T20:30:56.006Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T20:20:56.041Z",
+      "checked_at": "2026-08-20T20:30:56.006Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T20:20:56.041Z",
+      "checked_at": "2026-08-20T20:30:56.006Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T20:20:56.042Z",
+      "checked_at": "2026-08-20T20:30:56.006Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,7 +962,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-20T20:20:56.042Z",
+      "checked_at": "2026-08-20T20:30:56.007Z",
       "latest_incident": {
         "title": "Missing R2 Audit Logs",
         "body": "We have identified an issue where audit logs for R2 are missing in the dashboard, we are working to resolve the issue.",
@@ -2893,7 +2893,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T20:20:56.043Z",
+      "checked_at": "2026-08-20T20:30:56.007Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3901,7 +3901,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T20:20:56.043Z",
+      "checked_at": "2026-08-20T20:30:56.007Z",
       "latest_incident": {
         "title": "Intermittent failures creating agent tasks",
         "body": "We are continuing to observe gradual recovery for Copilot Cloud Agent task status visibility. Session output continues to be delayed by approximately 1 hour as our remediation steps take effect.",
@@ -4008,7 +4008,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T20:20:56.043Z",
+      "checked_at": "2026-08-20T20:30:56.007Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4160,7 +4160,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-20T20:20:56.136Z",
+      "checked_at": "2026-08-20T20:30:56.087Z",
       "latest_incident": null,
       "recent_incidents": [
         {
