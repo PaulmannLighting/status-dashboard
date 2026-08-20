@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-20T19:30:56.157Z",
+  "updated_at": "2026-08-20T19:40:56.591Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-20T19:30:56.012Z",
+      "checked_at": "2026-08-20T19:40:56.417Z",
       "latest_incident": {
         "title": "Elevated errors on requests to multiple models",
         "body": "We are investigating elevated errors on requests to some Claude models. We will provide additional updates as soon as possible.",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T19:30:56.012Z",
+      "checked_at": "2026-08-20T19:40:56.417Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T19:30:56.012Z",
+      "checked_at": "2026-08-20T19:40:56.418Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T19:30:56.012Z",
+      "checked_at": "2026-08-20T19:40:56.418Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T19:30:56.013Z",
+      "checked_at": "2026-08-20T19:40:56.418Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -589,7 +589,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T19:30:56.013Z",
+      "checked_at": "2026-08-20T19:40:56.419Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -705,7 +705,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T19:30:56.013Z",
+      "checked_at": "2026-08-20T19:40:56.419Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -761,7 +761,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-20T19:30:56.013Z",
+      "checked_at": "2026-08-20T19:40:56.419Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -969,7 +969,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-20T19:30:56.014Z",
+      "checked_at": "2026-08-20T19:40:56.420Z",
       "latest_incident": {
         "title": "Missing R2 Audit Logs",
         "body": "We have identified an issue where audit logs for R2 are missing in the dashboard, we are working to resolve the issue.",
@@ -979,6 +979,14 @@
         "impact": "none"
       },
       "recent_incidents": [
+        {
+          "title": "Elevated Errors R2 and Durable Objects",
+          "body": "This incident has been resolved.",
+          "date": "2026-08-20T19:32:37.615Z",
+          "link": "https://www.cloudflarestatus.com/incidents/rq2nwg85qqn4",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Durable Objects and Downstream Service Errors",
           "body": "This incident has been resolved.",
@@ -1008,14 +1016,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-08-20T05:58:05.134Z",
           "link": "https://www.cloudflarestatus.com/incidents/5g1nlg4hc2lh",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Elevated error rates in Chicago (ORD) region.",
-          "body": "This incident has been resolved.",
-          "date": "2026-08-19T23:23:29.961Z",
-          "link": "https://www.cloudflarestatus.com/incidents/877bn0l3ptp8",
           "status": "resolved",
           "impact": "minor"
         }
@@ -2143,7 +2143,7 @@
         },
         {
           "name": "Durable Objects",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Email Routing",
@@ -2531,7 +2531,7 @@
         },
         {
           "name": "R2",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "R2 Data Catalog",
@@ -2900,7 +2900,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T19:30:56.015Z",
+      "checked_at": "2026-08-20T19:40:56.421Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3908,11 +3908,11 @@
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T19:30:56.015Z",
+      "checked_at": "2026-08-20T19:40:56.422Z",
       "latest_incident": {
         "title": "Intermittent failures creating agent tasks",
-        "body": "We are continuing to observe gradual recovery for Copilot Cloud Agent task status visibility, with session output delayed by approximately 1 hour. We have taken additional steps to accelerate the recovery and expect this to take effect within the next hour.",
-        "date": "2026-08-20T18:45:23.427Z",
+        "body": "We are continuing to observe gradual recovery for Copilot Cloud Agent task status visibility. Session output continues to be delayed by approximately 1 hour as our remediation steps take effect.",
+        "date": "2026-08-20T19:35:31.262Z",
         "link": "https://stspg.io/py1yl5mnq89c",
         "status": "investigating",
         "impact": "critical"
@@ -4015,7 +4015,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T19:30:56.015Z",
+      "checked_at": "2026-08-20T19:40:56.422Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4167,7 +4167,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-20T19:30:56.149Z",
+      "checked_at": "2026-08-20T19:40:56.574Z",
       "latest_incident": null,
       "recent_incidents": [
         {
