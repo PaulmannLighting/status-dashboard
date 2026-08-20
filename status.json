@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-20T17:40:56.984Z",
+  "updated_at": "2026-08-20T17:50:56.354Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T17:40:56.847Z",
+      "checked_at": "2026-08-20T17:50:56.197Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T17:40:56.848Z",
+      "checked_at": "2026-08-20T17:50:56.197Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T17:40:56.848Z",
+      "checked_at": "2026-08-20T17:50:56.198Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T17:40:56.848Z",
+      "checked_at": "2026-08-20T17:50:56.198Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T17:40:56.849Z",
+      "checked_at": "2026-08-20T17:50:56.198Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T17:40:56.849Z",
+      "checked_at": "2026-08-20T17:50:56.198Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T17:40:56.849Z",
+      "checked_at": "2026-08-20T17:50:56.198Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T17:40:56.849Z",
+      "checked_at": "2026-08-20T17:50:56.198Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,16 +962,17 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-20T17:40:56.851Z",
-      "latest_incident": {
-        "title": "Durable Objects and Downstream Service Errors",
-        "body": "A fix has been implemented and we are monitoring the results.",
-        "date": "2026-08-20T16:56:11.288Z",
-        "link": "https://www.cloudflarestatus.com/incidents/f35vbpr3dv4h",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-08-20T17:50:56.199Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Durable Objects and Downstream Service Errors",
+          "body": "This incident has been resolved.",
+          "date": "2026-08-20T17:48:08.512Z",
+          "link": "https://www.cloudflarestatus.com/incidents/f35vbpr3dv4h",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Network Performance Issues in India",
           "body": "This incident has been resolved.",
@@ -1001,14 +1002,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-08-19T23:23:29.961Z",
           "link": "https://www.cloudflarestatus.com/incidents/877bn0l3ptp8",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Workers AI GLM 5.2 is unavailable",
-          "body": "This incident has been resolved.",
-          "date": "2026-08-19T17:24:19.550Z",
-          "link": "https://www.cloudflarestatus.com/incidents/46j9vvprj159",
           "status": "resolved",
           "impact": "minor"
         }
@@ -1168,7 +1161,7 @@
         },
         {
           "name": "AI Search",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Always Online",
@@ -1396,7 +1389,7 @@
         },
         {
           "name": "Artifacts",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Dallas, TX, United States - (DFW)",
@@ -1904,7 +1897,7 @@
         },
         {
           "name": "Containers",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Oslo, Norway - (OSL)",
@@ -1944,7 +1937,7 @@
         },
         {
           "name": "D1",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Paris, France - (CDG)",
@@ -2136,7 +2129,7 @@
         },
         {
           "name": "Durable Objects",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Email Routing",
@@ -2692,7 +2685,7 @@
         },
         {
           "name": "Workers Assets",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Workers Builds",
@@ -2712,7 +2705,7 @@
         },
         {
           "name": "Workflows",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Wrangler",
@@ -2893,7 +2886,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T17:40:56.852Z",
+      "checked_at": "2026-08-20T17:50:56.199Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3901,7 +3894,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T17:40:56.852Z",
+      "checked_at": "2026-08-20T17:50:56.199Z",
       "latest_incident": {
         "title": "Intermittent failures creating agent tasks",
         "body": "We are observing gradual recovery for Copilot Cloud Agent task status visibility, with session output delayed approximately 1 hour. We have taken additional steps to accelerate the recovery and are continuing to monitor the impact.",
@@ -4008,7 +4001,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T17:40:56.852Z",
+      "checked_at": "2026-08-20T17:50:56.199Z",
       "latest_incident": {
         "title": "Elevated Codex API authentication errors",
         "body": "We have applied the mitigation and are monitoring the recovery.",
@@ -4167,7 +4160,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-20T17:40:56.959Z",
+      "checked_at": "2026-08-20T17:50:56.326Z",
       "latest_incident": null,
       "recent_incidents": [
         {
