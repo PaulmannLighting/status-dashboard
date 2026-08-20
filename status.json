@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-20T15:00:56.173Z",
+  "updated_at": "2026-08-20T15:10:56.054Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T15:00:56.056Z",
+      "checked_at": "2026-08-20T15:10:55.940Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T15:00:56.057Z",
+      "checked_at": "2026-08-20T15:10:55.940Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T15:00:56.057Z",
+      "checked_at": "2026-08-20T15:10:55.940Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T15:00:56.057Z",
+      "checked_at": "2026-08-20T15:10:55.940Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T15:00:56.057Z",
+      "checked_at": "2026-08-20T15:10:55.940Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T15:00:56.057Z",
+      "checked_at": "2026-08-20T15:10:55.941Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T15:00:56.057Z",
+      "checked_at": "2026-08-20T15:10:55.941Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T15:00:56.057Z",
+      "checked_at": "2026-08-20T15:10:55.941Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,7 +962,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-20T15:00:56.058Z",
+      "checked_at": "2026-08-20T15:10:55.941Z",
       "latest_incident": {
         "title": "Network Performance Issues in India",
         "body": "A fix has been implemented and we are monitoring the results.",
@@ -2893,7 +2893,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T15:00:56.059Z",
+      "checked_at": "2026-08-20T15:10:55.942Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3901,11 +3901,11 @@
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-20T15:00:56.059Z",
+      "checked_at": "2026-08-20T15:10:55.942Z",
       "latest_incident": {
         "title": "Intermittent failures creating agent tasks",
-        "body": "Users may experience delays when starting tasks using Copilot Cloud Agent. We are actively investigating the issue and will provide updates as we learn more.",
-        "date": "2026-08-20T14:51:51.495Z",
+        "body": "We have identified the problematic component and are working to fail over to a healthy instance. Further updates will be provided as we perform mitigations.",
+        "date": "2026-08-20T15:01:51.859Z",
         "link": "https://stspg.io/py1yl5mnq89c",
         "status": "investigating",
         "impact": "minor"
@@ -4008,7 +4008,7 @@
       "status_url": "https://status.openai.com",
       "status": "degraded",
       "description": "Partial System Degradation",
-      "checked_at": "2026-08-20T15:00:56.059Z",
+      "checked_at": "2026-08-20T15:10:55.943Z",
       "latest_incident": {
         "title": "Elevated Errors for Thinking mode in ChatGPT ",
         "body": "We have implemented a mitigation for the issue for elevated errors for Thinking Mode and Image Generation in ChatGPT/ChatGPT Work ",
@@ -4167,7 +4167,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-20T15:00:56.162Z",
+      "checked_at": "2026-08-20T15:10:56.046Z",
       "latest_incident": null,
       "recent_incidents": [
         {
