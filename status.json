@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-23T12:40:56.118Z",
+  "updated_at": "2026-08-23T12:50:56.191Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T12:40:56.019Z",
+      "checked_at": "2026-08-23T12:50:56.050Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T12:40:56.019Z",
+      "checked_at": "2026-08-23T12:50:56.050Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T12:40:56.019Z",
+      "checked_at": "2026-08-23T12:50:56.050Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T12:40:56.020Z",
+      "checked_at": "2026-08-23T12:50:56.051Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T12:40:56.020Z",
+      "checked_at": "2026-08-23T12:50:56.051Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T12:40:56.020Z",
+      "checked_at": "2026-08-23T12:50:56.051Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T12:40:56.020Z",
+      "checked_at": "2026-08-23T12:50:56.051Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T12:40:56.020Z",
+      "checked_at": "2026-08-23T12:50:56.051Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,7 +962,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-23T12:40:56.021Z",
+      "checked_at": "2026-08-23T12:50:56.052Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2886,7 +2886,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-23T12:40:56.022Z",
+      "checked_at": "2026-08-23T12:50:56.053Z",
       "latest_incident": {
         "title": "Managed Databases Creation",
         "body": "Our Engineering team has implemented the necessary fixes affecting Managed Database cluster creation in the NYC3 and NYC1 regions. Users should now be able to create new Managed Database clusters.   \n\nWe are currently monitoring the situation to ensure that the service has returned to normal operation and remains stable. We appreciate your patience and will provide an update once the issue is fully confirmed as resolved.",
@@ -3901,7 +3901,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T12:40:56.022Z",
+      "checked_at": "2026-08-23T12:50:56.054Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4001,7 +4001,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T12:40:56.022Z",
+      "checked_at": "2026-08-23T12:50:56.054Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4153,7 +4153,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-23T12:40:56.111Z",
+      "checked_at": "2026-08-23T12:50:56.183Z",
       "latest_incident": null,
       "recent_incidents": [
         {
