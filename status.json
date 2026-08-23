@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-23T14:30:56.165Z",
+  "updated_at": "2026-08-23T14:40:56.123Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T14:30:56.062Z",
+      "checked_at": "2026-08-23T14:40:56.006Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T14:30:56.063Z",
+      "checked_at": "2026-08-23T14:40:56.006Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T14:30:56.063Z",
+      "checked_at": "2026-08-23T14:40:56.006Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T14:30:56.063Z",
+      "checked_at": "2026-08-23T14:40:56.006Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T14:30:56.063Z",
+      "checked_at": "2026-08-23T14:40:56.007Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T14:30:56.064Z",
+      "checked_at": "2026-08-23T14:40:56.007Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T14:30:56.064Z",
+      "checked_at": "2026-08-23T14:40:56.007Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T14:30:56.064Z",
+      "checked_at": "2026-08-23T14:40:56.007Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,7 +962,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-23T14:30:56.065Z",
+      "checked_at": "2026-08-23T14:40:56.008Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2886,16 +2886,17 @@
       "status_url": "https://status.digitalocean.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-23T14:30:56.067Z",
-      "latest_incident": {
-        "title": "Managed Databases Creation",
-        "body": "Our Engineering team has implemented the necessary fixes affecting Managed Database cluster creation in the NYC3 and NYC1 regions. Users should now be able to create new Managed Database clusters.   \n\nWe are currently monitoring the situation to ensure that the service has returned to normal operation and remains stable. We appreciate your patience and will provide an update once the issue is fully confirmed as resolved.",
-        "date": "2026-08-23T11:30:34.959Z",
-        "link": "https://stspg.io/8ld5fpw01tg4",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-08-23T14:40:56.008Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Managed Databases Creation",
+          "body": "Our Engineering team has resolved the issue preventing cluster creation on Managed Databases in the NYC3 and NYC1 regions. Customers can now create new Managed Databases Clusters normally.\n\nOur Engineering team has monitored the environment to ensure stability. We sincerely apologize for any inconvenience this disruption may have caused to your operations. If you continue to experience issues, please open a ticket with our Support team: https://cloudsupport.digitalocean.com/s/",
+          "date": "2026-08-23T14:33:31.719Z",
+          "link": "https://stspg.io/8ld5fpw01tg4",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Container Registry and Spaces Accessibility",
           "body": "Our Engineering team has confirmed that the issue impacting Container Registry and Spaces accessibility has been resolved. \n\nSpaces accessibility via the Cloud Control Panel is now restored, and pushing and pulling container images is succeeding as expected. Customers who previously encountered these issues should now be able to access Spaces and deploy their container images without further issues.\n\nIf you continue to experience any problems, please open a ticket with our support team. Thank you for your patience, and we apologize for any inconvenience.",
@@ -2925,14 +2926,6 @@
           "body": "Our Engineering team confirms the full resolution of the issue affecting all impacted services, including new account registration, Droplet Creation, Reserved IPs, Automated Backups and Snapshots, Droplet Autoscale, DOKS clusters, GenAI services, the Droplet Console, and Database cluster creation.\n\nWe apologize for the inconvenience. If you continue to experience any issues, please open a support ticket from within your account.",
           "date": "2026-08-09T01:01:02.727Z",
           "link": "https://stspg.io/grfh9nf5bp3f",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Functions on App Platform",
-          "body": "Our Engineering team has confirmed that the issue affecting Functions on App Platform has been fully resolved. Functions builds, deploys, and requests to Functions endpoints are all working as expected. The fix implemented earlier was successful, and we are no longer seeing any problems affecting Functions.\n\nHowever, if you continue to experience any issues, please don't hesitate to raise a support ticket for further investigation.",
-          "date": "2026-08-06T21:05:05.672Z",
-          "link": "https://stspg.io/7pm9l1jwpkr6",
           "status": "resolved",
           "impact": "minor"
         }
@@ -3901,7 +3894,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T14:30:56.067Z",
+      "checked_at": "2026-08-23T14:40:56.009Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4001,7 +3994,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-23T14:30:56.067Z",
+      "checked_at": "2026-08-23T14:40:56.009Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4153,7 +4146,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-23T14:30:56.158Z",
+      "checked_at": "2026-08-23T14:40:56.115Z",
       "latest_incident": null,
       "recent_incidents": [
         {
