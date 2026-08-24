@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-24T22:20:56.043Z",
+  "updated_at": "2026-08-24T22:30:56.182Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T22:20:55.914Z",
+      "checked_at": "2026-08-24T22:30:56.044Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T22:20:55.914Z",
+      "checked_at": "2026-08-24T22:30:56.045Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-24T22:20:55.915Z",
+      "checked_at": "2026-08-24T22:30:56.045Z",
       "latest_incident": {
         "title": "Degraded performance of Notifications",
         "body": "We have identified the likely cause of the issue, and our teams are diligently working on a mitigation. Affected users may experience increased latency in email, mobile, and Slack notifications for JIRA, JSM, and Confluence. We will continue to share additional updates here as more information is available.",
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-24T22:20:55.915Z",
+      "checked_at": "2026-08-24T22:30:56.045Z",
       "latest_incident": {
         "title": "Degraded performance of Notifications",
         "body": "We have identified the likely cause of the issue, and our teams are diligently working on a mitigation. Affected users may experience increased latency in email, mobile, and Slack notifications for JIRA, JSM, and Confluence. We will continue to share additional updates here as more information is available.",
@@ -476,7 +476,7 @@
       "status_url": "https://status.bunny.net",
       "status": "maintenance",
       "description": "Service Under Maintenance",
-      "checked_at": "2026-08-24T22:20:55.915Z",
+      "checked_at": "2026-08-24T22:30:56.045Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -596,7 +596,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T22:20:55.916Z",
+      "checked_at": "2026-08-24T22:30:56.046Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -712,7 +712,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T22:20:55.916Z",
+      "checked_at": "2026-08-24T22:30:56.046Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -768,7 +768,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T22:20:55.916Z",
+      "checked_at": "2026-08-24T22:30:56.046Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -976,13 +976,13 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-24T22:20:55.918Z",
+      "checked_at": "2026-08-24T22:30:56.048Z",
       "latest_incident": {
         "title": "Increased Latency",
-        "body": "Cloudflare is investigating an issue which may result in latency increases for a subset of requests.",
-        "date": "2026-08-24T20:38:27.352Z",
+        "body": "We have identified the cause of this issue and are implementing a fix.",
+        "date": "2026-08-24T22:24:02.213Z",
         "link": "https://www.cloudflarestatus.com/incidents/d68x0kzjwhqf",
-        "status": "investigating",
+        "status": "identified",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -2910,14 +2910,14 @@
       "name": "DigitalOcean",
       "status_url": "https://status.digitalocean.com",
       "status": "outage",
-      "description": "All Systems Operational",
-      "checked_at": "2026-08-24T22:20:55.919Z",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-08-24T22:30:56.049Z",
       "latest_incident": {
         "title": "Cloud Control Panel and API",
-        "body": "Our Engineering team has implemented mitigation measures to address the issue affecting the DigitalOcean public API and Cloud Control Panel. We are seeing requests succeed, and users should now be able to access the Cloud Control Panel and issue/receive API requests normally.\n\nWe are currently monitoring the situation to ensure that the service has returned to normal operation and remains stable. We appreciate your patience and will provide an update once the issue is fully confirmed as resolved.",
-        "date": "2026-08-24T19:14:18.846Z",
+        "body": "Our Engineering team is investigating a recurrence of the issue impacting the DigitalOcean public API and Cloud Control Panel. This issue does not impact our data plane (i.e. running droplets).\n\nUsers may experience difficulties accessing the Cloud Control Panel, along with elevated latency and intermittent errors when accessing the public API or Cloud Control Plane.\n\nWe are actively investigating the issue and working to restore normal service. We will continue to provide updates as more information becomes available. We apologize for the inconvenience and appreciate your patience.",
+        "date": "2026-08-24T22:27:18.749Z",
         "link": "https://stspg.io/8l5c24cxh3hr",
-        "status": "monitoring",
+        "status": "investigating",
         "impact": "critical"
       },
       "recent_incidents": [
@@ -2965,7 +2965,7 @@
       "components": [
         {
           "name": "API",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Global",
@@ -3205,7 +3205,7 @@
         },
         {
           "name": "Cloud Control Panel",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "BLR1",
@@ -3926,7 +3926,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T22:20:55.919Z",
+      "checked_at": "2026-08-24T22:30:56.049Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4026,7 +4026,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T22:20:55.919Z",
+      "checked_at": "2026-08-24T22:30:56.049Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4178,7 +4178,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-24T22:20:56.036Z",
+      "checked_at": "2026-08-24T22:30:56.170Z",
       "latest_incident": null,
       "recent_incidents": [
         {
