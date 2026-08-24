@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-24T08:00:56.210Z",
+  "updated_at": "2026-08-24T08:11:01.954Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-24T08:00:56.086Z",
+      "checked_at": "2026-08-24T08:11:01.790Z",
       "latest_incident": {
         "title": "Elevated errors for multiple models",
         "body": "At this time, we have seen errors stabilize on Opus 5 and Fable 5, and are working to fully resolve success rates on all affected models. We will provide an update as soon as possible.",
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T08:00:56.086Z",
+      "checked_at": "2026-08-24T08:11:01.791Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T08:00:56.087Z",
+      "checked_at": "2026-08-24T08:11:01.791Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T08:00:56.087Z",
+      "checked_at": "2026-08-24T08:11:01.791Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T08:00:56.087Z",
+      "checked_at": "2026-08-24T08:11:01.792Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -589,7 +589,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T08:00:56.087Z",
+      "checked_at": "2026-08-24T08:11:01.792Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -705,7 +705,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T08:00:56.087Z",
+      "checked_at": "2026-08-24T08:11:01.792Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -761,7 +761,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-24T08:00:56.088Z",
+      "checked_at": "2026-08-24T08:11:01.792Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -969,7 +969,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-24T08:00:56.089Z",
+      "checked_at": "2026-08-24T08:11:01.794Z",
       "latest_incident": {
         "title": "DO and D1 are degraded in Hong Kong and Singapore",
         "body": "A fix has been implemented and we are monitoring the results.",
@@ -2904,7 +2904,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T08:00:56.090Z",
+      "checked_at": "2026-08-24T08:11:01.795Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3912,7 +3912,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T08:00:56.091Z",
+      "checked_at": "2026-08-24T08:11:01.795Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4012,7 +4012,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T08:00:56.091Z",
+      "checked_at": "2026-08-24T08:11:01.795Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4164,7 +4164,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-24T08:00:56.202Z",
+      "checked_at": "2026-08-24T08:11:01.945Z",
       "latest_incident": null,
       "recent_incidents": [
         {
