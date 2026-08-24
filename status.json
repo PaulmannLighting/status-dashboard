@@ -1,14 +1,22 @@
 {
-  "updated_at": "2026-08-24T17:10:56.010Z",
+  "updated_at": "2026-08-24T17:20:56.065Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T17:10:55.915Z",
+      "checked_at": "2026-08-24T17:20:55.961Z",
       "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Errors logging into Claude.ai",
+          "body": "This issue has been resolved.",
+          "date": "2026-08-24T17:16:02.904Z",
+          "link": "https://stspg.io/kg59rclpfzsz",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Elevated errors for multiple models",
           "body": "This issue has been resolved. From 9:50pm PT / 04:50 UTC through 00:36am PT / 07:36 UTC, users saw elevated errors on requests to Claude models, including Claude Opus 5 and Fable 5.",
@@ -38,14 +46,6 @@
           "body": "This incident has been resolved.",
           "date": "2026-08-19T11:02:18.264Z",
           "link": "https://stspg.io/zg9tfmjj1th2",
-          "status": "resolved",
-          "impact": "minor"
-        },
-        {
-          "title": "Degraded performance for multiple models",
-          "body": "The issue affecting Claude Opus 5 has been resolved. Impact occurred from 16:11 to 18:23 UTC.",
-          "date": "2026-08-18T19:01:45.447Z",
-          "link": "https://stspg.io/tcsfmtc03xgm",
           "status": "resolved",
           "impact": "minor"
         }
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T17:10:55.916Z",
+      "checked_at": "2026-08-24T17:20:55.962Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T17:10:55.916Z",
+      "checked_at": "2026-08-24T17:20:55.962Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T17:10:55.916Z",
+      "checked_at": "2026-08-24T17:20:55.962Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "maintenance",
       "description": "Service Under Maintenance",
-      "checked_at": "2026-08-24T17:10:55.916Z",
+      "checked_at": "2026-08-24T17:20:55.963Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T17:10:55.916Z",
+      "checked_at": "2026-08-24T17:20:55.963Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T17:10:55.916Z",
+      "checked_at": "2026-08-24T17:20:55.963Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T17:10:55.917Z",
+      "checked_at": "2026-08-24T17:20:55.963Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,7 +962,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-24T17:10:55.917Z",
+      "checked_at": "2026-08-24T17:20:55.964Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2888,10 +2888,17 @@
     {
       "name": "DigitalOcean",
       "status_url": "https://status.digitalocean.com",
-      "status": "operational",
+      "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T17:10:55.918Z",
-      "latest_incident": null,
+      "checked_at": "2026-08-24T17:20:55.965Z",
+      "latest_incident": {
+        "title": "Cloud Control Panel and API",
+        "body": "Our Engineering team is investigating an issue impacting the DigitalOcean public API and Cloud Control Panel. At this time, users will see elevated 5xx errors for all API requests, including things like creates for various products. Users may also be unable to access cloud.digitalocean.com. \n\nWe are actively investigating the root cause and will provide updates as soon as more information becomes available.\n\nWe apologize for the inconvenience and appreciate your patience.",
+        "date": "2026-08-24T17:14:43.821Z",
+        "link": "https://stspg.io/8l5c24cxh3hr",
+        "status": "investigating",
+        "impact": "critical"
+      },
       "recent_incidents": [
         {
           "title": "Managed Databases Creation",
@@ -3898,7 +3905,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T17:10:55.919Z",
+      "checked_at": "2026-08-24T17:20:55.965Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3998,7 +4005,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T17:10:55.919Z",
+      "checked_at": "2026-08-24T17:20:55.965Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4150,7 +4157,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-24T17:10:56.003Z",
+      "checked_at": "2026-08-24T17:20:56.056Z",
       "latest_incident": null,
       "recent_incidents": [
         {
