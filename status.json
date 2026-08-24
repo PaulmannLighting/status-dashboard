@@ -1,13 +1,20 @@
 {
-  "updated_at": "2026-08-24T20:10:56.074Z",
+  "updated_at": "2026-08-24T20:20:56.757Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-08-24T20:10:55.982Z",
-      "latest_incident": null,
+      "status": "degraded",
+      "description": "Partially Degraded Service",
+      "checked_at": "2026-08-24T20:20:56.588Z",
+      "latest_incident": {
+        "title": "Issues logging into Claude.ai",
+        "body": "We have identified and resolved an issue which resulted in errors when attempting to access Claude.ai, including logging in via subscriptions for Claude Code. Errors occurred between 1:00pm (20:00 UTC) through 1:08pm PT (20:08 UTC). We are monitoring closely to ensure no further issues.",
+        "date": "2026-08-24T20:11:24.058Z",
+        "link": "https://stspg.io/6211zbpptv0y",
+        "status": "monitoring",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "Errors logging into Claude.ai",
@@ -53,7 +60,7 @@
       "components": [
         {
           "name": "claude.ai",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Console (platform.claude.com)",
@@ -65,11 +72,11 @@
         },
         {
           "name": "Claude Code",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude Cowork",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Claude for Government",
@@ -82,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T20:10:55.982Z",
+      "checked_at": "2026-08-24T20:20:56.588Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-24T20:10:55.983Z",
+      "checked_at": "2026-08-24T20:20:56.589Z",
       "latest_incident": {
         "title": "Degraded performance of Notifications",
         "body": "We are actively investigating reports of performance degradation resulting in increased latency for email, mobile, and Slack notifications for JIRA, JSM, and Confluence. We will share updates here as more information is available.",
@@ -357,7 +364,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-24T20:10:55.983Z",
+      "checked_at": "2026-08-24T20:20:56.589Z",
       "latest_incident": {
         "title": "Degraded performance of Notifications",
         "body": "We are actively investigating reports of performance degradation resulting in increased latency for email, mobile, and Slack notifications for JIRA, JSM, and Confluence. We will share updates here as more information is available.",
@@ -476,7 +483,7 @@
       "status_url": "https://status.bunny.net",
       "status": "maintenance",
       "description": "Service Under Maintenance",
-      "checked_at": "2026-08-24T20:10:55.983Z",
+      "checked_at": "2026-08-24T20:20:56.589Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -596,7 +603,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T20:10:55.983Z",
+      "checked_at": "2026-08-24T20:20:56.590Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -712,7 +719,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T20:10:55.983Z",
+      "checked_at": "2026-08-24T20:20:56.590Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -768,7 +775,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T20:10:55.983Z",
+      "checked_at": "2026-08-24T20:20:56.590Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -976,7 +983,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-24T20:10:55.984Z",
+      "checked_at": "2026-08-24T20:20:56.591Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2904,7 +2911,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T20:10:55.985Z",
+      "checked_at": "2026-08-24T20:20:56.592Z",
       "latest_incident": {
         "title": "Cloud Control Panel and API",
         "body": "Our Engineering team has implemented mitigation measures to address the issue affecting the DigitalOcean public API and Cloud Control Panel. We are seeing requests succeed, and users should now be able to access the Cloud Control Panel and issue/receive API requests normally.\n\nWe are currently monitoring the situation to ensure that the service has returned to normal operation and remains stable. We appreciate your patience and will provide an update once the issue is fully confirmed as resolved.",
@@ -3919,7 +3926,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T20:10:55.985Z",
+      "checked_at": "2026-08-24T20:20:56.593Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4019,7 +4026,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T20:10:55.985Z",
+      "checked_at": "2026-08-24T20:20:56.593Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4171,7 +4178,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-24T20:10:56.060Z",
+      "checked_at": "2026-08-24T20:20:56.750Z",
       "latest_incident": null,
       "recent_incidents": [
         {
