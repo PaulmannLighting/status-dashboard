@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-24T06:40:56.202Z",
+  "updated_at": "2026-08-24T06:50:56.198Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "outage",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-24T06:40:56.092Z",
+      "checked_at": "2026-08-24T06:50:56.088Z",
       "latest_incident": {
         "title": "Elevated errors for multiple models",
-        "body": "We have identified the cause of elevated errors on requests to Claude Mythos 5, Claude Fable 5, Claude Opus 5, and other Claude models and are working on a fix. We will provide an update as soon as possible.",
-        "date": "2026-08-24T05:27:45.213Z",
+        "body": "We are continuing to work to resolve issues causing elevated requests on multiple models. We will provide an update as soon as possible.",
+        "date": "2026-08-24T06:42:37.573Z",
         "link": "https://stspg.io/5kzdprb1xsbx",
         "status": "identified",
         "impact": "major"
@@ -89,7 +89,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T06:40:56.092Z",
+      "checked_at": "2026-08-24T06:50:56.088Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -261,7 +261,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T06:40:56.092Z",
+      "checked_at": "2026-08-24T06:50:56.088Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -357,7 +357,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T06:40:56.093Z",
+      "checked_at": "2026-08-24T06:50:56.089Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -469,7 +469,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T06:40:56.093Z",
+      "checked_at": "2026-08-24T06:50:56.089Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -589,7 +589,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T06:40:56.093Z",
+      "checked_at": "2026-08-24T06:50:56.089Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -705,7 +705,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T06:40:56.093Z",
+      "checked_at": "2026-08-24T06:50:56.089Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -761,7 +761,7 @@
       "status_url": "https://status.circleci.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-24T06:40:56.093Z",
+      "checked_at": "2026-08-24T06:50:56.089Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -969,7 +969,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-24T06:40:56.094Z",
+      "checked_at": "2026-08-24T06:50:56.090Z",
       "latest_incident": {
         "title": "Increased HTTP 5xx Errors in Chicago",
         "body": "Cloudflare is investigating an increased level of HTTP  5xx errors in Chicago.\n\nWe are working to analyze and mitigate this problem. More updates to follow shortly.",
@@ -2892,6 +2892,10 @@
         {
           "name": "Jalandhar, India - (AIP)",
           "status": "operational"
+        },
+        {
+          "name": "Lanzhou, China - (LHW)",
+          "status": "operational"
         }
       ]
     },
@@ -2900,7 +2904,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "maintenance",
       "description": "Service Under Maintenance",
-      "checked_at": "2026-08-24T06:40:56.095Z",
+      "checked_at": "2026-08-24T06:50:56.091Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3908,7 +3912,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T06:40:56.095Z",
+      "checked_at": "2026-08-24T06:50:56.091Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4008,7 +4012,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-24T06:40:56.095Z",
+      "checked_at": "2026-08-24T06:50:56.091Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4160,7 +4164,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-24T06:40:56.190Z",
+      "checked_at": "2026-08-24T06:50:56.189Z",
       "latest_incident": null,
       "recent_incidents": [
         {
