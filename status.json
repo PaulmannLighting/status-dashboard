@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-25T14:31:31.403Z",
+  "updated_at": "2026-08-25T14:40:56.009Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T14:31:31.295Z",
+      "checked_at": "2026-08-25T14:40:55.892Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T14:31:31.295Z",
+      "checked_at": "2026-08-25T14:40:55.892Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -252,18 +252,19 @@
     {
       "name": "Atlassian - JIRA",
       "status_url": "https://jira-software.status.atlassian.com",
-      "status": "outage",
-      "description": "Minor Service Outage",
-      "checked_at": "2026-08-25T14:31:31.296Z",
-      "latest_incident": {
-        "title": "Notifications are delayed",
-        "body": "Our teams continue to mitigate the issue and are observing some improvements. We continue to monitor the situation and will take necessary actions until the incident is fully recovered.\n\nWe will provide further updates within next two hours, or sooner if we have significant progress to share.",
-        "date": "2026-08-25T13:01:39.232Z",
-        "link": "https://stspg.io/dx83596c0c40",
-        "status": "monitoring",
-        "impact": "major"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-08-25T14:40:55.892Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Notifications are delayed",
+          "body": "On 25th Aug 2026, some users may have experienced increased latency in email, mobile and slack notifications.\n\nThe issue has now been resolved, and the service is operating normally for all customers.",
+          "date": "2026-08-25T14:33:57.194Z",
+          "link": "https://stspg.io/dx83596c0c40",
+          "status": "resolved",
+          "impact": "major"
+        },
         {
           "title": "Degraded performance of Notifications",
           "body": "On August 24, 2026, some JIRA, JSM, and Confluence users may have experienced performance degradation resulting in increased latency in email, mobile, and Slack notifications. The issue has been resolved for newly created notifications, and service is operating normally.\n\nThere may be older notifications that are being processed, and we expect them to be completed in next few hours.",
@@ -295,14 +296,6 @@
           "link": "https://stspg.io/0klgd4y08tf5",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Degraded performance of Jira Automation rules",
-          "body": "On July 20, 2026, some Jira and Jira Service Management users may have experienced performance degradation of automation rule executions. The issue has now been resolved, and the service is operating normally for all affected customers.",
-          "date": "2026-07-20T17:23:09.536Z",
-          "link": "https://stspg.io/h0sf9n5zsp64",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -324,7 +317,7 @@
         },
         {
           "name": "Notifications",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Administration",
@@ -355,18 +348,19 @@
     {
       "name": "Atlassian - Confluence",
       "status_url": "https://confluence.status.atlassian.com",
-      "status": "outage",
-      "description": "Minor Service Outage",
-      "checked_at": "2026-08-25T14:31:31.296Z",
-      "latest_incident": {
-        "title": "Notifications are delayed",
-        "body": "Our teams continue to mitigate the issue and are observing some improvements. We continue to monitor the situation and will take necessary actions until the incident is fully recovered.\n\nWe will provide further updates within next two hours, or sooner if we have significant progress to share.",
-        "date": "2026-08-25T13:01:39.218Z",
-        "link": "https://stspg.io/clg93z8tmk67",
-        "status": "monitoring",
-        "impact": "major"
-      },
+      "status": "operational",
+      "description": "All Systems Operational",
+      "checked_at": "2026-08-25T14:40:55.893Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Notifications are delayed",
+          "body": "On 25th Aug 2026, some users may have experienced increased latency in email, mobile and slack notifications.\n\nThe issue has now been resolved, and the service is operating normally for all customers.",
+          "date": "2026-08-25T14:33:57.169Z",
+          "link": "https://stspg.io/clg93z8tmk67",
+          "status": "resolved",
+          "impact": "major"
+        },
         {
           "title": "Degraded performance of Notifications",
           "body": "On August 24, 2026, some JIRA, JSM, and Confluence users may have experienced performance degradation resulting in increased latency in email, mobile, and Slack notifications. The issue has been resolved for newly created notifications, and service is operating normally.\n\nThere may be older notifications that are being processed, and we expect them to be completed in next few hours.",
@@ -398,14 +392,6 @@
           "link": "https://stspg.io/0bnn93w7trp6",
           "status": "postmortem",
           "impact": "critical"
-        },
-        {
-          "title": "Confluence Cloud experiencing degraded viewing experience",
-          "body": "### Summary\n\n###   \n\nOn Jun 12, 2026, between 07:04 and 12:10 UTC and on Jun 16, 2026, between 12:56 and 14:35 UTC, a subset of Atlassian customers using Confluence Cloud experienced errors and degraded performance when attempting to view or edit pages. The event was triggered when a database cluster within our infrastructure stopped responding to connection close requests. This caused idle connections to accumulate rather than be released — resulting in increased memory pressure and cascading errors for users. The incident was detected by our automated monitoring within 18 minutes and mitigated by scaling database resources and redeploying, which recycled the idle connections. A permanent fix has since been developed and deployed.\n\n  \n\n### IMPACT\n\n###   \n\nThe overall impact was between Jun 12, 2026 07:04 and 12:10 UTC and Jun 16, 2026 12:56 and 14:35 UTC on Confluence Cloud. The June 12 incident caused service disruption to a subset of customers in the EU region while the June 16 incident caused service disruption to a subset of customers in the US region. Impacted users experienced errors or degraded performance when attempting to view, edit, or access Confluence content and spaces.\n\n  \n\n### ROOT CAUSE\n\n###   \n\n1.  A database cluster within our infrastructure stopped responding to connection close requests.\n2.  Idle connections accumulated across clusters rather than being closed, creating a connection leak and increasing memory pressure on the database layer.\n3.  Hitting max connections on the cluster degraded query performance.\n4.  Users attempting to view or edit Confluence content experienced errors and slow load times as a result.\n\n  \n\n### REMEDIAL ACTIONS PLAN & NEXT STEPS\n\n###   \n\nWe know that outages impact your productivity. While we have a number of testing and preventative processes in place, this specific design limitation in our connection cleanup process was not identified until it was triggered by an adverse infrastructure condition in production.\n\n  \n\nWe have already deployed the following fix:\n\n-   Redesigned the database connection cleanup process to prevent unresponsive connections from impacting the closure of others.\n\nTo minimize the impact of similar incidents in the future, we will implement additional preventative measures such as:\n\n-   Monitoring and alerting for connection cleanup latency and failure rates, so that slowdowns in connection closure are detected early.\n-   Enhanced safeguards on database connection creation to limit the blast radius of any future connection accumulation events.\n\nWe apologize to customers whose services were impacted during this incident. We are taking immediate steps to improve the resilience of our platform_._\n\n  \n\nThanks,\n\nAtlassian Customer Support",
-          "date": "2026-06-23T18:25:46.888Z",
-          "link": "https://stspg.io/npzhdwdhc99g",
-          "status": "postmortem",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -443,7 +429,7 @@
         },
         {
           "name": "Notifications",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Marketplace Apps",
@@ -476,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "degraded",
       "description": "Partially Degraded Service",
-      "checked_at": "2026-08-25T14:31:31.297Z",
+      "checked_at": "2026-08-25T14:40:55.893Z",
       "latest_incident": {
         "title": "Database Controller Outage",
         "body": "We have identified an issue with our Database controller, that our Engineering team are working to restore.\n\nDatabases already online are not affected and will continue operating normally, but idle Databases or Database management is currently unavailable.",
@@ -603,7 +589,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T14:31:31.297Z",
+      "checked_at": "2026-08-25T14:40:55.893Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -719,7 +705,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T14:31:31.297Z",
+      "checked_at": "2026-08-25T14:40:55.893Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -775,7 +761,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T14:31:31.298Z",
+      "checked_at": "2026-08-25T14:40:55.893Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -983,13 +969,13 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-25T14:31:31.299Z",
+      "checked_at": "2026-08-25T14:40:55.894Z",
       "latest_incident": {
         "title": "Increased Latency",
-        "body": "We are continuing to work on a fix for this issue.",
-        "date": "2026-08-25T08:50:16.727Z",
+        "body": "A fix has been implemented and we are monitoring the results.",
+        "date": "2026-08-25T14:37:40.087Z",
         "link": "https://www.cloudflarestatus.com/incidents/d68x0kzjwhqf",
-        "status": "identified",
+        "status": "monitoring",
         "impact": "minor"
       },
       "recent_incidents": [
@@ -2922,7 +2908,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "outage",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T14:31:31.299Z",
+      "checked_at": "2026-08-25T14:40:55.895Z",
       "latest_incident": {
         "title": "Cloud Control Panel and API",
         "body": "Our Engineering team has implemented mitigation measures to address the issue impacting the DigitalOcean public API and Cloud Control Panel. We are seeing improvements, and users should now be able to access the Cloud Control Panel and use the public API normally. \n\nWe are continuing to monitor the service to ensure it remains stable and will provide further updates as more information becomes available. We appreciate your patience and understanding.",
@@ -3937,7 +3923,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T14:31:31.299Z",
+      "checked_at": "2026-08-25T14:40:55.895Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4037,7 +4023,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T14:31:31.300Z",
+      "checked_at": "2026-08-25T14:40:55.895Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4189,7 +4175,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-25T14:31:31.395Z",
+      "checked_at": "2026-08-25T14:40:55.993Z",
       "latest_incident": null,
       "recent_incidents": [
         {
