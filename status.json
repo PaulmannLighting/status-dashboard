@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-25T19:00:54.631Z",
+  "updated_at": "2026-08-25T19:10:56.110Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T19:00:54.521Z",
+      "checked_at": "2026-08-25T19:10:55.994Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T19:00:54.521Z",
+      "checked_at": "2026-08-25T19:10:55.994Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T19:00:54.521Z",
+      "checked_at": "2026-08-25T19:10:55.994Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T19:00:54.522Z",
+      "checked_at": "2026-08-25T19:10:55.995Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T19:00:54.522Z",
+      "checked_at": "2026-08-25T19:10:55.995Z",
       "latest_incident": {
         "title": "Database Controller Outage",
         "body": "The issue has been resolved and the affected services have been restored.\nOur Engineering team will continue monitoring the platform to ensure everything remains stable.",
@@ -589,7 +589,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T19:00:54.522Z",
+      "checked_at": "2026-08-25T19:10:55.995Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -705,7 +705,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T19:00:54.522Z",
+      "checked_at": "2026-08-25T19:10:55.995Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -761,7 +761,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T19:00:54.522Z",
+      "checked_at": "2026-08-25T19:10:55.995Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -969,7 +969,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-25T19:00:54.524Z",
+      "checked_at": "2026-08-25T19:10:55.996Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2899,18 +2899,19 @@
     {
       "name": "DigitalOcean",
       "status_url": "https://status.digitalocean.com",
-      "status": "outage",
+      "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T19:00:54.524Z",
-      "latest_incident": {
-        "title": "Cloud Control Panel and API",
-        "body": "Our Engineering team has continued to monitor the health of all services and has observed no recurrence of impact over the past 12+ hours. We will continue to monitor services for a short period to confirm stability before we mark this incident resolved. We understand the impact this incident had for DigitalOcean users and we will publish a postmortem on the status page to provide further details on root cause and mitigation.",
-        "date": "2026-08-25T16:30:28.336Z",
-        "link": "https://stspg.io/8l5c24cxh3hr",
-        "status": "monitoring",
-        "impact": "critical"
-      },
+      "checked_at": "2026-08-25T19:10:55.997Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Cloud Control Panel and API",
+          "body": "Our Engineering team has confirmed all services remain stable and we will now resolve this incident. Further details on root cause and mitigation will be provided in a postmortem via this status page for users interested in learning more. \n\nThank you for your patience throughout this incident. If you continue to experience any issues, please reach out to Support from within your account",
+          "date": "2026-08-25T19:04:33.091Z",
+          "link": "https://stspg.io/8l5c24cxh3hr",
+          "status": "resolved",
+          "impact": "critical"
+        },
         {
           "title": "Managed Databases Creation",
           "body": "Our Engineering team has resolved the issue preventing cluster creation on Managed Databases in the NYC3 and NYC1 regions. Customers can now create new Managed Databases Clusters normally.\n\nOur Engineering team has monitored the environment to ensure stability. We sincerely apologize for any inconvenience this disruption may have caused to your operations. If you continue to experience issues, please open a ticket with our Support team: https://cloudsupport.digitalocean.com/s/",
@@ -2942,14 +2943,6 @@
           "link": "https://stspg.io/yldnj7859gcp",
           "status": "resolved",
           "impact": "none"
-        },
-        {
-          "title": "Account Registration, Droplets, and Related Services",
-          "body": "Our Engineering team confirms the full resolution of the issue affecting all impacted services, including new account registration, Droplet Creation, Reserved IPs, Automated Backups and Snapshots, Droplet Autoscale, DOKS clusters, GenAI services, the Droplet Console, and Database cluster creation.\n\nWe apologize for the inconvenience. If you continue to experience any issues, please open a support ticket from within your account.",
-          "date": "2026-08-09T01:01:02.727Z",
-          "link": "https://stspg.io/grfh9nf5bp3f",
-          "status": "resolved",
-          "impact": "minor"
         }
       ],
       "components": [
@@ -3916,7 +3909,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T19:00:54.525Z",
+      "checked_at": "2026-08-25T19:10:55.997Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4016,7 +4009,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-25T19:00:54.525Z",
+      "checked_at": "2026-08-25T19:10:55.997Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4168,7 +4161,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-25T19:00:54.623Z",
+      "checked_at": "2026-08-25T19:10:56.099Z",
       "latest_incident": null,
       "recent_incidents": [
         {
