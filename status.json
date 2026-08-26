@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-26T15:40:56.561Z",
+  "updated_at": "2026-08-26T15:50:56.755Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:40:56.426Z",
+      "checked_at": "2026-08-26T15:50:56.600Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:40:56.427Z",
+      "checked_at": "2026-08-26T15:50:56.600Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:40:56.427Z",
+      "checked_at": "2026-08-26T15:50:56.601Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:40:56.427Z",
+      "checked_at": "2026-08-26T15:50:56.601Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:40:56.427Z",
+      "checked_at": "2026-08-26T15:50:56.601Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:40:56.428Z",
+      "checked_at": "2026-08-26T15:50:56.602Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:40:56.428Z",
+      "checked_at": "2026-08-26T15:50:56.602Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -752,10 +752,17 @@
     {
       "name": "Circleci.com",
       "status_url": "https://status.circleci.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:40:56.428Z",
-      "latest_incident": null,
+      "status": "degraded",
+      "description": "Minor Service Outage",
+      "checked_at": "2026-08-26T15:50:56.602Z",
+      "latest_incident": {
+        "title": "Intermittent errors when viewing plan usage UIs or calling plan usage APIs",
+        "body": "Customers may experience intermittent errors when viewing plan usage UIs or calling plan usage APIs. We have identified the issue and we are actively working to mitigate these errors.",
+        "date": "2026-08-26T15:43:38.199Z",
+        "link": "https://stspg.io/961zy5b9fnjk",
+        "status": "identified",
+        "impact": "minor"
+      },
       "recent_incidents": [
         {
           "title": "GitHub Login Disruption",
@@ -869,11 +876,11 @@
         },
         {
           "name": "CircleCI API",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "CircleCI UI",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "mailgun Outbound Delivery",
@@ -962,7 +969,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-26T15:40:56.429Z",
+      "checked_at": "2026-08-26T15:50:56.604Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -1137,7 +1144,7 @@
         },
         {
           "name": "Bangkok, Thailand - (BKK)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Cape Town, South Africa - (CPT)",
@@ -1233,7 +1240,7 @@
         },
         {
           "name": "Dar Es Salaam, Tanzania - (DAR)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Brasilia, Brazil - (BSB)",
@@ -1241,7 +1248,7 @@
         },
         {
           "name": "Buenos Aires, Argentina - (EZE)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Bucharest, Romania - (OTP)",
@@ -1249,7 +1256,7 @@
         },
         {
           "name": "Dubai, United Arab Emirates - (DXB)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Djibouti City, Djibouti - (JIB)",
@@ -1305,7 +1312,7 @@
         },
         {
           "name": "Chicago, IL, United States - (ORD)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "Sydney, NSW, Australia - (SYD)",
@@ -1345,7 +1352,7 @@
         },
         {
           "name": "Harare, Zimbabwe - (HRE)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Jeddah, Saudi Arabia - (JED)",
@@ -1405,7 +1412,7 @@
         },
         {
           "name": "Kigali, Rwanda - (KGL)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Chittagong, Bangladesh - (CGP)",
@@ -1437,7 +1444,7 @@
         },
         {
           "name": "Lagos, Nigeria - (LOS)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Curitiba, Brazil - (CWB)",
@@ -1513,7 +1520,7 @@
         },
         {
           "name": "Hamburg, Germany - (HAM)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Ramallah - (ZDM)",
@@ -1745,7 +1752,7 @@
         },
         {
           "name": "Islamabad, Pakistan - (ISB)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Challenge Platform",
@@ -1841,7 +1848,7 @@
         },
         {
           "name": "Montréal, QC, Canada - (YUL)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Moscow, Russia - (DME)",
@@ -2025,7 +2032,7 @@
         },
         {
           "name": "São José do Rio Preto, Brazil - (SJP)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Digital Experience Monitoring (DEX)",
@@ -2037,7 +2044,7 @@
         },
         {
           "name": "Saint Petersburg, Russia - (LED)",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Distributed Web Gateway",
@@ -2149,7 +2156,7 @@
         },
         {
           "name": "Manila, Philippines - (MNL)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "San Diego, CA, United States - (SAN)",
@@ -2405,7 +2412,7 @@
         },
         {
           "name": "Port of Spain, Trinidad and Tobago - (POS)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Salvador, Brazil - (SSA)",
@@ -2829,7 +2836,7 @@
         },
         {
           "name": "Chengdu, China - (CTU)",
-          "status": "maintenance"
+          "status": "degraded"
         },
         {
           "name": "Agra, India - (AGR)",
@@ -2894,7 +2901,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:40:56.430Z",
+      "checked_at": "2026-08-26T15:50:56.605Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3902,11 +3909,11 @@
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-08-26T15:40:56.431Z",
+      "checked_at": "2026-08-26T15:50:56.605Z",
       "latest_incident": {
         "title": "Incident with Actions",
-        "body": "We've identified an issue with a database primary and are failing over to a replica immediately",
-        "date": "2026-08-26T15:23:10.599Z",
+        "body": "primary failover briefly improved performance but did not fully mitigate, we've throttled inbound traffic and are investigating upstream Vitess issues",
+        "date": "2026-08-26T15:48:07.385Z",
         "link": "https://stspg.io/pg14nv9m3095",
         "status": "investigating",
         "impact": "critical"
@@ -4009,7 +4016,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:40:56.431Z",
+      "checked_at": "2026-08-26T15:50:56.605Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4161,7 +4168,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-26T15:40:56.549Z",
+      "checked_at": "2026-08-26T15:50:56.747Z",
       "latest_incident": null,
       "recent_incidents": [
         {
