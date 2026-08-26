@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-26T15:30:57.044Z",
+  "updated_at": "2026-08-26T15:40:56.561Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:30:56.912Z",
+      "checked_at": "2026-08-26T15:40:56.426Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:30:56.912Z",
+      "checked_at": "2026-08-26T15:40:56.427Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:30:56.912Z",
+      "checked_at": "2026-08-26T15:40:56.427Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:30:56.913Z",
+      "checked_at": "2026-08-26T15:40:56.427Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:30:56.913Z",
+      "checked_at": "2026-08-26T15:40:56.427Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:30:56.913Z",
+      "checked_at": "2026-08-26T15:40:56.428Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:30:56.913Z",
+      "checked_at": "2026-08-26T15:40:56.428Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:30:56.914Z",
+      "checked_at": "2026-08-26T15:40:56.428Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,16 +962,17 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-26T15:30:56.915Z",
-      "latest_incident": {
-        "title": "Cloudflare MCP Portal tool invocation logging instability",
-        "body": "After further investigation it was determined that the issue was isolated to internal accounts. There was no customer facing impact.",
-        "date": "2026-08-26T15:28:39.821Z",
-        "link": "https://www.cloudflarestatus.com/incidents/gjw0tnhh4f3f",
-        "status": "monitoring",
-        "impact": "minor"
-      },
+      "checked_at": "2026-08-26T15:40:56.429Z",
+      "latest_incident": null,
       "recent_incidents": [
+        {
+          "title": "Cloudflare MCP Portal tool invocation logging instability",
+          "body": "This incident has been resolved.",
+          "date": "2026-08-26T15:38:03.408Z",
+          "link": "https://www.cloudflarestatus.com/incidents/gjw0tnhh4f3f",
+          "status": "resolved",
+          "impact": "minor"
+        },
         {
           "title": "Network performance issues in Los Angeles",
           "body": "Cloudflare investigated issues with network performance in Los Angeles from 21:33 - 21:45 UTC.\nThe issue is currently resolved.",
@@ -1003,14 +1004,6 @@
           "link": "https://www.cloudflarestatus.com/incidents/9v68b4k90mry",
           "status": "resolved",
           "impact": "minor"
-        },
-        {
-          "title": "Elevated network errors for traffic routed between North America origins and SIN (Singapore) colo",
-          "body": "Between 23rd August 2026, 01:06 UTC - 01:54 UTC, some customers may have experienced elevated 5xx errors and timeouts for traffic between North American origins and our Singapore data centre.\n\nThis issue is now resolved.",
-          "date": "2026-08-23T02:00:00.000Z",
-          "link": "https://www.cloudflarestatus.com/incidents/1wwc0f6m1c21",
-          "status": "resolved",
-          "impact": "none"
         }
       ],
       "components": [
@@ -2464,7 +2457,7 @@
         },
         {
           "name": "MCP Portal",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Mesh",
@@ -2901,7 +2894,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:30:56.916Z",
+      "checked_at": "2026-08-26T15:40:56.430Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3909,7 +3902,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "outage",
       "description": "Partial System Outage",
-      "checked_at": "2026-08-26T15:30:56.916Z",
+      "checked_at": "2026-08-26T15:40:56.431Z",
       "latest_incident": {
         "title": "Incident with Actions",
         "body": "We've identified an issue with a database primary and are failing over to a replica immediately",
@@ -4016,7 +4009,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-26T15:30:56.917Z",
+      "checked_at": "2026-08-26T15:40:56.431Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4168,7 +4161,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-26T15:30:57.032Z",
+      "checked_at": "2026-08-26T15:40:56.549Z",
       "latest_incident": null,
       "recent_incidents": [
         {
