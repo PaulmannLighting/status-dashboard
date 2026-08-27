@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-27T04:20:55.817Z",
+  "updated_at": "2026-08-27T04:30:57.004Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T04:20:55.687Z",
+      "checked_at": "2026-08-27T04:30:56.793Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T04:20:55.687Z",
+      "checked_at": "2026-08-27T04:30:56.793Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -252,10 +252,17 @@
     {
       "name": "Atlassian - JIRA",
       "status_url": "https://jira-software.status.atlassian.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-08-27T04:20:55.688Z",
-      "latest_incident": null,
+      "status": "outage",
+      "description": "Major System Outage",
+      "checked_at": "2026-08-27T04:30:56.793Z",
+      "latest_incident": {
+        "title": "Issues accessing Jira and Confluence in some regions",
+        "body": "We are investigating an issue with accessing products that is impacting Confluence, Jira Cloud and Jira Serivce Management customers.\nOur team is urgently investigating this issue and we will provide further details within one hour or sooner if information is available.",
+        "date": "2026-08-27T04:25:11.880Z",
+        "link": "https://stspg.io/y1ckp74gvrvz",
+        "status": "investigating",
+        "impact": "critical"
+      },
       "recent_incidents": [
         {
           "title": "Notifications are delayed",
@@ -301,57 +308,64 @@
       "components": [
         {
           "name": "Viewing content",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Create and edit",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Authentication and User Management",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Search",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Notifications",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Administration",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Marketplace",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Mobile",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Purchasing & Licensing",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Signup",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Automation for Jira",
-          "status": "operational"
+          "status": "outage"
         }
       ]
     },
     {
       "name": "Atlassian - Confluence",
       "status_url": "https://confluence.status.atlassian.com",
-      "status": "operational",
-      "description": "All Systems Operational",
-      "checked_at": "2026-08-27T04:20:55.688Z",
-      "latest_incident": null,
+      "status": "outage",
+      "description": "Major System Outage",
+      "checked_at": "2026-08-27T04:30:56.793Z",
+      "latest_incident": {
+        "title": "Issues accessing Jira and Confluence in some regions",
+        "body": "We are investigating an issue with accessing products that is impacting Confluence, Jira Cloud and Jira Serivce Management customers.\nOur team is urgently investigating this issue and we will provide further details within one hour or sooner if information is available.",
+        "date": "2026-08-27T04:25:12.081Z",
+        "link": "https://stspg.io/tzwj4szpgdv9",
+        "status": "investigating",
+        "impact": "critical"
+      },
       "recent_incidents": [
         {
           "title": "Notifications are delayed",
@@ -397,63 +411,63 @@
       "components": [
         {
           "name": "View Content",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "iOS App",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Create and Edit",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Android App",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Comments",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Authentication and User Management",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Search",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Administration",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Notifications",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Marketplace Apps",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Purchasing & Licensing",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Signup",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Confluence Automations",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Cloud to Cloud Migrations - Copy Product Data",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "name": "Server to Cloud Migrations - Copy Product Data",
-          "status": "operational"
+          "status": "outage"
         }
       ]
     },
@@ -462,7 +476,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T04:20:55.688Z",
+      "checked_at": "2026-08-27T04:30:56.794Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +596,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T04:20:55.689Z",
+      "checked_at": "2026-08-27T04:30:56.794Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +712,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T04:20:55.689Z",
+      "checked_at": "2026-08-27T04:30:56.794Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +768,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T04:20:55.689Z",
+      "checked_at": "2026-08-27T04:30:56.794Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,7 +976,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-27T04:20:55.691Z",
+      "checked_at": "2026-08-27T04:30:56.795Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2894,7 +2908,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T04:20:55.692Z",
+      "checked_at": "2026-08-27T04:30:56.796Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3902,7 +3916,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T04:20:55.692Z",
+      "checked_at": "2026-08-27T04:30:56.797Z",
       "latest_incident": {
         "title": "Disruption with GitHub Billing",
         "body": "We are continuing to monitor the mitigation that we have applied for the billing page disruption.",
@@ -4009,7 +4023,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T04:20:55.693Z",
+      "checked_at": "2026-08-27T04:30:56.797Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4161,7 +4175,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-27T04:20:55.781Z",
+      "checked_at": "2026-08-27T04:30:56.996Z",
       "latest_incident": null,
       "recent_incidents": [
         {
