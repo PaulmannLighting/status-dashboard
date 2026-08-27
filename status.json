@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-27T16:20:56.246Z",
+  "updated_at": "2026-08-27T16:31:13.321Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T16:20:56.090Z",
+      "checked_at": "2026-08-27T16:31:13.177Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T16:20:56.090Z",
+      "checked_at": "2026-08-27T16:31:13.178Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T16:20:56.091Z",
+      "checked_at": "2026-08-27T16:31:13.178Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T16:20:56.091Z",
+      "checked_at": "2026-08-27T16:31:13.179Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T16:20:56.091Z",
+      "checked_at": "2026-08-27T16:31:13.179Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T16:20:56.091Z",
+      "checked_at": "2026-08-27T16:31:13.180Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T16:20:56.091Z",
+      "checked_at": "2026-08-27T16:31:13.180Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T16:20:56.091Z",
+      "checked_at": "2026-08-27T16:31:13.180Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,7 +962,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-27T16:20:56.092Z",
+      "checked_at": "2026-08-27T16:31:13.182Z",
       "latest_incident": {
         "title": "Turnstile Challenge Issues",
         "body": "Cloudflare is investigating a potential issue with the Turnstile challenge platform. Users may experience failed challenges solve attempts.\nFurther details will be provided as more information becomes available.",
@@ -2901,7 +2901,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "maintenance",
       "description": "Service Under Maintenance",
-      "checked_at": "2026-08-27T16:20:56.093Z",
+      "checked_at": "2026-08-27T16:31:13.184Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3909,11 +3909,11 @@
       "status_url": "https://www.githubstatus.com",
       "status": "degraded",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T16:20:56.093Z",
+      "checked_at": "2026-08-27T16:31:13.185Z",
       "latest_incident": {
         "title": "Disruption with GitHub Billing",
-        "body": "Our mitigation is still holding as we continue to investigate to find the root cause.",
-        "date": "2026-08-27T14:49:36.266Z",
+        "body": "Our mitigation continues to hold, and service conditions remain stable. We are continuing to investigate the concentrated workload responsible for the issue and are preparing additional preventative improvements. We have not identified a material change in customer impact since the previous update. We will provide another update as the investigation progresses.",
+        "date": "2026-08-27T16:20:23.748Z",
         "link": "https://stspg.io/cpgst4hly3mh",
         "status": "investigating",
         "impact": "minor"
@@ -4016,7 +4016,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T16:20:56.093Z",
+      "checked_at": "2026-08-27T16:31:13.185Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4168,7 +4168,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-27T16:20:56.240Z",
+      "checked_at": "2026-08-27T16:31:13.314Z",
       "latest_incident": null,
       "recent_incidents": [
         {
