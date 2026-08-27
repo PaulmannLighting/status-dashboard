@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-27T10:00:55.757Z",
+  "updated_at": "2026-08-27T10:10:56.208Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T10:00:55.639Z",
+      "checked_at": "2026-08-27T10:10:56.047Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T10:00:55.639Z",
+      "checked_at": "2026-08-27T10:10:56.048Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T10:00:55.639Z",
+      "checked_at": "2026-08-27T10:10:56.048Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T10:00:55.640Z",
+      "checked_at": "2026-08-27T10:10:56.049Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T10:00:55.640Z",
+      "checked_at": "2026-08-27T10:10:56.049Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T10:00:55.640Z",
+      "checked_at": "2026-08-27T10:10:56.049Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T10:00:55.640Z",
+      "checked_at": "2026-08-27T10:10:56.050Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T10:00:55.641Z",
+      "checked_at": "2026-08-27T10:10:56.050Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,7 +962,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-27T10:00:55.642Z",
+      "checked_at": "2026-08-27T10:10:56.052Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -2894,7 +2894,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T10:00:55.643Z",
+      "checked_at": "2026-08-27T10:10:56.053Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3900,16 +3900,16 @@
     {
       "name": "GitHub",
       "status_url": "https://www.githubstatus.com",
-      "status": "degraded",
-      "description": "All Systems Operational",
-      "checked_at": "2026-08-27T10:00:55.643Z",
+      "status": "outage",
+      "description": "Partial System Outage",
+      "checked_at": "2026-08-27T10:10:56.053Z",
       "latest_incident": {
-        "title": "Disruption with GitHub Billing",
-        "body": "We are continuing to monitor the mitigation that we have applied for the billing page disruption.",
-        "date": "2026-08-27T01:35:35.233Z",
-        "link": "https://stspg.io/cpgst4hly3mh",
+        "title": "Incident with Copilot AI Model Providers",
+        "body": "We are investigating reports of degraded availability for Copilot AI Model Providers",
+        "date": "2026-08-27T10:04:52.621Z",
+        "link": "https://stspg.io/573gc8p4328b",
         "status": "investigating",
-        "impact": "minor"
+        "impact": "critical"
       },
       "recent_incidents": [
         {
@@ -4000,7 +4000,7 @@
         },
         {
           "name": "Copilot AI Model Providers",
-          "status": "operational"
+          "status": "outage"
         }
       ]
     },
@@ -4009,7 +4009,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-27T10:00:55.644Z",
+      "checked_at": "2026-08-27T10:10:56.053Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4161,7 +4161,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-27T10:00:55.745Z",
+      "checked_at": "2026-08-27T10:10:56.195Z",
       "latest_incident": null,
       "recent_incidents": [
         {
