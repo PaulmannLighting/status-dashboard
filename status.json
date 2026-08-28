@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-28T04:00:55.510Z",
+  "updated_at": "2026-08-28T04:11:04.552Z",
   "providers": [
     {
       "name": "Anthropic (Claude)",
       "status_url": "https://status.claude.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-28T04:00:55.364Z",
+      "checked_at": "2026-08-28T04:11:02.559Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -82,7 +82,7 @@
       "status_url": "https://status.asana.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-28T04:00:55.365Z",
+      "checked_at": "2026-08-28T04:11:02.559Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -254,7 +254,7 @@
       "status_url": "https://jira-software.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-28T04:00:55.365Z",
+      "checked_at": "2026-08-28T04:11:02.559Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -350,7 +350,7 @@
       "status_url": "https://confluence.status.atlassian.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-28T04:00:55.365Z",
+      "checked_at": "2026-08-28T04:11:02.560Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -462,7 +462,7 @@
       "status_url": "https://status.bunny.net",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-28T04:00:55.365Z",
+      "checked_at": "2026-08-28T04:11:02.560Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -582,7 +582,7 @@
       "status_url": "https://www.channablestatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-28T04:00:55.366Z",
+      "checked_at": "2026-08-28T04:11:02.560Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -698,7 +698,7 @@
       "status_url": "https://status.channelengine.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-28T04:00:55.366Z",
+      "checked_at": "2026-08-28T04:11:02.560Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -754,7 +754,7 @@
       "status_url": "https://status.circleci.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-28T04:00:55.366Z",
+      "checked_at": "2026-08-28T04:11:02.560Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -962,7 +962,7 @@
       "status_url": "https://www.cloudflarestatus.com",
       "status": "degraded",
       "description": "Minor Service Outage",
-      "checked_at": "2026-08-28T04:00:55.368Z",
+      "checked_at": "2026-08-28T04:11:02.561Z",
       "latest_incident": {
         "title": "Incorrect geo location for some Cloudflare WARP users",
         "body": "We are continuing to work on a fix for this issue.",
@@ -2901,7 +2901,7 @@
       "status_url": "https://status.digitalocean.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-28T04:00:55.369Z",
+      "checked_at": "2026-08-28T04:11:02.562Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -3909,7 +3909,7 @@
       "status_url": "https://www.githubstatus.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-28T04:00:55.369Z",
+      "checked_at": "2026-08-28T04:11:02.562Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4009,7 +4009,7 @@
       "status_url": "https://status.openai.com",
       "status": "operational",
       "description": "All Systems Operational",
-      "checked_at": "2026-08-28T04:00:55.370Z",
+      "checked_at": "2026-08-28T04:11:02.562Z",
       "latest_incident": null,
       "recent_incidents": [
         {
@@ -4161,7 +4161,7 @@
       "status_url": "https://status.hetzner.com",
       "status": "operational",
       "description": "Keine aktuellen Störungen",
-      "checked_at": "2026-08-28T04:00:55.502Z",
+      "checked_at": "2026-08-28T04:11:04.544Z",
       "latest_incident": null,
       "recent_incidents": [
         {
